@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sill</title>
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/sill.js"></script>
+
+  <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+  <div class="discountPopup">
+    <div>
+      <h2>Want 10% Off?</h2>
+      <p>Get the dirt and save on your first purchase when
+        you sign up today.</p>
+      <form>
+        <input type="email" placeholder="Email Address" title="Enter Your Email Here">
+        <input type="submit" value="Subscribe" class="itpGreenBtn">
+      </form>
+    </div>
+    <input type="button" value="close" class="bCloseBtn">
+  </div>
+
+  <header id="home">
+    <p>Free Shipping + 30-Day Guarantee</p>
+    <div>
+      <h1>
+        <a href="index.html">
+          <img src="images/globla-logo.svg"  alt="The Sill">
+        </a>
+      </h1>
+      <div>
+        <input type="search" placeholder="Search for plants..." title="search keyword" class="searchToggle">
+        <input type="button" value="search" data-toggle="searchToggle">
+
+        <a href="user-accountLogin.html">myAccount</a>
+
+        <div>
+          <button type="button" value="cart" data-panel="cartPanel">
+            <span>0</span>
+          </button>
+
+          <div class="cartPanel">
+            <div>
+              <h2>Your Cart</h2>
+              <p>0</p>
+              <p>You are $79 away from getting Free Shipping</p>
+              <progress value="0" max="79"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <p>Your cart is currently empty!</p>
+              <p>Find products that match your taste</p>
+              <a href="listPage-allPlants1.html" class="aBlackBtn">Shop Now</a>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$0</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$15</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+
+          <div class="cartPanelFilled">
+            <div>
+              <h2>Your Cart</h2>
+              <p>1</p>
+              <p>You are $8 away from getting Free Shipping</p>
+              <progress value="199" max="207"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <img src="images/list-allPlant-africanMilkTree.png" alt="africanMilkTree">
+              <div>
+                <ul>
+                  <li>AfricanMilkTree</li>
+                  <li>Large / Grant / Grey</li>
+                  <li>
+                    <button type="button" value="delete"></button>
+                  </li>
+                  <li>
+                    <div class="qtyComponent">
+                      <input type="button" value="-" class="minus">
+                      <input type="number" value="1" max="99">
+                      <input type="button" value="+" class="plus">
+                    </div>
+                    <span>$199</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <input type="checkbox" id="giftMessage">
+              <label for="giftMessage">Add gift message?</label>
+              <textarea id="message" cols="40" rows="4" placeholder="Your Notes..."></textarea>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$199</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$214</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <label for="mnav" class="mui">
+        Menu
+      </label>
+      <input type="checkbox" id="mnav" class="mui">
+      <ul>
+        <li>
+          <b>Indoor Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Indoor Plants</strong>
+              <ol>
+                <li><a href="listPage-allPlants1.html">All Plants</a></li>
+                <li><a href="listPage-petFriendly1.html">Pet-Friendly</a></li>
+                <li><a href="listPage-lowLight1.html">Low-Light</a></li>
+                <li><a href="listPage-largePlants1.html">Large Plants</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-petFriendly1.html">
+                  <img src="images/mainMenu1_1.jpg" alt="Pet-Friendly">
+                </a>
+                <figcaption>Pet-Friendly</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listpage-lowLight1.html">
+                  <img src="images/mainMenu1_2.jpg" alt="Low-Light">
+                </a>
+                <figcaption>Low-Light</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-largePlants1.html">
+                  <img src="images/mainMenu1_3.jpg" alt="Large Plants">
+                </a>
+                <figcaption>Large Plants</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Flowering Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Flowering Plants</strong>
+              <ol>
+                <li><a href="listPage-orchids1.html">Orchids</a></li>
+                <li><a href="listPage-blooms1.html">Blooms</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-orchids1.html">
+                  <img src="images/mainMenu2_1.jpg" alt="Orchids">
+                </a>
+                <figcaption>Orchids</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-blooms1.html">
+                  <img src="images/mainMenu2_2.jpg" alt="Blooms">
+                </a>
+                <figcaption>Blooms</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Greenleaf Collection</b>
+          <div class="sub">
+            <div>
+              <strong>Greenleaf Collection</strong>
+              <ol>
+                <li><a href="listPage-rarePlants1.html">Rare Plants</a></li>
+                <li><a href="listPage-cactiSucculents1.html">Cacti &amp; Succulents</a></li>
+                <li><a href="listPage-hangingBaskets1.html">Hanging Baskcts</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-rarePlants1.html">
+                  <img src="images/mainMenu3_1.jpg" alt="Rare Plants">
+                </a>
+                <figcaption>Rare Plants</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-cactiSucculents1.html">
+                  <img src="images/mainMenu3_2.jpg" alt="Cacti & Succulents">
+                </a>
+                <figcaption>Cacti &amp; Succulents</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-hangingBaskets1.html">
+                  <img src="images/mainMenu3_3.jpg" alt="Hanging Baskcts">
+                </a>
+                <figcaption>Hanging Baskcts</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Artificial Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Artificial Plants</strong>
+              <ol>
+                <li><a href="listPage-faux1.html">Faux</a></li>
+                <li><a href="listPage-artisanMoss1.html">Artisan Moss</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-faux1.html">
+                  <img src="images/mainMenu4_1.jpg" alt="Faux">
+                </a>
+                <figcaption>Faux</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-artisanMoss1.html">
+                  <img src="images/mainMenu4_2.jpg" alt="Artisan Moss">
+                </a>
+                <figcaption>Artisan Moss</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Plant Care</b>
+          <div class="sub">
+            <div>
+              <strong>Plant Care</strong>
+              <ol>
+                <li><a href="listPage-planters1.html">Planters</a></li>
+                <li><a href="listPage-supplies1.html">Supplies</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-planters1.html">
+                  <img src="images/mainMenu5_1.jpg" alt="Planters">
+                </a>
+                <figcaption>Planters</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-supplies1.html">
+                  <img src="images/mainMenu5_2.jpg" alt="Supplies">
+                </a>
+                <figcaption>Supplies</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="legalContainer">
+    <input type="button" value="Back" class="backBtn">
+    <h2>Terms of service</h2>
+    <div>
+      <p>The Sill, Inc. ("<u>The Sill</u>", "<u>we</u>", "<u>us</u>", or "<u>our</u>") welcomes you. We provide you
+        access to our products and services through www.TheSill.com (the "Website") subject to the following Terms of
+        Use, which may be updated by us from time to time without notice to you. By browsing the public areas or by
+        accessing and using the Website, you acknowledge that you have read, understood, and agree to be legally bound
+        by the terms
+        and conditions of these Terms of Service and the terms and conditions of our Privacy Policy, which are hereby
+        incorporated by reference (collectively, this "Agreement"). If you do not agree to any of these terms, then
+        please do not use the Website.</p>
+      <p>Any user who registers with us (each, a "Registered User") and wishes to purchase a product or service
+        through our Website is agreeing to the terms of this Agreement and any other posted terms and conditions that
+        relate
+        to such product or service.</p>
+      <p class="dUpper"><strong>The sections below titled "Binding Arbitration" and "Class Action Waiver" contain a
+          binding
+          arbitration agreement and class action waiver. They affect your legal rights. Please read them.</strong></p>
+      <p>Capitalized terms not defined in these Terms of Use shall have the meaning set forth in our Privacy Policy.
+      </p>
+    </div>
+
+    <ol>
+      <!-- 1 -->
+      <li>
+        <h3>1. Description and Use of Our Website </h3>
+        <p>We provide Visitors and Registered Users with access to the Website as described below. </p>
+        <p><u>Visitors</u>. Visitors, as the term implies, are people who do not register with us, but want to explore
+          the
+          Website. No login is required for Visitors. Visitors can: (i) purchase products and services through the
+          Website; (ii) view all publicly-available content on the Website; and (iii) e-mail us.</p>
+        <p><u>Registered Users</u>. Registered Users can do all the things that Visitors can do, and: (i) access
+          exclusive
+          content available only to Registered Users; (ii) create, access, manage, and update their own personal
+          accounts
+          on the Website; (iii) post comments and other content on the Website (collectively, "<u>Registered User
+            Content</u>");
+          (iv) sign up for our various programs; (v) sign up for alerts and other notifications; and (vi) become part of
+          The Sill community.</p>
+        <p>The Sill is under no obligation to accept any individual as a Registered User and may accept or reject any
+          registration in its sole and complete discretion. In addition, The Sill may deactivate any account at any
+          time,
+          including, without limitation, if it determines that a Registered User has violated these Terms of Use.</p>
+      </li>
+      <!-- 2 -->
+      <li>
+        <h3>2. Community Guidelines</h3>
+        <p>The Sill's community, like any community, functions best when its users follow a few simple rules. By
+          accessing
+          and/or using the Website, you agree to comply with these community guidelines (the "
+          <u>Community Guidelines</u>") and
+          that:
+        </p>
+        <ul class="tsUl">
+          <li>You will comply with all applicable laws in your use of the Website and will not use the Website for any
+            unlawful purpose;</li>
+          <li>You will not upload, post, e-mail, transmit, or otherwise make available any content that:
+            <ul>
+              <li>infringes any copyright, trademark, right of publicity, or other proprietary rights of any person or
+                entity; or</li>
+              <li>is defamatory, libelous, indecent, obscene, pornographic, sexually explicit, invasive of another's
+                privacy, promotes violence, or contains hate speech (i.e., speech that attacks or demeans a group based
+                on
+                race or ethnic origin, religion, disability, gender, age, veteran status, and/or sexual
+                orientation/gender
+                identity); or</li>
+              <li>discloses any sensitive information about another person, including that person's e-mail address,
+                postal
+                address, phone number, credit card information, or any similar information.</li>
+            </ul>
+          </li>
+          <li>You will not "stalk", threaten, or otherwise harass another person;</li>
+          <li>You will not access or use the Website to collect any market research for a competing business;</li>
+          <li>You will not impersonate any person or entity or falsely state or otherwise misrepresent your affiliation
+            with a person or entity;</li>
+          <li>You will not use any robot, spider, scraper, or other automated means to access the Website for any
+            purpose
+            without our express written permission; provided, however, we grant the operators of public search engines
+            permission to use spiders to copy materials from the public portions of the Website for the sole purpose of
+            and solely to the extent necessary for creating publicly-available searchable indices of the materials, but
+            not caches or archives of such materials;</li>
+          <li>You will not take any action that imposes or may impose (in our sole discretion) an unreasonable or
+            disproportionately large load on our technical infrastructure; and</li>
+          <li>You will let us know about inappropriate content of which you become aware. If you find something that
+            violates our Community Guidelines, please let us know, and we'll review it.</li>
+        </ul>
+        <p>We reserve the right, in our sole and absolute discretion, to deny you access to the Website, or any portion
+          of
+          the Website, without notice, and to remove any content that does not adhere to these Community Guidelines.</p>
+      </li>
+      <!-- 3 -->
+      <li>
+        <h3>3. Restrictions</h3>
+        <p>The Website is only available for individuals aged 13 years or older. If you are 13 or older, but under the
+          age
+          of majority in your jurisdiction, you should review this Agreement with your parent or guardian to make sure
+          that you and your parent or guardian understand it. </p>
+      </li>
+      <!-- 4 -->
+      <li>
+        <h3>4. Sign-in Name; Password; Unique Identifiers</h3>
+        <p>If you wish to become a Registered User, you will be prompted to create an account, which includes a sign-in
+          name ("<u>Sign-In Name</u>"), a password ("<u>Password</u>"), and perhaps certain additional information that
+          will assist in
+          authenticating your identity when you log-in in the future ("<u>Unique Identifiers</u>"). When creating your
+          account,
+          you must provide true, accurate, current, and complete information. Each Sign-In Name and corresponding
+          Password
+          can be used by only one Registered User. You are solely responsible for the confidentiality and use of your
+          Sign-In Name, Password, and Unique Identifiers, as well as for any use, misuse, or communications entered or
+          payments made through the Website using one or more of them. You will promptly inform us of any need to
+          deactivate a Password or Sign-In Name, or change any Unique Identifier. We reserve the right to delete or
+          change
+          your Password, Sign-In Name, or Unique Identifier at any time and for any reason and shall have no liability
+          to
+          you for any loss or damage caused by such action.</p>
+      </li>
+      <!-- 5 -->
+      <li>
+        <h3>5. Fees and Payment</h3>
+        <p>As consideration for any purchase you make on the Website, you shall pay The Sill all applicable fees and
+          taxes. Our third-party payment processor, Stripe, shall authorize your credit card, bank account, or other
+          approved payment facility you provided during the registration process for the full payment of the purchase
+          price, transaction fees, and applicable taxes, and you hereby consent to the same. All payments will be
+          charged
+          and made in U.S. dollars. By purchasing any Product, you agree to Stripe's terms of service and privacy
+          policy,
+          which can be found here: <a href="https://stripe.com/us/terms" target="_blank">https://stripe.com/us/terms</a> and <a
+            href="https://stripe.com/us/privacy" target="_blank">https://stripe.com/us/privacy</a>.</p>
+        <p>You must provide current, complete, and accurate billing and credit card information. You must promptly
+          update
+          all billing information (such as billing address, card number, and expiration date) to keep your account
+          current, complete, and accurate, and you must promptly contact us if your credit card is lost or stolen, or if
+          you become aware of a potential breach of account security (such as an unauthorized disclosure or use of your
+          Sign-In Name or Password). You hereby authorize The Sill to obtain or determine updated or replacement
+          expiration dates for your credit card in the event that the credit card you provided us expires. We reserve
+          the
+          right to charge any renewal card issued to you to the same extent as the expired card. If payment is not
+          received from your credit card issuer, you hereby agree to pay all amounts due upon demand. You agree to pay
+          all
+          costs of collection, including attorney's fees and costs, on any outstanding balance. In certain instances,
+          the
+          issuer of your credit card may charge you a foreign transaction fee or related charges, which you will be
+          responsible to pay. You are advised to check with your bank and credit card issuer for details.</p>
+        <p>Our policies regarding shipping, returns, and international orders can be found on the Website and are hereby
+          incorporated by reference.</p>
+      </li>
+      <!-- 6 -->
+      <li>
+        <h3>6. Intellectual Property</h3>
+        <p>The Website contains material, such as software, text, graphics, images, designs, sound recordings,
+          audiovisual
+          works, and other material provided by or on behalf of The Sill (collectively referred to as the "Content").
+          The
+          Content may be owned by us or third parties. The Content is protected under both United States and foreign
+          laws.
+          Unauthorized use of the Content may violate copyright, trademark, and other laws. You have no rights in or to
+          the Content, and you will not use the Content except as permitted under this Agreement. No other use is
+          permitted without prior written consent from us. You must retain all copyright and other proprietary notices
+          contained in the original Content on any copy you make of the Content. You may not sell, transfer, assign,
+          license, sublicense, or modify the Content or reproduce, display, publicly perform, make a derivative version
+          of, distribute, or otherwise use the Content in any way for any public or commercial purpose. The use or
+          posting
+          of the Content on any other website or in a networked computer environment for any purpose is expressly
+          prohibited.</p>
+        <p>If you violate any part of this Agreement, your permission to access and/or use the Content and the Website
+          automatically terminates and you must immediately destroy any copies you have made of the Content.</p>
+        <p>The trademarks, service marks, and logos of The Sill (the "The Sill Trademarks") used and displayed on the
+          Website are registered and unregistered trademarks or service marks of The Sill. Other company, product, and
+          service names located on the Website may be trademarks or service marks owned by others (the "Third-Party
+          Trademarks", and, collectively with The Sill Trademarks, the "Trademarks"). Nothing on the Website should be
+          construed as granting, by implication, estoppel, or otherwise, any license or right to use the Trademarks,
+          without our prior written permission specific for each such use. Use of the Trademarks as part of a link to or
+          from any site is prohibited unless establishment of such a link is approved in advance by us in writing. All
+          goodwill generated from the use of The Sill Trademarks inures to our benefit.</p>
+        <p>Elements of the Website are protected by trade dress, trademark, unfair competition, and other state and
+          federal laws and may not be copied or imitated in whole or in part, by any means, including, but not limited
+          to,
+          the use of framing or mirrors. None of the Content may be retransmitted without our express, written consent
+          for
+          each and every instance.</p>
+      </li>
+      <!-- 7 -->
+      <li>
+        <h3>7. Registered User Content; Licenses</h3>
+        <p>As noted above, the Website provides Registered Users the ability to post and upload Registered User Content.
+          You expressly acknowledge and agree that once you submit your Registered User Content for inclusion into the
+          Website, it will be accessible by others, and that there is no confidentiality or privacy with respect to such
+          Registered User Content, including, without limitation, any personally identifying information that you may
+          make available. YOU, AND NOT THE SILL, ARE ENTIRELY RESPONSIBLE FOR ALL YOUR REGISTERED USER CONTENT THAT YOU
+          UPLOAD, POST, E-MAIL, OR OTHERWISE TRANSMIT VIA THE WEBSITE.</p>
+        <p>You retain all copyrights and other intellectual property rights in and to your own Registered User Content.
+          You do, however, hereby grant us and our sublicensees a non-exclusive, royalty-free, freely sublicensable,
+          perpetual license to modify, compile, combine with other content, copy, record, synchronize, transmit,
+          translate, format, distribute, publicly display, publicly perform, and otherwise use or exploit (including for
+          profit) your Registered User Content and all intellectual property and moral rights therein throughout the
+          universe, in each case, by or in any means, methods, media, or technology now known or hereafter devised. You
+          also grant us and our sublicensees the right, but not the obligation, to use your Registered User Content,
+          your
+          Sign-In Name, name, likeness, and photograph in connection with any use of the related Registered User Content
+          permitted by the previous sentence and/or to advertise and promote the Website, The Sill, and our products and
+          services. Without limiting the foregoing, you acknowledge and agree that uses of your Registered User Content,
+          name, likeness, and photograph permitted by the foregoing rights and licenses may include the display of such
+          Registered User Content, name, likeness, and photograph adjacent to advertising and other material or content,
+          including for profit.</p>
+        <p>If you submit Registered User Content to us, each such submission constitutes a representation and warranty
+          to
+          The Sill that such Registered User Content is your original creation (or that you otherwise have the right to
+          provide the Registered User Content), that you have the rights necessary to grant the license to the
+          Registered
+          User Content under the prior paragraph, and that it and its use by The Sill and its content partners as
+          permitted by this Agreement does not and will not infringe or misappropriate the intellectual property or
+          moral
+          rights of any person or contain any libelous, defamatory, or obscene material or content that violates our
+          Community Guidelines.</p>
+      </li>
+      <!-- 8 -->
+      <li>
+        <h3>8. Communications with Us</h3>
+        <p>Although we encourage you to e-mail us, we do not want you to, and you should not, e-mail us any content that
+          contains confidential information. With respect to all e-mails and communications you send to us, including,
+          but not limited to, feedback, questions, comments, suggestions, and the like, we shall be free to use any
+          ideas, concepts, know-how, or techniques contained in your communications for any purpose whatsoever,
+          including but not limited to, the development, production, and marketing of products and services that
+          incorporate such information without compensation or attribution to you.</p>
+      </li>
+      <!-- sms -->
+      <li>
+        <h3>SMS/MMS Mobile Message Marketing Program Terms and Conditions</h3>
+        <strong class="subheading">Text Marketing &amp; Notifications</strong>
+        <p>By consenting to The Sill Inc.'s SMS marketing in the checkout and initializing a purchase or subscribing via
+          our subscription tools, you agree to receive recurring text notifications (for your order, including abandoned
+          checkout reminders), text marketing offers, and transactional texts, including requests for reviews from us,
+          even if your mobile number is registered on any state or federal do-not-call list. Message frequency varies.
+          Consent is not a condition of purchase.</p>
+        <p>If you wish to unsubscribe from receiving text marketing messages and notifications, reply with STOP to any
+          mobile message sent from us or use the unsubscribe link we provided you within any of our messages. You
+          understand and agree that alternative methods of opting out, such as using alternative words or requests, will
+          not be considered a reasonable means of opting out. We do not charge for the service, but you are responsible
+          for all charges and fees associated with text messaging imposed by your wireless provider. Message and data
+          rates may apply.</p>
+        <p>For any questions, please text HELP to the number you received the messages from. You can also contact us at
+          info@thesill.com for more information. </p>
+        <p>We have the right to modify any telephone number or short code we use to operate the service at any time. You
+          will be notified on such occasions. You agree that any messages you send to a telephone number or short code
+          we
+          have changed, including any STOP or HELP requests, may not be received, and we will not be liable for honoring
+          requests made in such messages.</p>
+        <p>To the extent permitted by applicable law, you agree that we will not be liable for failed, delayed, or
+          misdirected delivery of any information sent through the service, any errors in such information, and/or any
+          action you may or may not take in reliance on the information or Service. </p>
+        <p>Your right to privacy is important to us. You can see our <a href="legalLinks-privacyPolicy.html">Privacy
+            Policy</a> to determine how we collect and use
+          your personal information.</p>
+        <p><strong>Duty to Notify and Indemnify</strong>: If at any time you intend to stop using the mobile telephone
+          number that has been
+          used to subscribe to the Program, including canceling your service plan or selling or transferring the phone
+          number to another party, you agree that you will complete the User Opt Out process set forth above prior to
+          ending your use of the mobile telephone number. You understand and agree that your agreement to do so is a
+          material part of these terms and conditions. You further agree that, <strong>if you discontinue the use of
+            your mobile
+            telephone number without notifying Us of such change, you agree that you will be responsible for all costs
+            (including attorneys' fees) and liabilities incurred by Us, or any party that assists in the delivery of the
+            mobile messages, as a result of claims brought by individual(s) who are later assigned that mobile telephone
+            number.</strong> This duty and agreement shall survive any cancellation or termination of your agreement to
+          participate
+          in any of our Programs.</p>
+        <p class="dUpper"><strong>YOU AGREE THAT YOU SHALL INDEMNIFY, DEFEND, AND HOLD US HARMLESS FROM ANY CLAIM OR
+            LIABILITY
+            RESULTING FROM YOUR FAILURE TO NOTIFY US OF A CHANGE IN THE INFORMATION YOU HAVE PROVIDED, INCLUDING ANY
+            CLAIM OR LIABILITY UNDER THE TELEPHONE CONSUMER PROTECTION ACT, 47 U.S.C. § 227, ET SEQ., OR SIMILAR STATE
+            AND FEDERAL LAWS, AND ANY REGULATIONS PROMULGATED THEREUNDER RESULTING FROM US ATTEMPTING TO CONTACT YOU AT
+            THE MOBILE TELEPHONE NUMBER YOU PROVIDED.</strong></p>
+        <p><strong>Program Description</strong>: Without limiting the scope of the Program, users that opt into the
+          Program can expect to
+          receive messages concerning the marketing and sale of plants and related items, promotions, marketing
+          messages,
+          tips, etc.</p>
+        <p><strong>Cost and Frequency</strong>: Message and data rates may apply. The Program involves recurring mobile
+          messages, and
+          additional mobile messages may be sent periodically based on your interaction with Us.</p>
+        <p><strong>Support Instructions: For support regarding the Program, text "HELP" to the number you received
+            messages from
+            or email us at info@thesill.com.</strong> Please note that the use of this email address is not an
+          acceptable method of
+          opting out of the program. Opt outs must be submitted in accordance with the procedures set forth above.</p>
+        <p>MMS Disclosure: The Program will send SMS TMs (terminating messages) if your mobile device does not support
+          MMS
+          messaging.</p>
+        <p><strong>Our Disclaimer of Warranty</strong>: The Program is offered on an "as-is" basis and may not be
+          available in all areas at
+          all times and may not continue to work in the event of product, software, coverage or other changes made by
+          your
+          wireless carrier. We will not be liable for any delays or failures in the receipt of any mobile messages
+          connected with this Program. Delivery of mobile messages is subject to effective transmission from your
+          wireless
+          service provider/network operator and is outside of Our control. T-Mobile is not liable for delayed or
+          undelivered mobile messages.</p>
+        <p><strong>Participant Requirements</strong>: You must have a wireless device of your own, capable of two-way
+          messaging, be using a
+          participating wireless carrier, and be a wireless service subscriber with text messaging service. Not all
+          cellular phone providers carry the necessary service to participate. Check your phone capabilities for
+          specific
+          text messaging instructions.</p>
+        <p><strong>Age Restriction</strong>: You may not use of engage with the Platform if you are under thirteen (13)
+          years of age. If
+          you use or engage with the Platform and are between the ages of thirteen (13) and eighteen (18) years of age,
+          you must have your parent's or legal guardian's permission to do so. By using or engaging with the Platform,
+          you
+          acknowledge and agree that you are not under the age of thirteen (13) years, are between the ages of thirteen
+          (13) and eighteen (18) and have your parent's or legal guardian's permission to use or engage with the
+          Platform,
+          or are of adult age in your jurisdiction. By using or engaging with the Platform, you also acknowledge and
+          agree
+          that you are permitted by your jurisdiction' Applicable Law to use and/or engage with the Platform.</p>
+        <p><strong>Prohibited Content</strong>: You acknowledge and agree to not send any prohibited content over the
+          Platform. Prohibited
+          content includes:</p>
+        <ul class="tsUl2">
+          <li>Any fraudulent, libelous, defamatory, scandalous, threatening, harassing, or stalking activity;</li>
+          <li>Objectionable content, including profanity, obscenity, lasciviousness, violence, bigotry, hatred, and
+            discrimination on the basis of race, sex, religion, nationality, disability, sexual orientation, or age;
+          </li>
+          <li>Pirated computer programs, viruses, worms, Trojan horses, or other harmful code;</li>
+          <li>Any product, service, or promotion that is unlawful where such product, service, or promotion thereof is
+            received;</li>
+          <li>Any content that implicates and/or references personal health information that is protected by the Health
+            Insurance Portability and Accountability Act ("HIPAA") or the Health Information Technology for Economic and
+            Clinical Health Act (“HITEC” Act); and</li>
+          <li>Any other content that is prohibited by Applicable Law in the jurisdiction from which the message is sent.
+          </li>
+        </ul>
+        <p><strong>Dispute Resolution</strong>: In the event that there is a dispute, claim, or controversy between you
+          and Us, or between
+          you and Stodge, LLC d/b/a Postscript or any other third-party service provider acting on Our behalf to
+          transmit
+          the mobile messages within the scope of the Program, arising out of or relating to federal or state statutory
+          claims, common law claims, this Agreement, or the breach, termination, enforcement, interpretation or validity
+          thereof, including the determination of the scope or applicability of this agreement to arbitrate, such
+          dispute,
+          claim, or controversy will be, to the fullest extent permitted by law, determined by arbitration in New York,
+          NY
+          before one arbitrator.</p>
+        <p>The parties agree to submit the dispute to binding arbitration in accordance with the Commercial Arbitration
+          Rules of the American Arbitration Association ("AAA") then in effect. Except as otherwise provided herein, the
+          arbitrator shall apply the substantive laws of the Federal Judicial Circuit in which The Sill's principle
+          place
+          of business is located, without regard to its conflict of laws rules. Within ten (10) calendar days after the
+          arbitration demand is served upon a party, the parties must jointly select an arbitrator with at least five
+          years' experience in that capacity and who has knowledge of and experience with the subject matter of the
+          dispute. If the parties do not agree on an arbitrator within ten (10) calendar days, a party may petition the
+          AAA to appoint an arbitrator, who must satisfy the same experience requirement. In the event of a dispute, the
+          arbitrator shall decide the enforceability and interpretation of this arbitration agreement in accordance with
+          the Federal Arbitration Act ("FAA"). The parties also agree that the AAA's rules governing Emergency Measures
+          of
+          Protection shall apply in lieu of seeking emergency injunctive relief from a court. The decision of the
+          arbitrator shall be final and binding, and no party shall have rights of appeal except for those provided in
+          section 10 of the FAA. Each party shall bear its share of the fees paid for the arbitrator and the
+          administration of the arbitration; however, the arbitrator shall have the power to order one party to pay all
+          or
+          any portion of such fees as part of a well-reasoned decision. The parties agree that the arbitrator shall have
+          the authority to award attorneys' fees only to the extent expressly authorized by statute or contract. The
+          arbitrator shall have no authority to award punitive damages and each party hereby waives any right to seek or
+          recover punitive damages with respect to any dispute resolved by arbitration. The parties agree to arbitrate
+          solely on an individual basis, and this agreement does not permit class arbitration or any claims brought as a
+          plaintiff or class member in any class or representative arbitration proceeding. Except as may be required by
+          law, neither a party nor the arbitrator may disclose the existence, content, or results of any arbitration
+          without the prior written consent of both parties, unless to protect or pursue a legal right. If any term or
+          provision of this Section is invalid, illegal, or unenforceable in any jurisdiction, such invalidity,
+          illegality, or unenforceability shall not affect any other term or provision of this Section or invalidate or
+          render unenforceable such term or provision in any other jurisdiction. If for any reason a dispute proceeds in
+          court rather than in arbitration, the parties hereby waive any right to a jury trial. This arbitration
+          provision
+          shall survive any cancellation or termination of your agreement to participate in any of our Programs.</p>
+        <p><strong>Miscellaneous</strong>: You warrant and represent to Us that you have all necessary rights, power,
+          and authority to
+          agree to these Terms and perform your obligations hereunder, and nothing contained in this Agreement or in the
+          performance of such obligations will place you in breach of any other contract or obligation. The failure of
+          either party to exercise in any respect any right provided for herein will not be deemed a waiver of any
+          further
+          rights hereunder. If any provision of this Agreement is found to be unenforceable or invalid, that provision
+          will be limited or eliminated to the minimum extent necessary so that this Agreement will otherwise remain in
+          full force and effect and enforceable. Any new features, changes, updates or improvements of the Program shall
+          be subject to this Agreement unless explicitly stated otherwise in writing. We reserve the right to change
+          this
+          Agreement from time to time. Any updates to this Agreement shall be communicated to you. You acknowledge your
+          responsibility to review this Agreement from time to time and to be aware of any such changes. By continuing
+          to
+          participate in the Program after any such changes, you accept this Agreement, as modified.</p>
+      </li>
+      <!-- 9 -->
+      <li>
+        <h3>9. No Warranties; Limitation of Liability</h3>
+        <p class="rUpper">THE WEBSITE AND THE CONTENT ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT ANY WARRANTIES OF ANY
+          KIND, INCLUDING THAT THE WEBSITE WILL OPERATE ERROR-FREE OR THAT THE WEBSITE, ITS SERVERS, OR THE CONTENT ARE
+          FREE OF COMPUTER VIRUSES OR SIMILAR CONTAMINATION OR DESTRUCTIVE FEATURES.</p>
+        <p class="rUpper">WE DISCLAIM ALL WARRANTIES, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF TITLE, MERCHANTABILITY,
+          NON-INFRINGEMENT OF THIRD PARTIES' RIGHTS, AND FITNESS FOR PARTICULAR PURPOSE AND ANY WARRANTIES ARISING FROM
+          A COURSE OF DEALING, COURSE OF PERFORMANCE, OR USAGE OF TRADE. IN CONNECTION WITH ANY WARRANTY, CONTRACT, OR
+          COMMON LAW TORT CLAIMS: (I) WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,
+          LOST PROFITS, OR DAMAGES RESULTING FROM LOST DATA OR BUSINESS INTERRUPTION RESULTING FROM THE USE OR INABILITY
+          TO ACCESS AND USE THE WEBSITE OR THE CONTENT, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES;
+          AND (II) ANY DIRECT DAMAGES THAT YOU MAY SUFFER AS A RESULT OF YOUR USE OF THE WEBSITE OR THE CONTENT SHALL BE
+          LIMITED TO THE MONIES YOU HAVE PAID US IN CONNECTION WITH YOUR USE OF THE WEBSITE DURING THE THREE (3) MONTHS
+          IMMEDIATELY PRECEDING THE EVENTS GIVING RISE TO THE CLAIM.</p>
+        <p class="rUpper">THE WEBSITE MAY CONTAIN TECHNICAL INACCURACIES OR TYPOGRAPHICAL ERRORS OR OMISSIONS. UNLESS REQUIRED BY
+          APPLICABLE LAWS, WE ARE NOT RESPONSIBLE FOR ANY SUCH TYPOGRAPHICAL, TECHNICAL, OR PRICING ERRORS LISTED ON THE
+          WEBSITE. THE WEBSITE MAY CONTAIN INFORMATION ON CERTAIN PRODUCTS AND SERVICES, NOT ALL OF WHICH ARE AVAILABLE
+          IN EVERY LOCATION. A REFERENCE TO A PRODUCT OR SERVICE ON THE WEBSITES DOES NOT IMPLY THAT SUCH PRODUCT OR
+          SERVICE IS OR WILL BE AVAILABLE IN YOUR LOCATION. WE RESERVE THE RIGHT TO MAKE CHANGES, CORRECTIONS, AND/OR
+          IMPROVEMENTS TO THE WEBSITE AT ANY TIME WITHOUT NOTICE.</p>
+      </li>
+      <!-- 10 -->
+      <li>
+        <h3>10. External Sites</h3>
+        <p>The Website may contain links to third-party websites ("<u>External Sites</u>"). These links are provided
+          solely as
+          a
+          convenience to you and not as an endorsement by us of the content on such External Sites. The content of such
+          External Sites is developed and provided by others. You should contact the site administrator or webmaster for
+          those External Sites if you have any concerns regarding such links or any content located on such External
+          Sites. We are not responsible for the content of any linked External Sites and do not make any representations
+          regarding the content or accuracy of materials on such External Sites. You should take precautions when
+          downloading files from all websites to protect your computer from viruses and other destructive programs. If
+          you
+          decide to access linked External Sites, you do so at your own risk.</p>
+      </li>
+      <!-- 11 -->
+      <li>
+        <h3>11. Indemnification </h3>
+        <p>You agree to defend, indemnify, and hold us and our officers, directors, employees, successors, licensees,
+          and
+          assigns harmless from and against any claims, actions, or demands, including, without limitation, reasonable
+          legal and accounting fees, arising or resulting from your breach of this Agreement or your misuse of the
+          Content
+          or the Website. We shall provide notice to you of any such claim, suit, or proceeding and shall assist you, at
+          your expense, in defending any such claim, suit, or proceeding. We reserve the right, at your expense, to
+          assume
+          the exclusive defense and control of any matter that is subject to indemnification under this section. In such
+          case, you agree to cooperate with any reasonable requests assisting our defense of such matter.</p>
+      </li>
+      <!-- 12 -->
+      <li>
+        <h3>12. Compliance with Applicable Laws</h3>
+        <p>The Website is based in the United States. We make no claims concerning whether the Content may be
+          downloaded,
+          viewed, or be appropriate for use outside of the United States. If you access the Website or the Content from
+          outside of the United States, you do so at your own risk. Whether inside or outside of the United States, you
+          are solely responsible for ensuring compliance with the laws of your specific jurisdiction.</p>
+      </li>
+      <!-- 13 -->
+      <li>
+        <h3>13. Termination of the Agreement</h3>
+        <p>We reserve the right, in our sole discretion, to restrict, suspend, or terminate this Agreement and your
+          access
+          to all or any part of the Website, at any time and for any reason without prior notice or liability. We
+          reserve
+          the right to change, suspend, or discontinue all or any part of the Website at any time without prior notice
+          or
+          liability.</p>
+      </li>
+      <!-- 14 -->
+      <li>
+        <h3>14. Digital Millennium Copyright Act</h3>
+        <p>The Sill respects the intellectual property rights of others and attempts to comply with all relevant laws.
+          We
+          will review all claims of copyright infringement received and remove any Content deemed to have been posted or
+          distributed in violation of any such laws.</p>
+        <p>Our designated agent under the Digital Millennium Copyright Act (the "Act") for the receipt of any
+          Notification
+          of Claimed Infringement which may be given under that Act is as follows:</p>
+        <p>Eliza Blank</p>
+        <p>The Sill, Inc.</p>
+        <p>511 6th Ave #7151</p>
+        <p>New York, NY 10011</p>
+        <p><a href="mailto:info@thesill.com">info@thesill.com</a></p>
+        <p>If you believe that your work has been copied on the Website in a way that constitutes copyright
+          infringement,
+          please provide our agent with notice in accordance with the requirements of the Act, including (i) a
+          description
+          of the copyrighted work that has been infringed and the specific location on the Website where such work is
+          located; (ii) a description of the location of the original or an authorized copy of the copyrighted work;
+          (iii)
+          your address, telephone number and e-mail address; (iv) a statement by you that you have a good faith belief
+          that the disputed use is not authorized by the copyright owner, its agent or the law; (v) a statement by you,
+          made under penalty of perjury, that the information in your notice is accurate and that you are the copyright
+          owner or authorized to act on the copyright owner's behalf; and (vi) an electronic or physical signature of
+          the
+          owner of the copyright or the person authorized to act on behalf of the owner of the copyright interest.</p>
+      </li>
+      <!-- 15 -->
+      <li>
+        <h3>15. Controlling Law</h3>
+        <p>This Agreement and any action related thereto will be governed by the laws of the State of New York without
+          regard to its conflict of laws provisions.</p>
+      </li>
+      <!-- 16 -->
+      <li>
+        <h3>16. Binding Arbitration</h3>
+        <p>In the event of a dispute arising under or relating to the Agreement, the Site, or the Content (each, a
+          "Dispute"), either party may elect to finally and exclusively resolve the dispute by binding arbitration
+          governed by the Federal Arbitration Act ("FAA"). Any election to arbitrate, at any time, shall be final and
+          binding on the other party. IF EITHER PARTY CHOOSES ARBITRATION, NEITHER PARTY SHALL HAVE THE RIGHT TO
+          LITIGATE
+          SUCH CLAIM IN COURT OR TO HAVE A JURY TRIAL, EXCEPT EITHER PARTY MAY BRING ITS CLAIM IN ITS LOCAL SMALL CLAIMS
+          COURT, IF PERMITTED BY THAT SMALL CLAIMS COURT RULES AND IF WITHIN SUCH COURT'S JURISDICTION. ARBITRATION IS
+          DIFFERENT FROM COURT, AND DISCOVERY AND APPEAL RIGHTS MAY ALSO BE LIMITED IN ARBITRATION. All disputes will be
+          resolved before a neutral arbitrator selected jointly by the parties, whose decision will be final, except for
+          a
+          limited right of appeal under the FAA. The arbitration shall be commenced and conducted by JAMS pursuant to
+          its
+          then current Comprehensive Arbitration Rules and Procedures and in accordance with the Expedited Procedures in
+          those rules, or, where appropriate, pursuant to JAMS' Streamlined Arbitration Rules and Procedures. All
+          applicable JAMS' rules and procedures are available at the JAMS website <a
+            href="http://www.jamsadr.com/" target="_blank">www.jamsadr.com</a>. Each party will be
+          responsible for paying any JAMS filing, administrative, and arbitrator fees in accordance with JAMS rules.
+          Judgment on the arbitrator's award may be entered in any court having jurisdiction. This clause shall not
+          preclude parties from seeking provisional remedies in aid of arbitration from a court of appropriate
+          jurisdiction. The arbitration may be conducted in person, through the submission of documents, by phone, or
+          online. If conducted in person, the arbitration shall take place in New York, New York. The parties may
+          litigate
+          in court to compel arbitration, to stay a proceeding pending arbitration, or to confirm, modify, vacate, or
+          enter judgment on the award entered by the arbitrator. The parties shall cooperate in good faith in the
+          voluntary and informal exchange of all non-privileged documents and other information (including
+          electronically
+          stored information) relevant to the Dispute immediately after commencement of the arbitration. As set forth in
+          Section 18 below, nothing in this Agreement will prevent us from seeking injunctive relief in any court of
+          competent jurisdiction as necessary to protect our proprietary interests.</p>
+      </li>
+      <!-- 17 -->
+      <li>
+        <h3>17. Class Action Waiver</h3>
+        <p>You agree that any arbitration or proceeding shall be limited to the Dispute between us and you individually.
+          To the full extent permitted by law, (i) no arbitration or proceeding shall be joined with any other; (ii)
+          there
+          is no right or authority for any Dispute to be arbitrated or resolved on a class action-basis or to utilize
+          class action procedures; and (iii) there is no right or authority for any Dispute to be brought in a purported
+          representative capacity on behalf of the general public or any other persons. YOU AGREE THAT YOU MAY BRING
+          CLAIMS AGAINST US ONLY IN YOUR INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED
+          CLASS
+          OR REPRESENTATIVE PROCEEDING.</p>
+      </li>
+      <!-- 18 -->
+      <li>
+        <h3>18. Equitable Relief</h3>
+        <p>You acknowledge and agree that in the event of a breach or threatened violation of our intellectual property
+          rights and confidential and proprietary information by you, we will suffer irreparable harm and will therefore
+          be entitled to injunctive relief to enforce this Agreement. We may, without waiving any other remedies under
+          this Agreement, seek from any court having jurisdiction any interim, equitable, provisional, or injunctive
+          relief that is necessary to protect our rights and property pending the outcome of the arbitration referenced
+          above. You hereby irrevocably and unconditionally consent to the personal and subject matter jurisdiction of
+          the
+          federal and state courts in the State of New York for purposes of any such action by us.</p>
+      </li>
+      <!-- 19 -->
+      <li>
+        <h3>19. Miscellaneous </h3>
+        <p>The following sections shall survive termination of this Agreement: "Fees and Payment" (until you pay all
+          fees
+          and taxes due hereunder), "Intellectual Property", "Registered User Content; Licenses", "Communications with
+          Us", "No Warranties; Limitation of Liability", "Indemnification", "Termination of the Agreement", "Controlling
+          Law", "Binding Arbitration", "Class Action Waiver", and "Miscellaneous".</p>
+        <p>Our failure to act on or enforce any provision of the Agreement shall not be construed as a waiver of that
+          provision or any other provision in this Agreement. No waiver shall be effective against us unless made in
+          writing, and no such waiver shall be construed as a waiver in any other or subsequent instance. Except as
+          expressly agreed by us and you in writing, this Agreement constitutes the entire Agreement between you and us
+          with respect to the subject matter, and supersedes all previous or contemporaneous agreements, whether written
+          or oral, between the parties with respect to the subject matter. The section headings are provided merely for
+          convenience and shall not be given any legal import. This Agreement will inure to the benefit of our
+          successors,
+          assigns, licensees, and sublicensees. </p>
+        <p>Copyright 2017 The Sill, Inc. All rights reserved.</p>
+      </li>
+    </ol>
+  </article>
+
+  <footer>
+    <div>
+      <h2><img src="images/globla-logo.svg"  alt="Bye. The Sill"></h2>
+      <ul>
+        <li><a href="https://www.facebook.com/TheSillNYC/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/thesill/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/thesill" target="_blank">Youtube</a></li>
+        <li><a href="https://www.tiktok.com/@thesill" target="_blank">Tiktok</a></li>
+        <li><a href="https://x.com/thesill" target="_blank">Twitter</a></li>
+        <li><a href="https://www.pinterest.com/thesillnyc/" target="_blank">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div>
+        <h3>Get The Dirt.</h3>
+        <p>Get plant care tips, exclusive offers, &amp; 10% off your first order straight to your inbox.No spam, ever.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter Your Email Here ..." title="Enter Your Email Here">
+          <input type="submit" value="Subscribe" class="itpGreenBtn">
+        </form>
+      </div>
+
+      <div>
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="customerService-faq.html">FAQ</a></li>
+          <li><a href="customerService-shippingHanding.html">Shipping &amp; Handling</a></li>
+          <li><a href="customerService-30day.html">30-Day Guarantee</a></li>
+          <li><a href="customerService-contactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://thesill.typeform.com/find-your-plant">Find Your Plant</a></li>
+          <li><a href="https://www.thesill.com/pages/care-library">Plant Care Library</a></li>
+          <li><a href="resources-blog.html">Blog</a></li>
+          <li><a href="resources-onlineCourses.html">Free Online Courses</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>My Sill</h3>
+        <ul>
+          <li><a href="https://www.thesill.com/account">My Account</a></li>
+          <li><a href="https://www.thesill.com/account">Track My Order</a></li>
+          <li><a href="https://returns.thesill.com/">Returns Portal</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="explore-ourStory.html">Our Story</a></li>
+          <li><a href="explore-careers.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <a href="https://app.impact.com/campaign-campaign-info-v2/The-Sill.brand" class="uln">Affiliate Program</a>
+      <a href="legalLinks-termsOfUse.html" class="uln">Terms of Use</a>
+      <a href="legalLinks-privacyPolicy.html" class="uln">Privacy Policy</a>
+      <a href="legalLinks-accessibilityStatement.html" class="uln">Accessibility</a>
+      <a href="legalLinks-noticeToCaliforniaResidents.html" class="uln">Do Not Sell My Info</a>
+      <p>Copyright 2025 - The Sill, Inc.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

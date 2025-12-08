@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sill</title>
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/sill.js"></script>
+
+  <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+  <div class="discountPopup">
+    <div>
+      <h2>Want 10% Off?</h2>
+      <p>Get the dirt and save on your first purchase when
+        you sign up today.</p>
+      <form>
+        <input type="email" placeholder="Email Address" title="Enter Your Email Here">
+        <input type="submit" value="Subscribe" class="itpGreenBtn">
+      </form>
+    </div>
+    <input type="button" value="close" class="bCloseBtn">
+  </div>
+
+  <header id="home">
+    <p>Free Shipping + 30-Day Guarantee</p>
+    <div>
+      <h1>
+        <a href="index.html">
+          <img src="images/globla-logo.svg"  alt="The Sill">
+        </a>
+      </h1>
+      <div>
+        <input type="search" placeholder="Search for plants..." title="search keyword" class="searchToggle">
+        <input type="button" value="search" data-toggle="searchToggle">
+
+        <a href="user-accountLogin.html">myAccount</a>
+
+        <div>
+          <button type="button" value="cart" data-panel="cartPanel">
+            <span>0</span>
+          </button>
+
+          <div class="cartPanel">
+            <div>
+              <h2>Your Cart</h2>
+              <p>0</p>
+              <p>You are $79 away from getting Free Shipping</p>
+              <progress value="0" max="79"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <p>Your cart is currently empty!</p>
+              <p>Find products that match your taste</p>
+              <a href="listPage-allPlants1.html" class="aBlackBtn">Shop Now</a>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$0</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$15</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+
+          <div class="cartPanelFilled">
+            <div>
+              <h2>Your Cart</h2>
+              <p>1</p>
+              <p>You are $8 away from getting Free Shipping</p>
+              <progress value="199" max="207"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <img src="images/list-allPlant-africanMilkTree.png" alt="africanMilkTree">
+              <div>
+                <ul>
+                  <li>AfricanMilkTree</li>
+                  <li>Large / Grant / Grey</li>
+                  <li>
+                    <button type="button" value="delete"></button>
+                  </li>
+                  <li>
+                    <div class="qtyComponent">
+                      <input type="button" value="-" class="minus">
+                      <input type="number" value="1" max="99">
+                      <input type="button" value="+" class="plus">
+                    </div>
+                    <span>$199</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <input type="checkbox" id="giftMessage">
+              <label for="giftMessage">Add gift message?</label>
+              <textarea id="message" cols="40" rows="4" placeholder="Your Notes..."></textarea>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$199</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$214</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <label for="mnav" class="mui">
+        Menu
+      </label>
+      <input type="checkbox" id="mnav" class="mui">
+      <ul>
+        <li>
+          <b>Indoor Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Indoor Plants</strong>
+              <ol>
+                <li><a href="listPage-allPlants1.html">All Plants</a></li>
+                <li><a href="listPage-petFriendly1.html">Pet-Friendly</a></li>
+                <li><a href="listPage-lowLight1.html">Low-Light</a></li>
+                <li><a href="listPage-largePlants1.html">Large Plants</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-petFriendly1.html">
+                  <img src="images/mainMenu1_1.jpg" alt="Pet-Friendly">
+                </a>
+                <figcaption>Pet-Friendly</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listpage-lowLight1.html">
+                  <img src="images/mainMenu1_2.jpg" alt="Low-Light">
+                </a>
+                <figcaption>Low-Light</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-largePlants1.html">
+                  <img src="images/mainMenu1_3.jpg" alt="Large Plants">
+                </a>
+                <figcaption>Large Plants</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Flowering Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Flowering Plants</strong>
+              <ol>
+                <li><a href="listPage-orchids1.html">Orchids</a></li>
+                <li><a href="listPage-blooms1.html">Blooms</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-orchids1.html">
+                  <img src="images/mainMenu2_1.jpg" alt="Orchids">
+                </a>
+                <figcaption>Orchids</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-blooms1.html">
+                  <img src="images/mainMenu2_2.jpg" alt="Blooms">
+                </a>
+                <figcaption>Blooms</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Greenleaf Collection</b>
+          <div class="sub">
+            <div>
+              <strong>Greenleaf Collection</strong>
+              <ol>
+                <li><a href="listPage-rarePlants1.html">Rare Plants</a></li>
+                <li><a href="listPage-cactiSucculents1.html">Cacti &amp; Succulents</a></li>
+                <li><a href="listPage-hangingBaskets1.html">Hanging Baskcts</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-rarePlants1.html">
+                  <img src="images/mainMenu3_1.jpg" alt="Rare Plants">
+                </a>
+                <figcaption>Rare Plants</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-cactiSucculents1.html">
+                  <img src="images/mainMenu3_2.jpg" alt="Cacti & Succulents">
+                </a>
+                <figcaption>Cacti &amp; Succulents</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-hangingBaskets1.html">
+                  <img src="images/mainMenu3_3.jpg" alt="Hanging Baskcts">
+                </a>
+                <figcaption>Hanging Baskcts</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Artificial Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Artificial Plants</strong>
+              <ol>
+                <li><a href="listPage-faux1.html">Faux</a></li>
+                <li><a href="listPage-artisanMoss1.html">Artisan Moss</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-faux1.html">
+                  <img src="images/mainMenu4_1.jpg" alt="Faux">
+                </a>
+                <figcaption>Faux</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-artisanMoss1.html">
+                  <img src="images/mainMenu4_2.jpg" alt="Artisan Moss">
+                </a>
+                <figcaption>Artisan Moss</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Plant Care</b>
+          <div class="sub">
+            <div>
+              <strong>Plant Care</strong>
+              <ol>
+                <li><a href="listPage-planters1.html">Planters</a></li>
+                <li><a href="listPage-supplies1.html">Supplies</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-planters1.html">
+                  <img src="images/mainMenu5_1.jpg" alt="Planters">
+                </a>
+                <figcaption>Planters</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-supplies1.html">
+                  <img src="images/mainMenu5_2.jpg" alt="Supplies">
+                </a>
+                <figcaption>Supplies</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="legalContainer">
+    <input type="button" value="Back" class="backBtn">
+    <h2>Notice to California Residents</h2>
+    <p class="update">Last Update: January 26, 2021</p>
+
+    <p>This Notice to California Residents (“CCPA Notice”), provided by The Sill, Inc. (“The Sill,” “we,” “us,” or
+      “our”) pursuant to the California Consumer Privacy Act (“CCPA”), applies to natural persons who reside in the
+      State of California (“consumers” or “you”), that visit our website at <a href="index.html"
+        target="_blank">www.thesill.com</a> (the “Website”), purchase products or services from us, apply for a job with
+      us, or otherwise engage or interact with us. Any terms used herein but not defined shall have the meaning assigned
+      in our <a href="legalLinks-privacyPolicy.html">Privacy Policy</a>, or
+      the CCPA, as applicable.</p>
+
+    <p>In the event of any conflict or inconsistency between this CCPA Notice and our Privacy Policy, this CCPA Notice shall control only with respect to the Personal Information (as defined in CCPA) of consumers, their households or devices. If you are located outside of the State of California this CCPA Notice does not apply to you and you should refer to our Privacy Policy.</p>
+
+    <ol>
+      <!-- 1 -->
+      <li>
+        <h3>Information We Collect</h3>
+        <p><strong>Categories of Personal Information.</strong> The Sill has or may have collected and/or received the
+          Categories of Personal Information identified below (with examples) from or about consumers, their households
+          or devices, within the twelve (12) months preceding the date of the Last Update of this CCPA Notice (“Last
+          Update”). Personal Information does not include (i) publicly available information from government records;
+          (ii) deidentified or aggregated Personal Information; or (iii) information excluded from the CCPA including
+          information regulated by certain sector-specific data protection laws including the Health Insurance
+          Portability and Accountability Act of 1996, the California Confidentiality of Medical Information Act, the
+          Gramm-Leach-Bliley Act of 1999, and the California Financial Information Privacy Act.</p>
+        <ul class="ncrUl">
+          <li>
+            <ul>
+              <li><strong>Identifiers. A</strong> real name, postal address, unique personal identifier, online
+                identifier, IP address, email address, or other similar identifiers.</li>
+              <li><strong>Categories of Personal Information Listed in Cal. Civ. Code § 1798.80(e)). A</strong> name,
+                signature, address, telephone number, education, employment, employment history. Some Personal
+                Information included in this category may overlap with other categories.</li>
+              <li><strong>Protected classification characteristics under California or federal law.</strong> Age (40
+                years or older), marital status, gender.</li>
+              <li><strong>Internet or other similar network activity.</strong> Browsing history, search history,
+                information on a consumer's interaction with a website, application, or advertisement.</li>
+            </ul>
+          <li><strong>Geolocation data.</strong></li>
+          <li>Audio, electronic, visual or similar information.</li>
+          <li><strong>Professional or employment-related information.</strong> Current or past job history or
+            performance evaluations</li>
+          <li><strong>Non-public education information.</strong> Education records directly related to a student
+            maintained by an educational institution or party acting on its behalf, such as grades, transcripts.</li>
+          <li>Inferences. Inferences drawn from any of the information identified above to create a profile about a
+            consumer reflecting the consumer's preferences, characteristics, psychological trends, predispositions,
+            behavior, attitudes, intelligence, abilities and aptitudes.</li>
+        </ul>
+        <p><strong>Categories of Sources.</strong> We collect the Categories of Personal Information listed above from
+          the
+          following Categories of Sources: (i) directly from consumers (e.g., forms, surveys, responses, or other direct
+          interactions from or with consumers), (ii) indirectly from consumers (e.g., consumer activity online,
+          interactions with our Website and other sites), (iii) customers/purchasers providing information about other
+          consumers, (iv) third-party data analytics providers, (v) third-party advertisers, publishers, advertising
+          intermediaries and networks, (vi) the internet, social media platforms and other publically available sources,
+          and (vii) branding/co-branding partners.</p>
+        <p><strong>Use of Personal Information.</strong> We may use or disclose the Personal Information we collect for
+          one or more of the following commercial or business purposes (each, a “Business Purpose”): (i) for the
+          purposes
+          set forth in the How We Use and Share the Information section of our Privacy Policy and (ii) as described to
+          you
+          when collecting your Personal Information or as otherwise permissible under the CCPA.</p>
+        <p>Categories of Third Party Recipients. We may share your Personal Information with the following Categories of
+          Third Party Recipients for Business Purposes:</p>
+        <ul class="ncrUl2">
+          <li>Service Providers, which include cloud hosting providers, technical assistance and security, database
+            management/back-up services, analytics, digital marketing (e.g., marketing automation), customer
+            relationship
+            management, customer service, providers of administrative services, payment processors, suppliers,
+            distribution channels.</li>
+          <li>Advertising Networks, which include advertisers, publishers, advertising intermediaries and networks
+            (“Advertisers Networks”).</li>
+          <li>Social networks used for retargeting and creating audiences (“Social Networks”).</li>
+          <li>Plant/horticulture networks, which include the National Plant Network (“Plant/Horticulture Networks”).
+          </li>
+          <li>Other purchasers/customers (“Other Customers”).</li>
+          <li>Branding/Co-branding Partners.</li>
+        </ul>
+        <p><strong>Disclosures and Sale of Personal Information for a Business Purpose.</strong> In the twelve (12)
+          months
+          preceding the Last Update, we may have disclosed or sold (as the term is broadly defined under the CCPA and
+          interpreting regulations) the Categories of Personal Information for a Business Purpose to the Categories of
+          Third Parties set forth in Table I.</p>
+
+        <div class="ncrTable">
+          <strong>Table</strong>
+          <table>
+            <thead>
+              <tr>
+                <th>Categories of Personal Information Collected</th>
+                <th>Categories of Third Parties with Whom We Share this Personal Information for a Business Purpose</th>
+                <th>ategories of Third Parties with Whom We “Sell” this Personal Information for a Business Purpose</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Identifiers</th>
+                <td>Service Providers, Other Customers</td>
+                <td>Advertising Networks, Social Networks, Plant/Horticulture Networks, Branding/co-branding partners
+                </td>
+              </tr>
+              <tr>
+                <th>Categories of Personal Information Listed in Cal. Civ. Code § 1798.80(e)</th>
+                <td>Service Providers, Other Customers</td>
+                <td>Advertising Networks, Social Networks, Plant/Horticulture Networks, Branding/Co-branding Partners
+                </td>
+              </tr>
+              <tr>
+                <th>Protected classification characteristics under California or federal law</th>
+                <td>Service Providers</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <th>Internet or other similar network activity</th>
+                <td>Service Providers</td>
+                <td>Advertising Networks, Social Networks, Plant/Horticulture Networks</td>
+              </tr>
+              <tr>
+                <th>Geolocation data</th>
+                <td>Service Providers</td>
+                <td>Advertising Networks, Social Networks, Plant/Horticulture Networks</td>
+              </tr>
+              <tr>
+                <th>Professional or employment-related information.</th>
+                <td>Service Providers</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <th>Non-public education information</th>
+                <td>Service Providers</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <th>Inferences</th>
+                <td>Service Providers</td>
+                <td>Branding/Co-branding Partners</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+
+
+
+        <!-- 3 -->
+      <li>
+        <h3>Your Rights and Choices</h3>
+        <p>The CCPA provides consumers with specific rights regarding their Personal Information. This section describes
+          such rights and explains how to exercise them.</p>
+        <p><strong>Right to Know About Personal Information.</strong> You have the right to request that we disclose
+          certain information to you about our collection, disclosure, sale and use of your Personal Information. Once
+          we receive and verify your request, we will disclose to you the following (to the extent applicable to your
+          request):</p>
+        <ul class="ncrUl2">
+          <li>Specific pieces of Personal Information we collected about you in the preceding twelve (12) months (also
+            known as a data portability request)</li>
+          <li>Categories of Personal Information we collected about you in the preceding twelve (12) months</li>
+          <li>Categories of Sources from which the Personal Information was collected</li>
+          <li>Our Business Purpose for collecting that Personal Information </li>
+          <li>Categories of Personal Information we disclosed or sold for a Business Purpose and the Categories of Third
+            Party Recipients to whom the Personal Information was disclosed or sold</li>
+        </ul>
+        <p><strong>Right to Request Deletion.</strong> You have the right to request that we delete any of Personal
+          Information that we collected from you and retained, subject to certain exceptions. Once we receive and verify
+          your request, we will delete (and direct our service providers to delete) your Personal Information from our
+          records, unless an exception applies.</p>
+        <p><strong>Exercising Rights to Know or Request Deletion.</strong>To exercise the rights to know or request
+          deletion described above, please submit a verifiable consumer request to us by either: (a) calling us at
+          1-866-467-8688 Service Code 1090# or (b) submitting your request by email to <a
+            href="info@thesill.com">info@thesill.com</a>. You may only make a verifiable consumer request under the
+          right to know twice within a 12-month period. The verifiable consumer request must: (i) provide sufficient
+          information that allows us to reasonably verify you are the person about whom we collected Personal
+          Information or an authorized representative; and (ii) describe your request with sufficient detail that allows
+          us to properly understand, evaluate, and respond to it. We cannot respond to your request or provide you with
+          Personal Information if we cannot verify your identity or authority to make the request and confirm the
+          Personal Information related to you.</p>
+        <p><strong>Verification Process.</strong> To submit a verifiable consumer request, the consumer may be required
+          to provide up to three data points, which may include additional Personal Information, to enable us to verify
+          the consumer's identity with the degree of certainty required by the CCPA. We will use Personal Information
+          provided in a verifiable consumer request solely for the purpose of verifying the requestor's identity or
+          authority to make the request. We or a third party on our behalf may follow up with you to determine whether a
+          request is a verifiable consumer request under applicable law. If we cannot verify your identity or authority
+          to make the request and confirm the Personal Information relates to you, we will deny the consumer request in
+          whole or in part and will not disclose the information requested or, as applicable, will not delete the
+          information requested. We will respond to any such consumer request with a denial, and will also explain why
+          it has no reasonable method by which it can verify the identity of the requestor.</p>
+        <p><strong>Response Timing and Format.</strong> We will confirm receipt of a verifiable consumer request within
+          then (10) business days of its receipt. We will endeavor to respond to a verifiable consumer request within
+          forty-five (45) calendar days of its receipt. If we require more time, we will notify you of the extension and
+          provide an explanation of the reason for the extension in writing, and we will provide you with a response no
+          later than ninety (90) calendar days of receipt of the request. We will deliver our written response by mail
+          or electronically. Any disclosures we provide will only cover the 12-month period preceding the verifiable
+          consumer request's receipt. The response we provide will also explain the reasons we cannot comply with a
+          request, if applicable. For data portability requests, we will select a format to provide your Personal
+          Information that is readily usable and should allow you to transmit the information from one entity to another
+          entity without hindrance. We may charge a reasonable fee to process or respond to your verifiable consumer
+          requests if they are excessive, repetitive, or manifestly unfounded. If we determine that the request warrants
+          a fee, we will inform you of the reasons for this decision and provide you with a cost estimate before
+          completing your request.</p>
+        <p><strong>Right to Opt-Out of the Sale of Personal Information.</strong> If you are 16 years of age or older,
+          you have the right, at any time, to direct us to not sell your Personal Information (the “right to opt-out”).
+          We do not knowingly sell the Personal Information of children under the age of 16, unless we receive
+          affirmative authorization (the “right to opt-in”) from either (i) the consumer who is between 13 and 16 years
+          of age, or (ii) the parent or guardian of a consumer less than 13 years of age. Consumers who opt-in to
+          Personal Information sales may opt-out of future sales at any time. To exercise the right to opt-out, you (or
+          your authorized representative) may submit a request to us by visiting the following Internet Web page link:
+        </p>
+        <p><a
+            href="https://webform.ccpatollfree.com/ccpa-compliance/solutions/47bd5876-d6b0-49f9-a80b-944c1c6bc0e9/form.html"
+            target="_blank">Do
+            Not Sell My Personal Information</a></p>
+        <p>Once you make an opt-out request, we will not ask you to reauthorize Personal Information sales for at least
+          twelve (12) months. However, you may change your mind and opt back in to Personal Information sales at any
+          time by sending us an email making this request to info@thesill.com.</p>
+        <p>You do not need to create an account with us to exercise your opt-out rights. We will only use Personal
+          Information provided in an opt-out request to review and comply with the request.</p>
+        <p><strong>Right to Non-Discrimination.</strong> We will not discriminate against you for exercising any of your
+          CCPA rights. We will not (i) deny you products or services, (ii) charge you different prices or rates for
+          products or services, including through granting discounts or other benefits, or imposing penalties (except
+          for financial incentives permitted by the CCPA, see below), (iii) provide you a different level or quality of
+          products or services, and (iv) suggest that you may receive a different price or rate for products or services
+          or a different level or quality of products or services.</p>
+      </li>
+      <li>
+        <h3>Notice on Financial Incentives</h3>
+        <p>We may offer you certain financial incentives permitted under the CCPA for the collection, sale or deletion
+          of your Personal Information that may result in different prices, rates, or quality levels, provided that: (i)
+          the financial incentive is reasonably related to the value of your Personal Information and (ii) we provide
+          you written terms that describe the program's material aspects. Participation in a financial incentive program
+          requires your prior opt-in consent, which you may revoke at any time. Details about specific financial
+          incentives such as materials terms, the Categories of Personal Information implicated, how you may opt-in to
+          the incentive program, how you may exercise the right to withdraw, and a good faith estimate of the value of
+          the data shall be disclosed to you at or before you opt-in to such financial incentives and provide Personal
+          Information.</p>
+      </li>
+      <!-- 4 -->
+      <li>
+        <h3>Right to Designate an Authorized Agent</h3>
+        <p>If you submit a request to know, delete or opt-out of the sale of your Personal Information through the use
+          of an authorized agent, we may require that you (i) provide the authorized agent written permission to act on
+          your behalf, and (ii) verify their identity directly with us. We may deny a request from an authorized agent
+          that does not submit proof of authorization.</p>
+      </li>
+      <!-- 5 -->
+      <li>
+        <h3>Other California Privacy Rights</h3>
+        <p>Pursuant to California's “Shine the Light” law (Civil Code Section § 1798.83), California residents have the
+          right to request certain information regarding our disclosure of Personal Information to third parties for
+          their direct marketing purposes, including the names and addresses of those third parties, and examples of the
+          types of services or products marketed by those third parties.</p>
+        <p>To make such a request, please send an email to info@thesill.com. </p>
+      </li>
+      <!-- 6 -->
+      <li>
+        <h3>Changes to Our CCPA Notice</h3>
+        <p>This CCPA Notice is effective as of the date of the Last Update stated at the top of this CCPA Notice. We may
+          change this CCPA Notice from time to time with or without notice to you. By visiting or accessing the Website,
+          purchasing products or services from us, or otherwise engaging or interacting with us after we make any such
+          changes to this CCPA Notice, you are deemed to have accepted such changes. Please be aware that, to the extent
+          permitted by applicable law, and without prejudice to the foregoing, our use of your Personal Information is
+          governed by the CCPA Notice in current effect. Please refer back to this CCPA Notice on a regular basis.</p>
+      </li>
+      <!-- 7 -->
+      <li>
+        <h3>Contact Information</h3>
+        <p>This CCPA Notice is effective as of the date of the Last Update stated at the top of this CCPA Notice. We may
+          change this CCPA Notice from time to time with or without notice to you. If you have any questions or comments
+          about this notice, the ways in which we collect and use your information described below and in the CCPA
+          Notice, your choices and rights regarding such use, or wish to exercise your rights under California law,
+          please do not hesitate to contact us at:deemed to have accepted such changes. Please be aware that, to the
+          extent permitted by applicable law, and without prejudice to the foregoing, our use of your Personal
+          Information is governed by the CCPA Notice in current effect. Please refer back to this CCPA Notice on a
+          regular basis.</p>
+        <p>Website: www.thesill.com</p>
+        <p>E-mail: info@thesill.com</p>
+        <p>Postal address: </p>
+        <p>511 6th Ave, #7151</p>
+      </li>
+    </ol>
+  </article>
+
+  <footer>
+    <div>
+      <h2><img src="images/globla-logo.svg"  alt="Bye. The Sill"></h2>
+      <ul>
+        <li><a href="https://www.facebook.com/TheSillNYC/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/thesill/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/thesill" target="_blank">Youtube</a></li>
+        <li><a href="https://www.tiktok.com/@thesill" target="_blank">Tiktok</a></li>
+        <li><a href="https://x.com/thesill" target="_blank">Twitter</a></li>
+        <li><a href="https://www.pinterest.com/thesillnyc/" target="_blank">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div>
+        <h3>Get The Dirt.</h3>
+        <p>Get plant care tips, exclusive offers, &amp; 10% off your first order straight to your inbox.No spam, ever.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter Your Email Here ..." title="Enter Your Email Here">
+          <input type="submit" value="Subscribe" class="itpGreenBtn">
+        </form>
+      </div>
+
+      <div>
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="customerService-faq.html">FAQ</a></li>
+          <li><a href="customerService-shippingHanding.html">Shipping &amp; Handling</a></li>
+          <li><a href="customerService-30day.html">30-Day Guarantee</a></li>
+          <li><a href="customerService-contactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://thesill.typeform.com/find-your-plant">Find Your Plant</a></li>
+          <li><a href="https://www.thesill.com/pages/care-library">Plant Care Library</a></li>
+          <li><a href="resources-blog.html">Blog</a></li>
+          <li><a href="resources-onlineCourses.html">Free Online Courses</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>My Sill</h3>
+        <ul>
+          <li><a href="https://www.thesill.com/account">My Account</a></li>
+          <li><a href="https://www.thesill.com/account">Track My Order</a></li>
+          <li><a href="https://returns.thesill.com/">Returns Portal</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="explore-ourStory.html">Our Story</a></li>
+          <li><a href="explore-careers.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <a href="https://app.impact.com/campaign-campaign-info-v2/The-Sill.brand" class="uln">Affiliate Program</a>
+      <a href="legalLinks-termsOfUse.html" class="uln">Terms of Use</a>
+      <a href="legalLinks-privacyPolicy.html" class="uln">Privacy Policy</a>
+      <a href="legalLinks-accessibilityStatement.html" class="uln">Accessibility</a>
+      <a href="legalLinks-noticeToCaliforniaResidents.html" class="uln">Do Not Sell My Info</a>
+      <p>Copyright 2025 - The Sill, Inc.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

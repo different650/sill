@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sill</title>
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/sill.js"></script>
+
+  <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+  <div class="discountPopup">
+    <div>
+      <h2>Want 10% Off?</h2>
+      <p>Get the dirt and save on your first purchase when
+        you sign up today.</p>
+      <form>
+        <input type="email" placeholder="Email Address" title="Enter Your Email Here">
+        <input type="submit" value="Subscribe" class="itpGreenBtn">
+      </form>
+    </div>
+    <input type="button" value="close" class="bCloseBtn">
+  </div>
+
+  <header id="home">
+    <p>Free Shipping + 30-Day Guarantee</p>
+    <div>
+      <h1>
+        <a href="index.html">
+          <img src="images/globla-logo.svg"  alt="The Sill">
+        </a>
+      </h1>
+      <div>
+        <input type="search" placeholder="Search for plants..." title="search keyword" class="searchToggle">
+        <input type="button" value="search" data-toggle="searchToggle">
+
+        <a href="user-accountLogin.html">myAccount</a>
+
+        <div>
+          <button type="button" value="cart" data-panel="cartPanel">
+            <span>0</span>
+          </button>
+
+          <div class="cartPanel">
+            <div>
+              <h2>Your Cart</h2>
+              <p>0</p>
+              <p>You are $79 away from getting Free Shipping</p>
+              <progress value="0" max="79"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <p>Your cart is currently empty!</p>
+              <p>Find products that match your taste</p>
+              <a href="listPage-allPlants1.html" class="aBlackBtn">Shop Now</a>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$0</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$15</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+
+          <div class="cartPanelFilled">
+            <div>
+              <h2>Your Cart</h2>
+              <p>1</p>
+              <p>You are $8 away from getting Free Shipping</p>
+              <progress value="199" max="207"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <img src="images/list-allPlant-africanMilkTree.png" alt="africanMilkTree">
+              <div>
+                <ul>
+                  <li>AfricanMilkTree</li>
+                  <li>Large / Grant / Grey</li>
+                  <li>
+                    <button type="button" value="delete"></button>
+                  </li>
+                  <li>
+                    <div class="qtyComponent">
+                      <input type="button" value="-" class="minus">
+                      <input type="number" value="1" max="99">
+                      <input type="button" value="+" class="plus">
+                    </div>
+                    <span>$199</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <input type="checkbox" id="giftMessage">
+              <label for="giftMessage">Add gift message?</label>
+              <textarea id="message" cols="40" rows="4" placeholder="Your Notes..."></textarea>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$199</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$214</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <label for="mnav" class="mui">
+        Menu
+      </label>
+      <input type="checkbox" id="mnav" class="mui">
+      <ul>
+        <li>
+          <b>Indoor Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Indoor Plants</strong>
+              <ol>
+                <li><a href="listPage-allPlants1.html">All Plants</a></li>
+                <li><a href="listPage-petFriendly1.html">Pet-Friendly</a></li>
+                <li><a href="listPage-lowLight1.html">Low-Light</a></li>
+                <li><a href="listPage-largePlants1.html">Large Plants</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-petFriendly1.html">
+                  <img src="images/mainMenu1_1.jpg" alt="Pet-Friendly">
+                </a>
+                <figcaption>Pet-Friendly</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listpage-lowLight1.html">
+                  <img src="images/mainMenu1_2.jpg" alt="Low-Light">
+                </a>
+                <figcaption>Low-Light</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-largePlants1.html">
+                  <img src="images/mainMenu1_3.jpg" alt="Large Plants">
+                </a>
+                <figcaption>Large Plants</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Flowering Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Flowering Plants</strong>
+              <ol>
+                <li><a href="listPage-orchids1.html">Orchids</a></li>
+                <li><a href="listPage-blooms1.html">Blooms</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-orchids1.html">
+                  <img src="images/mainMenu2_1.jpg" alt="Orchids">
+                </a>
+                <figcaption>Orchids</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-blooms1.html">
+                  <img src="images/mainMenu2_2.jpg" alt="Blooms">
+                </a>
+                <figcaption>Blooms</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Greenleaf Collection</b>
+          <div class="sub">
+            <div>
+              <strong>Greenleaf Collection</strong>
+              <ol>
+                <li><a href="listPage-rarePlants1.html">Rare Plants</a></li>
+                <li><a href="listPage-cactiSucculents1.html">Cacti &amp; Succulents</a></li>
+                <li><a href="listPage-hangingBaskets1.html">Hanging Baskcts</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-rarePlants1.html">
+                  <img src="images/mainMenu3_1.jpg" alt="Rare Plants">
+                </a>
+                <figcaption>Rare Plants</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-cactiSucculents1.html">
+                  <img src="images/mainMenu3_2.jpg" alt="Cacti & Succulents">
+                </a>
+                <figcaption>Cacti &amp; Succulents</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-hangingBaskets1.html">
+                  <img src="images/mainMenu3_3.jpg" alt="Hanging Baskcts">
+                </a>
+                <figcaption>Hanging Baskcts</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Artificial Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Artificial Plants</strong>
+              <ol>
+                <li><a href="listPage-faux1.html">Faux</a></li>
+                <li><a href="listPage-artisanMoss1.html">Artisan Moss</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-faux1.html">
+                  <img src="images/mainMenu4_1.jpg" alt="Faux">
+                </a>
+                <figcaption>Faux</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-artisanMoss1.html">
+                  <img src="images/mainMenu4_2.jpg" alt="Artisan Moss">
+                </a>
+                <figcaption>Artisan Moss</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Plant Care</b>
+          <div class="sub">
+            <div>
+              <strong>Plant Care</strong>
+              <ol>
+                <li><a href="listPage-planters1.html">Planters</a></li>
+                <li><a href="listPage-supplies1.html">Supplies</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-planters1.html">
+                  <img src="images/mainMenu5_1.jpg" alt="Planters">
+                </a>
+                <figcaption>Planters</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-supplies1.html">
+                  <img src="images/mainMenu5_2.jpg" alt="Supplies">
+                </a>
+                <figcaption>Supplies</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="resourcesContainer">
+    <section class="pestsAndDisease101Visual">
+      <div>
+        <h2>Pests And Disease 101</h2>
+        <p>Learn about common pests and plant diseases, how to prevent them, and what to do to treat them when they
+          occur.</p>
+      </div>
+    </section>
+
+    <div class="onlineCoursesWrapper">
+      <input type="button" value="Back" class="backBtn">
+      <!-- 1 -->
+      <section>
+        <article class="twoColumn">
+          <h3>What are pests? </h3>
+          <p>Organisms that interfere with the growth and health of a plant. </p>
+          <div>
+            <strong class="anomalyStrong">How do they make their way into the home? </strong>
+            <ul>
+              <li>Soil </li>
+              <li>New plants </li>
+              <li>Plants from outdoors </li>
+              <li>Clothing </li>
+              <li>Air currents </li>
+            </ul>
+          </div>
+          <div>
+            <strong class="anomalyStrong">Common Indoor Pests </strong>
+            <ul>
+              <li>Mealybugs </li>
+              <li>Scale </li>
+              <li>Spider mites </li>
+              <li>Thrips </li>
+              <li>Fungus gnats</li>
+            </ul>
+          </div>
+        </article>
+
+        <h4>Overview</h4>
+        <p>Since some bags of soil are sold outdoors and aren't completely sealed pests can make their way in and lay
+          eggs. New plants is usually the primary way pests make their way into our homes when we don't inspect or treat
+          them when adding them to our collection, same when moving plants that were outside indoors. They can also grab
+          onto your clothing when laying in the grass, or from air currents from open windows or doors (spider mites,
+          fungus gnats).</p>
+        <p>While there are other plant pests out there Mealybugs, Scale, Spider mites, Thrips &amp; even Fungus gnats
+          are the most commonly found on indoor plants which we will be focusing on and discussing today.</p>
+      </section>
+      <!-- 2 -->
+      <section>
+        <article>
+          <div>
+            <h3>Prevention is the grower's first line of defense! </h3>
+            <ol>
+              <li>Inspect incoming plants (and flower bouquets!) for signs of bugs </li>
+              <li>Start with clean plant material (pot and tools) </li>
+              <li>Isolate new plants before assimilating into collection and treat upon arrival </li>
+              <li>Space out plants to reduce transmission </li>
+              <li>Groom and prune your plant regularly by removing dead leaves and avoid splashing water onto the
+                leaves.
+              </li>
+            </ol>
+          </div>
+          <img src="images/resources-onlineCourses-pestsAndDisease101-whatArePests1.png" alt="whatArePests1">
+        </article>
+
+        <h4>Prevention</h4>
+        <p>Prevention is the best way to keep pests away from your plants and from further spreading in the home. Floral
+          bouquets are also prone to having insects on them so be sure to check any incoming plants and even live
+          bouquets
+          you bring into the home for pests.</p>
+        <p>Make sure any planters you're using and tools for repotting are sterilized and clean if not brand new.</p>
+        <p>Spray any new plants coming into your space, and space them out from others in your collection to reduce the
+          spread if a pests rises. Even if you don't visibility see pests it's best to treat anyways since most can be
+          microscopic and hard to notice.</p>
+      </section>
+      <!-- 3 -->
+      <section>
+        <article>
+          <div>
+            <h3>If your plant gets infested </h3>
+            <ul>
+              <li>Quarantine away from other plants! </li>
+              <li>Dispose of heavily infested plants. </li>
+              <li>Wipe down places between plants. </li>
+              <li>Do not reuse tools without thorough cleaning before use. </li>
+              <li>For any treatment, repeat once every three days for three applications. If infestation persists,
+                repeat for another three applications.</li>
+            </ul>
+          </div>
+          <img src="images/resources-onlineCourses-pestsAndDisease101-whatArePests2.png" alt="whatArePests2">
+        </article>
+
+        <h4>How to Treat</h4>
+        <ul>
+          <li>Quarantine - It's best to isolate plants that are infested with a pest to reduce the spread to other
+            plants. At times, I like to keep plants with pests in a quarantined area away from others, usually in a
+            corner of my home where I have a grow light so they can still get the care they need without being close to
+            my other
+            plants in the window.
+          </li>
+          <li>Dispose - Sometimes when a plant is just so heavily infested it's best to just cut your losses and throw
+            it out rather than wasting time/money on treating it repeatedly and it possibly spreading to the rest of
+            your collection.
+          </li>
+          <li>Wipe Down - Pests, their eggs or even larvae can easily fall off a plant and surround the area they are
+            in. This is why when you find pests on a plant, you should inspect nearby plants and wipe down the surfaces
+            between where the plant was to help reduce the spread.
+          </li>
+        </ul>
+        <p class="pMargin">Always sterilize pruners or any tools you use between each plant, especially if one had a
+          pest. It's also
+          best to sterilize any pots that previously housed a plant with a pest in it to ensure there's no larvae/eggs
+          hanging around waiting for a new host.After you've completed the 3rd application and the problem persists, you
+          can treat again for another 3 applications but sometimes it's best to use an alternative method of treatment
+          since
+          pests can build resistance to the same treatment you keep using.</p>
+      </section>
+      <!-- 4 -->
+      <section>
+        <article class="twoColumn">
+          <h3>Modes of Action </h3>
+          <div>
+            <strong class="anomalyStrong" ng>Mechanical/ Physical Control: </strong>
+            <ul>
+              <li>Manual removal </li>
+              <li>Pruning off infested material </li>
+              <li class="anomalyUl">Physically hosing off pests </li>
+            </ul>
+            <strong class="anomalyStrong">Biological Control: </strong>
+            <ul>
+              <li>Predatory mites or beetles </li>
+              <li>Parasitic wasps or flies </li>
+              <li>Micro-organisms </li>
+            </ul>
+          </div>
+          <div>
+            <strong class="anomalyStrong">Chemical controls: </strong>
+            <ul>
+              <li>Pesticide vs Insecticide </li>
+              <li>Systemie vs Contact</li>
+            </ul>
+          </div>
+        </article>
+
+        <h4>Modes of Action</h4>
+        <ul>
+          <li>Manual Removal - Primarily done with Scale insects or spot treating adult mealybugs when you physically
+            see adults present.
+          </li>
+          <li>Pruning - At times if a plant is heavily infested in certain areas it's best to just prune off that
+            material to help eradicate them faster.
+          </li>
+          <li>Hosing Off - Taking your plant outside (if it's warm) or into your sink or shower with a hose to hose off
+            pests can make pest management a bit easier before treating with an insecticide. When doing so, make sure
+            the plant has completely dried from the water before treating.
+          </li>
+          <li>Biological Controls - These are predatory insects that are natural predators to these insects in the wild
+            that can do the work for you if you feel comfortable with having them in the home. They are primarily sold
+            online and shipped to you with instructions for use. They are primarily best for larger infestations or when
+            you have a bunch of plants riddled with pests. You release them onto your plants, and they only stay alive
+            as long as they have a food source. Therefore, they usually die off once there are no longer pests present
+            and
+            they won't come near you or roam around your house. However, there are some that are attracted to light so
+            some might accidentally fly toward your windows.
+          </li>
+          <li>Chemical Controls - A pesticide is used to kill off insects, fungus, bacteria, and plant diseases. While
+            an insecticide is used specifically to target and kill insects. Therefore, insecticide can be more useful in
+            killing off pests (which are insects except spider mites) rather than getting a pesticide used to treat a
+            wide array of things and may not be as effective. For spider mites, you want to make sure you get a
+            treatment
+            that labels them as a target pests since not all insecticides can treat spider mites.
+          </li>
+          <li>Systemic vs Contact - Systemic treatments are those that travel systemically through the plant tissue of
+            plants so once a pests takes a bite they die off. Whereas a contact treatment only kills pests upon contact
+            and while the solution is wet, so once the solution is dry if there are still pests they won't die until the
+            next treatment. Either or works depending on how you want to go about it in the best way for you.
+          </li>
+        </ul>
+      </section>
+
+      <div>
+        <a href="resources-onlineCourses-pestsAndDisease101-whatArePests.html" class="previousBtn nohover">Previous
+          Page</a>
+        <a href="resources-onlineCourses-pestsAndDisease101-commonPests.html" class="nextBtn">Next Page</a>
+      </div>
+    </div>
+  </article>
+
+  <footer>
+    <div>
+      <h2><img src="images/globla-logo.svg"  alt="Bye. The Sill"></h2>
+      <ul>
+        <li><a href="https://www.facebook.com/TheSillNYC/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/thesill/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/thesill" target="_blank">Youtube</a></li>
+        <li><a href="https://www.tiktok.com/@thesill" target="_blank">Tiktok</a></li>
+        <li><a href="https://x.com/thesill" target="_blank">Twitter</a></li>
+        <li><a href="https://www.pinterest.com/thesillnyc/" target="_blank">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div>
+        <h3>Get The Dirt.</h3>
+        <p>Get plant care tips, exclusive offers, &amp; 10% off your first order straight to your inbox.No spam, ever.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter Your Email Here ..." title="Enter Your Email Here">
+          <input type="submit" value="Subscribe" class="itpGreenBtn">
+        </form>
+      </div>
+
+      <div>
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="customerService-faq.html">FAQ</a></li>
+          <li><a href="customerService-shippingHanding.html">Shipping &amp; Handling</a></li>
+          <li><a href="customerService-30day.html">30-Day Guarantee</a></li>
+          <li><a href="customerService-contactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://thesill.typeform.com/find-your-plant">Find Your Plant</a></li>
+          <li><a href="https://www.thesill.com/pages/care-library">Plant Care Library</a></li>
+          <li><a href="resources-blog.html">Blog</a></li>
+          <li><a href="resources-onlineCourses.html">Free Online Courses</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>My Sill</h3>
+        <ul>
+          <li><a href="https://www.thesill.com/account">My Account</a></li>
+          <li><a href="https://www.thesill.com/account">Track My Order</a></li>
+          <li><a href="https://returns.thesill.com/">Returns Portal</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="explore-ourStory.html">Our Story</a></li>
+          <li><a href="explore-careers.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <a href="https://app.impact.com/campaign-campaign-info-v2/The-Sill.brand" class="uln">Affiliate Program</a>
+      <a href="legalLinks-termsOfUse.html" class="uln">Terms of Use</a>
+      <a href="legalLinks-privacyPolicy.html" class="uln">Privacy Policy</a>
+      <a href="legalLinks-accessibilityStatement.html" class="uln">Accessibility</a>
+      <a href="legalLinks-noticeToCaliforniaResidents.html" class="uln">Do Not Sell My Info</a>
+      <p>Copyright 2025 - The Sill, Inc.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

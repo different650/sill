@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sill</title>
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/sill.js"></script>
+
+  <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+  <div class="discountPopup">
+    <div>
+      <h2>Want 10% Off?</h2>
+      <p>Get the dirt and save on your first purchase when
+        you sign up today.</p>
+      <form>
+        <input type="email" placeholder="Email Address" title="Enter Your Email Here">
+        <input type="submit" value="Subscribe" class="itpGreenBtn">
+      </form>
+    </div>
+    <input type="button" value="close" class="bCloseBtn">
+  </div>
+
+  <header id="home">
+    <p>Free Shipping + 30-Day Guarantee</p>
+    <div>
+      <h1>
+        <a href="index.html">
+          <img src="images/globla-logo.svg"  alt="The Sill">
+        </a>
+      </h1>
+      <div>
+        <input type="search" placeholder="Search for plants..." title="search keyword" class="searchToggle">
+        <input type="button" value="search" data-toggle="searchToggle">
+
+        <a href="user-accountLogin.html">myAccount</a>
+
+        <div>
+          <button type="button" value="cart" data-panel="cartPanel">
+            <span>0</span>
+          </button>
+
+          <div class="cartPanel">
+            <div>
+              <h2>Your Cart</h2>
+              <p>0</p>
+              <p>You are $79 away from getting Free Shipping</p>
+              <progress value="0" max="79"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <p>Your cart is currently empty!</p>
+              <p>Find products that match your taste</p>
+              <a href="listPage-allPlants1.html" class="aBlackBtn">Shop Now</a>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$0</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$15</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+
+          <div class="cartPanelFilled">
+            <div>
+              <h2>Your Cart</h2>
+              <p>1</p>
+              <p>You are $8 away from getting Free Shipping</p>
+              <progress value="199" max="207"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <img src="images/list-allPlant-africanMilkTree.png" alt="africanMilkTree">
+              <div>
+                <ul>
+                  <li>AfricanMilkTree</li>
+                  <li>Large / Grant / Grey</li>
+                  <li>
+                    <button type="button" value="delete"></button>
+                  </li>
+                  <li>
+                    <div class="qtyComponent">
+                      <input type="button" value="-" class="minus">
+                      <input type="number" value="1" max="99">
+                      <input type="button" value="+" class="plus">
+                    </div>
+                    <span>$199</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <input type="checkbox" id="giftMessage">
+              <label for="giftMessage">Add gift message?</label>
+              <textarea id="message" cols="40" rows="4" placeholder="Your Notes..."></textarea>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$199</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$214</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <label for="mnav" class="mui">
+        Menu
+      </label>
+      <input type="checkbox" id="mnav" class="mui">
+      <ul>
+        <li>
+          <b>Indoor Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Indoor Plants</strong>
+              <ol>
+                <li><a href="listPage-allPlants1.html">All Plants</a></li>
+                <li><a href="listPage-petFriendly1.html">Pet-Friendly</a></li>
+                <li><a href="listPage-lowLight1.html">Low-Light</a></li>
+                <li><a href="listPage-largePlants1.html">Large Plants</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-petFriendly1.html">
+                  <img src="images/mainMenu1_1.jpg" alt="Pet-Friendly">
+                </a>
+                <figcaption>Pet-Friendly</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listpage-lowLight1.html">
+                  <img src="images/mainMenu1_2.jpg" alt="Low-Light">
+                </a>
+                <figcaption>Low-Light</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-largePlants1.html">
+                  <img src="images/mainMenu1_3.jpg" alt="Large Plants">
+                </a>
+                <figcaption>Large Plants</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Flowering Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Flowering Plants</strong>
+              <ol>
+                <li><a href="listPage-orchids1.html">Orchids</a></li>
+                <li><a href="listPage-blooms1.html">Blooms</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-orchids1.html">
+                  <img src="images/mainMenu2_1.jpg" alt="Orchids">
+                </a>
+                <figcaption>Orchids</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-blooms1.html">
+                  <img src="images/mainMenu2_2.jpg" alt="Blooms">
+                </a>
+                <figcaption>Blooms</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Greenleaf Collection</b>
+          <div class="sub">
+            <div>
+              <strong>Greenleaf Collection</strong>
+              <ol>
+                <li><a href="listPage-rarePlants1.html">Rare Plants</a></li>
+                <li><a href="listPage-cactiSucculents1.html">Cacti &amp; Succulents</a></li>
+                <li><a href="listPage-hangingBaskets1.html">Hanging Baskcts</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-rarePlants1.html">
+                  <img src="images/mainMenu3_1.jpg" alt="Rare Plants">
+                </a>
+                <figcaption>Rare Plants</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-cactiSucculents1.html">
+                  <img src="images/mainMenu3_2.jpg" alt="Cacti & Succulents">
+                </a>
+                <figcaption>Cacti &amp; Succulents</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-hangingBaskets1.html">
+                  <img src="images/mainMenu3_3.jpg" alt="Hanging Baskcts">
+                </a>
+                <figcaption>Hanging Baskcts</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Artificial Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Artificial Plants</strong>
+              <ol>
+                <li><a href="listPage-faux1.html">Faux</a></li>
+                <li><a href="listPage-artisanMoss1.html">Artisan Moss</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-faux1.html">
+                  <img src="images/mainMenu4_1.jpg" alt="Faux">
+                </a>
+                <figcaption>Faux</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-artisanMoss1.html">
+                  <img src="images/mainMenu4_2.jpg" alt="Artisan Moss">
+                </a>
+                <figcaption>Artisan Moss</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Plant Care</b>
+          <div class="sub">
+            <div>
+              <strong>Plant Care</strong>
+              <ol>
+                <li><a href="listPage-planters1.html">Planters</a></li>
+                <li><a href="listPage-supplies1.html">Supplies</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-planters1.html">
+                  <img src="images/mainMenu5_1.jpg" alt="Planters">
+                </a>
+                <figcaption>Planters</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-supplies1.html">
+                  <img src="images/mainMenu5_2.jpg" alt="Supplies">
+                </a>
+                <figcaption>Supplies</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="resourcesContainer">
+    <section class="succulentTerrarium101Visual">
+      <div>
+        <h2>Succulent Terrarium 101</h2>
+        <p>Learn how to build and care for your very own miniature desert with us. Purchase your own supplies ahead of
+          time or buy our kit online.</p>
+      </div>
+    </section>
+
+    <div class="onlineCoursesWrapper">
+      <input type="button" value="Back" class="backBtn">
+      <!-- 1 -->
+      <section>
+        <article class="twoColumn">
+            <h3>Tips &amp; Troubleshooting</h3>
+            <div>
+              <strong class="anomalyStrong">Pruning </strong>
+              <p>Most succulents don't need to be pruned unless to remove dead/lackluster plant material, or if youll be
+                propagating!
+              </p>
+              <strong class="anomalyStrong">Flowering</strong>
+              <p>Succulents have the ability to flower once a year- but are more likely to do so if placed outside
+                during
+                the growing season.</p>
+              <strong class="anomalyStrong">Leaf spots</strong>
+              <p>Could be fungal leaf spots from splashing water onto the foliage!</p>
+            </div>
+            <div>
+              <strong class="anomalyStrong">Yellowing</strong>
+              <p>It's natural for older leaves to die back which turn yellow. Otherwise, yellowing could be a sign of
+                overwatering or dehydration.
+              </p>
+              <strong class="anomalyStrong">Shriveled</strong>
+              <p>Normally a physical indication that your succulent is thirsty! </p>
+              <strong class="anomalyStrong">Toxicity </strong>
+              <p>Echeveria &amp; Haworthia are pet friendly. Some succulents though are considered to be irritating to
+                dogs
+                and cats upon ingestion. Best practice to always keep toxic plants out of reach of pets!</p>
+            </div>
+        </article>
+      </section>
+      <div>
+        <a href="resources-onlineCourses-succulentTerrarium101-terrariumBuilding.html"
+          class="previousBtn">Previous
+          Page</a>
+        <a href="resources-onlineCourses-succulentTerrarium101-tipsTroubleshooting.html" class="nextBtn nohover">Next Page</a>
+      </div>
+    </div>
+  </article>
+
+  <footer>
+    <div>
+      <h2><img src="images/globla-logo.svg"  alt="Bye. The Sill"></h2>
+      <ul>
+        <li><a href="https://www.facebook.com/TheSillNYC/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/thesill/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/thesill" target="_blank">Youtube</a></li>
+        <li><a href="https://www.tiktok.com/@thesill" target="_blank">Tiktok</a></li>
+        <li><a href="https://x.com/thesill" target="_blank">Twitter</a></li>
+        <li><a href="https://www.pinterest.com/thesillnyc/" target="_blank">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div>
+        <h3>Get The Dirt.</h3>
+        <p>Get plant care tips, exclusive offers, &amp; 10% off your first order straight to your inbox.No spam, ever.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter Your Email Here ..." title="Enter Your Email Here">
+          <input type="submit" value="Subscribe" class="itpGreenBtn">
+        </form>
+      </div>
+
+      <div>
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="customerService-faq.html">FAQ</a></li>
+          <li><a href="customerService-shippingHanding.html">Shipping &amp; Handling</a></li>
+          <li><a href="customerService-30day.html">30-Day Guarantee</a></li>
+          <li><a href="customerService-contactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://thesill.typeform.com/find-your-plant">Find Your Plant</a></li>
+          <li><a href="https://www.thesill.com/pages/care-library">Plant Care Library</a></li>
+          <li><a href="resources-blog.html">Blog</a></li>
+          <li><a href="resources-onlineCourses.html">Free Online Courses</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>My Sill</h3>
+        <ul>
+          <li><a href="https://www.thesill.com/account">My Account</a></li>
+          <li><a href="https://www.thesill.com/account">Track My Order</a></li>
+          <li><a href="https://returns.thesill.com/">Returns Portal</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="explore-ourStory.html">Our Story</a></li>
+          <li><a href="explore-careers.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <a href="https://app.impact.com/campaign-campaign-info-v2/The-Sill.brand" class="uln">Affiliate Program</a>
+      <a href="legalLinks-termsOfUse.html" class="uln">Terms of Use</a>
+      <a href="legalLinks-privacyPolicy.html" class="uln">Privacy Policy</a>
+      <a href="legalLinks-accessibilityStatement.html" class="uln">Accessibility</a>
+      <a href="legalLinks-noticeToCaliforniaResidents.html" class="uln">Do Not Sell My Info</a>
+      <p>Copyright 2025 - The Sill, Inc.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

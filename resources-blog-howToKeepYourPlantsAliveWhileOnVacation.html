@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sill</title>
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/sill.js"></script>
+
+  <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+  <div class="discountPopup">
+    <div>
+      <h2>Want 10% Off?</h2>
+      <p>Get the dirt and save on your first purchase when
+        you sign up today.</p>
+      <form>
+        <input type="email" placeholder="Email Address" title="Enter Your Email Here">
+        <input type="submit" value="Subscribe" class="itpGreenBtn">
+      </form>
+    </div>
+    <input type="button" value="close" class="bCloseBtn">
+  </div>
+
+  <header id="home">
+    <p>Free Shipping + 30-Day Guarantee</p>
+    <div>
+      <h1>
+        <a href="index.html">
+          <img src="images/globla-logo.svg"  alt="The Sill">
+        </a>
+      </h1>
+      <div>
+        <input type="search" placeholder="Search for plants..." title="search keyword" class="searchToggle">
+        <input type="button" value="search" data-toggle="searchToggle">
+
+        <a href="user-accountLogin.html">myAccount</a>
+
+        <div>
+          <button type="button" value="cart" data-panel="cartPanel">
+            <span>0</span>
+          </button>
+
+          <div class="cartPanel">
+            <div>
+              <h2>Your Cart</h2>
+              <p>0</p>
+              <p>You are $79 away from getting Free Shipping</p>
+              <progress value="0" max="79"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <p>Your cart is currently empty!</p>
+              <p>Find products that match your taste</p>
+              <a href="listPage-allPlants1.html" class="aBlackBtn">Shop Now</a>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$0</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$15</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+
+          <div class="cartPanelFilled">
+            <div>
+              <h2>Your Cart</h2>
+              <p>1</p>
+              <p>You are $8 away from getting Free Shipping</p>
+              <progress value="199" max="207"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <img src="images/list-allPlant-africanMilkTree.png" alt="africanMilkTree">
+              <div>
+                <ul>
+                  <li>AfricanMilkTree</li>
+                  <li>Large / Grant / Grey</li>
+                  <li>
+                    <button type="button" value="delete"></button>
+                  </li>
+                  <li>
+                    <div class="qtyComponent">
+                      <input type="button" value="-" class="minus">
+                      <input type="number" value="1" max="99">
+                      <input type="button" value="+" class="plus">
+                    </div>
+                    <span>$199</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <input type="checkbox" id="giftMessage">
+              <label for="giftMessage">Add gift message?</label>
+              <textarea id="message" cols="40" rows="4" placeholder="Your Notes..."></textarea>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$199</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$214</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <label for="mnav" class="mui">
+        Menu
+      </label>
+      <input type="checkbox" id="mnav" class="mui">
+      <ul>
+        <li>
+          <b>Indoor Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Indoor Plants</strong>
+              <ol>
+                <li><a href="listPage-allPlants1.html">All Plants</a></li>
+                <li><a href="listPage-petFriendly1.html">Pet-Friendly</a></li>
+                <li><a href="listPage-lowLight1.html">Low-Light</a></li>
+                <li><a href="listPage-largePlants1.html">Large Plants</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-petFriendly1.html">
+                  <img src="images/mainMenu1_1.jpg" alt="Pet-Friendly">
+                </a>
+                <figcaption>Pet-Friendly</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listpage-lowLight1.html">
+                  <img src="images/mainMenu1_2.jpg" alt="Low-Light">
+                </a>
+                <figcaption>Low-Light</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-largePlants1.html">
+                  <img src="images/mainMenu1_3.jpg" alt="Large Plants">
+                </a>
+                <figcaption>Large Plants</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Flowering Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Flowering Plants</strong>
+              <ol>
+                <li><a href="listPage-orchids1.html">Orchids</a></li>
+                <li><a href="listPage-blooms1.html">Blooms</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-orchids1.html">
+                  <img src="images/mainMenu2_1.jpg" alt="Orchids">
+                </a>
+                <figcaption>Orchids</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-blooms1.html">
+                  <img src="images/mainMenu2_2.jpg" alt="Blooms">
+                </a>
+                <figcaption>Blooms</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Greenleaf Collection</b>
+          <div class="sub">
+            <div>
+              <strong>Greenleaf Collection</strong>
+              <ol>
+                <li><a href="listPage-rarePlants1.html">Rare Plants</a></li>
+                <li><a href="listPage-cactiSucculents1.html">Cacti &amp; Succulents</a></li>
+                <li><a href="listPage-hangingBaskets1.html">Hanging Baskcts</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-rarePlants1.html">
+                  <img src="images/mainMenu3_1.jpg" alt="Rare Plants">
+                </a>
+                <figcaption>Rare Plants</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-cactiSucculents1.html">
+                  <img src="images/mainMenu3_2.jpg" alt="Cacti & Succulents">
+                </a>
+                <figcaption>Cacti &amp; Succulents</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-hangingBaskets1.html">
+                  <img src="images/mainMenu3_3.jpg" alt="Hanging Baskcts">
+                </a>
+                <figcaption>Hanging Baskcts</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Artificial Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Artificial Plants</strong>
+              <ol>
+                <li><a href="listPage-faux1.html">Faux</a></li>
+                <li><a href="listPage-artisanMoss1.html">Artisan Moss</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-faux1.html">
+                  <img src="images/mainMenu4_1.jpg" alt="Faux">
+                </a>
+                <figcaption>Faux</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-artisanMoss1.html">
+                  <img src="images/mainMenu4_2.jpg" alt="Artisan Moss">
+                </a>
+                <figcaption>Artisan Moss</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Plant Care</b>
+          <div class="sub">
+            <div>
+              <strong>Plant Care</strong>
+              <ol>
+                <li><a href="listPage-planters1.html">Planters</a></li>
+                <li><a href="listPage-supplies1.html">Supplies</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-planters1.html">
+                  <img src="images/mainMenu5_1.jpg" alt="Planters">
+                </a>
+                <figcaption>Planters</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-supplies1.html">
+                  <img src="images/mainMenu5_2.jpg" alt="Supplies">
+                </a>
+                <figcaption>Supplies</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="postContentContainer">
+    <input type="button" value="Back" class="backBtn">
+    <h2>How To Keep Your Plants Alive While On Vacation</h2>
+    <img src="images/blog-howToKeepYourPlantsAliveWhileOnVacation.png"
+      alt="How To Keep Your Plants Alive While On Vacation">
+    <div>
+      <p>Whether you'll be spending a long weekend warming up at the beach or a full month at home for the holidays,
+        we're sharing our top tips and tricks below for keeping your houseplants happy and healthy while you're away.
+      </p>
+      <p>It only takes a little time to prep your plants so you can focus on more important things, like packing!</p>
+    </div>
+
+    <ol>
+      <li>
+        <h3>1. Tweak Light &amp; Temperature</h3>
+        <p>The more sunlight your plant receives, the more thirsty it will be over time. This is for a few reasons, the
+          biggest being that plants utilize the most water during a process called transpiration, and the rate of
+          transpiration is dependent on, and increases with, the amount of sunlight the plant receives.</p>
+        <p>So the more natural light your plant is getting, the more water it'll need. To help your plants from wilting
+          while you're away from lack of water, you can move them a little bit further away from their source of natural
+          light. Place them in the middle of the room so that the heat and light from the windows does not dry them out
+          as fast as usual. Once you return, you can move your plants back to their usual spot. </p>
+        <p>If your plants were not receiving plenty of light to begin with, due to shorter winter days or obstructed
+          windows, you can decide to keep your plants where they are. A good way to determine is to ask yourself how
+          often you have to water a plant-if it's every week, you might want to adjust its placement. If it's every
+          other week due to lower light levels, no need to move.</p>
+        <p>And as always-whether you're home or away-never leave an air conditioning or heating system blasting on or
+          near a houseplant. Although a luxury for humans, ACs and heaters tends to rob your indoor environment of the
+          humidity most tropical plants crave. </p>
+      </li>
+      <li>
+        <h3>2. Maintain Moisture</h3>
+        <p>If you plan to be away for a week or less, watering your plants thoroughly before departure will be
+          sufficient. This is especially true during the winter months when plant growth slows and some plants even go
+          semi-dormant. Make sure you are only watering plants with dry or mostly dry potting soil. Let any excess water
+          drain from your potted plant before you're on your way, so the potting soil is moist but your plants are not
+          sitting in a saucer of water, which could attract pests or lead to root rot. Note this is only necessary for
+          plants that need to be watered once a week or more. Drought-tolerant houseplants, like succulents and cacti,
+          or slow growers due to season, will be fine for a week or two without water. </p>
+        <p class="exclude">If you plan to be away for more than a full week, there are a couple of ways to prepare your plant. Try one
+          of the tips below or a combination, depending on the length of your trip, the variety of plant, and the time
+          of year. Keep in mind: how often do I usually water this plant? </p>
+        <ul>
+          <li>Add lava rocks, mulch, or wood chips to the top of your plant's soil to help hold moisture before giving
+            dry soil a good soaking. Damp newspaper can also do the trick. This will help the soil stay moist for
+            longer. </li>
+          <li>Water your plant thoroughly and then cover with a clear plastic bag to just below the lip of the planter,
+            creating a makeshift greenhouse. Make sure to cut a couple slits in the plastic to allow for ample air
+            circulation... plants need to breathe, too! Use sticks (or leftover chopsticks) to hold the bag up and away
+            from the foliage. You want to make sure no foliage is touching the bag. </li>
+          <li>Line a shallow tray with small rocks and fill the tray up with water to slightly beneath the top of the
+            rocks. Set your planter on top of the rocks-the base of the planter should not be touching or sitting
+            directly in the idle water but right above it. This will help to increase humidity and moisture levels, but
+            should not lead to over-watering or root rot.</li>
+          <li>Transport your humidity-loving plants, like ferns and air plants, to your bathroom (provided you have a
+            window that receives some natural light) or another small room and group them together. The smaller the
+            room, the easier it is for your plants to maintain humidity and moisture. </li>
+          <li>DIY self-watering system with capillary wicks or empty bottles:
+            <ul>
+              <li>Submerge one end of the capillary wick in a basin of water (choose the size of the water container
+                based on how long you'll be away for) and the other end of the wick into your plant's potting mix. Your
+                plant will pull the water it needs through the wick while you're away. (Our team's preferred method!)
+              </li>
+              <li>Upcycle old plastic or glass bottles by filling the bottle with water and puncturing the bottle top.
+                Make sure the hole is small enough that water will be released slowly, over time. Flip your filled
+                bottle upside down and stick the top of the bottle, with the punctured bottle top, deep into your
+                plant's potting soil.</li>
+            </ul>
+          </li>
+          <li>Call on a friend. If you're going to be away for an extended period of time (over a month) and have a
+            friend that's willing to water your houseplants for you-take them up on the offer! Leave your friend with
+            clear written instructions, or walk them through your care routine a week or two beforehand. We won't judge
+            if you ask them for photo updates while you're gone. Just make sure to bring them back a souvenir. </li>
+        </ul>
+      </li>
+      <li>
+        <h3>3. Forgo Fertilizer</h3>
+        <p>If you occasionally use fertilizer on your houseplants, make sure to hold off on fertilizing until you return
+          from your trip. Do not fertilize your plants in the weeks prior to your departure. You'll want your plants to
+          grow as slowly as possible while you're gone, which will help them to conserve energy and water.</p>
+      </li>
+      <li>
+        <h3>4. Prune Away</h3>
+        <p>In addition to pruning off any dead, dying, or unhealthy-looking foliage, you can prune off any buds and
+          flowers, which usually require more frequent waterings to stay healthy.</p>
+        <p>The tips above apply to mostly tropical foliage plants. When it comes to drought-tolerant plants like
+          succulents, ZZ plants, and snake plants, they can go over a month without watering, especially if placed out
+          of direct light. If you're an avid traveler, drought-tolerant plants are the plants for you.</p>
+        <p>Whatever preparation you take, give yourself a big pat on the back when you return to a healthy and happy
+          houseplant. It missed you, too. </p>
+      </li>
+    </ol>
+  </article>
+
+  <footer>
+    <div>
+      <h2><img src="images/globla-logo.svg"  alt="Bye. The Sill"></h2>
+      <ul>
+        <li><a href="https://www.facebook.com/TheSillNYC/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/thesill/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/thesill" target="_blank">Youtube</a></li>
+        <li><a href="https://www.tiktok.com/@thesill" target="_blank">Tiktok</a></li>
+        <li><a href="https://x.com/thesill" target="_blank">Twitter</a></li>
+        <li><a href="https://www.pinterest.com/thesillnyc/" target="_blank">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div>
+        <h3>Get The Dirt.</h3>
+        <p>Get plant care tips, exclusive offers, &amp; 10% off your first order straight to your inbox.No spam, ever.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter Your Email Here ..." title="Enter Your Email Here">
+          <input type="submit" value="Subscribe" class="itpGreenBtn">
+        </form>
+      </div>
+
+      <div>
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="customerService-faq.html">FAQ</a></li>
+          <li><a href="customerService-shippingHanding.html">Shipping &amp; Handling</a></li>
+          <li><a href="customerService-30day.html">30-Day Guarantee</a></li>
+          <li><a href="customerService-contactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://thesill.typeform.com/find-your-plant">Find Your Plant</a></li>
+          <li><a href="https://www.thesill.com/pages/care-library">Plant Care Library</a></li>
+          <li><a href="resources-blog.html">Blog</a></li>
+          <li><a href="resources-onlineCourses.html">Free Online Courses</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>My Sill</h3>
+        <ul>
+          <li><a href="https://www.thesill.com/account">My Account</a></li>
+          <li><a href="https://www.thesill.com/account">Track My Order</a></li>
+          <li><a href="https://returns.thesill.com/">Returns Portal</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="explore-ourStory.html">Our Story</a></li>
+          <li><a href="explore-careers.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <a href="https://app.impact.com/campaign-campaign-info-v2/The-Sill.brand" class="uln">Affiliate Program</a>
+      <a href="legalLinks-termsOfUse.html" class="uln">Terms of Use</a>
+      <a href="legalLinks-privacyPolicy.html" class="uln">Privacy Policy</a>
+      <a href="legalLinks-accessibilityStatement.html" class="uln">Accessibility</a>
+      <a href="legalLinks-noticeToCaliforniaResidents.html" class="uln">Do Not Sell My Info</a>
+      <p>Copyright 2025 - The Sill, Inc.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

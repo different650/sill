@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sill</title>
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/sill.js"></script>
+
+  <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+  <div class="discountPopup">
+    <div>
+      <h2>Want 10% Off?</h2>
+      <p>Get the dirt and save on your first purchase when
+        you sign up today.</p>
+      <form>
+        <input type="email" placeholder="Email Address" title="Enter Your Email Here">
+        <input type="submit" value="Subscribe" class="itpGreenBtn">
+      </form>
+    </div>
+    <input type="button" value="close" class="bCloseBtn">
+  </div>
+
+  <header id="home">
+    <p>Free Shipping + 30-Day Guarantee</p>
+    <div>
+      <h1>
+        <a href="index.html">
+          <img src="images/globla-logo.svg"  alt="The Sill">
+        </a>
+      </h1>
+      <div>
+        <input type="search" placeholder="Search for plants..." title="search keyword" class="searchToggle">
+        <input type="button" value="search" data-toggle="searchToggle">
+
+        <a href="user-accountLogin.html">myAccount</a>
+
+        <div>
+          <button type="button" value="cart" data-panel="cartPanel">
+            <span>0</span>
+          </button>
+
+          <div class="cartPanel">
+            <div>
+              <h2>Your Cart</h2>
+              <p>0</p>
+              <p>You are $79 away from getting Free Shipping</p>
+              <progress value="0" max="79"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <p>Your cart is currently empty!</p>
+              <p>Find products that match your taste</p>
+              <a href="listPage-allPlants1.html" class="aBlackBtn">Shop Now</a>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$0</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$15</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+
+          <div class="cartPanelFilled">
+            <div>
+              <h2>Your Cart</h2>
+              <p>1</p>
+              <p>You are $8 away from getting Free Shipping</p>
+              <progress value="199" max="207"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <img src="images/list-allPlant-africanMilkTree.png" alt="africanMilkTree">
+              <div>
+                <ul>
+                  <li>AfricanMilkTree</li>
+                  <li>Large / Grant / Grey</li>
+                  <li>
+                    <button type="button" value="delete"></button>
+                  </li>
+                  <li>
+                    <div class="qtyComponent">
+                      <input type="button" value="-" class="minus">
+                      <input type="number" value="1" max="99">
+                      <input type="button" value="+" class="plus">
+                    </div>
+                    <span>$199</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <input type="checkbox" id="giftMessage">
+              <label for="giftMessage">Add gift message?</label>
+              <textarea id="message" cols="40" rows="4" placeholder="Your Notes..."></textarea>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$199</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$214</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <label for="mnav" class="mui">
+        Menu
+      </label>
+      <input type="checkbox" id="mnav" class="mui">
+      <ul>
+        <li>
+          <b>Indoor Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Indoor Plants</strong>
+              <ol>
+                <li><a href="listPage-allPlants1.html">All Plants</a></li>
+                <li><a href="listPage-petFriendly1.html">Pet-Friendly</a></li>
+                <li><a href="listPage-lowLight1.html">Low-Light</a></li>
+                <li><a href="listPage-largePlants1.html">Large Plants</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-petFriendly1.html">
+                  <img src="images/mainMenu1_1.jpg" alt="Pet-Friendly">
+                </a>
+                <figcaption>Pet-Friendly</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listpage-lowLight1.html">
+                  <img src="images/mainMenu1_2.jpg" alt="Low-Light">
+                </a>
+                <figcaption>Low-Light</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-largePlants1.html">
+                  <img src="images/mainMenu1_3.jpg" alt="Large Plants">
+                </a>
+                <figcaption>Large Plants</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Flowering Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Flowering Plants</strong>
+              <ol>
+                <li><a href="listPage-orchids1.html">Orchids</a></li>
+                <li><a href="listPage-blooms1.html">Blooms</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-orchids1.html">
+                  <img src="images/mainMenu2_1.jpg" alt="Orchids">
+                </a>
+                <figcaption>Orchids</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-blooms1.html">
+                  <img src="images/mainMenu2_2.jpg" alt="Blooms">
+                </a>
+                <figcaption>Blooms</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Greenleaf Collection</b>
+          <div class="sub">
+            <div>
+              <strong>Greenleaf Collection</strong>
+              <ol>
+                <li><a href="listPage-rarePlants1.html">Rare Plants</a></li>
+                <li><a href="listPage-cactiSucculents1.html">Cacti &amp; Succulents</a></li>
+                <li><a href="listPage-hangingBaskets1.html">Hanging Baskcts</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-rarePlants1.html">
+                  <img src="images/mainMenu3_1.jpg" alt="Rare Plants">
+                </a>
+                <figcaption>Rare Plants</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-cactiSucculents1.html">
+                  <img src="images/mainMenu3_2.jpg" alt="Cacti & Succulents">
+                </a>
+                <figcaption>Cacti &amp; Succulents</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-hangingBaskets1.html">
+                  <img src="images/mainMenu3_3.jpg" alt="Hanging Baskcts">
+                </a>
+                <figcaption>Hanging Baskcts</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Artificial Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Artificial Plants</strong>
+              <ol>
+                <li><a href="listPage-faux1.html">Faux</a></li>
+                <li><a href="listPage-artisanMoss1.html">Artisan Moss</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-faux1.html">
+                  <img src="images/mainMenu4_1.jpg" alt="Faux">
+                </a>
+                <figcaption>Faux</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-artisanMoss1.html">
+                  <img src="images/mainMenu4_2.jpg" alt="Artisan Moss">
+                </a>
+                <figcaption>Artisan Moss</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Plant Care</b>
+          <div class="sub">
+            <div>
+              <strong>Plant Care</strong>
+              <ol>
+                <li><a href="listPage-planters1.html">Planters</a></li>
+                <li><a href="listPage-supplies1.html">Supplies</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-planters1.html">
+                  <img src="images/mainMenu5_1.jpg" alt="Planters">
+                </a>
+                <figcaption>Planters</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-supplies1.html">
+                  <img src="images/mainMenu5_2.jpg" alt="Supplies">
+                </a>
+                <figcaption>Supplies</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="resourcesContainer">
+    <section class="winterPlantCareVisual">
+      <div>
+        <h2>Winter Plant Care</h2>
+        <p>In this course, we're talking about all things winter and how you should care for your plants now that the
+          temperatures have dropped and the days are shorter.</p>
+      </div>
+    </section>
+
+    <div class="onlineCoursesWrapper">
+      <input type="button" value="Back" class="backBtn">
+      <!-- 1 -->
+      <section>
+        <article>
+          <div>
+            <h3>Light changes</h3>
+            <p>One of the reasons we change care with the seasons is because light changes from season to season.
+              Seasonality changes the directionality and angle of light when a <strong>solstice</strong> or
+              <strong>equinox</strong> occurs.
+            </p>
+            <p class="anomalyP">You have less light than you think that you do,
+              especially during the <strong>Winter</strong> season. It'11 be ideal to move your plants closer to a
+              window
+              if they aren't in one already to maximize light absorption for your plants.</p>
+          </div>
+          <img src="images/resources-onlineCourses-winterPlantCare-lightChanges1.png" alt="lightChanges1">
+        </article>
+
+        <h4>Watering Schedule</h4>
+        <p>If you're unsure of what a solstice or equinox is, a solstice (we have a Summer &amp; Winter solstice) is when
+          the
+          sun meets the point on the horizon and stops and reverses in direction, resulting in a change in length of
+          night
+          and day. It is when the sun is at its greatest distance from the celestial equator. An equinox, is when the
+          sun
+          crosses and stays exactly above the celestial equator indicating that the hours of each night is of equal
+          length.</p>
+        <p>The importance of understanding these solstices or equinoxes is that they change the relative hours of day
+          and
+          night. When daylight hours change it can certainly impact our plants response to growth. The duration of light
+          diminishes during the Winter months where we only get about 8-9 hours of daylight meaning that our plants will
+          grow more slowly or go dormant. Whereas, during the growing season (after the Spring equinox &amp; Summer
+          Solstice)
+          daylight hours are longer and more favorable for plant growth.</p>
+        <p>For city dwellers, if you live higher up, say, on the 22nd floor, you receive MUCH brighter light than a 1st
+          or
+          3rd floor window would since your angle to the sun will be much closer and you'll most likely have no
+          obstructions. Be sure to consider window size, and obstructions indoors and outdoors that could be blocking
+          your
+          plants view of the sky.</p>
+      </section>
+      <!-- 2 -->
+      <section>
+        <article>
+          <h3>Grow Lights </h3>
+          <p>Sometimes, <strong>if natural lighting isn't enough</strong> for our plants in the Winter, especially if
+            you
+            want to maintain a collection away from your windows, grow lights can be considered.</p>
+          <p><strong>Grow lights</strong> are supplemental light designed to stimulate plant growth. When looking for an
+            ideal grow light for your plants there are a few specifications to look out for on the packaging: </p>
+          <ul>
+            <li>Lumens: total amount of visible light </li>
+            <li>Kelvin: color-rendering scale to describe the hue a bulb emits (typically from 3000K-6500K). </li>
+            <li>Watts: amount of energy needed to use a light bulb. </li>
+            <li>CRI: Color Rendering Index (from 1-100) the measure of how close the colors are to natural sunlight.
+            </li>
+          </ul>
+        </article>
+
+        <h4>Grow Lights</h4>
+        <ul>
+          <li>Grow Lights - Regular bulbs we have in our home can't work to stimulate growth for our plants because they
+            are designed for our eyes in mind. The intensity of light is often weak and not strong enough to promote
+            growth. They are also not in the right wavelength spectrum and emit green wavelengths. Plants need red and
+            blue wavelengths or full spectrum light to most sufficiently drive photosynthesis for plants.
+          </li>
+          <li>Distance/Duration - Best to leave grow lights on for a minimum of 8 hours but never exceed 16 hours.
+            Bright
+            light plants should get between 10-12 hours of light though, and plants like succulents and cacti can get as
+            much as 16 hours of daylight if you're 100% compensating for natural light. Outlet timers are available on
+            the
+            market or with purchase of some grow lights. The distance may vary depending on the intensity of your bulb,
+            but generally 1-2 feet above plants is ideal.
+          </li>
+          <li>Lumens - Indicates how bright the light will be and the higher the lumens on a bulb the better for your
+            plants. Ideally it's best to pick a bulb that has at least 800 lumens or more, especially for bright light
+            plants. Low light tolerant plants can benefit from a grow bulb that has a minimum of 300-500 lumens.
+          </li>
+          <li>Kelvin - A scale between 2000K-4000K indicates the light will give off a redder, warmer light. A scale
+            between 5000-65000K indicates the light will give off a bluer, cooler light. Understanding these colors can
+            let you know how the light will look in your home aesthetically, but warmer light also helps to stimulate
+            stretching/flowering while cooler light stimulates compact and vegetative growth.
+          </li>
+          <li>Watts - Has nothing to do with plant growth and is just letting you know how much energy will be needed to
+            use the bulb. You should only care about this if you care about your electric bill.
+          </li>
+          <li>CRI - The higher the CRI rating the better for your plants. Best to aim for a bulb that has a CRI rating
+            of
+            90 or higher.
+            /li>
+        </ul>
+      </section>
+      <!-- 3 -->
+      <section>
+        <article>
+          <div>
+            <h3>Tricks to Regulate Light </h3>
+            <ul>
+              <li>Use mirrors to aid low light windows. </li>
+              <li>White walls/ backgrounds help with brightness. </li>
+              <li>Hang plants to make most use of windows! </li>
+              <li>Keep windows and leaves clean so plants can maximize light absorption. </li>
+              <li>Light does not bend. If your plant is right next to or underneath a window, it will not receive enough
+                light.</li>
+              <li>Experiment with artificial light.</li>
+            </ul>
+          </div>
+          <img src="images/resources-onlineCourses-winterPlantCare-lightChanges2.png" alt="lightChanges2">
+        </article>
+
+        <h4>Regulate Light</h4>
+        <ul>
+          <li>Mirrors can work to bounce light for low light plants in low light areas but are not very effective for
+            bright light plants in low light areas. Bright light plants should be placed in bright light areas only.
+            Mirrors can only help to bounce off light in low light areas to help maximize light absorption for low light
+            tolerant plants.
+          </li>
+          <li>If you're renovating or finding a new space to live, consider white walls and backgrounds as this helps to
+            reflect and bounce light off into the space to provide more for your plants. Whereas, dark walls and
+            backgrounds would absorb the extra light in the room your plants can benefit from.
+          </li>
+          <li>Use items like macrame or ceiling hangers to hang plants in the windows- don't limit yourself to just your
+            sills! You can also utilize plant stands and any kind of shelving to elevate plants from the ground to keep
+            them in line with a window.
+          </li>
+          <li>Cleaning your windows can help to make sure your plants are getting plenty of light- sometimes you won't
+            believe how dirty your windows are and how that film can be obstructing the light coming in! We are going to
+            dive more into depth on leaf cleaning and its importance in the upcoming slides.
+          </li>
+          <li>Light always appears brighter to our eyes in a room which is why at times it may make sense to place
+            plants far from windows or off to the side/under a window. However, it's best to keep plants directly in line with
+            a window since they get light from their view of the sky/outside and not ambient light being spread into a
+            room at a great distance.
+          </li>
+        </ul>
+      </section>
+
+      <div>
+        <a href="resources-onlineCourses-winterPlantCare-lightChanges.html" class="previousBtn nohover">Previous Page</a>
+        <a href="resources-onlineCourses-winterPlantCare-environment.html"class="nextBtn">Next Page</a>
+      </div>
+    </div>
+  </article>
+
+  <footer>
+    <div>
+      <h2><img src="images/globla-logo.svg"  alt="Bye. The Sill"></h2>
+      <ul>
+        <li><a href="https://www.facebook.com/TheSillNYC/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/thesill/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/thesill" target="_blank">Youtube</a></li>
+        <li><a href="https://www.tiktok.com/@thesill" target="_blank">Tiktok</a></li>
+        <li><a href="https://x.com/thesill" target="_blank">Twitter</a></li>
+        <li><a href="https://www.pinterest.com/thesillnyc/" target="_blank">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div>
+        <h3>Get The Dirt.</h3>
+        <p>Get plant care tips, exclusive offers, &amp; 10% off your first order straight to your inbox.No spam, ever.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter Your Email Here ..." title="Enter Your Email Here">
+          <input type="submit" value="Subscribe" class="itpGreenBtn">
+        </form>
+      </div>
+
+      <div>
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="customerService-faq.html">FAQ</a></li>
+          <li><a href="customerService-shippingHanding.html">Shipping &amp; Handling</a></li>
+          <li><a href="customerService-30day.html">30-Day Guarantee</a></li>
+          <li><a href="customerService-contactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://thesill.typeform.com/find-your-plant">Find Your Plant</a></li>
+          <li><a href="https://www.thesill.com/pages/care-library">Plant Care Library</a></li>
+          <li><a href="resources-blog.html">Blog</a></li>
+          <li><a href="resources-onlineCourses.html">Free Online Courses</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>My Sill</h3>
+        <ul>
+          <li><a href="https://www.thesill.com/account">My Account</a></li>
+          <li><a href="https://www.thesill.com/account">Track My Order</a></li>
+          <li><a href="https://returns.thesill.com/">Returns Portal</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="explore-ourStory.html">Our Story</a></li>
+          <li><a href="explore-careers.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <a href="https://app.impact.com/campaign-campaign-info-v2/The-Sill.brand" class="uln">Affiliate Program</a>
+      <a href="legalLinks-termsOfUse.html" class="uln">Terms of Use</a>
+      <a href="legalLinks-privacyPolicy.html" class="uln">Privacy Policy</a>
+      <a href="legalLinks-accessibilityStatement.html" class="uln">Accessibility</a>
+      <a href="legalLinks-noticeToCaliforniaResidents.html" class="uln">Do Not Sell My Info</a>
+      <p>Copyright 2025 - The Sill, Inc.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sill</title>
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/sill.js"></script>
+
+  <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+  <div class="discountPopup">
+    <div>
+      <h2>Want 10% Off?</h2>
+      <p>Get the dirt and save on your first purchase when
+        you sign up today.</p>
+      <form>
+        <input type="email" placeholder="Email Address" title="Enter Your Email Here">
+        <input type="submit" value="Subscribe" class="itpGreenBtn">
+      </form>
+    </div>
+    <input type="button" value="close" class="bCloseBtn">
+  </div>
+
+  <header id="home">
+    <p>Free Shipping + 30-Day Guarantee</p>
+    <div>
+      <h1>
+        <a href="index.html">
+          <img src="images/globla-logo.svg"  alt="The Sill">
+        </a>
+      </h1>
+      <div>
+        <input type="search" placeholder="Search for plants..." title="search keyword" class="searchToggle">
+        <input type="button" value="search" data-toggle="searchToggle">
+
+        <a href="user-accountLogin.html">myAccount</a>
+
+        <div>
+          <button type="button" value="cart" data-panel="cartPanel">
+            <span>0</span>
+          </button>
+
+          <div class="cartPanel">
+            <div>
+              <h2>Your Cart</h2>
+              <p>0</p>
+              <p>You are $79 away from getting Free Shipping</p>
+              <progress value="0" max="79"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <p>Your cart is currently empty!</p>
+              <p>Find products that match your taste</p>
+              <a href="listPage-allPlants1.html" class="aBlackBtn">Shop Now</a>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$0</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$15</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+
+          <div class="cartPanelFilled">
+            <div>
+              <h2>Your Cart</h2>
+              <p>1</p>
+              <p>You are $8 away from getting Free Shipping</p>
+              <progress value="199" max="207"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <img src="images/list-allPlant-africanMilkTree.png" alt="africanMilkTree">
+              <div>
+                <ul>
+                  <li>AfricanMilkTree</li>
+                  <li>Large / Grant / Grey</li>
+                  <li>
+                    <button type="button" value="delete"></button>
+                  </li>
+                  <li>
+                    <div class="qtyComponent">
+                      <input type="button" value="-" class="minus">
+                      <input type="number" value="1" max="99">
+                      <input type="button" value="+" class="plus">
+                    </div>
+                    <span>$199</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <input type="checkbox" id="giftMessage">
+              <label for="giftMessage">Add gift message?</label>
+              <textarea id="message" cols="40" rows="4" placeholder="Your Notes..."></textarea>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$199</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$214</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <label for="mnav" class="mui">
+        Menu
+      </label>
+      <input type="checkbox" id="mnav" class="mui">
+      <ul>
+        <li>
+          <b>Indoor Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Indoor Plants</strong>
+              <ol>
+                <li><a href="listPage-allPlants1.html">All Plants</a></li>
+                <li><a href="listPage-petFriendly1.html">Pet-Friendly</a></li>
+                <li><a href="listPage-lowLight1.html">Low-Light</a></li>
+                <li><a href="listPage-largePlants1.html">Large Plants</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-petFriendly1.html">
+                  <img src="images/mainMenu1_1.jpg" alt="Pet-Friendly">
+                </a>
+                <figcaption>Pet-Friendly</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listpage-lowLight1.html">
+                  <img src="images/mainMenu1_2.jpg" alt="Low-Light">
+                </a>
+                <figcaption>Low-Light</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-largePlants1.html">
+                  <img src="images/mainMenu1_3.jpg" alt="Large Plants">
+                </a>
+                <figcaption>Large Plants</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Flowering Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Flowering Plants</strong>
+              <ol>
+                <li><a href="listPage-orchids1.html">Orchids</a></li>
+                <li><a href="listPage-blooms1.html">Blooms</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-orchids1.html">
+                  <img src="images/mainMenu2_1.jpg" alt="Orchids">
+                </a>
+                <figcaption>Orchids</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-blooms1.html">
+                  <img src="images/mainMenu2_2.jpg" alt="Blooms">
+                </a>
+                <figcaption>Blooms</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Greenleaf Collection</b>
+          <div class="sub">
+            <div>
+              <strong>Greenleaf Collection</strong>
+              <ol>
+                <li><a href="listPage-rarePlants1.html">Rare Plants</a></li>
+                <li><a href="listPage-cactiSucculents1.html">Cacti &amp; Succulents</a></li>
+                <li><a href="listPage-hangingBaskets1.html">Hanging Baskcts</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-rarePlants1.html">
+                  <img src="images/mainMenu3_1.jpg" alt="Rare Plants">
+                </a>
+                <figcaption>Rare Plants</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-cactiSucculents1.html">
+                  <img src="images/mainMenu3_2.jpg" alt="Cacti & Succulents">
+                </a>
+                <figcaption>Cacti &amp; Succulents</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-hangingBaskets1.html">
+                  <img src="images/mainMenu3_3.jpg" alt="Hanging Baskcts">
+                </a>
+                <figcaption>Hanging Baskcts</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Artificial Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Artificial Plants</strong>
+              <ol>
+                <li><a href="listPage-faux1.html">Faux</a></li>
+                <li><a href="listPage-artisanMoss1.html">Artisan Moss</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-faux1.html">
+                  <img src="images/mainMenu4_1.jpg" alt="Faux">
+                </a>
+                <figcaption>Faux</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-artisanMoss1.html">
+                  <img src="images/mainMenu4_2.jpg" alt="Artisan Moss">
+                </a>
+                <figcaption>Artisan Moss</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Plant Care</b>
+          <div class="sub">
+            <div>
+              <strong>Plant Care</strong>
+              <ol>
+                <li><a href="listPage-planters1.html">Planters</a></li>
+                <li><a href="listPage-supplies1.html">Supplies</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-planters1.html">
+                  <img src="images/mainMenu5_1.jpg" alt="Planters">
+                </a>
+                <figcaption>Planters</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-supplies1.html">
+                  <img src="images/mainMenu5_2.jpg" alt="Supplies">
+                </a>
+                <figcaption>Supplies</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="detailContainer">
+    <div>
+      <aside>
+        <h2 class="lowLightTitle">
+          <small>Low-Light</small>
+          <small>Large Plants</small>
+          Large Dracaena Warneckii
+        </h2>
+
+        <ul class="detailedImage">
+          <li><img src="images/product-largeDracaenaWarneckii_large.png" alt="Large Dracaena Warneckii"></li>
+          <li><img src="images/product-largeDracaenaWarneckii_detail1.png" alt="Detail1"></li>
+          <li><img src="images/product-largeDracaenaWarneckii_detail2.png" alt="Detail2"></li>
+        </ul>
+
+        <figure>
+          <img src="images/product-largeDracaenaWarneckii_large.png" alt="Large Dracaena Warneckii">
+          <figcaption>
+            <ol>
+              <li>Home</li>
+              <li>Low-Light</li>
+              <li>Large Dracaena Warneckii</li>
+            </ol>
+          </figcaption>
+        </figure>
+      </aside>
+
+      <aside class="productOptions">
+        <div class="sizePopup">
+          <div>
+            <h3>Planter Size Guide</h3>
+            <p>Because the height of plants varies, we use the width of the planters they come in for size.</p>
+          </div>
+          <ol>
+            <li>
+              <h4>Small</h4>
+              <p>Approximately 5" in diameter, fits plants in a 4" grow pot or smaller</p>
+            </li>
+            <li>
+              <h4>Medium</h4>
+              <p>Approximately 7" in diameter, fits plants in a 6" grow pot or smaller</p>
+            </li>
+            <li>
+              <h4>Large</h4>
+              <p>Approximately 10-12" in diameter, fits plants in a 10" grow pot or smaller</p>
+            </li>
+          </ol>
+
+          <input type="button" value="close" class="wCloseBtn">
+        </div>
+
+        <div class="stylePopup">
+          <div>
+            <h3>Planter Style Guide</h3>
+            <p>Our planters are made from the highest quality materials, and designed to complement a range of styles.
+            </p>
+          </div>
+          <div>
+            <section>
+              <h4>Ceramic Planters</h4>
+              <ol>
+                <li>
+                  <h5>Grant</h5>
+                  <p>No drainage hole; use as cache pot or add lava rocks</p>
+                </li>
+                <li>
+                  <h5>Hyde</h5>
+                  <p>Includes drainage hole &amp; matching saucer</p>
+                </li>
+              </ol>
+            </section>
+
+            <section>
+              <h4>No Exterior Planter</h4>
+              <ol>
+                <li>
+                  <h5>Grow Pot</h5>
+                  <p>Plastic container with drainage holes used by our greenhouse</p>
+                </li>
+              </ol>
+            </section>
+
+            <section>
+              <h4>Porcelain Planters</h4>
+              <ol>
+                <li>
+                  <h5>Isabella</h5>
+                  <p>Includes drainage hole and matching saucer</p>
+                </li>
+                <li>
+                  <h5>Marianne</h5>
+                  <p>No drainage hole; use as cache pot or add lava rocks</p>
+                </li>
+              </ol>
+            </section>
+
+            <section>
+              <h4>Fiberglass Planters</h4>
+              <ol>
+                <li>
+                  <h5>Pallas</h5>
+                  <p>No drainage hole; use as cache pot or add lava rocks</p>
+                </li>
+                <li>
+                  <h5>Mexia</h5>
+                  <p>Lightweight fiberglass with a drainage hole and removable stopper </p>
+                </li>
+              </ol>
+            </section>
+          </div>
+          <input type="button" value="close" class="wCloseBtn">
+        </div>
+
+        <fieldset class="price">
+          <legend>Price</legend>
+          <strong>$279</strong>
+        </fieldset>
+
+        <!-- Size 선택 -->
+        <fieldset class="size">
+          <legend>Size</legend>
+          <input type="button" value="Size Guide" data-popup="sizePopup" class="uln">
+
+          <!-- <input type="radio" name="size" id="size_s">
+          <label for="size_s">Small</label>
+
+          <input type="radio" name="size" id="size_m">
+          <label for="size_m">Medium</label> -->
+
+          <input type="radio" name="size" id="size_l" checked>
+          <label for="size_l">Large</label>
+        </fieldset>
+
+        <!-- Planter 선택 -->
+        <fieldset class="planter">
+          <legend>Planter</legend>
+          <input type="button" value="Style Guide" data-popup="stylePopup" class="uln">
+
+          <input type="radio" name="planter" id="grant" data-color="colorListGrant">
+          <label for="grant" class="out">Grant</label>
+
+          <input type="radio" name="planter" id="pallas" data-color="colorListPallas" checked>
+          <label for="pallas">Pallas</label>
+
+          <input type="radio" name="planter" id="hyde" data-color="colorListHyde">
+          <label for="hyde" class="out">Hyde</label>
+
+          <input type="radio" name="planter" id="mexia" data-color="colorListMexia">
+          <label for="mexia">Mexia</label>
+
+          <input type="radio" name="planter" id="marianne" data-color="colorListMarianne">
+          <label for="marianne" class="out">Marianne</label>
+
+          <input type="radio" name="planter" id="growpot" data-color="colorListGrowPot">
+          <label for="growpot">Grow<span class="space">Pot</span></label>
+
+          <input type="radio" name="planter" id="isabella" data-color="colorListIsabella">
+          <label for="isabella">Isabella</label>
+        </fieldset>
+
+        <!-- Color 선택 -->
+        <fieldset class="color">
+          <legend>Color</legend>
+
+          <!-- Grant -->
+          <ol class="colorPage activated" id="colorListGrant">
+            <li>
+              <input type="radio" name="color_grant" id="grant_black">
+              <label for="grant_black" class="black">black</label>
+            </li>
+            <li>
+              <input type="radio" name="color_grant" id="grant_cream">
+              <label for="grant_cream" class="cream">cream</label>
+            </li>
+          </ol>
+
+          <!-- Pallas -->
+          <ol class="colorPage" id="colorListPallas">
+            <li>
+              <input type="radio" name="color_pallas" id="pallas_black" checked>
+              <label for="pallas_black" class="black active">Black</label>
+            </li>
+            <li>
+              <input type="radio" name="color_pallas" id="pallas_cementGrey">
+              <label for="pallas_cementGrey" class="cementgrey">Cement<span class="space">Grey</span></label>
+            </li>
+            <li>
+              <input type="radio" name="color_pallas" id="pallas_cream">
+              <label for="pallas_cream" class="cream">Cream</label>
+            </li>
+          </ol>
+
+          <!-- Hyde -->
+          <ol class="colorPage" id="colorListHyde">
+            <li>
+              <input type="radio" name="color_hyde" id="hyde_black" checked>
+              <label for="hyde_black" class="black active">Black</label>
+            </li>
+            <li>
+              <input type="radio" name="color_hyde" id="hyde_blush">
+              <label for="hyde_blush" class="blush">Blush</label>
+            </li>
+            <li>
+              <input type="radio" name="color_hyde" id="hyde_cream">
+              <label for="hyde_cream" class="cream">Cream</label>
+            </li>
+            <li>
+              <input type="radio" name="color_hyde" id="hyde_mint">
+              <label for="hyde_mint" class="mint">Mint</label>
+            </li>
+            <li>
+              <input type="radio" name="color_hyde" id="hyde_olive">
+              <label for="hyde_olive" class="olive">Olive</label>
+            </li>
+            <li>
+              <input type="radio" name="color_hyde" id="hyde_terracotta">
+              <label for="hyde_terracotta" class="terracotta">Terracotta</label>
+            </li>
+          </ol>
+
+          <!-- Mexia -->
+          <ol class="colorPage" id="colorListMexia">
+            <li>
+              <input type="radio" name="color_mexia" id="mexia_black" checked>
+              <label for="mexia_black" class="black active">Black</label>
+            </li>
+            <li>
+              <input type="radio" name="color_mexia" id="mexia_cementGrey">
+              <label for="mexia_cementGrey" class="cementgrey">Cement<span class="space">Grey</span></label>
+            </li>
+            <li>
+              <input type="radio" name="color_mexia" id="mexia_cream">
+              <label for="mexia_cream" class="cream">Cream</label>
+            </li>
+          </ol>
+
+          <!-- Marianne -->
+          <ol class="colorPage" id="colorListMarianne">
+            <li>
+              <input type="radio" name="color_marianne" id="marianne_grey" checked>
+              <label for="marianne_grey" class="grey active">Grey</label>
+            </li>
+            <li>
+              <input type="radio" name="color_marianne" id="marianne_white">
+              <label for="marianne_white" class="white">White</label>
+            </li>
+          </ol>
+
+          <!-- Grow Pot -->
+          <ol class="colorPage" id="colorListGrowPot">
+            <li>
+              <input type="radio" name="color_gp" id="growPot_nodecorativePot" disabled>
+              <label for="growPot_nodecorativePot" class="nodecorativepot">Nodecorative<span
+                  class="space">Pot</span></label>
+            </li>
+          </ol>
+
+          <!-- Isabella -->
+          <ol class="colorPage" id="colorListIsabella">
+            <li>
+              <input type="radio" name="color_isabella" id="isabella_blush" checked>
+              <label for="isabella_blush" class="blush active">Blush</label>
+            </li>
+            <li>
+              <input type="radio" name="color_isabella" id="isabella_chocolate">
+              <label for="isabella_chocolate" class="chocolate out">Chocolate</label>
+            </li>
+            <li>
+              <input type="radio" name="color_isabella" id="isabella_dustyRose">
+              <label for="isabella_dustyRose" class="dustyrose">Dusty<span class="space">Rose</span></label>
+            </li>
+            <li>
+              <input type="radio" name="color_isabella" id="isabella_roseGold">
+              <label for="isabella_roseGold" class="rosegold out">Rose<span class="space">Gold</span></label>
+            </li>
+            <li>
+              <input type="radio" name="color_isabella" id="isabella_white">
+              <label for="isabella_white" class="white out">White</label>
+            </li>
+          </ol>
+        </fieldset>
+
+        <div>
+          <label for="qtyValue">Quantity</label>
+          <div class="qtyComponent">
+            <input type="button" value="-" class="minus">
+            <input type="number" value="1" max="99">
+            <input type="button" value="+" class="plus">
+          </div>
+        </div>
+        <button type="button" class="itpBlackBtn" data-panel="cartPanelFilled">Add To Cart</button>
+      </aside>
+    </div>
+
+    <div>
+      <h2>Plant Description</h2>
+      <div>
+        <p>A member of the popular, low-maintenance Dracaena plant family, the Dracaena Warneckii (sometimes called a
+          corn plant) has a tall and slender silhouette that is great in corners, behind couches, or anywhere you want
+          to add height without bulk. Sized to ship best, our large Dracaena arrives with room to grow as it adapts to
+          your home's conditions.</p>
+        <hr>
+        <p>Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range</p>
+        <p>Large plant measures between 30"-40" tall from the soil line to the top of the foliage</p>
+        <p>Arrives in 10" diameter grow pot</p>
+        <p>Large plants benefit from brighter light to help retain their mature foliage</p>
+        <p>Large plants require less frequent waterings due to their higher volume of soil</p>
+        <p>If you purchase a large plant with a planter, the planter will ship separately</p>
+      </div>
+    </div>
+
+    <div>
+      <h2>Plant Care</h2>
+      <dl class="nativeArea_pc">
+        <dt>Native Area</dt>
+        <dd>
+          <p>Large Dracaena Warneckii</p>
+          <p>Africa, Asia, Australia, Central America</p>
+      </dl>
+      <dl class="light_pc">
+        <dt>Light</dt>
+        <dd>Thrives in bright indirect light, but can tolerate medium to low indirect light.</dd>
+      </dl>
+      <dl class="watering_pc">
+        <dt>Watering</dt>
+        <dd>Water every 1-2 weeks, allowing soil to dry out between waterings. Expect to water more often in brighter
+          light and less often in lower light.</dd>
+      </dl>
+      <dl class="story_pc">
+        <dt>Story</dt>
+        <dd>Dracaena comes from the Ancient Greek word Drakaina meaning “female dragon”.</dd>
+      </dl>
+      <dl class="sadPlantSigns_pc">
+        <dt>Sad Plant Signs</dt>
+        <dd>
+          <ul>
+            <li>Crispy or curling pale leaves, dry potting mix : Thirsty plant, underwatered</li>
+            <li>Yellowing leaves, wet potting mix : Root rot, overwatered</li>
+            <li>Yellowing leaves, dry potting mix : Soil compaction (aerate soil), and/or nutrient deficincy</li>
+          </ul>
+        </dd>
+      </dl>
+    </div>
+
+    <div>
+      <ul class="accComponent">
+        <li>
+          <h3>Our Guarantee</h3>
+          <p>Your plants will arrive in happy, healthy condition-guaranteed. If not, we replace them for free.</p>
+          <p>Simply reach out to us with a photo within 30 days of receiving your order. Learn More About Guarantee.</p>
+        </li>
+        <li>
+          <h3>Shipping &amp; Returns</h3>
+          <p>All orders placed on TheSill.com receive free standard shipping! There are no minimums that you have to
+            meet to enjoy this perk. View our full shipping policy.</p>
+        </li>
+        <li>
+          <h3>Sending a Gift?</h3>
+          <p>First, lucky them! Second, in the cart, before checkout, you'll find an option to add a gift note. You can
+            rest assured that all orders are shipped without pricing information and include directions on how to access
+            our digital Care Library for plant care instructions.</p>
+          <p>You can also let your gift recipient know something is on the way from yours truly by filling out this form
+            - also linked in your order confirmation email. (Don't worry, we won't spoil what the surprise is or send
+            them any marketing emails.)</p>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <footer>
+    <div>
+      <h2><img src="images/globla-logo.svg"  alt="Bye. The Sill"></h2>
+      <ul>
+        <li><a href="https://www.facebook.com/TheSillNYC/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/thesill/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/thesill" target="_blank">Youtube</a></li>
+        <li><a href="https://www.tiktok.com/@thesill" target="_blank">Tiktok</a></li>
+        <li><a href="https://x.com/thesill" target="_blank">Twitter</a></li>
+        <li><a href="https://www.pinterest.com/thesillnyc/" target="_blank">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div>
+        <h3>Get The Dirt.</h3>
+        <p>Get plant care tips, exclusive offers, &amp; 10% off your first order straight to your inbox.No spam, ever.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter Your Email Here ..." title="Enter Your Email Here">
+          <input type="submit" value="Subscribe" class="itpGreenBtn">
+        </form>
+      </div>
+
+      <div>
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="customerService-faq.html">FAQ</a></li>
+          <li><a href="customerService-shippingHanding.html">Shipping &amp; Handling</a></li>
+          <li><a href="customerService-30day.html">30-Day Guarantee</a></li>
+          <li><a href="customerService-contactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://thesill.typeform.com/find-your-plant">Find Your Plant</a></li>
+          <li><a href="https://www.thesill.com/pages/care-library">Plant Care Library</a></li>
+          <li><a href="resources-blog.html">Blog</a></li>
+          <li><a href="resources-onlineCourses.html">Free Online Courses</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>My Sill</h3>
+        <ul>
+          <li><a href="https://www.thesill.com/account">My Account</a></li>
+          <li><a href="https://www.thesill.com/account">Track My Order</a></li>
+          <li><a href="https://returns.thesill.com/">Returns Portal</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="explore-ourStory.html">Our Story</a></li>
+          <li><a href="explore-careers.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <a href="https://app.impact.com/campaign-campaign-info-v2/The-Sill.brand" class="uln">Affiliate Program</a>
+      <a href="legalLinks-termsOfUse.html" class="uln">Terms of Use</a>
+      <a href="legalLinks-privacyPolicy.html" class="uln">Privacy Policy</a>
+      <a href="legalLinks-accessibilityStatement.html" class="uln">Accessibility</a>
+      <a href="legalLinks-noticeToCaliforniaResidents.html" class="uln">Do Not Sell My Info</a>
+      <p>Copyright 2025 - The Sill, Inc.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

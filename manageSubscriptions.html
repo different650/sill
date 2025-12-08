@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sill</title>
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/sill.js"></script>
+
+  <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+  <div class="discountPopup">
+    <div>
+      <h2>Want 10% Off?</h2>
+      <p>Get the dirt and save on your first purchase when
+        you sign up today.</p>
+      <form>
+        <input type="email" placeholder="Email Address" title="Enter Your Email Here">
+        <input type="submit" value="Subscribe" class="itpGreenBtn">
+      </form>
+    </div>
+    <input type="button" value="close" class="bCloseBtn">
+  </div>
+
+  <header id="home">
+    <p>Free Shipping + 30-Day Guarantee</p>
+    <div>
+      <h1>
+        <a href="index.html">
+          <img src="images/globla-logo.svg"  alt="The Sill">
+        </a>
+      </h1>
+      <div>
+        <input type="search" placeholder="Search for plants..." title="search keyword" class="searchToggle">
+        <input type="button" value="search" data-toggle="searchToggle">
+
+        <a href="user-accountLogin.html">myAccount</a>
+
+        <div>
+          <button type="button" value="cart" data-panel="cartPanel">
+            <span>0</span>
+          </button>
+
+          <div class="cartPanel">
+            <div>
+              <h2>Your Cart</h2>
+              <p>0</p>
+              <p>You are $79 away from getting Free Shipping</p>
+              <progress value="0" max="79"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <p>Your cart is currently empty!</p>
+              <p>Find products that match your taste</p>
+              <a href="listPage-allPlants1.html" class="aBlackBtn">Shop Now</a>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$0</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$15</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+
+          <div class="cartPanelFilled">
+            <div>
+              <h2>Your Cart</h2>
+              <p>1</p>
+              <p>You are $8 away from getting Free Shipping</p>
+              <progress value="199" max="207"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <img src="images/list-allPlant-africanMilkTree.png" alt="africanMilkTree">
+              <div>
+                <ul>
+                  <li>AfricanMilkTree</li>
+                  <li>Large / Grant / Grey</li>
+                  <li>
+                    <button type="button" value="delete"></button>
+                  </li>
+                  <li>
+                    <div class="qtyComponent">
+                      <input type="button" value="-" class="minus">
+                      <input type="number" value="1" max="99">
+                      <input type="button" value="+" class="plus">
+                    </div>
+                    <span>$199</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <input type="checkbox" id="giftMessage">
+              <label for="giftMessage">Add gift message?</label>
+              <textarea id="message" cols="40" rows="4" placeholder="Your Notes..."></textarea>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$199</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$214</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <label for="mnav" class="mui">
+        Menu
+      </label>
+      <input type="checkbox" id="mnav" class="mui">
+      <ul>
+        <li>
+          <b>Indoor Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Indoor Plants</strong>
+              <ol>
+                <li><a href="listPage-allPlants1.html">All Plants</a></li>
+                <li><a href="listPage-petFriendly1.html">Pet-Friendly</a></li>
+                <li><a href="listPage-lowLight1.html">Low-Light</a></li>
+                <li><a href="listPage-largePlants1.html">Large Plants</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-petFriendly1.html">
+                  <img src="images/mainMenu1_1.jpg" alt="Pet-Friendly">
+                </a>
+                <figcaption>Pet-Friendly</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listpage-lowLight1.html">
+                  <img src="images/mainMenu1_2.jpg" alt="Low-Light">
+                </a>
+                <figcaption>Low-Light</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-largePlants1.html">
+                  <img src="images/mainMenu1_3.jpg" alt="Large Plants">
+                </a>
+                <figcaption>Large Plants</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Flowering Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Flowering Plants</strong>
+              <ol>
+                <li><a href="listPage-orchids1.html">Orchids</a></li>
+                <li><a href="listPage-blooms1.html">Blooms</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-orchids1.html">
+                  <img src="images/mainMenu2_1.jpg" alt="Orchids">
+                </a>
+                <figcaption>Orchids</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-blooms1.html">
+                  <img src="images/mainMenu2_2.jpg" alt="Blooms">
+                </a>
+                <figcaption>Blooms</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Greenleaf Collection</b>
+          <div class="sub">
+            <div>
+              <strong>Greenleaf Collection</strong>
+              <ol>
+                <li><a href="listPage-rarePlants1.html">Rare Plants</a></li>
+                <li><a href="listPage-cactiSucculents1.html">Cacti &amp; Succulents</a></li>
+                <li><a href="listPage-hangingBaskets1.html">Hanging Baskcts</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-rarePlants1.html">
+                  <img src="images/mainMenu3_1.jpg" alt="Rare Plants">
+                </a>
+                <figcaption>Rare Plants</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-cactiSucculents1.html">
+                  <img src="images/mainMenu3_2.jpg" alt="Cacti & Succulents">
+                </a>
+                <figcaption>Cacti &amp; Succulents</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-hangingBaskets1.html">
+                  <img src="images/mainMenu3_3.jpg" alt="Hanging Baskcts">
+                </a>
+                <figcaption>Hanging Baskcts</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Artificial Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Artificial Plants</strong>
+              <ol>
+                <li><a href="listPage-faux1.html">Faux</a></li>
+                <li><a href="listPage-artisanMoss1.html">Artisan Moss</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-faux1.html">
+                  <img src="images/mainMenu4_1.jpg" alt="Faux">
+                </a>
+                <figcaption>Faux</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-artisanMoss1.html">
+                  <img src="images/mainMenu4_2.jpg" alt="Artisan Moss">
+                </a>
+                <figcaption>Artisan Moss</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Plant Care</b>
+          <div class="sub">
+            <div>
+              <strong>Plant Care</strong>
+              <ol>
+                <li><a href="listPage-planters1.html">Planters</a></li>
+                <li><a href="listPage-supplies1.html">Supplies</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-planters1.html">
+                  <img src="images/mainMenu5_1.jpg" alt="Planters">
+                </a>
+                <figcaption>Planters</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-supplies1.html">
+                  <img src="images/mainMenu5_2.jpg" alt="Supplies">
+                </a>
+                <figcaption>Supplies</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="manageSubscriptionsContainer">
+    <section class="manageSubscriptionsVisual">
+      <div>
+        <h2>Our Subscriptions</h2>
+        <p>Bring the outdoors in and instantly elevate your space and mood with our monthly houseplant subscription box.
+        </p>
+      </div>
+    </section>
+
+    <ul>
+      <li>
+        <figure>
+          <img src="images/manageSubscriptions-ChooseYourPlan.svg" alt="Choose Your Plan">
+          <figcaption>
+            <dl>
+              <dt>Choose Your Plan</dt>
+              <dd>Easy-Care, Orchids, or Pet Friendly. We'll do the work, curating easy-care and non-toxic plants from
+                our local growers.</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="images/manageSubscriptions-UnbosHappiness.svg" alt="Unbox Happiness">
+          <figcaption>
+            <dl>
+              <dt>Unbox Happiness</dt>
+              <dd>Every month, for 3 or 6 months, a plant and planter will be shipped to your door. Your box will not
+                repeat the same plant.</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="images/manageSubscriptions-GiftASubscription.svg" alt="Gift A Subscription">
+          <figcaption>
+            <dl>
+              <dt>Gift a Subscription</dt>
+              <dd>Master the art of gift giving with a plant subscription box. Just add a gift note and their address at
+                checkout.</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="images/manageSubscriptions-30DayGuarantee.svg" alt="30-Day Guarantee">
+          <figcaption>
+            <dl>
+              <dt>30-Day Guarantee</dt>
+              <dd>We guarantee our plants arrive in happy, healthy condition, or we replace them for free.</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+    </ul>
+
+    <div class="tabMenu">
+      <h2>choose your subscription</h2>
+      <button type="button" data-tabNumb="easyCare" class="activated">Easy Care</button>
+      <button type="button" data-tabNumb="orchid">Orchid</button>
+      <button type="button" data-tabNumb="petFriendly">Pet Friendly</button>
+    </div>
+  
+    <ul class="tabPage activated " id="easyCare">
+      <li>
+        <figure>
+          <a href="manageSubscriptions-easy3.html">
+            <img src="images/manageSubscriptions-easy.png" alt="easy"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="manageSubscriptions-easy3.html">Easy-Care Subscription (3 Months)</a>
+              </dt>
+              <dd>Low-maintenance plant picks you can grow with.</dd>
+              <dd>MONTH $55</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="manageSubscriptions-easy12.html">
+            <img src="images/manageSubscriptions-easy.png" alt="easy">
+          </a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="manageSubscriptions-easy12.html">Easy-Care Subscription (12 Months)</a>
+              </dt>
+              <dd>Low-maintenance plant picks you can grow with.</dd>
+              <dd>MONTH $54</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="manageSubscriptions-easy6.html">
+            <img src="images/manageSubscriptions-easy.png" alt="easy"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="manageSubscriptions-easy6.html">Easy-Care Subscription (6 Months)</a>
+              </dt>
+              <dd>Low-maintenance plant picks you can grow with.</dd>
+              <dd>MONTH $55</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+    </ul>
+
+    <ul class="tabPage" id="orchid">
+      <li>
+        <figure>
+          <a href="manageSubscriptions-orchid3.html">
+            <img src="images/manageSubscriptions-orchid.png" alt="easy"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="manageSubscriptions-orchid3.html">Orchid Subscription (3 Months)</a>
+              </dt>
+              <dd>Phalaenopsis is a pet-friendly and easy-to-grow orchid.</dd>
+              <dd>MONTH $88</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="manageSubscriptions-orchid12.html">
+            <img src="images/manageSubscriptions-orchid.png" alt="easy"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="manageSubscriptions-orchid12.html">Orchid Subscription (12 Months)</a>
+              </dt>
+              <dd>Phalaenopsis is a pet-friendly and easy-to-grow orchid.</dd>
+              <dd>MONTH $87</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="manageSubscriptions-orchid6.html">
+            <img src="images/manageSubscriptions-orchid.png" alt="easy"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="manageSubscriptions-orchid6.html">Orchid Subscription (6 Months)</a>
+              </dt>
+              <dd>Phalaenopsis is a pet-friendly and easy-to-grow orchid.</dd>
+              <dd>MONTH $88</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+    </ul>
+
+    <ul class="tabPage" id="petFriendly">
+      <li>
+        <figure>
+          <a href="manageSubscriptions-petFriendly3.html">
+            <img src="images/manageSubscriptions-pet.png" alt="easy"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="manageSubscriptions-petFriendly3.html">Pet Friendly Subscription (3 Months)</a>
+              </dt>
+              <dd>These safe plants are perfect for pet owners.</dd>
+              <dd>MONTH $58</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="manageSubscriptions-petFriendly12.html">
+            <img src="images/manageSubscriptions-pet.png" alt="easy"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="manageSubscriptions-petFriendly12.html">Pet Friendly Subscription (12 Months)</a>
+              </dt>
+              <dd>These safe plants are perfect for pet owners.</dd>
+              <dd>MONTH $57</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="manageSubscriptions-petFriendly6.html">
+            <img src="images/manageSubscriptions-pet.png" alt="easy"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="manageSubscriptions-petFriendly6.html">Pet Friendly Subscription (6 Months)</a>
+              </dt>
+              <dd>These safe plants are perfect for pet owners.</dd>
+              <dd>MONTH $58</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+    </ul>
+
+    <div>
+      <h2>Subscription FAQ</h2>
+      <ul class="accComponent">
+        <li>
+          <h3>How do subscriptions work?</h3>
+          <p>Subscribers receive one new plant and planter each month, shipped to their delivery address. To sign up,
+            first choose your monthly subscription theme and then choose your preferred planter color. Your
+            subscription
+            will cycle through an assortment of plants and planter styles.
+          </p>
+          <p>Note: our priority is ensuring plants arrive to you living their happiest, healthiest life. This means
+            some
+            plants ship fully potted in their earthenware planter while others arrive in their nursery grow pot,
+            placed
+            inside our earthenware planter. Simply enjoy as is or remove it from the grow pot and place it inside the
+            planter. It's up to you!</p>
+          <p>If you prefer to fully pot your plant, it just takes a few minutes. Our recommended approach can be found
+            here. And if you don't have potting supplies at home, our potting supplies can be found here.</p>
+          <p>Subscriptions are available for a duration of 3 or 6 months. They are prepaid and do not auto renew.
+            Subscription boxes can only be delivered within the contiguous 48 states. Promotions and discounts do not
+            apply to subscription purchases.</p>
+        </li>
+        <li>
+          <h3>What is special about your subscriptions?</h3>
+          <p>We do the work for you-curating new easy-care and non-toxic plants for you to experience on a monthly
+            basis
+            and delivering them, along with a chic ceramic planter, directly to your door.</p>
+          <p>Our plants are sourced from local growers to ensure the highest quality and to support family-owned
+            businesses. We guarantee plants arrive in happy, healthy condition, or we replace them for free.</p>
+          <p>Not sure how to care for your new plant? Our Care Library includes specific care instructions for each
+            plant and our team of knowledgeable plant parents is just a message away.</p>
+        </li>
+        <li>
+          <h3>Do subscriptions comes potted?</h3>
+          <p>No. Plants ship in their grow pot, placed inside the ceramic planter. Simply enjoy as is or remove it
+            from
+            the grow pot and pot it inside the planter. It's up to you!</p>
+          <p>If you prefer to fully pot your plant, it just takes a few minutes. Our recommended approach can be found
+            here. And if you don't have potting supplies at home, you will be able to add potting supplies to your
+            month
+            box with no additional shipping cost.</p>
+        </li>
+        <li>
+          <h3>Can I gift a subscription?</h3>
+          <p>Yes-and they make great gifts! You can gift a 3-month or 6-month subscription. Simply add a gift note
+            once
+            the subscription is added to your cart and enter your gift recipients address as the shipping address.</p>
+        </li>
+        <li>
+          <h3>More questions about your subscription?</h3>
+          <p>Click our Live Chat bubble at the bottom right corner or fill out our contact form and we'll get back to
+            you as soon as possible. We recommend adding info@thesill.comto your contacts to ensure our responses land
+            in your inbox, not your spam folder.</p>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <footer>
+    <div>
+      <h2><img src="images/globla-logo.svg"  alt="Bye. The Sill"></h2>
+      <ul>
+        <li><a href="https://www.facebook.com/TheSillNYC/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/thesill/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/thesill" target="_blank">Youtube</a></li>
+        <li><a href="https://www.tiktok.com/@thesill" target="_blank">Tiktok</a></li>
+        <li><a href="https://x.com/thesill" target="_blank">Twitter</a></li>
+        <li><a href="https://www.pinterest.com/thesillnyc/" target="_blank">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div>
+        <h3>Get The Dirt.</h3>
+        <p>Get plant care tips, exclusive offers, &amp; 10% off your first order straight to your inbox.No spam, ever.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter Your Email Here ..." title="Enter Your Email Here">
+          <input type="submit" value="Subscribe" class="itpGreenBtn">
+        </form>
+      </div>
+
+      <div>
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="customerService-faq.html">FAQ</a></li>
+          <li><a href="customerService-shippingHanding.html">Shipping &amp; Handling</a></li>
+          <li><a href="customerService-30day.html">30-Day Guarantee</a></li>
+          <li><a href="customerService-contactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://thesill.typeform.com/find-your-plant">Find Your Plant</a></li>
+          <li><a href="https://www.thesill.com/pages/care-library">Plant Care Library</a></li>
+          <li><a href="resources-blog.html">Blog</a></li>
+          <li><a href="resources-onlineCourses.html">Free Online Courses</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>My Sill</h3>
+        <ul>
+          <li><a href="https://www.thesill.com/account">My Account</a></li>
+          <li><a href="https://www.thesill.com/account">Track My Order</a></li>
+          <li><a href="https://returns.thesill.com/">Returns Portal</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="explore-ourStory.html">Our Story</a></li>
+          <li><a href="explore-careers.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <a href="https://app.impact.com/campaign-campaign-info-v2/The-Sill.brand" class="uln">Affiliate Program</a>
+      <a href="legalLinks-termsOfUse.html" class="uln">Terms of Use</a>
+      <a href="legalLinks-privacyPolicy.html" class="uln">Privacy Policy</a>
+      <a href="legalLinks-accessibilityStatement.html" class="uln">Accessibility</a>
+      <a href="legalLinks-noticeToCaliforniaResidents.html" class="uln">Do Not Sell My Info</a>
+      <p>Copyright 2025 - The Sill, Inc.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

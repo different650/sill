@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sill</title>
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/sill.js"></script>
+
+  <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+  <div class="discountPopup">
+    <div>
+      <h2>Want 10% Off?</h2>
+      <p>Get the dirt and save on your first purchase when
+        you sign up today.</p>
+      <form>
+        <input type="email" placeholder="Email Address" title="Enter Your Email Here">
+        <input type="submit" value="Subscribe" class="itpGreenBtn">
+      </form>
+    </div>
+    <input type="button" value="close" class="bCloseBtn">
+  </div>
+
+  <header id="home">
+    <p>Free Shipping + 30-Day Guarantee</p>
+    <div>
+      <h1>
+        <a href="index.html">
+          <img src="images/globla-logo.svg"  alt="The Sill">
+        </a>
+      </h1>
+      <div>
+        <input type="search" placeholder="Search for plants..." title="search keyword" class="searchToggle">
+        <input type="button" value="search" data-toggle="searchToggle">
+
+        <a href="user-accountLogin.html">myAccount</a>
+
+        <div>
+          <button type="button" value="cart" data-panel="cartPanel">
+            <span>0</span>
+          </button>
+
+          <div class="cartPanel">
+            <div>
+              <h2>Your Cart</h2>
+              <p>0</p>
+              <p>You are $79 away from getting Free Shipping</p>
+              <progress value="0" max="79"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <p>Your cart is currently empty!</p>
+              <p>Find products that match your taste</p>
+              <a href="listPage-allPlants1.html" class="aBlackBtn">Shop Now</a>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$0</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$15</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+
+          <div class="cartPanelFilled">
+            <div>
+              <h2>Your Cart</h2>
+              <p>1</p>
+              <p>You are $8 away from getting Free Shipping</p>
+              <progress value="199" max="207"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <img src="images/list-allPlant-africanMilkTree.png" alt="africanMilkTree">
+              <div>
+                <ul>
+                  <li>AfricanMilkTree</li>
+                  <li>Large / Grant / Grey</li>
+                  <li>
+                    <button type="button" value="delete"></button>
+                  </li>
+                  <li>
+                    <div class="qtyComponent">
+                      <input type="button" value="-" class="minus">
+                      <input type="number" value="1" max="99">
+                      <input type="button" value="+" class="plus">
+                    </div>
+                    <span>$199</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <input type="checkbox" id="giftMessage">
+              <label for="giftMessage">Add gift message?</label>
+              <textarea id="message" cols="40" rows="4" placeholder="Your Notes..."></textarea>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$199</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$214</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <label for="mnav" class="mui">
+        Menu
+      </label>
+      <input type="checkbox" id="mnav" class="mui">
+      <ul>
+        <li>
+          <b>Indoor Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Indoor Plants</strong>
+              <ol>
+                <li><a href="listPage-allPlants1.html">All Plants</a></li>
+                <li><a href="listPage-petFriendly1.html">Pet-Friendly</a></li>
+                <li><a href="listPage-lowLight1.html">Low-Light</a></li>
+                <li><a href="listPage-largePlants1.html">Large Plants</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-petFriendly1.html">
+                  <img src="images/mainMenu1_1.jpg" alt="Pet-Friendly">
+                </a>
+                <figcaption>Pet-Friendly</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listpage-lowLight1.html">
+                  <img src="images/mainMenu1_2.jpg" alt="Low-Light">
+                </a>
+                <figcaption>Low-Light</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-largePlants1.html">
+                  <img src="images/mainMenu1_3.jpg" alt="Large Plants">
+                </a>
+                <figcaption>Large Plants</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Flowering Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Flowering Plants</strong>
+              <ol>
+                <li><a href="listPage-orchids1.html">Orchids</a></li>
+                <li><a href="listPage-blooms1.html">Blooms</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-orchids1.html">
+                  <img src="images/mainMenu2_1.jpg" alt="Orchids">
+                </a>
+                <figcaption>Orchids</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-blooms1.html">
+                  <img src="images/mainMenu2_2.jpg" alt="Blooms">
+                </a>
+                <figcaption>Blooms</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Greenleaf Collection</b>
+          <div class="sub">
+            <div>
+              <strong>Greenleaf Collection</strong>
+              <ol>
+                <li><a href="listPage-rarePlants1.html">Rare Plants</a></li>
+                <li><a href="listPage-cactiSucculents1.html">Cacti &amp; Succulents</a></li>
+                <li><a href="listPage-hangingBaskets1.html">Hanging Baskcts</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-rarePlants1.html">
+                  <img src="images/mainMenu3_1.jpg" alt="Rare Plants">
+                </a>
+                <figcaption>Rare Plants</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-cactiSucculents1.html">
+                  <img src="images/mainMenu3_2.jpg" alt="Cacti & Succulents">
+                </a>
+                <figcaption>Cacti &amp; Succulents</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-hangingBaskets1.html">
+                  <img src="images/mainMenu3_3.jpg" alt="Hanging Baskcts">
+                </a>
+                <figcaption>Hanging Baskcts</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Artificial Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Artificial Plants</strong>
+              <ol>
+                <li><a href="listPage-faux1.html">Faux</a></li>
+                <li><a href="listPage-artisanMoss1.html">Artisan Moss</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-faux1.html">
+                  <img src="images/mainMenu4_1.jpg" alt="Faux">
+                </a>
+                <figcaption>Faux</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-artisanMoss1.html">
+                  <img src="images/mainMenu4_2.jpg" alt="Artisan Moss">
+                </a>
+                <figcaption>Artisan Moss</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Plant Care</b>
+          <div class="sub">
+            <div>
+              <strong>Plant Care</strong>
+              <ol>
+                <li><a href="listPage-planters1.html">Planters</a></li>
+                <li><a href="listPage-supplies1.html">Supplies</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-planters1.html">
+                  <img src="images/mainMenu5_1.jpg" alt="Planters">
+                </a>
+                <figcaption>Planters</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-supplies1.html">
+                  <img src="images/mainMenu5_2.jpg" alt="Supplies">
+                </a>
+                <figcaption>Supplies</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="resourcesContainer">
+    <section class="plantCare101Visual">
+      <div>
+        <h2>Plant Care 101</h2>
+        <p>Get a better grasp of the fundamentals with this introductory course to plant care. We'll cover the basics:
+          light, water, and soil, so your plants stay happy and healthy.</p>
+      </div>
+    </section>
+
+    <div class="onlineCoursesWrapper">
+      <input type="button" value="Back" class="backBtn">
+      <!-- 1 -->
+      <section>
+        <article>
+          <div>
+            <h3>Photosynthesis</h3>
+            <p>Photosynthesis converts light into chemical energy and generates oxygen as a byproduct. </p>
+            <ol>
+              <li><strong>Photosynthesis</strong> occurs within the plant's leaves and involves the green pigment
+                chlorophyll. Leaves that are not green do not photosynthesize.</li>
+              <li><strong>Sunlight</strong> energy is absorbed by chlorophyl in the leaves and converted to chemical
+                energy in the form of glucose.</li>
+              <li><strong>H&#8322;O</strong> enters through the roots.</li>
+              <li><strong>CO&#8322;</strong> comes from the air</li>
+              <li><strong>O&#8322;</strong> is released into the air and new growth is formed </li>
+            </ol>
+          </div>
+          <img src="images/resources-onlineCourses-plantCare101-light1.png" alt="light1">
+        </article>
+
+        <h4>Photosynthesis</h4>
+        <p>This is an overview of photosynthesis, look it over and think back to science class. Photosynthesis is the
+          process used by plants to convert light energy into chemical energy that is later used to fuel different plant
+          processes.</p>
+        <p>Plants need light from sun, CO2from the air, and water from the roots/soil in order to photosynthesize and
+          they'll release Oxygen as a byproduct.</p>
+        <p>Photosynthesis occurs at the leaves which is absorbed by the chlorophyll making the leaves the primary site
+          of
+          photosynthesis.</p>
+      </section>
+      <!-- 2 -->
+      <section>
+        <article>
+          <div>
+            <h3>Light Basics</h3>
+            <p>Indoors, you have less light than you think you do. Consider:</p>
+            <ul>
+              <li>Seasonality</li>
+              <li>Exposure</li>
+              <li>Windows and obstructions</li>
+              <li>Indoor v.s outdoor light</li>
+            </ul>
+          </div>
+          <img src="images/resources-onlineCourses-plantCare101-light2.png" alt="light2">
+        </article>
+
+        <h4>Light Basics</h4>
+        <ul>
+          <li>Seasonality: Seasonality changes the directionality and angle of the sun (solstice/equinox). These
+            seasonal
+            changes can affect our plants growth.
+            <ul>
+              <li>Spring &amp; Summer are known as the growing season with the most daylight hours &amp; active growth
+                from plants.
+              </li>
+              <li>Fall &amp; Winter are the dormancy phase where plants growth will slow down or cease. This is best to
+                understand so you don't need to worry about plants not actively growing in Fall/Winter where you'll also
+                see a decrease in the frequency of waterings compared to the growing season.
+              </li>
+            </ul>
+          </li>
+          <li>Exposure: You can download and use a compass app on your smartphone to help determine your light level.
+            <ul>
+              <li>North - Low to moderate indirect light only</li>
+              <li>South - Bright indirect to full direct sun</li>
+              <li>East - Med-bright indirect with direct morning sun</li>
+              <li>West - Med-bright indirect with direct afternoon sun</li>
+            </ul>
+          </li>
+          <li>Windows: Smaller the window the closer the limit gets to how far away you can keep plants from the light
+            source. Ideally, you should be placing plants directly in or no more than 2-3 feet from a window where it
+            has
+            a good view of the sky/outside. You can get away with placing plants farther if you have very large windows
+            with no obstructions present, but ideally the closer to the light source the better for plants.</li>
+          <li>Obstructions: Any obstruction blocking the plants view of the sky will diffuse the amount of light
+            available
+            for the plant to use. If window faces an alleyway, even if it's South facing, it would be considered low
+            light
+            (example: trees outside window, etc.) Also keep in mind obstructions between the plant and its window (other
+            large plants, decor, tv, etc.) which can also diffuse the amount of light available to a plant.</li>
+          <li>Indoor vs Outdoor light: Some plant parents like to move their houseplants outdoors for the Spring/Summer
+            months when conditions are most favorable. Outdoor light is much stronger so need to acclimate any plants
+            that
+            will be placed outside first. You can do so by placing plants in full/partial shade to start based on their
+            light requirements and each week move them slowly into brighter light until they are in the ideal location.
+          </li>
+        </ul>
+      </section>
+      <!-- 3 -->
+      <section>
+        <article>
+          <div>
+            <h3>Light Basics</h3>
+            <p>Light can be tricky because our eyes see light
+              differently than plants do. However it is one of the most important factors in your plant's health.
+              Understanding light in your home and properly placing plants according to their needs will be key to
+              success.</p>
+            <ul>
+              <li>Direct vs Indirect light </li>
+              <li>Bright indirect </li>
+              <li>Medium indirect </li>
+              <li>Low light</li>
+            </ul>
+          </div>
+          <img src="images/resources-onlineCourses-plantCare101-light3.png" alt="light3">
+        </article>
+
+        <h4>Light Basics (Cont.)</h4>
+        <ul>
+          <li>Direct vs Indirect sunlight: Remember light does not bend. If your plant is right next to or underneath a
+            window the amount of light it receives will diminish considerably.
+            <ul>
+              <li>Direct - The sun is in line of the plants “vision” to the sky.</li>
+              <li>Indirect - Ambient light emitting from the sky but cannot see the sun.</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <!-- 4 -->
+      <section>
+        <article>
+          <div>
+            <h3>Bright Light</h3>
+            <i>Directionality</i>
+            <p class="pDown">South, Southwest, West, Southeast, East</p>
+            <i>Factors</i>
+            <p class="pDown">Large windows, no obstructions</p>
+            <i>Examples</i>
+            <p class="pDown">Cacti, succulents, rubber tree</p>
+          </div>
+          <img src="images/resources-onlineCourses-plantCare101-light4.png" alt="light4">
+          </article>
+
+          <h4>Bright Light</h4>
+          <p>Bright - Bright filtered/diffused light, a spot with direct sunbeams for more than 5 hours or completely
+            diffused from direct sun.</p>
+      </section>
+      <!-- 5 -->
+      <section>
+        <article>
+          <div>
+            <h3>Medium Light</h3>
+            <i>Directionality</i>
+            <p class="pDown">Northwest Northeast, East, West</p>
+            <i>Factors</i>
+            <p class="pDown">Semi obstructed large window, small bright light window</p>
+            <i>Examples</i>
+            <p class="pDown">Ferns, philodendron, peperomia, pothos</p>
+          </div>
+          <img src="images/resources-onlineCourses-plantCare101-light5.png" alt="light5">
+        </article>
+
+        <h4>Medium Light</h4>
+        <p>Medium indirect - filtered or diffused light, Medium light is a broad range. This can be a spot with some
+          direct sun to indirect light in a window or more than 3 feet away from a bright window. Often apartments on
+          the lower floors have medium to low light.</p>
+      </section>
+      <!-- 6 -->
+      <section>
+        <article>
+          <div>
+            <h3>Low Light</h3>
+            <i>Directions</i>
+            <p class="pDown">North, Northwest, Northeast</p>
+            <i>Factors</i>
+            <p class="pDown">Obstructions, small windows</p>
+            <i>Examples</i>
+            <p class="pDown">Sansevieria, ZZ, pothos, some philodendron and peperomia</p>
+          </div>
+          <img src="images/resources-onlineCourses-plantCare101-light6.png" alt="light6">
+        </article>
+
+        <h4>Low Light</h4>
+        <p>Low light/low light tolerant - more than 4' from a window, or any space where the plant can see outside, but
+          cannot see the sky.</p>
+        <ul>
+          <li>Low light plants tolerate low light but will always thrive better in brighter conditions. Place plants
+            directly in low light windows to maximize sunlight. Consider incorporating artificial light.</li>
+        </ul>
+      </section>
+      <!-- 7 -->
+      <section>
+        <article>
+          <div>
+            <h3>Tricks To Regulate Light</h3>
+            <ul>
+              <li>Use mirrors to reflect sunlight.</li>
+              <li>Use a sheer curtain to reduce light in sunrooms-in normal windows not necessary</li>
+              <li>Experiment with grow lights (artificial light).</li>
+              <li>White walls and backgrounds will reflect light.</li>
+              <li>Hang plants to make most use of windows.</li>
+              <li>Keep windows and leaves clean so plants can maximize light absorption.</li>
+            </ul>
+          </div>
+          <img src="images/resources-onlineCourses-plantCare101-light7.png" alt="light7">
+        </article>
+
+        <h4>Regulating Light</h4>
+        <ul>
+          <li>Mirrors can help bounce ambient light overall in the home, and even aid low light plants in low light
+            areas.
+            However, not an effective way to boost light for bright light plants in lower light conditions.</li>
+          <li>Sheer or gossamer curtains can help to diffuse strong light coming in during the Summer months for plants
+            that may not like that intensity.</li>
+          <li>Artificial light is supplemental light designed to stimulate plant growth. Regular light bulbs we buy for
+            our lamps are not ideal for plant growth as the intensity is often weak and not in the right spectrum to
+            most
+            sufficiently drive photosynthesis. Recommend LED's as the best.</li>
+          <li>White walls helps to bounce off ambient light which can maximize light absorption for plants. Therefore,
+            if
+            you are moving or renovating and have a lot of plants consider white walls or backgrounds!</li>
+          <li>Hanging plants - Plant parents can utilize things like wall/ceiling/macrame hangers, plant stands to
+            elevate
+            them off the floor so they are more in line with windows. cial light.</li>
+          <li>Leaf/window cleaning -Cleaning leaves helps chlorophyll to be exposed to light in order to absorb it
+            sufficiently. Can use white distilled vinegar or lemon juice diluted in water which helps to keep leaves
+            shiny
+            and remove mineral deposits. You can dry wipe just dust off with a microfiber towel. Neem oil can also work
+            but would forgo using leaf shiners since they can be oily and clog the pores.</li>
+        </ul>
+      </section>
+
+      <div>
+        <a href="resources-onlineCourses-plantCare101-gettingStarted.html" class="previousBtn">Previous Page</a>
+        <a href="resources-onlineCourses-plantCare101-environment.html" class="nextBtn">Next Page</a>
+      </div>
+    </div>
+  </article>
+
+  <footer>
+    <div>
+      <h2><img src="images/globla-logo.svg"  alt="Bye. The Sill"></h2>
+      <ul>
+        <li><a href="https://www.facebook.com/TheSillNYC/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/thesill/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/thesill" target="_blank">Youtube</a></li>
+        <li><a href="https://www.tiktok.com/@thesill" target="_blank">Tiktok</a></li>
+        <li><a href="https://x.com/thesill" target="_blank">Twitter</a></li>
+        <li><a href="https://www.pinterest.com/thesillnyc/" target="_blank">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div>
+        <h3>Get The Dirt.</h3>
+        <p>Get plant care tips, exclusive offers, &amp; 10% off your first order straight to your inbox.No spam, ever.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter Your Email Here ..." title="Enter Your Email Here">
+          <input type="submit" value="Subscribe" class="itpGreenBtn">
+        </form>
+      </div>
+
+      <div>
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="customerService-faq.html">FAQ</a></li>
+          <li><a href="customerService-shippingHanding.html">Shipping &amp; Handling</a></li>
+          <li><a href="customerService-30day.html">30-Day Guarantee</a></li>
+          <li><a href="customerService-contactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://thesill.typeform.com/find-your-plant">Find Your Plant</a></li>
+          <li><a href="https://www.thesill.com/pages/care-library">Plant Care Library</a></li>
+          <li><a href="resources-blog.html">Blog</a></li>
+          <li><a href="resources-onlineCourses.html">Free Online Courses</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>My Sill</h3>
+        <ul>
+          <li><a href="https://www.thesill.com/account">My Account</a></li>
+          <li><a href="https://www.thesill.com/account">Track My Order</a></li>
+          <li><a href="https://returns.thesill.com/">Returns Portal</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="explore-ourStory.html">Our Story</a></li>
+          <li><a href="explore-careers.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <a href="https://app.impact.com/campaign-campaign-info-v2/The-Sill.brand" class="uln">Affiliate Program</a>
+      <a href="legalLinks-termsOfUse.html" class="uln">Terms of Use</a>
+      <a href="legalLinks-privacyPolicy.html" class="uln">Privacy Policy</a>
+      <a href="legalLinks-accessibilityStatement.html" class="uln">Accessibility</a>
+      <a href="legalLinks-noticeToCaliforniaResidents.html" class="uln">Do Not Sell My Info</a>
+      <p>Copyright 2025 - The Sill, Inc.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

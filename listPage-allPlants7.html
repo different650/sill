@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sill</title>
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/sill.js"></script>
+
+  <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+  <div class="discountPopup">
+    <div>
+      <h2>Want 10% Off?</h2>
+      <p>Get the dirt and save on your first purchase when
+        you sign up today.</p>
+      <form>
+        <input type="email" placeholder="Email Address" title="Enter Your Email Here">
+        <input type="submit" value="Subscribe" class="itpGreenBtn">
+      </form>
+    </div>
+    <input type="button" value="close" class="bCloseBtn">
+  </div>
+
+  <header id="home">
+    <p>Free Shipping + 30-Day Guarantee</p>
+    <div>
+      <h1>
+        <a href="index.html">
+          <img src="images/globla-logo.svg"  alt="The Sill">
+        </a>
+      </h1>
+      <div>
+        <input type="search" placeholder="Search for plants..." title="search keyword" class="searchToggle">
+        <input type="button" value="search" data-toggle="searchToggle">
+
+        <a href="user-accountLogin.html">myAccount</a>
+
+        <div>
+          <button type="button" value="cart" data-panel="cartPanel">
+            <span>0</span>
+          </button>
+
+          <div class="cartPanel">
+            <div>
+              <h2>Your Cart</h2>
+              <p>0</p>
+              <p>You are $79 away from getting Free Shipping</p>
+              <progress value="0" max="79"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <p>Your cart is currently empty!</p>
+              <p>Find products that match your taste</p>
+              <a href="listPage-allPlants1.html" class="aBlackBtn">Shop Now</a>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$0</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$15</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+
+          <div class="cartPanelFilled">
+            <div>
+              <h2>Your Cart</h2>
+              <p>1</p>
+              <p>You are $8 away from getting Free Shipping</p>
+              <progress value="199" max="207"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <img src="images/list-allPlant-africanMilkTree.png" alt="africanMilkTree">
+              <div>
+                <ul>
+                  <li>AfricanMilkTree</li>
+                  <li>Large / Grant / Grey</li>
+                  <li>
+                    <button type="button" value="delete"></button>
+                  </li>
+                  <li>
+                    <div class="qtyComponent">
+                      <input type="button" value="-" class="minus">
+                      <input type="number" value="1" max="99">
+                      <input type="button" value="+" class="plus">
+                    </div>
+                    <span>$199</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <input type="checkbox" id="giftMessage">
+              <label for="giftMessage">Add gift message?</label>
+              <textarea id="message" cols="40" rows="4" placeholder="Your Notes..."></textarea>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$199</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$214</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <label for="mnav" class="mui">
+        Menu
+      </label>
+      <input type="checkbox" id="mnav" class="mui">
+      <ul>
+        <li>
+          <b>Indoor Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Indoor Plants</strong>
+              <ol>
+                <li><a href="listPage-allPlants1.html">All Plants</a></li>
+                <li><a href="listPage-petFriendly1.html">Pet-Friendly</a></li>
+                <li><a href="listPage-lowLight1.html">Low-Light</a></li>
+                <li><a href="listPage-largePlants1.html">Large Plants</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-petFriendly1.html">
+                  <img src="images/mainMenu1_1.jpg" alt="Pet-Friendly">
+                </a>
+                <figcaption>Pet-Friendly</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listpage-lowLight1.html">
+                  <img src="images/mainMenu1_2.jpg" alt="Low-Light">
+                </a>
+                <figcaption>Low-Light</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-largePlants1.html">
+                  <img src="images/mainMenu1_3.jpg" alt="Large Plants">
+                </a>
+                <figcaption>Large Plants</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Flowering Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Flowering Plants</strong>
+              <ol>
+                <li><a href="listPage-orchids1.html">Orchids</a></li>
+                <li><a href="listPage-blooms1.html">Blooms</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-orchids1.html">
+                  <img src="images/mainMenu2_1.jpg" alt="Orchids">
+                </a>
+                <figcaption>Orchids</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-blooms1.html">
+                  <img src="images/mainMenu2_2.jpg" alt="Blooms">
+                </a>
+                <figcaption>Blooms</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Greenleaf Collection</b>
+          <div class="sub">
+            <div>
+              <strong>Greenleaf Collection</strong>
+              <ol>
+                <li><a href="listPage-rarePlants1.html">Rare Plants</a></li>
+                <li><a href="listPage-cactiSucculents1.html">Cacti &amp; Succulents</a></li>
+                <li><a href="listPage-hangingBaskets1.html">Hanging Baskcts</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-rarePlants1.html">
+                  <img src="images/mainMenu3_1.jpg" alt="Rare Plants">
+                </a>
+                <figcaption>Rare Plants</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-cactiSucculents1.html">
+                  <img src="images/mainMenu3_2.jpg" alt="Cacti & Succulents">
+                </a>
+                <figcaption>Cacti &amp; Succulents</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-hangingBaskets1.html">
+                  <img src="images/mainMenu3_3.jpg" alt="Hanging Baskcts">
+                </a>
+                <figcaption>Hanging Baskcts</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Artificial Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Artificial Plants</strong>
+              <ol>
+                <li><a href="listPage-faux1.html">Faux</a></li>
+                <li><a href="listPage-artisanMoss1.html">Artisan Moss</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-faux1.html">
+                  <img src="images/mainMenu4_1.jpg" alt="Faux">
+                </a>
+                <figcaption>Faux</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-artisanMoss1.html">
+                  <img src="images/mainMenu4_2.jpg" alt="Artisan Moss">
+                </a>
+                <figcaption>Artisan Moss</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Plant Care</b>
+          <div class="sub">
+            <div>
+              <strong>Plant Care</strong>
+              <ol>
+                <li><a href="listPage-planters1.html">Planters</a></li>
+                <li><a href="listPage-supplies1.html">Supplies</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-planters1.html">
+                  <img src="images/mainMenu5_1.jpg" alt="Planters">
+                </a>
+                <figcaption>Planters</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-supplies1.html">
+                  <img src="images/mainMenu5_2.jpg" alt="Supplies">
+                </a>
+                <figcaption>Supplies</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="listContainer">
+    <!-- section 가능 -->
+    <h2>All Plant</h2>
+    <div class="filterWrap">
+      <div>
+        <button type="button" class="filterBtn" data-filter="filterPanel">
+          <span class="filterClick">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          Filter
+        </button>
+      </div>
+
+      <div class="filterPanel">
+        <div>
+          <button type="button" class="uln">Remove All</button>
+          <input type="button" value="close" class="bCloseBtn">
+        </div>
+
+        <div>
+          <fieldset>
+            <legend>Size</legend>
+            <input type="checkbox" id="size_op1">
+            <label for="size_op1">Small</label>
+            <input type="checkbox" id="size_op2">
+            <label for="size_op2">Medium</label>
+            <input type="checkbox" id="size_op3">
+            <label for="size_op3">Large</label>
+            <input type="checkbox" id="size_op4">
+            <label for="size_op4">Extra Large</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Plant Benefits</legend>
+            <input type="checkbox" id="pb_op1">
+            <label for="pb_op1">Pet-Friendly</label>
+            <input type="checkbox" id="pb_op2">
+            <label for="pb_op2">Best for Beginners</label>
+            <input type="checkbox" id="pb_op3">
+            <label for="pb_op3">Easy Care</label>
+            <input type="checkbox" id="pb_op4">
+            <label for="pb_op4">Air Purifying</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Light Requirements</legend>
+            <input type="checkbox" id="lr_op1">
+            <label for="lr_op1">Bright Direct</label>
+            <input type="checkbox" id="lr_op2">
+            <label for="lr_op2">Bright-Medium Indirect</label>
+            <input type="checkbox" id="lr_op3">
+            <label for="lr_op3">Low Light</label>
+            <input type="checkbox" id="lr_op4">
+            <label for="lr_op4">No Light</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Growth Rate</legend>
+            <input type="checkbox" id="gr_op1">
+            <label for="gr_op1">Slow</label>
+            <input type="checkbox" id="gr_op2">
+            <label for="gr_op2">Moderate</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Category</legend>
+            <input type="checkbox" id="category_op1">
+            <label for="category_op1">Orchids</label>
+            <input type="checkbox" id="category_op2">
+            <label for="category_op2">Blooms</label>
+            <input type="checkbox" id="category_op3">
+            <label for="category_op3">Cacti &amp; Succulents</label>
+            <input type="checkbox" id="category_op4">
+            <label for="category_op4">Hanging Baskets</label>
+            <input type="checkbox" id="category_op5">
+            <label for="category_op5">Faux</label>
+            <input type="checkbox" id="category_op6">
+            <label for="category_op6">Artisan Moss</label>
+          </fieldset>
+        </div>
+      </div>
+      <!-- <input type="checkbox" id="check"> css 로구동 되는 거 아님. js = 누르는 버튼과 출력되는 창으로 분리되어있으면 됨 -->
+    </div>
+
+    <div class="productInfoBar">
+      <span class="postCount"><b>209 </b>products</span>
+      <div>
+        <label for="sortBy">Sort By:</label>
+        <!-- for <->id 연결 -->
+        <select id="sortBy">
+          <option value="featured">Featured</option>
+          <option value="best">Best selling</option>
+          <option value="a-z">Alphabetically, a-z</option>
+          <option value="z-a">Alphabetically, z-a</option>
+          <option value="low">Price, low to high</option>
+          <option value="high">Price, high to low</option>
+          <option value="old">Date, old to new</option>
+          <option value="new">Date, new to old</option>
+        </select>
+      </div>
+    </div>
+
+    <ul class="productList">
+      <li>
+        <figure>
+          <a href="detail-orchids-purpleOrchid.html">
+            <img src="images/list-allPlant-purpleOrchid.png" alt="Purple Orchid"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-orchids-purpleOrchid.html">Purple Orchid</a>
+              </dt>
+              <dd>Choose Your Planter Style &amp; Color</dd>
+              <dd>$88</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-blooms-redAnthurium.html">
+            <img src="images/list-allPlant-redAnthurium.png" alt="Red Anthurium"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-blooms-redAnthurium.html">Red Anthurium</a>
+              </dt>
+              <dd>Choose Your Planter Style &amp; Color</dd>
+              <dd>$79</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-cactiSucculents-rhipsalisBacciferaMistletoeCactus.html">
+            <img src="images/list-allPlant-rhipsalisBacciferaMistletoeCactus.png"
+              alt="Rhipsalis Baccifera Mistletoe Cactus"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-cactiSucculents-rhipsalisBacciferaMistletoeCactus.html">Rhipsalis Baccifera Mistletoe
+                  Cactus</a>
+              </dt>
+              <dd>A Wild, Sculptural Succulent</dd>
+              <dd>$49</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-rubberTree.html">
+            <img src="images/list-allPlant-rubberTree.png" alt="Rubber Tree"></a>
+          <figcaption>
+            <mark class="bsTag">Best Seller</mark>
+            <dl>
+              <dt>
+                <a href="detail-rubberTree.html">Rubber Tree</a>
+              </dt>
+              <dd>Choose Your Planter Style &amp; Color</dd>
+              <dd>$49</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-satinPothos.html">
+            <img src="images/list-allPlant-satinPothos.png" alt="Satin Pothos"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-satinPothos.html">Satin Pothos</a>
+              </dt>
+              <dd>Choose Your Planter Style &amp; Color</dd>
+              <dd>$49</dd>
+            </dl>
+          </figcaption>
+        </figure>
+
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-hangingBaskets-seasonalCactusHangingBasket.html">
+            <img src="images/list-allPlant-seasonalCactusHangingBasket.png" alt="Seasonal Cactus Hanging Basket"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-hangingBaskets-seasonalCactusHangingBasket.html">Seasonal Cactus Hanging Basket</a>
+              </dt>
+              <dd>Heirloom Plant</dd>
+              <dd>$74</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-cactiSucculents-senecioMountEverest.html">
+            <img src="images/list-allPlant-senecioMountEverest.png" alt="Senecio 'Mount Everest'"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-cactiSucculents-senecioMountEverest.html">Senecio 'Mount Everest'</a>
+              </dt>
+              <dd>Choose Your Planter Color</dd>
+              <dd>$49</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-moss-smallPreservedLivingWall14x14.html">
+            <img src="images/list-allPlant-smallPreservedLivingWall14x14.png"
+              alt="Small Preserved Living Wall 14x14"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-moss-smallPreservedLivingWall14x14.html">Small Preserved Living Wall 14x14</a>
+              </dt>
+              <dd></dd>
+              <dd>$259</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-cactiSucculents-snakeGoldFlame.html">
+            <img src="images/list-allPlant-snakeGoldFlame.png" alt="Snake Gold Flame"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-cactiSucculents-snakeGoldFlame.html">Snake Gold Flame</a>
+              </dt>
+              <dd>Choose Your Planter Style &amp; Color</dd>
+              <dd>$59</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-cactiSucculents-snakePlantHahnii.html">
+            <img src="images/list-allPlant-snakePlantHahnii.png" alt="Snake Plant 'Hahnii'"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-cactiSucculents-snakePlantHahnii.html">Snake Plant 'Hahnii'</a>
+              </dt>
+              <dd>Choose Your Planter Style &amp; Color</dd>
+              <dd>$49</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-cactiSucculents-snakePlantSayuri.html">
+            <img src="images/list-allPlant-snakePlantSayuri.png" alt="Snake Plant 'Sayuri'"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-cactiSucculents-snakePlantSayuri.html">Snake Plant 'Sayuri'</a>
+              </dt>
+              <dd>Choose Your Planter Style &amp; Color</dd>
+              <dd>$59</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-cactiSucculents-snakePlantFuturaSuperba.html">
+            <img src="images/list-allPlant-snakePlantFuturaSuperba.png" alt="Snake Plant Futura Superba"></a>
+          <figcaption>
+            <mark class="naTag">NEW ARRIVAL</mark>
+            <dl>
+              <dt>
+                <a href="detail-cactiSucculents-snakePlantFuturaSuperba.html">Snake Plant Futura Superba</a>
+              </dt>
+              <dd>Not Your Average Snake Plant</dd>
+              <dd>$49</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-cactiSucculents-snakePlantLaurentii.html">
+            <img src="images/list-allPlant-snakePlantLaurentii.png" alt="Snake Plant Laurentii"></a>
+          <figcaption>
+            <mark class="utoTag">Up To 15% Off</mark>
+            <dl>
+              <dt>
+                <a href="detail-cactiSucculents-snakePlantLaurentii.html">Snake Plant Laurentii</a>
+              </dt>
+              <dd>So Easy!</dd>
+              <dd>$179 <del>$199</del></dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-cactiSuccilents-snakePlantSilverFlame.html">
+            <img src="images/list-allPlant-snakePlantSilverFlame.png" alt="Snake Plant Silver Flame"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-cactiSuccilents-snakePlantSilverFlame.html">Snake Plant Silver Flame</a>
+              </dt>
+              <dd>A Fresh Twist on an Old Fave</dd>
+              <dd>$79</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-cactiSucculents-snakePlantZeylanica.html">
+            <img src="images/list-allPlant-snakePlantZeylanica.png" alt="Snake Plant Zeylanica"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-cactiSucculents-snakePlantZeylanica.html">Snake Plant Zeylanica</a>
+              </dt>
+              <dd>Choose Your Planter Style &amp; Color</dd>
+              <dd>$79</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-petFriendly-spiderPlantVariegated.html">
+            <img src="images/list-allPlant-spiderPlantVariegated.png" alt="Spider Plant Variegated"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-petFriendly-spiderPlantVariegated.html">Spider Plant Variegated</a>
+              </dt>
+              <dd>Great for Beginners!</dd>
+              <dd>$69</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-stringOfHearts.html">
+            <img src="images/list-allPlant-stringOfHearts.png" alt="String Of Hearts"></a>
+          <figcaption>
+            <mark class="naTag">New Arrival</mark>
+            <dl>
+              <dt>
+                <a href="detail-stringOfHearts.html">String Of Hearts</a>
+              </dt>
+              <dd>Makes a Great Gift</dd>
+              <dd>$89</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li class="soldOut">
+        <figure>
+          <a href="stringOfPearls.html">
+            <img src="images/list-allPlant-stringOfPearls.png" alt="String Of Pearls"></a>
+          <figcaption>
+            <mark class="soTag">Sold Out</mark>
+            <dl>
+              <dt>
+                <a href="stringOfPearls.html">String Of Pearls</a>
+              </dt>
+              <dd>The Cutest Pearly Greens</dd>
+              <dd>Sold Out</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-petFriendly-stromantheTriostar.html">
+            <img src="images/list-allPlant-stromantheTriostar.png" alt="Stromanthe Triostar"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-petFriendly-stromantheTriostar.html">Stromanthe Triostar</a>
+              </dt>
+              <dd>Trending Plant!</dd>
+              <dd>$99</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-cactiSucculents-succulentMix.html">
+            <img src="images/list-allPlant-succulentMix.png" alt="Succulent Mix"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-cactiSucculents-succulentMix.html">Succulent Mix</a>
+              </dt>
+              <dd>Choose Your Planter Style &amp; Color</dd>
+              <dd>$59</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-orchids-sunriseOrchid.html">
+            <img src="images/list-allPlant-sunriseOrchid.png" alt="Sunrise Orchid"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-orchids-sunriseOrchid.html">Sunrise Orchid</a>
+              </dt>
+              <dd>Choose Your Planter Style &amp; Color</dd>
+              <dd>$69</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-sunsetJade.html">
+            <img src="images/list-allPlant-sunsetJade.png" alt="Sunset Jade"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-sunsetJade.html">Sunset Jade</a>
+              </dt>
+              <dd>Choose Your Planter Color</dd>
+              <dd>$59</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-tradescantiaQuadricolor.html">
+            <img src="images/list-allPlant-tradescantiaQuadricolor.png" alt="Tradescantia Quadricolor"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-tradescantiaQuadricolor.html">Tradescantia Quadricolor</a>
+              </dt>
+              <dd>Trailing, Variegated Vines</dd>
+              <dd>$49</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-tradescantiaWhiteInchPlant.html">
+            <img src="images/list-allPlant-tradescantiaWhiteInchPlant.png" alt="Tradescantia White Inch Plant"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-tradescantiaWhiteInchPlant.html">Tradescantia White Inch Plant</a>
+              </dt>
+              <dd>Fast-Growing, Trailing Vines</dd>
+              <dd>$49</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-trailingHoyaHeart.html">
+            <img src="images/list-allPlant-trailingHeartLeafHoyaVariegated.png" alt="Trailing Hoya Heart"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-trailingHoyaHeart.html">Trailing Hoya Heart</a>
+              </dt>
+              <dd>Choose Your Planter Style &amp; Color</dd>
+              <dd>$49</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-variegatedFicusTriangularis.html">
+            <img src="images/list-allPlant-variegatedFicusTriangularis.png" alt="Variegated Ficus Triangularis"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-variegatedFicusTriangularis.html">Variegated Ficus Triangularis</a>
+              </dt>
+              <dd>Choose Your Planter Style &amp; Color</dd>
+              <dd>$49</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-orchids-whiteOrchid.html">
+            <img src="images/list-allPlant-whiteOrchid.png" alt="White Orchid"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-orchids-whiteOrchid.html">White Orchid</a>
+              </dt>
+              <dd>Choose Your Planter Style &amp; Color</dd>
+              <dd>$69</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-orchids-whiteWaterfallOrchid.html">
+            <img src="images/list-allPlant-whiteWaterfallOrchid.png" alt="White Waterfall Orchid"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-orchids-whiteWaterfallOrchid.html">White Waterfall Orchid</a>
+              </dt>
+              <dd>Choose Your Planter Color</dd>
+              <dd>$79</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <a href="detail-orchids-yellowOrchid.html">
+            <img src="images/list-allPlant-yellowOrchid.png" alt="Yellow Orchid"></a>
+          <figcaption>
+            <dl>
+              <dt>
+                <a href="detail-orchids-yellowOrchid.html">Yellow Orchid</a>
+              </dt>
+              <dd>Choose Your Planter Style &amp; Color</dd>
+              <dd>$69</dd>
+            </dl>
+          </figcaption>
+        </figure>
+      </li>
+    </ul>
+
+    <div class="paging">
+      <a href="listPage-allPlants6.html">&gt;</a>
+      <ol>
+        <li><a href="listPage-allPlants1.html">1</a></li>
+        <li><a href="listPage-allPlants2.html">2</a></li>
+        <li><a href="listPage-allPlants3.html">3</a></li>
+        <li><a href="listPage-allPlants4.html">4</a></li>
+        <li><a href="listPage-allPlants5.html">5</a></li>
+        <li><a href="listPage-allPlants6.html">6</a></li>
+        <li><a href="listPage-allPlants7.html" class="active">7</a></li>
+      </ol>
+      <a href="listPage-allPlants7.html">&lt;</a>
+    </div>
+
+    <section>
+      <div>
+        <ul class="recommendSlider">
+          <li>
+            <img src="images/planters-theRanchoPlanter-5in-sand.png" alt="The Rancho Planter 5in Sand">
+          </li>
+          <li>
+            <img src="images/planters-theRanchoPlanter-7in-sand.png" alt="The Rancho Planter 7in Sand">
+          </li>
+          <li>
+            <img src="images/planters-theRanchoPlanter-8in-sand.png" alt="The Rancho Planter 8in Sand">
+          </li>
+          <li>
+            <img src="images/planters-theRanchoPlanter-5in-terra.png" alt="The Rancho Planter 5in Terra">
+          </li>
+          <li>
+            <img src="images/planters-theRanchoPlanter-7in-terra.png" alt="The Rancho Planter 7in Terra">
+          </li>
+          <li>
+            <img src="images/planters-theRanchoPlanter-8in-terra.png" alt="The Rancho Planter 8in Terra">
+          </li>
+        </ul>
+        <mark class="naTag">New Arrival</mark>
+      </div>
+
+      <div>
+        <h2>The Rancho Planter</h2>
+        <p>$58</p>
+        <select>
+          <option value="s5">Sand 5inch</option>
+          <option value="s7">Sand 7inch</option>
+          <option value="s8">Sand 8inch</option>
+          <option value="t5">Terra 5inch</option>
+          <option value="t7">Terra 7inch</option>
+          <option value="t8">erra 8inch</option>
+        </select>
+        <input type="button" value="Add To Cart" class="itpBlackBtn">
+        <hr class="dottedLine">
+        <p>The Rancho planter, designed by ceramicist Angela Nicole Drew combines both functionality and aesthetics.
+          With built-in drainage holes and a complementary saucer, it simplifies watering your plants. These planters
+          are ideally suited for indoor use and have a rustic, raw clay exterior with a glazed interior to contain
+          water.</p>
+        <a href="detail-planters-theRanchoPlanter.html" class="uln">Learn More</a>
+      </div>
+    </section>
+
+    <div>
+      <h2>We Think You'll Personally Enjoy</h2>
+      <ul class="enjoySlider">
+        <li>
+          <figure>
+            <a href="detail-lowLight-aglaonemaSiam.html">
+              <img src="images/list-allPlant-aglaonemaSiam.png" alt="Aglaonema Siam"></a>
+            <figcaption>
+              <mark class="naTag">New Arrival</mark>
+              <dl>
+                <dt>
+                  <a href="detail-lowLight-aglaonemaSiam.html">Aglaonema Siam</a>
+                </dt>
+                <dd>Low-Fuss!</dd>
+                <dd>$79</dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <figure>
+            <a href="detail-lowLight-hurricaneFern.html">
+              <img src="images/list-allPlant-hurricaneFern.png" alt="Hurricane Fern"></a>
+            <figcaption>
+              <mark class="bisTag">Back In Stock</mark>
+              <dl>
+                <dt>
+                  <a href="detail-lowLight-hurricaneFern.html">Hurricane Fern</a>
+                </dt>
+                <dd>Swirling Fronds</dd>
+                <dd>$79</dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <figure>
+            <a href="detail-largePlants-largeYuccaPlant.html">
+              <img src="images/list-allPlant-largeYuccaPlant.png" alt="Large Yucca Plant"></a>
+            <figcaption>
+              <dl>
+                <dt>
+                  <a href="detail-largePlants-largeYuccaPlant.html">Large Yucca Plant</a>
+                </dt>
+                <dd>Choose Your Planter Style &amp; Color</dd>
+                <dd>$259</dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <figure>
+            <a href="detail-lowLight-dracaenaMarginataBraided.html">
+              <img src="images/list-allPlant-dracaenaMarginataBraided.png" alt="Dracaena Marginata Braided"></a>
+            <figcaption>
+              <mark class="naTag">New arrival</mark>
+              <dl>
+                <dt>
+                  <a href="detail-lowLight-dracaenaMarginataBraided.html">Dracaena Marginata Braided</a>
+                </dt>
+                <dd>Statement Plant for Any Space!</dd>
+                <dd>$159</dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <div>
+      <h2><img src="images/globla-logo.svg"  alt="Bye. The Sill"></h2>
+      <ul>
+        <li><a href="https://www.facebook.com/TheSillNYC/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/thesill/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/thesill" target="_blank">Youtube</a></li>
+        <li><a href="https://www.tiktok.com/@thesill" target="_blank">Tiktok</a></li>
+        <li><a href="https://x.com/thesill" target="_blank">Twitter</a></li>
+        <li><a href="https://www.pinterest.com/thesillnyc/" target="_blank">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div>
+        <h3>Get The Dirt.</h3>
+        <p>Get plant care tips, exclusive offers, &amp; 10% off your first order straight to your inbox.No spam, ever.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter Your Email Here ..." title="Enter Your Email Here">
+          <input type="submit" value="Subscribe" class="itpGreenBtn">
+        </form>
+      </div>
+
+      <div>
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="customerService-faq.html">FAQ</a></li>
+          <li><a href="customerService-shippingHanding.html">Shipping &amp; Handling</a></li>
+          <li><a href="customerService-30day.html">30-Day Guarantee</a></li>
+          <li><a href="customerService-contactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://thesill.typeform.com/find-your-plant">Find Your Plant</a></li>
+          <li><a href="https://www.thesill.com/pages/care-library">Plant Care Library</a></li>
+          <li><a href="resources-blog.html">Blog</a></li>
+          <li><a href="resources-onlineCourses.html">Free Online Courses</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>My Sill</h3>
+        <ul>
+          <li><a href="https://www.thesill.com/account">My Account</a></li>
+          <li><a href="https://www.thesill.com/account">Track My Order</a></li>
+          <li><a href="https://returns.thesill.com/">Returns Portal</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="explore-ourStory.html">Our Story</a></li>
+          <li><a href="explore-careers.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <a href="https://app.impact.com/campaign-campaign-info-v2/The-Sill.brand" class="uln">Affiliate Program</a>
+      <a href="legalLinks-termsOfUse.html" class="uln">Terms of Use</a>
+      <a href="legalLinks-privacyPolicy.html" class="uln">Privacy Policy</a>
+      <a href="legalLinks-accessibilityStatement.html" class="uln">Accessibility</a>
+      <a href="legalLinks-noticeToCaliforniaResidents.html" class="uln">Do Not Sell My Info</a>
+      <p>Copyright 2025 - The Sill, Inc.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sill</title>
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/sill.js"></script>
+
+  <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+  <div class="discountPopup">
+    <div>
+      <h2>Want 10% Off?</h2>
+      <p>Get the dirt and save on your first purchase when
+        you sign up today.</p>
+      <form>
+        <input type="email" placeholder="Email Address" title="Enter Your Email Here">
+        <input type="submit" value="Subscribe" class="itpGreenBtn">
+      </form>
+    </div>
+    <input type="button" value="close" class="bCloseBtn">
+  </div>
+
+  <header id="home">
+    <p>Free Shipping + 30-Day Guarantee</p>
+    <div>
+      <h1>
+        <a href="index.html">
+          <img src="images/globla-logo.svg"  alt="The Sill">
+        </a>
+      </h1>
+      <div>
+        <input type="search" placeholder="Search for plants..." title="search keyword" class="searchToggle">
+        <input type="button" value="search" data-toggle="searchToggle">
+
+        <a href="user-accountLogin.html">myAccount</a>
+
+        <div>
+          <button type="button" value="cart" data-panel="cartPanel">
+            <span>0</span>
+          </button>
+
+          <div class="cartPanel">
+            <div>
+              <h2>Your Cart</h2>
+              <p>0</p>
+              <p>You are $79 away from getting Free Shipping</p>
+              <progress value="0" max="79"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <p>Your cart is currently empty!</p>
+              <p>Find products that match your taste</p>
+              <a href="listPage-allPlants1.html" class="aBlackBtn">Shop Now</a>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$0</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$15</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+
+          <div class="cartPanelFilled">
+            <div>
+              <h2>Your Cart</h2>
+              <p>1</p>
+              <p>You are $8 away from getting Free Shipping</p>
+              <progress value="199" max="207"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <img src="images/list-allPlant-africanMilkTree.png" alt="africanMilkTree">
+              <div>
+                <ul>
+                  <li>AfricanMilkTree</li>
+                  <li>Large / Grant / Grey</li>
+                  <li>
+                    <button type="button" value="delete"></button>
+                  </li>
+                  <li>
+                    <div class="qtyComponent">
+                      <input type="button" value="-" class="minus">
+                      <input type="number" value="1" max="99">
+                      <input type="button" value="+" class="plus">
+                    </div>
+                    <span>$199</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <input type="checkbox" id="giftMessage">
+              <label for="giftMessage">Add gift message?</label>
+              <textarea id="message" cols="40" rows="4" placeholder="Your Notes..."></textarea>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$199</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$214</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <label for="mnav" class="mui">
+        Menu
+      </label>
+      <input type="checkbox" id="mnav" class="mui">
+      <ul>
+        <li>
+          <b>Indoor Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Indoor Plants</strong>
+              <ol>
+                <li><a href="listPage-allPlants1.html">All Plants</a></li>
+                <li><a href="listPage-petFriendly1.html">Pet-Friendly</a></li>
+                <li><a href="listPage-lowLight1.html">Low-Light</a></li>
+                <li><a href="listPage-largePlants1.html">Large Plants</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-petFriendly1.html">
+                  <img src="images/mainMenu1_1.jpg" alt="Pet-Friendly">
+                </a>
+                <figcaption>Pet-Friendly</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listpage-lowLight1.html">
+                  <img src="images/mainMenu1_2.jpg" alt="Low-Light">
+                </a>
+                <figcaption>Low-Light</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-largePlants1.html">
+                  <img src="images/mainMenu1_3.jpg" alt="Large Plants">
+                </a>
+                <figcaption>Large Plants</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Flowering Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Flowering Plants</strong>
+              <ol>
+                <li><a href="listPage-orchids1.html">Orchids</a></li>
+                <li><a href="listPage-blooms1.html">Blooms</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-orchids1.html">
+                  <img src="images/mainMenu2_1.jpg" alt="Orchids">
+                </a>
+                <figcaption>Orchids</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-blooms1.html">
+                  <img src="images/mainMenu2_2.jpg" alt="Blooms">
+                </a>
+                <figcaption>Blooms</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Greenleaf Collection</b>
+          <div class="sub">
+            <div>
+              <strong>Greenleaf Collection</strong>
+              <ol>
+                <li><a href="listPage-rarePlants1.html">Rare Plants</a></li>
+                <li><a href="listPage-cactiSucculents1.html">Cacti &amp; Succulents</a></li>
+                <li><a href="listPage-hangingBaskets1.html">Hanging Baskcts</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-rarePlants1.html">
+                  <img src="images/mainMenu3_1.jpg" alt="Rare Plants">
+                </a>
+                <figcaption>Rare Plants</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-cactiSucculents1.html">
+                  <img src="images/mainMenu3_2.jpg" alt="Cacti & Succulents">
+                </a>
+                <figcaption>Cacti &amp; Succulents</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-hangingBaskets1.html">
+                  <img src="images/mainMenu3_3.jpg" alt="Hanging Baskcts">
+                </a>
+                <figcaption>Hanging Baskcts</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Artificial Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Artificial Plants</strong>
+              <ol>
+                <li><a href="listPage-faux1.html">Faux</a></li>
+                <li><a href="listPage-artisanMoss1.html">Artisan Moss</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-faux1.html">
+                  <img src="images/mainMenu4_1.jpg" alt="Faux">
+                </a>
+                <figcaption>Faux</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-artisanMoss1.html">
+                  <img src="images/mainMenu4_2.jpg" alt="Artisan Moss">
+                </a>
+                <figcaption>Artisan Moss</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Plant Care</b>
+          <div class="sub">
+            <div>
+              <strong>Plant Care</strong>
+              <ol>
+                <li><a href="listPage-planters1.html">Planters</a></li>
+                <li><a href="listPage-supplies1.html">Supplies</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-planters1.html">
+                  <img src="images/mainMenu5_1.jpg" alt="Planters">
+                </a>
+                <figcaption>Planters</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-supplies1.html">
+                  <img src="images/mainMenu5_2.jpg" alt="Supplies">
+                </a>
+                <figcaption>Supplies</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="resourcesContainer">
+    <section class="onlineCoursesVisual">
+      <div>
+        <h2>Online Courses</h2>
+        <p>Free self-guided plant care courses to compliment our in person and virtual workshop events.</p>
+      </div>
+    </section>
+
+    <div class="onlineCoursesWrapper">
+      <input type="button" value="Back" class="backBtn">
+      <span class="postCount"><b>7 </b>Available</span>
+
+      <ol>
+        <!-- 1 -->
+        <li>
+          <div>
+            <a href="resources-onlineCourses-plantCare101-gettingStarted.html">
+              <h2>Plant Care 101</h2>
+              <img src="images/onlineCourses_paragraph1.png" alt="paragraph1">
+            </a>
+          </div>
+          <div>
+            <h2>Plant Care 101</h2>
+            <p>Get a better grasp of the fundamentals with this introductory course to plant care. We'll cover the
+              basics: light, water, and soil, so your plants stay happy and healthy.</p>
+            <ul>
+              <li>
+                <span>Part 1</span>
+                <a href="resources-onlineCourses-plantCare101-gettingStarted.html">
+                  <h3 class="uln">Getting Started</h3>
+                </a>
+                <p>What to consider before buying a new plant.</p>
+              </li>
+              <li>
+                <span>Part 2</span>
+                <a href="resources-onlineCourses-plantCare101-light.html">
+                  <h3 class="uln">Light</h3>
+                </a>
+                <p>Indoors, you have less light than you think you do.</p>
+              </li>
+              <li>
+                <span>Part 3</span>
+                <a href="resources-onlineCourses-plantCare101-environment.html">
+                  <h3 class="uln">Environment</h3>
+                </a>
+                <p>What is the ideal temperature and humidity for plants?</p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <span>Part 4</span>
+                <a href="resources-onlineCourses-plantCare101-watering.html">
+                  <h3 class="uln">Watering</h3>
+                </a>
+                <p>Water is crucial for nutrient uptake. Learn the basics.</p>
+              </li>
+              <li>
+                <span>Part 5</span>
+                <a href="resources-onlineCourses-plantCare101-pottingDrainage.html">
+                  <h3 class="uln">Potting &amp; Drainage</h3>
+                </a>
+                <p>Why and when to pot or repot your plant.</p>
+              </li>
+              <li>
+                <span>Part 6</span>
+                <a href="resources-onlineCourses-plantCare101-soilMixes.html">
+                  <h3 class="uln">Soil Mixes</h3>
+                </a>
+                <p>For your reference: what types of soil mix to use.</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <!-- 2 -->
+        <li>
+          <div>
+            <a href="resources-onlineCourses-springPlantCare-lightChanges.html">
+              <h2>Spring Plant Care</h2>
+              <img src="images/onlineCourses_paragraph1.png" alt="paragraph2">
+            </a>
+          </div>
+          <div>
+            <h2>Spring Plant Care</h2>
+            <p>Learn all about seasonal plant care tips and prep your plants for the warmer weather and longer days
+              during this Spring plant care course.</p>
+            <ul>
+              <li>
+                <span>Part 1</span>
+                <a href="resources-onlineCourses-springPlantCare-lightChanges.html">
+                  <h3 class="uln">Light Changes</h3>
+                </a>
+                <p>When daylight hours change it can certainly impact our plants.</p>
+              </li>
+              <li>
+                <span>Part 2</span>
+                <a href="resources-onlineCourses-springPlantCare-water.html">
+                  <h3 class="uln">Water</h3>
+                </a>
+                <p>Introduce more water as plants drink more in the Spring.</p>
+              </li>
+              <li>
+                <span>Part 3</span>
+                <a href="resources-onlineCourses-springPlantCare-repotting.html">
+                  <h3 class="uln">Repotting</h3>
+                </a>
+                <p>Spring is the start of the growing season and best time to repot.</p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <span>Part 4</span>
+                <a href="resources-onlineCourses-springPlantCare-pruningFertilizing.html">
+                  <h3 class="uln">Pruning &amp; Fertilizing</h3>
+                </a>
+                <p>Pruning our plants can refresh them for Spring.</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <!-- 3 -->
+        <li>
+          <div>
+            <a href="resources-onlineCourses-winterPlantCare-lightChanges.html">
+              <h2>Winter Plant Care</h2>
+              <img src="images/onlineCourses_paragraph1.png" alt="paragraph3">
+            </a>
+          </div>
+          <div>
+            <h2>Winter Plant Care</h2>
+            <p>In this course, we're talking about all things winter and how you should care for your plants now that
+              the temperatures have dropped and the days are shorter.</p>
+            <ul>
+              <li>
+                <span>Part 1</span>
+                <a href="resources-onlineCourses-winterPlantCare-lightChanges.html">
+                  <h3 class="uln">Light Changes</h3>
+                </a>
+                <p>Seasonality changes the directional and angle of light.</p>
+              </li>
+              <li>
+                <span>Part 2</span>
+                <a href="resources-onlineCourses-winterPlantCare-environment.html">
+                  <h3 class="uln">Environment</h3>
+                </a>
+                <p>How to handle cold drafts and heat from radiators.</p>
+              </li>
+              <li>
+                <span>Part 3</span>
+                <a href="resources-onlineCourses-winterPlantCare-cleanTheGreen.html">
+                  <h3 class="uln">Clean The Green</h3>
+                </a>
+                <p>Cleaning leaves can help maximize light absorption.</p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <span>Part 4</span>
+                <a href="resources-onlineCourses-winterPlantCare-troubleshooting.html">
+                  <h3 class="uln">Troubleshooting</h3>
+                </a>
+                <p>Common winter time issues and what to do.</p>
+              </li>
+              <li>
+                <span>Part 5</span>
+                <a href="resources-onlineCourses-winterPlantCare-neemApplication.html">
+                  <h3 class="uln">Neem Application</h3>
+                </a>
+                <p>How to use neem oil, a naturally occurring pesticide.</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <!-- 4 -->
+        <li>
+          <div>
+            <a href="resources-onlineCourses-succulents101-succulents.html">
+              <h2>Succulents 101</h2>
+              <img src="images/onlineCourses_paragraph2.png" alt="paragraph4">
+            </a>
+          </div>
+          <div>
+            <h2>Succulents 101</h2>
+            <p>Deep dive on succulents. Covered in this course: What are they? How are they different than cacti? And
+              how to take care and propogate them.</p>
+            <ul>
+              <li>
+                <span>Part 1</span>
+                <a href="resources-onlineCourses-succulents101-succulents.html">
+                  <h3 class="uln">Succulents</h3>
+                </a>
+                <p>How are succulents different from cacti?</p>
+              </li>
+              <li>
+                <span>Part 2</span>
+                <a href="resources-onlineCourses-succulents101-care.html">
+                  <h3 class="uln">Care</h3>
+                </a>
+                <p>The ins and outs of caring for succulents.</p>
+              </li>
+              <li>
+                <span>Part 3</span>
+                <a href="resources-onlineCourses-succulents101-propagation.html">
+                  <h3 class="uln">Propagation</h3>
+                </a>
+                <p>Different ways to propagate succulents.</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <!-- 5 -->
+        <li>
+          <div>
+            <a href="resources-onlineCourses-pestsAndDisease101-whatArePests.html">
+              <h2>Pests And Disease 101</h2>
+              <img src="images/onlineCourses_paragraph1.png" alt="paragraph5">
+            </a>
+          </div>
+          <div>
+            <h2>Pests And Disease 101</h2>
+            <p>Learn about common pests and plant diseases, how to prevent them, and what to do to treat them when they
+              occur.</p>
+            <ul>
+              <li>
+                <span>Part 1</span>
+                <a href="resources-onlineCourses-pestsAndDisease101-whatArePests.html">
+                  <h3 class="uln">What Are Pests?</h3>
+                </a>
+                <p>How to prevent them and how to treat them.</p>
+              </li>
+              <li>
+                <span>Part 2</span>
+                <a href="resources-onlineCourses-pestsAndDisease101-commonPests.html">
+                  <h3 class="uln">Common Pests</h3>
+                </a>
+                <p>Five of the most common plant pests.</p>
+              </li>
+              <li>
+                <span>Part 3</span>
+                <a href="resources-onlineCourses-pestsAndDisease101-whatAreDiseases.html">
+                  <h3 class="uln">What Are Diseases?</h3>
+                </a>
+                <p>What is the ideal temperature and humidity for plants?</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <!-- 6 -->
+        <li>
+          <div>
+            <a href="resources-onlineCourses-succulentTerrarium101-history.html">
+              <h2>Succulent Terrarium 101</h2>
+              <img src="images/onlineCourses_paragraph3.png" alt="paragraph6">
+            </a>
+          </div>
+          <div>
+            <h2>Succulent Terrarium 101</h2>
+            <p>Learn how to build and care for your very own miniature desert with us. Purchase your own supplies ahead
+              of time or buy our kit online.</p>
+            <ul>
+              <li>
+                <span>Part 1</span>
+                <a href="resources-onlineCourses-succulentTerrarium101-history.html">
+                  <h3 class="uln">History</h3>
+                </a>
+                <p>The first terrarium was developed by botanist Dr. Nathaniel Ward.</p>
+              </li>
+              <li>
+                <span>Part 2</span>
+                <a href="resources-onlineCourses-succulentTerrarium101-succulents.html">
+                  <h3 class="uln">Succulents</h3>
+                </a>
+                <p>What are succulents and how to care for them.</p>
+              </li>
+              <li>
+                <span>Part 3</span>
+                <a href="resources-onlineCourses-succulentTerrarium101-terrariumBuilding.html">
+                  <h3 class="uln">Terrarium Building</h3>
+                </a>
+                <p>Step-by-step how to build your own terrarium.</p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <span>Part 4</span>
+                <a href="resources-onlineCourses-succulentTerrarium101-tipsTroubleshooting.html">
+                  <h3 class="uln">Tips &amp; Troubleshooting</h3>
+                </a>
+                <p>Ways to improve and maintain your terrarium.</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <!-- 7 -->
+        <li>
+          <div>
+            <a href="resources-onlineCourses-propagation101-whatIsPropagation.html">
+              <h2>Propagation 101</h2>
+              <img src="images/onlineCourses_paragraph4.png" alt="paragraph7">
+            </a>
+          </div>
+          <div>
+            <h2>Propagation 101</h2>
+            <p>Propagation is an inexpensive and rewarding way to grow your collection. Everything you need to know from
+              taking cuttings to coaxing new roots to grow.</p>
+            <ul>
+              <li>
+                <span>Part 1</span>
+                <a href="resources-onlineCourses-propagation101-whatIsPropagation.html">
+                  <h3 class="uln">What is Propagation?</h3>
+                </a>
+                <p>Propagation is a process for cultivating new plants.</p>
+              </li>
+              <li>
+                <span>Part 2</span>
+                <a href="resources-onlineCourses-propagation101-environmentalFactors.html">
+                  <h3 class="uln">Environmental Factors</h3>
+                </a>
+                <p>Propagation isn't always 100% successful.</p>
+              </li>
+              <li>
+                <span>Part 3</span>
+                <a href="resources-onlineCourses-propagation101-propagationMethods.html">
+                  <h3 class="uln">Propagation Methods</h3>
+                </a>
+                <p>Five of the most common methods explained.</p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <span>Part 4</span>
+                <a href="resources-onlineCourses-propagation101-tipsTricks.html">
+                  <h3 class="uln">Tips &amp; Tricks</h3>
+                </a>
+                <p>Provide fresh water on a weekly basis and other tips.</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </article>
+
+  <footer>
+    <div>
+      <h2><img src="images/globla-logo.svg"  alt="Bye. The Sill"></h2>
+      <ul>
+        <li><a href="https://www.facebook.com/TheSillNYC/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/thesill/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/thesill" target="_blank">Youtube</a></li>
+        <li><a href="https://www.tiktok.com/@thesill" target="_blank">Tiktok</a></li>
+        <li><a href="https://x.com/thesill" target="_blank">Twitter</a></li>
+        <li><a href="https://www.pinterest.com/thesillnyc/" target="_blank">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div>
+        <h3>Get The Dirt.</h3>
+        <p>Get plant care tips, exclusive offers, &amp; 10% off your first order straight to your inbox.No spam, ever.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter Your Email Here ..." title="Enter Your Email Here">
+          <input type="submit" value="Subscribe" class="itpGreenBtn">
+        </form>
+      </div>
+
+      <div>
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="customerService-faq.html">FAQ</a></li>
+          <li><a href="customerService-shippingHanding.html">Shipping &amp; Handling</a></li>
+          <li><a href="customerService-30day.html">30-Day Guarantee</a></li>
+          <li><a href="customerService-contactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://thesill.typeform.com/find-your-plant">Find Your Plant</a></li>
+          <li><a href="https://www.thesill.com/pages/care-library">Plant Care Library</a></li>
+          <li><a href="resources-blog.html">Blog</a></li>
+          <li><a href="resources-onlineCourses.html">Free Online Courses</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>My Sill</h3>
+        <ul>
+          <li><a href="https://www.thesill.com/account">My Account</a></li>
+          <li><a href="https://www.thesill.com/account">Track My Order</a></li>
+          <li><a href="https://returns.thesill.com/">Returns Portal</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="explore-ourStory.html">Our Story</a></li>
+          <li><a href="explore-careers.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <a href="https://app.impact.com/campaign-campaign-info-v2/The-Sill.brand" class="uln">Affiliate Program</a>
+      <a href="legalLinks-termsOfUse.html" class="uln">Terms of Use</a>
+      <a href="legalLinks-privacyPolicy.html" class="uln">Privacy Policy</a>
+      <a href="legalLinks-accessibilityStatement.html" class="uln">Accessibility</a>
+      <a href="legalLinks-noticeToCaliforniaResidents.html" class="uln">Do Not Sell My Info</a>
+      <p>Copyright 2025 - The Sill, Inc.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sill</title>
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/sill.js"></script>
+
+  <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+  <div class="discountPopup">
+    <div>
+      <h2>Want 10% Off?</h2>
+      <p>Get the dirt and save on your first purchase when
+        you sign up today.</p>
+      <form>
+        <input type="email" placeholder="Email Address" title="Enter Your Email Here">
+        <input type="submit" value="Subscribe" class="itpGreenBtn">
+      </form>
+    </div>
+    <input type="button" value="close" class="bCloseBtn">
+  </div>
+
+  <header id="home">
+    <p>Free Shipping + 30-Day Guarantee</p>
+    <div>
+      <h1>
+        <a href="index.html">
+          <img src="images/globla-logo.svg"  alt="The Sill">
+        </a>
+      </h1>
+      <div>
+        <input type="search" placeholder="Search for plants..." title="search keyword" class="searchToggle">
+        <input type="button" value="search" data-toggle="searchToggle">
+
+        <a href="user-accountLogin.html">myAccount</a>
+
+        <div>
+          <button type="button" value="cart" data-panel="cartPanel">
+            <span>0</span>
+          </button>
+
+          <div class="cartPanel">
+            <div>
+              <h2>Your Cart</h2>
+              <p>0</p>
+              <p>You are $79 away from getting Free Shipping</p>
+              <progress value="0" max="79"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <p>Your cart is currently empty!</p>
+              <p>Find products that match your taste</p>
+              <a href="listPage-allPlants1.html" class="aBlackBtn">Shop Now</a>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$0</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$15</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+
+          <div class="cartPanelFilled">
+            <div>
+              <h2>Your Cart</h2>
+              <p>1</p>
+              <p>You are $8 away from getting Free Shipping</p>
+              <progress value="199" max="207"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <img src="images/list-allPlant-africanMilkTree.png" alt="africanMilkTree">
+              <div>
+                <ul>
+                  <li>AfricanMilkTree</li>
+                  <li>Large / Grant / Grey</li>
+                  <li>
+                    <button type="button" value="delete"></button>
+                  </li>
+                  <li>
+                    <div class="qtyComponent">
+                      <input type="button" value="-" class="minus">
+                      <input type="number" value="1" max="99">
+                      <input type="button" value="+" class="plus">
+                    </div>
+                    <span>$199</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <input type="checkbox" id="giftMessage">
+              <label for="giftMessage">Add gift message?</label>
+              <textarea id="message" cols="40" rows="4" placeholder="Your Notes..."></textarea>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$199</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$214</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <label for="mnav" class="mui">
+        Menu
+      </label>
+      <input type="checkbox" id="mnav" class="mui">
+      <ul>
+        <li>
+          <b>Indoor Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Indoor Plants</strong>
+              <ol>
+                <li><a href="listPage-allPlants1.html">All Plants</a></li>
+                <li><a href="listPage-petFriendly1.html">Pet-Friendly</a></li>
+                <li><a href="listPage-lowLight1.html">Low-Light</a></li>
+                <li><a href="listPage-largePlants1.html">Large Plants</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-petFriendly1.html">
+                  <img src="images/mainMenu1_1.jpg" alt="Pet-Friendly">
+                </a>
+                <figcaption>Pet-Friendly</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listpage-lowLight1.html">
+                  <img src="images/mainMenu1_2.jpg" alt="Low-Light">
+                </a>
+                <figcaption>Low-Light</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-largePlants1.html">
+                  <img src="images/mainMenu1_3.jpg" alt="Large Plants">
+                </a>
+                <figcaption>Large Plants</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Flowering Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Flowering Plants</strong>
+              <ol>
+                <li><a href="listPage-orchids1.html">Orchids</a></li>
+                <li><a href="listPage-blooms1.html">Blooms</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-orchids1.html">
+                  <img src="images/mainMenu2_1.jpg" alt="Orchids">
+                </a>
+                <figcaption>Orchids</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-blooms1.html">
+                  <img src="images/mainMenu2_2.jpg" alt="Blooms">
+                </a>
+                <figcaption>Blooms</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Greenleaf Collection</b>
+          <div class="sub">
+            <div>
+              <strong>Greenleaf Collection</strong>
+              <ol>
+                <li><a href="listPage-rarePlants1.html">Rare Plants</a></li>
+                <li><a href="listPage-cactiSucculents1.html">Cacti &amp; Succulents</a></li>
+                <li><a href="listPage-hangingBaskets1.html">Hanging Baskcts</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-rarePlants1.html">
+                  <img src="images/mainMenu3_1.jpg" alt="Rare Plants">
+                </a>
+                <figcaption>Rare Plants</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-cactiSucculents1.html">
+                  <img src="images/mainMenu3_2.jpg" alt="Cacti & Succulents">
+                </a>
+                <figcaption>Cacti &amp; Succulents</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-hangingBaskets1.html">
+                  <img src="images/mainMenu3_3.jpg" alt="Hanging Baskcts">
+                </a>
+                <figcaption>Hanging Baskcts</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Artificial Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Artificial Plants</strong>
+              <ol>
+                <li><a href="listPage-faux1.html">Faux</a></li>
+                <li><a href="listPage-artisanMoss1.html">Artisan Moss</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-faux1.html">
+                  <img src="images/mainMenu4_1.jpg" alt="Faux">
+                </a>
+                <figcaption>Faux</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-artisanMoss1.html">
+                  <img src="images/mainMenu4_2.jpg" alt="Artisan Moss">
+                </a>
+                <figcaption>Artisan Moss</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Plant Care</b>
+          <div class="sub">
+            <div>
+              <strong>Plant Care</strong>
+              <ol>
+                <li><a href="listPage-planters1.html">Planters</a></li>
+                <li><a href="listPage-supplies1.html">Supplies</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-planters1.html">
+                  <img src="images/mainMenu5_1.jpg" alt="Planters">
+                </a>
+                <figcaption>Planters</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-supplies1.html">
+                  <img src="images/mainMenu5_2.jpg" alt="Supplies">
+                </a>
+                <figcaption>Supplies</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="resourcesContainer">
+    <section class="blogVisual">
+      <div>
+        <h2>Your Journey to Plant Parenthood</h2>
+        <p>Gently learn how to care for and troubleshoot your plants' most common problems - and gain the confidence to
+          grow your very own indoor jungle.</p>
+      </div>
+    </section>
+
+    <div class="blogWrapper">
+      <input type="button" value="Back" class="backBtn">
+      <span class="postCount"><b>16 </b>Available</span>
+
+      <ul class="postList">
+        <!-- 1 -->
+        <li>
+          <figure>
+            <a href="resources-blog-fallPlantCareTipsForHouseplants.html">
+              <div class="imgWrap">
+                <img src="images/blog-fallPlantCareTipsForHouseplants.webp" alt="Fall Plant Care Tips For Houseplants">
+              </div>
+            </a>
+            <figcaption>
+              <dl>
+                <dt>
+                  <a href="resources-blog-fallPlantCareTipsForHouseplants.html">
+                    Fall Plant Care Tips For Houseplants</a>
+                </dt>
+                <dd>As the seasons change, so too do your plant needs. Indoor plants are affected by outdoor changes.
+                  We're sharing easy plant care tips and tricks from our team to help your houseplants thrive this
+                  spring.</dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </li>
+        <!-- 2 -->
+        <li>
+          <figure>
+            <a href="resources-blog-howToBringYourPlantsIndoorsforFallAndWinter.html">
+              <div class="imgWrap">
+                <img src="images/blog-howToBringYourPlantsIndoorsforFallAndWinter.png"
+                  alt="Fall Plant Care Tips For Houseplants">
+              </div>
+            </a>
+            <figcaption>
+              <dl>
+                <dt>
+                  <a href="resources-blog-howToBringYourPlantsIndoorsforFallAndWinter.html">
+                    How To Bring Your Plants Indoors for Fall and Winter
+                  </a>
+                </dt>
+                <dd>Once the dog days of summer have come and gone, it's time to bring your plants back inside before
+                  the nighttime temperatures dip too low. Here are some tips to make sure that your plants' transition
+                  back indoors is safe and healthy.</dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </li>
+        <!-- 3 -->
+        <li>
+          <figure>
+            <a href="resources-blog-our6MostPopularHouseplantsForFall.html">
+              <div class="imgWrap">
+                <img src="images/blog-our6MostPopularHouseplantsForFall.png"
+                  alt="Our 6 Most Popular Houseplants for Fall">
+              </div>
+            </a>
+            <figcaption>
+              <dl>
+                <dt>
+                  <a href="resources-blog-our6MostPopularHouseplantsForFall.html">
+                    Our 6 Most Popular Houseplants for Fall
+                  </a>
+                </dt>
+                <dd>Autumn leaves will soon be falling, and we're ready to embrace sweater weather and cozy up at
+                  home.
+                  If you're looking to bring the warmth and welcome of fall to your space, you're in luck. We rounded
+                  up
+                  six plant options that are fall-friendly, especially if your home is seeing less light these days.
+                </dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </li>
+        <!-- 4 -->
+        <li>
+          <figure>
+            <a href="resources-blog-plantCareForLargePlants.html">
+              <div class="imgWrap">
+                <img src="images/blog-plantCareForLargePlants.png" alt="Plant Care for Large Plants">
+              </div>
+            </a>
+            <figcaption>
+              <dl>
+                <dt>
+                  <a href="resources-blog-plantCareForLargePlants.html">
+                    Plant Care for Large Plants
+                  </a>
+                </dt>
+                <dd></dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </li>
+        <!-- 5 -->
+        <li>
+          <figure>
+            <a href="resources-blog-howToIncreaseHumidityForHouseplants.html">
+              <div class="imgWrap">
+                <img src="images/blog-howToIncreaseHumidityForHouseplants.png"
+                  alt="How To Increase Humidity for Houseplants">
+              </div>
+            </a>
+            <figcaption>
+              <dl>
+                <dt>
+                  <a href="resources-blog-howToIncreaseHumidityForHouseplants.html">
+                    How To Increase Humidity for Houseplants
+                  </a>
+                </dt>
+                <dd>Although thick, humid air can be a pain for humans, it can be beneficial for plants. Here's how to
+                  create a more humid environment for your tropical houseplants indoors, especially during the winter.
+                </dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </li>
+        <!-- 6 -->
+        <li>
+          <figure>
+            <a href="resources-blog-springHouseplantCareTipsAndTricks.html">
+              <div class="imgWrap">
+                <img src="images/blog-springHouseplantCareTipsAndTricks.webp"
+                  alt="Spring Houseplant Care Tips and Tricks">
+              </div>
+            </a>
+            <figcaption>
+              <dl>
+                <dt>
+                  <a href="resources-blog-springHouseplantCareTipsAndTricks.html">
+                    Spring Houseplant Care Tips and Tricks
+                  </a>
+                </dt>
+                <dd>As the seasons change, so too do your plant needs. Indoor plants are affected by outdoor changes.
+                  We're sharing easy plant care tips and tricks from our team to help your houseplants thrive this
+                  spring.</dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </li>
+        <!-- 7 -->
+        <li>
+          <figure>
+            <a href="resources-blog-findingtheRightSpaceForYourPlant.html">
+              <div class="imgWrap">
+                <img src="images/blog-findingtheRightSpaceForYourPlant.png"
+                  alt="Finding the Right Space For Your Plant">
+              </div>
+            </a>
+            <figcaption>
+              <dl>
+                <dt>
+                  <a href="resources-blog-findingtheRightSpaceForYourPlant.html">
+                    Finding the Right Space For Your Plant
+                  </a>
+                </dt>
+                <dd>Our environments shape us in ways we never imagined. The same is true for plants. Creating a safe
+                  space for your plants takes a little trial and error but it's doable. Read ahead for our guide on
+                  getting started.</dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </li>
+        <!-- 8 -->
+        <li>
+          <figure>
+            <a href="resources-blog-howToKeepYourPlantsAliveWhileOnVacation.html">
+              <div class="imgWrap">
+                <img src="images/blog-howToKeepYourPlantsAliveWhileOnVacation.png"
+                  alt="How To Keep Your Plants Alive While On Vacation">
+              </div>
+            </a>
+            <figcaption>
+              <dl>
+                <dt>
+                  <a href="resources-blog-howToKeepYourPlantsAliveWhileOnVacation.html">
+                    How To Keep Your Plants Alive While On Vacation
+                  </a>
+                </dt>
+                <dd>Going on vacation? We're sharing our top tips and tricks to keep your houseplants happy and
+                  healthy
+                  while you're away.
+                </dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </li>
+        <!-- 9 -->
+        <li>
+          <figure>
+            <a href="resources-blog-whatIsAPrayerplant.html">
+              <div class="imgWrap">
+                <img src="images/blog-whatIsAPrayerplant.webp" alt="What is a prayer plant?">
+              </div>
+            </a>
+            <figcaption>
+              <dl>
+                <dt>
+                  <a href="resources-blog-whatIsAPrayerplant.html">
+                    What is a prayer plant?
+                  </a>
+                </dt>
+                <dd>Calatheas, better known as ‘prayer plants,' are all members of the genus Maranta, to which genus
+                  Calathea is closely-related. If you're new to prayer plants and humidity-loving Calatheas, we'll
+                  walk
+                  you through where they come from and how to care for them.</dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </li>
+        <!-- 10 -->
+        <li>
+          <figure>
+            <a href="resources-blog-fiveSummerPlantCareTipsandTricks.html">
+              <div class="imgWrap">
+                <img src="images/blog-fiveSummerPlantCareTipsandTricks.png"
+                  alt="Five Summer Plant Care Tips and Tricks">
+              </div>
+            </a>
+            <figcaption>
+              <dl>
+                <dt>
+                  <a href="resources-blog-fiveSummerPlantCareTipsandTricks.html">
+                    Five Summer Plant Care Tips and Tricks
+                  </a>
+                </dt>
+                <dd>As the seasons change, so too do your plant's needs. Indoor plants are affected by outdoor
+                  changes.
+                  In this article, we're talking about all things summer and what you can do to keep your plants happy
+                  as the temperature rises.</dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </li>
+        <!-- 11 -->
+        <li>
+          <figure>
+            <a href="resources-blog-howToMakeYourOrchidRebloom.html">
+              <div class="imgWrap">
+                <img src="images/blog-howToMakeYourOrchidRebloom.png" alt="How To Make Your Orchid Rebloom">
+              </div>
+            </a>
+            <figcaption>
+              <dl>
+                <dt>
+                  <a href="resources-blog-howToMakeYourOrchidRebloom.html">
+                    How To Make Your Orchid Rebloom
+                  </a>
+                </dt>
+                <dd></dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </li>
+        <!-- 12 -->
+        <li>
+          <figure>
+            <a href="resources-blog-ourTop10PlantCareTips.html">
+              <div class="imgWrap">
+                <img src="images/blog-ourTop10PlantCareTips.png" alt="Our Top 10 Plant Care Tips">
+              </div>
+            </a>
+            <figcaption>
+              <dl>
+                <dt>
+                  <a href="resources-blog-ourTop10PlantCareTips.html">
+                    Our Top 10 Plant Care Tips
+                  </a>
+                </dt>
+                <dd>There are plenty of ways to care for your plant. With the help of our plant experts, we've weeded
+                  out the top 10 tips for healthy, happy plants.</dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </li>
+        <!-- 13 -->
+        <li>
+          <figure>
+            <a href="resources-blog-howToMoveYourPlantsOutsideForSummer.html">
+              <div class="imgWrap">
+                <img src="images/blog-howToMoveYourPlantsOutsideForSummer.png"
+                  alt="How To Move Your Plants Outside for Summer">
+              </div>
+            </a>
+            <figcaption>
+              <dl>
+                <dt>
+                  <a href="resources-blog-howToMoveYourPlantsOutsideForSummer.html">
+                    How To Move Your Plants Outside for Summer
+                  </a>
+                </dt>
+                <dd>Transitioning your indoor plants to the outdoors is not easy. Exposed to the elements, outdoor
+                  plants can require extra attention and commitment. That said, our houseplants can benefit from a
+                  summer outside. If you plan to move your indoor plants out, here's how-to do it.</dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </li>
+        <!-- 14 -->
+        <li>
+          <figure>
+            <a href="resources-blog-tipsTricksForASuccessfulPlantPropagation.html">
+              <div class="imgWrap">
+                <img src="images/blog-tipsTricksForASuccessfulPlantPropagation.webp"
+                  alt="Tips &amp; Tricks for a Successful Plant Propagation">
+              </div>
+            </a>
+            <figcaption>
+              <dl>
+                <dt>
+                  <a href="resources-blog-tipsTricksForASuccessfulPlantPropagation.html">
+                    Tips &amp; Tricks for a Successful Plant Propagation
+                  </a>
+                </dt>
+                <dd>If you're propagating a plant by stem or leaf cutting, we have a few tips and tricks you can
+                  follow
+                  to ensure the cuttings take root and thrive within their new home.</dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </li>
+        <!-- 15 -->
+        <li>
+          <figure>
+            <a href="resources-blog-howToPickAPlanterForYourPlant.html">
+              <div class="imgWrap">
+                <img src="images/blog-howToPickAPlanterForYourPlant.png" alt="How-To: Pick a Planter for Your Plant">
+              </div>
+            </a>
+            <figcaption>
+              <dl>
+                <dt>
+                  <a href="resources-blog-howToPickAPlanterForYourPlant.html">
+                    How-To: Pick a Planter for Your Plant
+                  </a>
+                </dt>
+                <dd>Say perfect plant planter three times fast. Choosing a planter is not nearly as hard, once you
+                  know
+                  what to look for. Hint: read on to find out how-to choose the perfect planter for your plant.</dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </li>
+        <!-- 16 -->
+        <li>
+          <figure>
+            <a href="resources-blog-whatToDoWhenYouSeeMushroomsinYourSoil.html">
+              <div class="imgWrap">
+                <img src="images/blog-whatToDoWhenYouSeeMushroomsinYourSoil.png"
+                  alt="What To Do When You See Mushrooms in Your Soil">
+              </div>
+            </a>
+            <figcaption>
+              <dl>
+                <dt>
+                  <a href="resources-blog-whatToDoWhenYouSeeMushroomsinYourSoil.html">
+                    What To Do When You See Mushrooms in Your Soil
+                  </a>
+                </dt>
+                <dd>For millions of years, plants have been BFF's with microbes found in soil, forming strong,
+                  intricate
+                  relationships. Plants interact with both bacteria and fungi in soil, and in fact, if it were not for
+                  fungi there would be no life on land. Here, we give you a rundown on mushrooms, fungi, and their
+                  relationship status to plants.</dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div>
+      <h2><img src="images/globla-logo.svg"  alt="Bye. The Sill"></h2>
+      <ul>
+        <li><a href="https://www.facebook.com/TheSillNYC/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/thesill/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/thesill" target="_blank">Youtube</a></li>
+        <li><a href="https://www.tiktok.com/@thesill" target="_blank">Tiktok</a></li>
+        <li><a href="https://x.com/thesill" target="_blank">Twitter</a></li>
+        <li><a href="https://www.pinterest.com/thesillnyc/" target="_blank">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div>
+        <h3>Get The Dirt.</h3>
+        <p>Get plant care tips, exclusive offers, &amp; 10% off your first order straight to your inbox.No spam, ever.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter Your Email Here ..." title="Enter Your Email Here">
+          <input type="submit" value="Subscribe" class="itpGreenBtn">
+        </form>
+      </div>
+
+      <div>
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="customerService-faq.html">FAQ</a></li>
+          <li><a href="customerService-shippingHanding.html">Shipping &amp; Handling</a></li>
+          <li><a href="customerService-30day.html">30-Day Guarantee</a></li>
+          <li><a href="customerService-contactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://thesill.typeform.com/find-your-plant">Find Your Plant</a></li>
+          <li><a href="https://www.thesill.com/pages/care-library">Plant Care Library</a></li>
+          <li><a href="resources-blog.html">Blog</a></li>
+          <li><a href="resources-onlineCourses.html">Free Online Courses</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>My Sill</h3>
+        <ul>
+          <li><a href="https://www.thesill.com/account">My Account</a></li>
+          <li><a href="https://www.thesill.com/account">Track My Order</a></li>
+          <li><a href="https://returns.thesill.com/">Returns Portal</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="explore-ourStory.html">Our Story</a></li>
+          <li><a href="explore-careers.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <a href="https://app.impact.com/campaign-campaign-info-v2/The-Sill.brand" class="uln">Affiliate Program</a>
+      <a href="legalLinks-termsOfUse.html" class="uln">Terms of Use</a>
+      <a href="legalLinks-privacyPolicy.html" class="uln">Privacy Policy</a>
+      <a href="legalLinks-accessibilityStatement.html" class="uln">Accessibility</a>
+      <a href="legalLinks-noticeToCaliforniaResidents.html" class="uln">Do Not Sell My Info</a>
+      <p>Copyright 2025 - The Sill, Inc.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

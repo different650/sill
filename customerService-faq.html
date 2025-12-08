@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sill</title>
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/sill.js"></script>
+
+  <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+  <div class="discountPopup">
+    <div>
+      <h2>Want 10% Off?</h2>
+      <p>Get the dirt and save on your first purchase when
+        you sign up today.</p>
+      <form>
+        <input type="email" placeholder="Email Address" title="Enter Your Email Here">
+        <input type="submit" value="Subscribe" class="itpGreenBtn">
+      </form>
+    </div>
+    <input type="button" value="close" class="bCloseBtn">
+  </div>
+
+  <header id="home">
+    <p>Free Shipping + 30-Day Guarantee</p>
+    <div>
+      <h1>
+        <a href="index.html">
+          <img src="images/globla-logo.svg"  alt="The Sill">
+        </a>
+      </h1>
+      <div>
+        <input type="search" placeholder="Search for plants..." title="search keyword" class="searchToggle">
+        <input type="button" value="search" data-toggle="searchToggle">
+
+        <a href="user-accountLogin.html">myAccount</a>
+
+        <div>
+          <button type="button" value="cart" data-panel="cartPanel">
+            <span>0</span>
+          </button>
+
+          <div class="cartPanel">
+            <div>
+              <h2>Your Cart</h2>
+              <p>0</p>
+              <p>You are $79 away from getting Free Shipping</p>
+              <progress value="0" max="79"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <p>Your cart is currently empty!</p>
+              <p>Find products that match your taste</p>
+              <a href="listPage-allPlants1.html" class="aBlackBtn">Shop Now</a>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$0</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$15</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+
+          <div class="cartPanelFilled">
+            <div>
+              <h2>Your Cart</h2>
+              <p>1</p>
+              <p>You are $8 away from getting Free Shipping</p>
+              <progress value="199" max="207"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <img src="images/list-allPlant-africanMilkTree.png" alt="africanMilkTree">
+              <div>
+                <ul>
+                  <li>AfricanMilkTree</li>
+                  <li>Large / Grant / Grey</li>
+                  <li>
+                    <button type="button" value="delete"></button>
+                  </li>
+                  <li>
+                    <div class="qtyComponent">
+                      <input type="button" value="-" class="minus">
+                      <input type="number" value="1" max="99">
+                      <input type="button" value="+" class="plus">
+                    </div>
+                    <span>$199</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <input type="checkbox" id="giftMessage">
+              <label for="giftMessage">Add gift message?</label>
+              <textarea id="message" cols="40" rows="4" placeholder="Your Notes..."></textarea>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$199</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$214</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <label for="mnav" class="mui">
+        Menu
+      </label>
+      <input type="checkbox" id="mnav" class="mui">
+      <ul>
+        <li>
+          <b>Indoor Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Indoor Plants</strong>
+              <ol>
+                <li><a href="listPage-allPlants1.html">All Plants</a></li>
+                <li><a href="listPage-petFriendly1.html">Pet-Friendly</a></li>
+                <li><a href="listPage-lowLight1.html">Low-Light</a></li>
+                <li><a href="listPage-largePlants1.html">Large Plants</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-petFriendly1.html">
+                  <img src="images/mainMenu1_1.jpg" alt="Pet-Friendly">
+                </a>
+                <figcaption>Pet-Friendly</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listpage-lowLight1.html">
+                  <img src="images/mainMenu1_2.jpg" alt="Low-Light">
+                </a>
+                <figcaption>Low-Light</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-largePlants1.html">
+                  <img src="images/mainMenu1_3.jpg" alt="Large Plants">
+                </a>
+                <figcaption>Large Plants</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Flowering Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Flowering Plants</strong>
+              <ol>
+                <li><a href="listPage-orchids1.html">Orchids</a></li>
+                <li><a href="listPage-blooms1.html">Blooms</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-orchids1.html">
+                  <img src="images/mainMenu2_1.jpg" alt="Orchids">
+                </a>
+                <figcaption>Orchids</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-blooms1.html">
+                  <img src="images/mainMenu2_2.jpg" alt="Blooms">
+                </a>
+                <figcaption>Blooms</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Greenleaf Collection</b>
+          <div class="sub">
+            <div>
+              <strong>Greenleaf Collection</strong>
+              <ol>
+                <li><a href="listPage-rarePlants1.html">Rare Plants</a></li>
+                <li><a href="listPage-cactiSucculents1.html">Cacti &amp; Succulents</a></li>
+                <li><a href="listPage-hangingBaskets1.html">Hanging Baskcts</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-rarePlants1.html">
+                  <img src="images/mainMenu3_1.jpg" alt="Rare Plants">
+                </a>
+                <figcaption>Rare Plants</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-cactiSucculents1.html">
+                  <img src="images/mainMenu3_2.jpg" alt="Cacti & Succulents">
+                </a>
+                <figcaption>Cacti &amp; Succulents</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-hangingBaskets1.html">
+                  <img src="images/mainMenu3_3.jpg" alt="Hanging Baskcts">
+                </a>
+                <figcaption>Hanging Baskcts</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Artificial Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Artificial Plants</strong>
+              <ol>
+                <li><a href="listPage-faux1.html">Faux</a></li>
+                <li><a href="listPage-artisanMoss1.html">Artisan Moss</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-faux1.html">
+                  <img src="images/mainMenu4_1.jpg" alt="Faux">
+                </a>
+                <figcaption>Faux</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-artisanMoss1.html">
+                  <img src="images/mainMenu4_2.jpg" alt="Artisan Moss">
+                </a>
+                <figcaption>Artisan Moss</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Plant Care</b>
+          <div class="sub">
+            <div>
+              <strong>Plant Care</strong>
+              <ol>
+                <li><a href="listPage-planters1.html">Planters</a></li>
+                <li><a href="listPage-supplies1.html">Supplies</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-planters1.html">
+                  <img src="images/mainMenu5_1.jpg" alt="Planters">
+                </a>
+                <figcaption>Planters</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-supplies1.html">
+                  <img src="images/mainMenu5_2.jpg" alt="Supplies">
+                </a>
+                <figcaption>Supplies</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="tabMenuAccordionContainer">
+    <section class="faqVisual">
+      <div>
+        <h2>Frequently Asked Questions</h2>
+        <p>We've done our best to clearly and transparently answer our the most common questions our team recieves. If
+          you don't see what you're looking for below, please reach out us via one of the methods on our contact page or
+          by emailing info@thesill.com.</p>
+      </div>
+    </section>
+
+    <div class="faqWrapper">
+      <input type="button" value="Back" class="backBtn">
+      <ul class="tabMenu">
+        <li data-tabnumb="cq" class="activated">Common Questions</li>
+        <li data-tabnumb="wp">Winter Packaging</li>
+        <li data-tabnumb="fp">Faux Plants</li>
+        <li data-tabnumb="ms">Monthly Subscriptions</li>
+        <li data-tabnumb="sp">Security &amp; Privacy</li>
+      </ul>
+    </div>
+
+    <div id="cq" class="tabPage activated">
+      <h2>Common Questions</h2>
+      <ul class="accComponent">
+        <li>
+          <h3>How will my plant arrive?</h3>
+          <p>Our number one priority is that our plants arrive in happy, healthy condition. You never know what
+            adventures
+            a plant can get into making its way to your home! Our plants ship in their nursery grow pot to allow for a
+            safe and comfy ride all the way to your doorstep. Allowing plants to stay in their grow pot while being
+            shipped helps reduce the risk of stress and shock that could happen if they were to be potted in a new
+            planter
+            before leaving the greenhouse.</p>
+          <p>If you paired your plant with one of our planters, the grow pot will be securely nestled inside. For large
+            plants and planters, including faux plants, the planter will ship separately from the large plant due to its
+            weight.</p>
+        </li>
+        <li>
+          <h3>What if my order is a gift?</h3>
+          <p>First, lucky them! Second, on our cart page you'll find an option to add a gift note. You can rest assured
+            that all orders are shipped without pricing information and include directions on how to access our digital
+            Care Library for plant care instructions.</p>
+          <p>You can also let your gift recipient know something is on the way from yours truly by filling out this form - also linked in your order confirmation email. (Don't worry, we won't spoil what the surprise is or send them any marketing emails.)</p>
+        </li>
+        <li>
+          <h3>Do I have to repot my plant once it arrives?</h3>
+          <p>The short answer is, no. First, let your plant acclimate to its new environment. Place the plant in the
+            spot
+            you plan to keep it in. Let it settle in for about two weeks.</p>
+          <p>After two weeks, your plant has adjusted-your home's light levels and temperature differ from a
+            greenhouse!-and you can pot it into its ceramic planter, if you choose. You might notice your plant's
+            earthenware planter is wider than the plant's nursery pot. This space is for your plant to grow into, should
+            you choose to repot it. But remember, this is optional: as long as your plant still has room to grow in its
+            nursery grow pot, and looks happy and healthy, you don't need to lift a finger!</p>
+          <p>For some, the mantra 'plant care is self care' means the convenience of leaving it in the nursery grow pot
+            and for others, it may mean getting your hands dirty to repot. Do what works best for you! Do not be afraid
+            to
+            try different methods for different plants. Learn more here.</p>
+        </li>
+        <li>
+          <h3>What type of plant care support do you provide?</h3>
+          <ul>
+            <li>Plant Care Library: Simply look up the name of your plant for easy-to-follow care instructions. Gift
+              recipients receive instructions on how to care for their plants in their package, too.</li>
+          </ul>
+          <i>Tip: Forget the name of the plant? You can find the name of your plant in three places: your order
+            confirmation email, the “Order History” section of your Account page and the packing slip included with your
+            shipment when it arrives.</i>
+          <ul>
+            <li>Blog: Our blog has tons of articles on how to care for your plants, from how to find the right spot in
+              your home to when to water and more.</li>
+            <li>Workshops &amp; Events: We host plant care workshops, both online and in-person at our stores.</li>
+            <li>Plant Parent Club: Join our Facebook Group of passionate plant parents. Community members post
+              questions,
+              share photos, and offer plant care advice.</li>
+            <li>Customer Happiness Team: Finally, you can reach our team of plant care experts anytime:</li>
+          </ul>
+        </li>
+        <li>
+          <h3>My plant arrived healthy but now it's not doing well. What should I do?</h3>
+          <p>If your plant arrived healthy but is no longer doing well, reach out to us with photos. We're happy to help
+            figure out what's going on. Sometimes plants need a few weeks to acclimate to their new environment: your
+            home
+            or office. However, if your plant continues to decline in health during its first month, we will replace it
+            for free as part of our 30-Day Customer Happiness Guarantee.</p>
+          <i>Tip: You can bring an online order into any of our shops for a replacement. Inventory online and in-store
+            differs, so we recommend calling your closest shop in advance to ensure availability.</i>
+          <p>If you purchased your plant more than 30 days ago, don't worry. We have plenty of plant resources and
+            experts
+            to help. Learn about all the ways we help you care for your plants here.</p>
+        </li>
+        <li>
+          <h3>My plant arrived damaged, what do I do?</h3>
+          <p>We guarantee your plants will arrive happy &amp; healthy condition. If not, we'll send you a free
+            replacement
+            as part of our 30-Day Customer Happiness Guarantee.</p>
+          <p>While it's natural for live plants to show minor signs of stress after transit (and some dirt may slip out
+            of
+            the pot), if the damage is beyond minor blemishes*, reach out to us within 30 days of receipt. To expedite
+            your request, please send photos of the damage, including one close-up pic and one at a distance. </p>
+          <p>The guarantee applies to all online and in-store purchases within the first 30 days. We require photos as
+            proof of damage and to help us improve our packaging process.</p>
+          <i>*You can help your plant perk up from its journey by gently pruning any foliage damaged during the shipping
+            process, such as bent stems or yellow leaves. Removing damaged foliage gives your plant back energy for new,
+            healthy growth. Need more plant care support? Find additional resources here.</i>
+        </li>
+        <li>
+          <h3>Why does my planter not have a drainage hole?</h3>
+          <p>Our line of earthenware planters includes options both with and without drainage holes.</p>
+          <p>Most of our small and medium plants ship in their nursery grow pot to allow for a safe ride to your
+            doorstep.
+            Added bonus: grow pots have drainage holes so you don't have to be as mindful when you water. They also give
+            you the ability to use decorative planters that don't have holes-à la cachepot. The decorative planter
+            serves
+            as a saucer, catching excess water that drains out.</p>
+          <p>If you choose a mini or x-small plant that ships potted, and your planter does not have a drainage hole,
+            know
+            our team has taken extra precautions to make sure that your plant is potted properly with a generous layer
+            of
+            lava rocks before the potting mix, to aid in proper water management. Lava rocks allow excess water to pool
+            at
+            the bottom of a planter, away from your plant's roots, thus reducing the risk of root rot.</p>
+          <i>Tip: when watering your plant, add no more than 1/3 of the planter's volume in water, to avoid
+            overwatering.
+            Best practice is to feel the potting mix a few inches down first, and only water if the mix is dry.</i>
+        </li>
+        <li>
+          <h3>What if I'm interested in placing a large order?</h3>
+          <p>For large orders (quantities greater than 25) or corporate gifting inquires, please fill out our contact
+            form.</p>
+        </li>
+        <li>
+          <h3>What payment options do you offer?</h3>
+          <p>We accept all major credit cards, PayPal, Apple Pay, PayPal and Google Pay</p>
+        </li>
+        <li>
+          <h3>Why does my plant look different from the website?</h3>
+          <p>Live plants and small batch pottery will have variations in color, texture, finish, and size. While we make
+            every effort to display our potted plants as accurately as possible, there may be subtle differences from
+            what
+            is displayed online.</p>
+        </li>
+        <li>
+          <h3>Why is my discount not working at checkout?</h3>
+          <p>A discount code might not be working because it could be expired, entered incorrectly, not meeting the
+            minimum order requirement, or being used on a product that is already on sale and excluded from the
+            promotion.
+          </p>
+          <p>Discounts can not be used for gift cards.</p>
+          <p>If you believe your cart meets all the requirements and the discount code is not applying, please contact
+            us.
+          </p>
+        </li>
+        <li>
+          <h3>Does The Sill carry product from other brands?</h3>
+          <p>We carry an assortment of products from independent makers and brands that share our aesthetic, values, and
+            vibe. If your product is from a third party vendor or artisan, the brand's name will be noted under the
+            product name on the product's page.</p>
+          <p>Some of these products ship directly from the vendor. You won't receive tracking information for those
+            items,
+            but can contact our Customer Happiness team for support on all orders.</p>
+          <p>We only accept returns on products made by third party vendors if the item arrived damaged. If your order
+            was
+            damaged in transit, please fill out our contact form and we'll get back to you within two business days. The
+            form ensures we have what's needed to help you as soon as possible, including photos.</p>
+        </li>
+      </ul>
+    </div>
+
+    <div id="wp" class="tabPage">
+      <h2>Winter Packaging</h2>
+      <ul class="accComponent">
+        <li>
+          <h3>What is your cold weather packaging fee?</h3>
+          <p>To ensure your plants arrive happy and healthy, we follow enhanced packaging protocols during the colder
+            months. This includes extra cold weather packaging for each plant we ship. Hardgoods are not subject to this
+            fee.</p>
+        </li>
+        <li>
+          <h3>Do you ship during the winter?</h3>
+          <p>Plants make people happy-especially in colder months! When the temps dip, we take extra packaging measures
+            to
+            ensure your plants stay warm and cozy in transit. From November 15th on, all plants will be shipped with
+            winter packaging (a small fee per cart), which includes shipper liners and heat packs. Shipper liners are
+            made
+            from recycled material, and are biodegradable and compostable.</p>
+          <p>This usually does the trick but we happily replace any plants that experience cold damage under our 30-Day
+            Customer Happiness Guarantee. Just let us know when your plant arrives via live chat or our contact form.
+          </p>
+          <p>In certain instances, we may hold your order due to weather concerns-if this happens, our team will be in
+            touch to keep you in the loop.</p>
+        </li>
+      </ul>
+    </div>
+
+    <div id="fp" class="tabPage">
+      <h2>Faux Plants</h2>
+      <ul class="accComponent">
+        <li>
+          <h3>Why do you also offer faux plants?</h3>
+          <p>We have customers who simply have restrictions-be it low light, busy schedules, small children, or curious
+            pets. Faux plants give everyone the ability to still bring greenery and joy into their space. We believe
+            that
+            plants, in all forms, make people happy.</p>
+        </li>
+        <li>
+          <h3>What are they made of?</h3>
+          <p>Our faux plants are made of a combination of fabric, plastic, wire, and foam. The larger plants may have a
+            base comprised of concrete and wood.</p>
+        </li>
+        <li>
+          <h3>But plastic?</h3>
+          <p>We hear you! Sustainability is important to The Sill. When it comes to our faux plant line, we use the best
+            materials available to create a high-quality, long-term addition to your home.</p>
+          <p>More broadly, the greatest and most immediate impact we can have is on single-use items across our entire
+            line-like our packaging, which we're transitioning to be fully recyclable. We are constantly looking for
+            opportunities to remove waste from our supply chain and make strides towards a more sustainable future.</p>
+        </li>
+        <li>
+          <h3>How do I dispose of a faux plant?</h3>
+          <p>Our faux plant line uses the best materials available to create a high-quality, long-term addition to your
+            home. If at any time you're ready to relinquish your faux plant and do not have another home for it,
+            pleasecontact usand we can help you find a local retirement or nursing home, school, thrift store, charity,
+            or
+            other community organization to accept it as a donation.</p>
+        </li>
+      </ul>
+    </div>
+
+    <div id="ms" class="tabPage">
+      <h2>Monthly Subscriptions</h2>
+      <ul class="accComponent">
+        <li>
+          <h3>How do your subscriptions work?</h3>
+          <p>We currently offer three subscription types: Easy Care, Pet Friendly, and Orchids. Our Pet Friendly
+            Subscription ensures your monthly plant is considered non-toxic to cats and dogs.</p>
+          <p>Every month, subscribers receive one new plant and one chic ceramic planter. You can choose between 3 or 6
+            months and planter color. In the case of Orchids, you can choose all white or a variety of orchid colors.
+          </p>
+          <p>The plants included in our subscription program are a mix of those available on thesill.com and specialty
+            plants just for subscribers. We will try our best to provide variety and not repeat the same plant within a
+            6
+            month period. Please note planter shapes will repeat.</p>
+          <p>* Subscription boxes can only be delivered within the contiguous 48 states. Promotions and discounts do not
+            apply to subscription purchases.</p>
+        </li>
+        <li>
+          <h3>What is special about your subscriptions?</h3>
+          <p>We do the work for you-curating new easy-care and non-toxic plants for you to experience on a monthly basis
+            and delivering them, along with a chic ceramic planter, directly to your door.</p>
+          <p>Our plants are sourced from local growers to ensure the highest quality and to support family-owned
+            businesses. We guarantee plants arrive in happy, healthy condition, or we replace them for free. And our
+            ceramic planters are designed by our team to complement a range of styles, and are manufactured by a
+            women-owned pottery company focused on limiting their environmental impact.</p>
+          <p>Not sure how to care for your new plant? Our Care Library includes specific care instructions for each
+            plant
+            and our team of knowledgeable plant parents is just a message away.</p>
+        </li>
+        <li>
+          <h3>Why does your pet friendly subscription cost more?</h3>
+          <p>Subscription costs include your plant, ceramic planter, and shipping. Our pet-friendly option is $2-3 more
+            per month because non-toxic plant varieties are not as commonly grown and therefore harder to source.</p>
+        </li>
+        <li>
+          <h3>Do subscriptions come potted?</h3>
+          <p>No. Plants ship in their grow pot, placed inside the ceramic planter. Simply enjoy as is or remove it from
+            the grow pot and pot it inside the planter. It's up to you!</p>
+          <p>If you prefer to fully pot your plant, it just takes a few minutes. Our recommended approach can be found
+            here. And if you don't have potting supplies at home, you can show out plant care supplies here.</p>
+        </li>
+        <li>
+          <h3>When will I receive my subscription box?</h3>
+          <p>After the first purchase, subscriptions will recur ever 30 days until 3 or 6 shipments in total have been
+            made. You will receive an email with tracking information once your monthly box is en route.</p>
+        </li>
+        <li>
+          <h3>How do I pause or cancel my subscription?</h3>
+          <p>Subscriptions are a 3 or 6 plant delivery commitment. At this time, you cannot skip a month or cancel your
+            subscription.</p>
+        </li>
+        <li>
+          <h3>Can I modify or swap my subscription?</h3>
+          <p>No. At this time, we do not support modifying subscriptions, like changing your planter from one color to
+            another or your subscription box type.</p>
+          <p>This allows out team to better forecast and plan what plants and planters are needed to support our
+            subscription program.</p>
+        </li>
+        <li>
+          <h3>Can I gift a subscription?</h3>
+          <p>Yes-and they make great gifts! You can gift a 3-month or 6-month subscription. Simply enter your gift
+            recipients address on the shipping step of checkout. You can add a gift note in your cart before checking
+            out.
+          </p>
+        </li>
+        <li>
+          <h3>Can I use a promo or referral code to purchase a subscription?</h3>
+          <p>No. Discounts cannot be applied to subscriptions unless otherwise stated.</p>
+        </li>
+        <li>
+          <h3>More questions about our subscriptions?</h3>
+          <p>Click our Live Chat bubble at the bottom right corner or fill outour contact formand we'll get back to you
+            as
+            soon as possible. We recommend addinginfo@thesill.comto your contacts to ensure our responses land in your
+            inbox, not your spam folder.</p>
+        </li>
+      </ul>
+    </div>
+    
+    <div id="sp" class="tabPage">
+      <h2>Security &amp; Privacy</h2>
+      <ul class="accComponent">
+        <li>
+          <h3>Where I find out more about security and privacy?</h3>
+          <p>Please reference our Terms &amp; Conditions and Privacy Policy.</p>
+        </li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div>
+      <h2><img src="images/globla-logo.svg"  alt="Bye. The Sill"></h2>
+      <ul>
+        <li><a href="https://www.facebook.com/TheSillNYC/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/thesill/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/thesill" target="_blank">Youtube</a></li>
+        <li><a href="https://www.tiktok.com/@thesill" target="_blank">Tiktok</a></li>
+        <li><a href="https://x.com/thesill" target="_blank">Twitter</a></li>
+        <li><a href="https://www.pinterest.com/thesillnyc/" target="_blank">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div>
+        <h3>Get The Dirt.</h3>
+        <p>Get plant care tips, exclusive offers, &amp; 10% off your first order straight to your inbox.No spam, ever.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter Your Email Here ..." title="Enter Your Email Here">
+          <input type="submit" value="Subscribe" class="itpGreenBtn">
+        </form>
+      </div>
+
+      <div>
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="customerService-faq.html">FAQ</a></li>
+          <li><a href="customerService-shippingHanding.html">Shipping &amp; Handling</a></li>
+          <li><a href="customerService-30day.html">30-Day Guarantee</a></li>
+          <li><a href="customerService-contactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://thesill.typeform.com/find-your-plant">Find Your Plant</a></li>
+          <li><a href="https://www.thesill.com/pages/care-library">Plant Care Library</a></li>
+          <li><a href="resources-blog.html">Blog</a></li>
+          <li><a href="resources-onlineCourses.html">Free Online Courses</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>My Sill</h3>
+        <ul>
+          <li><a href="https://www.thesill.com/account">My Account</a></li>
+          <li><a href="https://www.thesill.com/account">Track My Order</a></li>
+          <li><a href="https://returns.thesill.com/">Returns Portal</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="explore-ourStory.html">Our Story</a></li>
+          <li><a href="explore-careers.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <a href="https://app.impact.com/campaign-campaign-info-v2/The-Sill.brand" class="uln">Affiliate Program</a>
+      <a href="legalLinks-termsOfUse.html" class="uln">Terms of Use</a>
+      <a href="legalLinks-privacyPolicy.html" class="uln">Privacy Policy</a>
+      <a href="legalLinks-accessibilityStatement.html" class="uln">Accessibility</a>
+      <a href="legalLinks-noticeToCaliforniaResidents.html" class="uln">Do Not Sell My Info</a>
+      <p>Copyright 2025 - The Sill, Inc.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

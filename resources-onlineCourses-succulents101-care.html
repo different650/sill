@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sill</title>
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/sill.js"></script>
+
+  <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+  <div class="discountPopup">
+    <div>
+      <h2>Want 10% Off?</h2>
+      <p>Get the dirt and save on your first purchase when
+        you sign up today.</p>
+      <form>
+        <input type="email" placeholder="Email Address" title="Enter Your Email Here">
+        <input type="submit" value="Subscribe" class="itpGreenBtn">
+      </form>
+    </div>
+    <input type="button" value="close" class="bCloseBtn">
+  </div>
+
+  <header id="home">
+    <p>Free Shipping + 30-Day Guarantee</p>
+    <div>
+      <h1>
+        <a href="index.html">
+          <img src="images/globla-logo.svg"  alt="The Sill">
+        </a>
+      </h1>
+      <div>
+        <input type="search" placeholder="Search for plants..." title="search keyword" class="searchToggle">
+        <input type="button" value="search" data-toggle="searchToggle">
+
+        <a href="user-accountLogin.html">myAccount</a>
+
+        <div>
+          <button type="button" value="cart" data-panel="cartPanel">
+            <span>0</span>
+          </button>
+
+          <div class="cartPanel">
+            <div>
+              <h2>Your Cart</h2>
+              <p>0</p>
+              <p>You are $79 away from getting Free Shipping</p>
+              <progress value="0" max="79"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <p>Your cart is currently empty!</p>
+              <p>Find products that match your taste</p>
+              <a href="listPage-allPlants1.html" class="aBlackBtn">Shop Now</a>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$0</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$15</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+
+          <div class="cartPanelFilled">
+            <div>
+              <h2>Your Cart</h2>
+              <p>1</p>
+              <p>You are $8 away from getting Free Shipping</p>
+              <progress value="199" max="207"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <img src="images/list-allPlant-africanMilkTree.png" alt="africanMilkTree">
+              <div>
+                <ul>
+                  <li>AfricanMilkTree</li>
+                  <li>Large / Grant / Grey</li>
+                  <li>
+                    <button type="button" value="delete"></button>
+                  </li>
+                  <li>
+                    <div class="qtyComponent">
+                      <input type="button" value="-" class="minus">
+                      <input type="number" value="1" max="99">
+                      <input type="button" value="+" class="plus">
+                    </div>
+                    <span>$199</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <input type="checkbox" id="giftMessage">
+              <label for="giftMessage">Add gift message?</label>
+              <textarea id="message" cols="40" rows="4" placeholder="Your Notes..."></textarea>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$199</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$214</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <label for="mnav" class="mui">
+        Menu
+      </label>
+      <input type="checkbox" id="mnav" class="mui">
+      <ul>
+        <li>
+          <b>Indoor Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Indoor Plants</strong>
+              <ol>
+                <li><a href="listPage-allPlants1.html">All Plants</a></li>
+                <li><a href="listPage-petFriendly1.html">Pet-Friendly</a></li>
+                <li><a href="listPage-lowLight1.html">Low-Light</a></li>
+                <li><a href="listPage-largePlants1.html">Large Plants</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-petFriendly1.html">
+                  <img src="images/mainMenu1_1.jpg" alt="Pet-Friendly">
+                </a>
+                <figcaption>Pet-Friendly</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listpage-lowLight1.html">
+                  <img src="images/mainMenu1_2.jpg" alt="Low-Light">
+                </a>
+                <figcaption>Low-Light</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-largePlants1.html">
+                  <img src="images/mainMenu1_3.jpg" alt="Large Plants">
+                </a>
+                <figcaption>Large Plants</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Flowering Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Flowering Plants</strong>
+              <ol>
+                <li><a href="listPage-orchids1.html">Orchids</a></li>
+                <li><a href="listPage-blooms1.html">Blooms</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-orchids1.html">
+                  <img src="images/mainMenu2_1.jpg" alt="Orchids">
+                </a>
+                <figcaption>Orchids</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-blooms1.html">
+                  <img src="images/mainMenu2_2.jpg" alt="Blooms">
+                </a>
+                <figcaption>Blooms</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Greenleaf Collection</b>
+          <div class="sub">
+            <div>
+              <strong>Greenleaf Collection</strong>
+              <ol>
+                <li><a href="listPage-rarePlants1.html">Rare Plants</a></li>
+                <li><a href="listPage-cactiSucculents1.html">Cacti &amp; Succulents</a></li>
+                <li><a href="listPage-hangingBaskets1.html">Hanging Baskcts</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-rarePlants1.html">
+                  <img src="images/mainMenu3_1.jpg" alt="Rare Plants">
+                </a>
+                <figcaption>Rare Plants</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-cactiSucculents1.html">
+                  <img src="images/mainMenu3_2.jpg" alt="Cacti & Succulents">
+                </a>
+                <figcaption>Cacti &amp; Succulents</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-hangingBaskets1.html">
+                  <img src="images/mainMenu3_3.jpg" alt="Hanging Baskcts">
+                </a>
+                <figcaption>Hanging Baskcts</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Artificial Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Artificial Plants</strong>
+              <ol>
+                <li><a href="listPage-faux1.html">Faux</a></li>
+                <li><a href="listPage-artisanMoss1.html">Artisan Moss</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-faux1.html">
+                  <img src="images/mainMenu4_1.jpg" alt="Faux">
+                </a>
+                <figcaption>Faux</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-artisanMoss1.html">
+                  <img src="images/mainMenu4_2.jpg" alt="Artisan Moss">
+                </a>
+                <figcaption>Artisan Moss</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Plant Care</b>
+          <div class="sub">
+            <div>
+              <strong>Plant Care</strong>
+              <ol>
+                <li><a href="listPage-planters1.html">Planters</a></li>
+                <li><a href="listPage-supplies1.html">Supplies</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-planters1.html">
+                  <img src="images/mainMenu5_1.jpg" alt="Planters">
+                </a>
+                <figcaption>Planters</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-supplies1.html">
+                  <img src="images/mainMenu5_2.jpg" alt="Supplies">
+                </a>
+                <figcaption>Supplies</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="resourcesContainer">
+    <section class="succulents101Visual">
+      <div>
+        <h2>Succulents 101</h2>
+        <p>Deep dive on succulents. Covered in this course: What are they? How are they different than cacti? And how to
+          take care and propogate them.</p>
+      </div>
+    </section>
+
+    <div class="onlineCoursesWrapper">
+      <input type="button" value="Back" class="backBtn">
+      <!-- 1 -->
+      <section>
+        <article>
+          <div>
+            <h3>Light </h3>
+            <p>Succulents need bright light to full sun to thrive! South or West windows ideal. </p>
+            <ul>
+              <li>Can place them outdoors for Spring/Summer </li>
+              <li>Rotate planters for even growth</li>
+            </ul>
+          </div>
+          <img src="images/resources-onlineCourses-succulents101-care1.png" alt="care1">
+        </article>
+
+        <h4>Light</h4>
+        <p>It'll be best to keep succulents directly in a window to help maximize light for them. A South window is
+          ideally the best spot to place succulents since that is the only window that gets the most bright light to
+          full
+          sun indoors. A Western exposure can be another good alternative since it does provide some afternoon sun when
+          it
+          sets. Northern windows aren't ideal since they only provide about a low-moderate indirect light. East window
+          can
+          work but etiolation (stretching, long inter-nodal space may occur.) Succulents like Haworthia, and Gasteria,
+          however, can tolerate shade better.</p>
+        <p>Succulents can be moved outdoors for the Spring & Summer months which can help to induce flower or more
+          pigmented foliage depending on the species. However, you still want to pre-condition (acclimate) these plants
+          to
+          the increased light by placing them in partial shade to start instead of placing directly in direct sunlight.
+        </p>
+        <p>Rotating your planters as they start to stretch toward the light will help to encourage even growth.</p>
+      </section>
+      <!-- 2 -->
+      <section>
+        <article>
+          <div>
+            <h3>Water </h3>
+            <p>Allow soil to dry out between waterings. Soak &amp; dry method.</p>
+            <ul>
+              <li>Increase frequency with increased light. </li>
+              <li>Water less frequently in dormancy months. </li>
+            </ul>
+          </div>
+          <img src="images/resources-onlineCourses-succulents101-care2.png" alt="care2">
+        </article>
+
+        <h4>Water</h4>
+        <p>Since succulents are drought tolerant it's best to ensure you're letting the soil get bone dry in between
+          waterings, and then give the plants a thorough soak. It's commonly mistaken that succulents need little water
+          but you shouldn't be pouring just a drop when dry but rather saturate the soil completely.</p>
+        <p>During the Summer months, succulents will start to use water more quickly than before. So despite them being
+          drought tolerant it won't be ideal to water only every 3-4 weeks during this time since their metabolic
+          activity
+          is faster which means they are drinking water faster. It'll be safe to water your succulents as soon as the
+          soil
+          has dried out, whether that becomes weekly or bi-weekly. Also, succulents in smaller containers will dry out
+          faster than those in larger ones.</p>
+        <p>Winter is the time where succulents go dormant due to the diminished daylight hours and intensity of light.
+          It's ideal to not water succulents as frequently as during the growing season, some people don't even water
+          their cacti at all during Winter and they survive!</p>
+        <p>Splashing water onto the leaves can leave room for unsightly blemishes or fungal infections to develop. To
+          avoid this, you can bottom water, use a narrow spout watering can, or wipe the leaves off after watering if
+          water splashed onto them.</p>
+      </section>
+      <!-- 3 -->
+      <section>
+        <article>
+          <div>
+            <h3>Soil</h3>
+            <p>Well draining, Cacti/Succulent potting soil. </p>
+            <ul>
+              <li>Requires more inorganic ingredients than organic </li>
+              <li>Can use peat based mix with added sand/perlite</li>
+            </ul>
+          </div>
+          <img src="images/resources-onlineCourses-succulents101-care3.png" alt="care3">
+        </article>
+
+        <h4>Soil</h4>
+        <p>Potting soil that has more inorganic ingredients (sand, perlite, vermiculite) allow for more drainage and
+          aeration for Succulents root which is what they need. Succulents also originate from low-nutrient environments
+          which these potting mixes provide for them.</p>
+        <p>There are pre-made cacti/succulent mixes on the market that are used for these plants. However, you can also
+          use a standard peat based mixture that is amended with sand or perlite to increase the level of aeration and
+          drainage in the soil.</p>
+      </section>
+      <!-- 4 -->
+      <section>
+        <article>
+          <div>
+            <h3>Potting </h3>
+            <p>Ensure drainage and don't over-pot! </p>
+            <ul>
+              <li>Repot every 1-2 years before growing season </li>
+              <li>Slow growers can remain in same container for 2-3 years </li>
+              <li>Clay vs. plastic/glazed planters</li>
+            </ul>
+          </div>
+          <img src="images/resources-onlineCourses-succulents101-care4.png" alt="care4">
+        </article>
+
+        <h4>Potting</h4>
+        <p>It will be ideal to plant your succulents in containers with a drainage hole to ensure excess water can spill
+          out and doesn't accumulate by the roots. However, it is possible to plant succulents into containers without a
+          drainage hole as long as you're mindful of how much watering you're pouring in, and also providing a drainage
+          layer at the bottom can be helpful to pool away any excess water in case too much is poured in.</p>
+        <p>Since succulents have shallow root systems and are slow growing they can generally live in the same sized
+          container for 1-2 years before upgrading in container size or resoiling, this is also dependant on active
+          growth. While it's generally a good idea to provide fresh soil after 1-2 years it's not always necessary if
+          the succulents haven't been actively growing.</p>
+        <p>When potting, most plant parents like to pot succulents into clay terracotta planters since they are more
+          porous and allow for more air-flow to get to the roots. However, using glazed ceramic or plastic containers
+          can also work well for these plants but keep in mind the soil will remain moist for longer compared to those
+          that are planted in terracotta.</p>
+        <p>Can use folder newspaper, or specially made gloves to repot cacti and Euphorbias to protect yourself from the
+          sharp spines.</p>
+      </section>
+      <!-- 5 -->
+      <section>
+        <article>
+          <div>
+            <h3>Fertilizing </h3>
+            <p>Only fertilize during active growing season!</p>
+            <ul>
+              <li>Use Cacti/ succulent branded fertilizer </li>
+              <li>Or any standard indoor (lower in N) </li>
+              <li>Bi-weekly for rapidly growing succulents </li>
+              <li>Monthly for slow growers (or none!)</li>
+            </ul>
+          </div>
+          <img src="images/resources-onlineCourses-succulents101-care5.png" alt="care5">
+        </article>
+
+        <h4>Fertilizing</h4>
+        <p>You can feel free to fertilize your succulents/cacti during the active growing season (Spring/Summer) to help
+          encourage growth. Make sure you're only using a cacti/succulent branded fertilizer since they don't need as
+          much nutrients as tropical houseplants.</p>
+        <p>You can also use a standard indoor fertilizer that is lower in Nitrogen as too much nitrogen can make growth
+          soft and weak, and it can also inhibit flowering.</p>
+        <p>You can fertilize bi-weekly for rapidly growing succulents like Echeveria, Crassula, Sedums, Schlumbergera,
+          Kalanchoe, Aloes. Only fertilize monthly though for slow growing succulents or not at all! (Haworthia, Cacti,
+          Gasteria, etc). Most plant parents forgo fertilizing their succulents/cacti since they don't require as much
+          nutrients, but the occasional fertilizer will not harm them as long as it's applied correctly!</p>
+      </section>
+      <!-- 6 -->
+      <section>
+        <article class="twoColumn">
+            <h3>Other factors </h3>
+            <div>
+              <strong class="anomalyStrong">Flowering </strong>
+              <p>Some only flower once, others are vigorous bloomers. </p>
+              <strong class="anomalyStrong">Temperature </strong>
+              <p>An environment between 65-85°F (18-30C) is ideal </p>
+              <strong class="anomalyStrong">Humidity </strong>
+              <p>Succulents prefer dry environments! </p>
+            </div>
+            <div>
+              <strong class="anomalyStrong">Pruning </strong>
+              <p>Most succulents do not need to be pruned. </p>
+              <strong class="anomalyStrong">Toxicity </strong>
+              <p>Some succulents are considered by the ASPCA to be irritating to dogs and cats upon ingestion due to the
+                saponins in plant tissues </p>
+              <strong class="anomalyStrong">Pigments </strong>
+              <p>Temperature stress, but harmless! Colors can include red, yellow, blue, purple, etc.</p>
+            </div>
+        </article>
+
+        <h4>Other Factors</h4>
+        <ul>
+          <li>Flowering - Succulents are only more likely to flower if put outside during the growing season but some
+            may surprise you on their own!
+          </li>
+          <li>Pruning- Pruning can primarily be done to remove dead/lackluster foliage or leggy stems or to propagate
+            portions of the plant.
+          </li>
+          <li>Humidity - Regular room humidity is best. Avoid extremes like a heater blasting dry, hot air as even
+            succulents like a stable environment. Can use a dehumidifier for humid areas that cannot be temperature
+            controlled.
+          </li>
+        </ul>
+        <p class="pMargin">While there are some succulents out there that are non-toxic (pet-friendly) like Echeveria, Haworthia,
+          Sempervivum this is not the case for all. Be sure to do the research on the succulent you're bringing home to
+          see if it's safe to keep around curious pets or children. ASPCA website is a good resource for this.</p>
+        <p>Some succulents will develop more pronounced pigments on their foliage as a result of temperature stress.
+          This is completely harmless but it's how most succulents get their color!
+        </p>
+      </section>
+
+      <div>
+        <a href="resources-onlineCourses-succulents101-succulents.html" class="previousBtn">Previous Page</a>
+        <a href="resources-onlineCourses-succulents101-propagation.html"class="nextBtn">Next Page</a>
+      </div>
+    </div>
+  </article>
+
+  <footer>
+    <div>
+      <h2><img src="images/globla-logo.svg"  alt="Bye. The Sill"></h2>
+      <ul>
+        <li><a href="https://www.facebook.com/TheSillNYC/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/thesill/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/thesill" target="_blank">Youtube</a></li>
+        <li><a href="https://www.tiktok.com/@thesill" target="_blank">Tiktok</a></li>
+        <li><a href="https://x.com/thesill" target="_blank">Twitter</a></li>
+        <li><a href="https://www.pinterest.com/thesillnyc/" target="_blank">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div>
+        <h3>Get The Dirt.</h3>
+        <p>Get plant care tips, exclusive offers, &amp; 10% off your first order straight to your inbox.No spam, ever.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter Your Email Here ..." title="Enter Your Email Here">
+          <input type="submit" value="Subscribe" class="itpGreenBtn">
+        </form>
+      </div>
+
+      <div>
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="customerService-faq.html">FAQ</a></li>
+          <li><a href="customerService-shippingHanding.html">Shipping &amp; Handling</a></li>
+          <li><a href="customerService-30day.html">30-Day Guarantee</a></li>
+          <li><a href="customerService-contactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://thesill.typeform.com/find-your-plant">Find Your Plant</a></li>
+          <li><a href="https://www.thesill.com/pages/care-library">Plant Care Library</a></li>
+          <li><a href="resources-blog.html">Blog</a></li>
+          <li><a href="resources-onlineCourses.html">Free Online Courses</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>My Sill</h3>
+        <ul>
+          <li><a href="https://www.thesill.com/account">My Account</a></li>
+          <li><a href="https://www.thesill.com/account">Track My Order</a></li>
+          <li><a href="https://returns.thesill.com/">Returns Portal</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="explore-ourStory.html">Our Story</a></li>
+          <li><a href="explore-careers.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <a href="https://app.impact.com/campaign-campaign-info-v2/The-Sill.brand" class="uln">Affiliate Program</a>
+      <a href="legalLinks-termsOfUse.html" class="uln">Terms of Use</a>
+      <a href="legalLinks-privacyPolicy.html" class="uln">Privacy Policy</a>
+      <a href="legalLinks-accessibilityStatement.html" class="uln">Accessibility</a>
+      <a href="legalLinks-noticeToCaliforniaResidents.html" class="uln">Do Not Sell My Info</a>
+      <p>Copyright 2025 - The Sill, Inc.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

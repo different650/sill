@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sill</title>
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/sill.js"></script>
+
+  <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+  <div class="discountPopup">
+    <div>
+      <h2>Want 10% Off?</h2>
+      <p>Get the dirt and save on your first purchase when
+        you sign up today.</p>
+      <form>
+        <input type="email" placeholder="Email Address" title="Enter Your Email Here">
+        <input type="submit" value="Subscribe" class="itpGreenBtn">
+      </form>
+    </div>
+    <input type="button" value="close" class="bCloseBtn">
+  </div>
+
+  <header id="home">
+    <p>Free Shipping + 30-Day Guarantee</p>
+    <div>
+      <h1>
+        <a href="index.html">
+          <img src="images/globla-logo.svg"  alt="The Sill">
+        </a>
+      </h1>
+      <div>
+        <input type="search" placeholder="Search for plants..." title="search keyword" class="searchToggle">
+        <input type="button" value="search" data-toggle="searchToggle">
+
+        <a href="user-accountLogin.html">myAccount</a>
+
+        <div>
+          <button type="button" value="cart" data-panel="cartPanel">
+            <span>0</span>
+          </button>
+
+          <div class="cartPanel">
+            <div>
+              <h2>Your Cart</h2>
+              <p>0</p>
+              <p>You are $79 away from getting Free Shipping</p>
+              <progress value="0" max="79"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <p>Your cart is currently empty!</p>
+              <p>Find products that match your taste</p>
+              <a href="listPage-allPlants1.html" class="aBlackBtn">Shop Now</a>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$0</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$15</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+
+          <div class="cartPanelFilled">
+            <div>
+              <h2>Your Cart</h2>
+              <p>1</p>
+              <p>You are $8 away from getting Free Shipping</p>
+              <progress value="199" max="207"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <img src="images/list-allPlant-africanMilkTree.png" alt="africanMilkTree">
+              <div>
+                <ul>
+                  <li>AfricanMilkTree</li>
+                  <li>Large / Grant / Grey</li>
+                  <li>
+                    <button type="button" value="delete"></button>
+                  </li>
+                  <li>
+                    <div class="qtyComponent">
+                      <input type="button" value="-" class="minus">
+                      <input type="number" value="1" max="99">
+                      <input type="button" value="+" class="plus">
+                    </div>
+                    <span>$199</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <input type="checkbox" id="giftMessage">
+              <label for="giftMessage">Add gift message?</label>
+              <textarea id="message" cols="40" rows="4" placeholder="Your Notes..."></textarea>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$199</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$214</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <label for="mnav" class="mui">
+        Menu
+      </label>
+      <input type="checkbox" id="mnav" class="mui">
+      <ul>
+        <li>
+          <b>Indoor Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Indoor Plants</strong>
+              <ol>
+                <li><a href="listPage-allPlants1.html">All Plants</a></li>
+                <li><a href="listPage-petFriendly1.html">Pet-Friendly</a></li>
+                <li><a href="listPage-lowLight1.html">Low-Light</a></li>
+                <li><a href="listPage-largePlants1.html">Large Plants</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-petFriendly1.html">
+                  <img src="images/mainMenu1_1.jpg" alt="Pet-Friendly">
+                </a>
+                <figcaption>Pet-Friendly</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listpage-lowLight1.html">
+                  <img src="images/mainMenu1_2.jpg" alt="Low-Light">
+                </a>
+                <figcaption>Low-Light</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-largePlants1.html">
+                  <img src="images/mainMenu1_3.jpg" alt="Large Plants">
+                </a>
+                <figcaption>Large Plants</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Flowering Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Flowering Plants</strong>
+              <ol>
+                <li><a href="listPage-orchids1.html">Orchids</a></li>
+                <li><a href="listPage-blooms1.html">Blooms</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-orchids1.html">
+                  <img src="images/mainMenu2_1.jpg" alt="Orchids">
+                </a>
+                <figcaption>Orchids</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-blooms1.html">
+                  <img src="images/mainMenu2_2.jpg" alt="Blooms">
+                </a>
+                <figcaption>Blooms</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Greenleaf Collection</b>
+          <div class="sub">
+            <div>
+              <strong>Greenleaf Collection</strong>
+              <ol>
+                <li><a href="listPage-rarePlants1.html">Rare Plants</a></li>
+                <li><a href="listPage-cactiSucculents1.html">Cacti &amp; Succulents</a></li>
+                <li><a href="listPage-hangingBaskets1.html">Hanging Baskcts</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-rarePlants1.html">
+                  <img src="images/mainMenu3_1.jpg" alt="Rare Plants">
+                </a>
+                <figcaption>Rare Plants</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-cactiSucculents1.html">
+                  <img src="images/mainMenu3_2.jpg" alt="Cacti & Succulents">
+                </a>
+                <figcaption>Cacti &amp; Succulents</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-hangingBaskets1.html">
+                  <img src="images/mainMenu3_3.jpg" alt="Hanging Baskcts">
+                </a>
+                <figcaption>Hanging Baskcts</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Artificial Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Artificial Plants</strong>
+              <ol>
+                <li><a href="listPage-faux1.html">Faux</a></li>
+                <li><a href="listPage-artisanMoss1.html">Artisan Moss</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-faux1.html">
+                  <img src="images/mainMenu4_1.jpg" alt="Faux">
+                </a>
+                <figcaption>Faux</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-artisanMoss1.html">
+                  <img src="images/mainMenu4_2.jpg" alt="Artisan Moss">
+                </a>
+                <figcaption>Artisan Moss</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Plant Care</b>
+          <div class="sub">
+            <div>
+              <strong>Plant Care</strong>
+              <ol>
+                <li><a href="listPage-planters1.html">Planters</a></li>
+                <li><a href="listPage-supplies1.html">Supplies</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-planters1.html">
+                  <img src="images/mainMenu5_1.jpg" alt="Planters">
+                </a>
+                <figcaption>Planters</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-supplies1.html">
+                  <img src="images/mainMenu5_2.jpg" alt="Supplies">
+                </a>
+                <figcaption>Supplies</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="resourcesContainer">
+    <section class="propagation101Visual">
+      <div>
+        <h2>Propagation 101</h2>
+        <p>Propagation is an inexpensive and rewarding way to grow your collection. Everything you need to know from
+          taking cuttings to coaxing new roots to grow.</p>
+      </div>
+    </section>
+
+    <div class="onlineCoursesWrapper">
+      <input type="button" value="Back" class="backBtn">
+      <!-- 1 -->
+      <section>
+        <article>
+          <div>
+            <h3>Stem cuttings </h3>
+            <p><strong>Stem cuttings</strong> is the process of propagating a plant by <strong>removing</strong> a
+              portion
+              of <strong>a stem.</strong> </p>
+            <p>Choose a stem with at least <strong>4-5 leaves</strong> and cut a 1/4 inch below or above a
+              <strong>node.</strong>
+            </p>
+            <p class="anomalyP"><strong>Remove</strong> a few of the <strong>bottom leaves</strong> on the stem to
+              <strong></strong>expose
+              nodes</strong> where roots can grow. This will also help the plant focus energy on root production.
+            </p>
+          </div>
+          <img src="images/resources-onlineCourses-propagation101-propagationMethods1.png" alt="propagationMethods1">
+        </article>
+
+        <h4>Stem Cuttings</h4>
+        <p>Nodes are the point where a leaf is attached to stem or where an aerial root may be on epiphytic plants.</p>
+        <ul>
+          <li>After you take your stem cuttings, you can place it in a glass vessel filled with water so the bare
+            stem/nodes are submerged in water. You don't want the top leaves to be in water. Place in bright indirect
+            light, and refill water when it gets low.
+          </li>
+          <li>Or, you can insert the cutting into a moist potting mix. Place in bright indirect light, provide higher
+            humidity, and water when the top 2-3 inches get dry. Rooting hormone can be used if desired, but isn't 100%
+            necessary for cutting to take root.
+          </li>
+        </ul>
+        <p class="pMargin">Examples of plants that can be propagated using stem cuttings include Pothos, Philodendron, Monstera,
+          Dracaena,
+          ZZ plants, Aglaonema, Maranta, Hoyas, Schefflera, Peperomia, Pilea, etc.</p>
+      </section>
+      <!-- 2 -->
+      <section>
+        <article>
+          <div>
+            <h3>Leaf cuttings </h3>
+            <p>Leaf cuttings is a unique way of propagating plants with the use of a single leaf. </p>
+            <p>Depending on the plant, you can do so my removing a single leaf, or a single leaf with a petiole
+              attached,
+              or some can be propagated by cutting the leaves into segments which is commonly used for Snake plants!
+            </p>
+            <p class="anomalyP">You can also propagate most plants using a single leaf with a small part of the main
+              stem attached also.
+            </p>
+          </div>
+          <img src="images/resources-onlineCourses-propagation101-propagationMethods2.png" alt="propagationMethods2">
+        </article>
+
+        <h4>Leaf Cuttings</h4>
+        <p>Succulents can be easily propagated with the use of a single leaf removed from the plant, allowed to callous
+          over for a day or more, and then placed back onto moist potting mix to start rooting/develop new growth.</p>
+        <p>You can also propagate succulents by placing plastic wrap over the opening of a glass vessel filled with
+          water
+          secured with a rubber band. A small hole can be poke so the end of the leaf is hovering over the water (not
+          touching it).</p>
+        <p>Overtime you'll see roots starting to form growing toward the water where it can then be planted into soil.
+        </p>
+        <ul>
+          <li>You can remove a single leaf off a ZZ plant, or make a clean horizontal cut on a snake plant leaf, let
+            them
+            callous for a day, and then place the cut end into water (not the entire leaf).
+          </li>
+        </ul>
+        <p class="pMargin">Examples of plants that can be propagated with just a leaf include most succulents like Echeveria, Hoyas,
+          Sedum, Sempervivum, as well as Snake plants, ZZ plants, African violets, Begonia rex, Kalanchoe, etc.</p>
+        <p>Other plants like Ficus or Monstera can be propagated with a single leaf as long as you have a part of the
+          main
+          stem attached that will contain meristematic tissue which helps new growth develop. Otherwise, if you just use
+          a
+          leaf without a part of the stem for these plants roots may grow but no new growth.</p>
+        <div>
+      </section>
+      <!-- 3 -->
+      <section>
+        <article>
+          <div>
+            <h3>Layering </h3>
+            <p>Layering is a simple process to encourage root development at a portion on a trailing stem, while still
+              connected to the original plant! </p>
+            <p>To add fullness to the base of the soil you can: </p>
+            <ul>
+              <li class="anomalyUl">Take a stem and place it along the soil at the base of the plant and make sure
+                aerial roots are in
+                contact with the soil. Floral pin can be used to keep stem in place. </li>
+            </ul>
+            <p>You can also use this method to propagate a vining plant without cutting it first by: </p>
+            <ul>
+              <li>Surrounding the mother plant with smaller spots filled with soil that the vines lay on top of.</li>
+            </ul>
+          </div>
+          <img src="images/resources-onlineCourses-propagation101-propagationMethods3.png" alt="propagationMethods3">
+        </article>
+
+        <h4>Layering</h4>
+        <p>Layering is a great method to help rejuvenate vining plants that have become bare at the base of the soil to
+          add more fullness at the top. It's also a fool proof way to propagate a plant to develop roots before actually
+          cutting it from the main plant.</p>
+        <ul>
+          <li>Layering to add fullness: take a vine from your plant and encircle it at the base of the soil where the
+            aerial roots can be in contact with the soil. You can use floral pins or even a stretched out bobby pin to
+            keep the stem in contact with the soil. With proper care and patience, overtime those aerial roots should
+            further develop and anchor the stem into the soil to add fullness.
+          </li>
+          <li>Layering before cutting: before cutting a plant to propagate with this method, you can surround the mother
+            plant with smaller pots filled with soil, and have the trailing stems be in contact with the soil in the
+            smaller pots below. Overtime, the vines should root themselves into the potting mix where you can then cut
+            the vines from the main plant and then treat as an adult plant. The soil can be pre-moistened prior, but you
+            shouldn't have to re-water until roots start to develop.</li>
+        </ul>
+        <p class="pMargin">Examples of plants that can be layered include any vining plants that develop aerial roots along the stems
+          like Pothos, Philodendron, vining Monstera. String of Hearts is also commonly propagated using the layering
+          method(Ceropegia woodii). Any plants that are also known as creepers/crawlers like Maranta can be layered and
+          they will grow roots into the soil along the stem.</p>
+      </section>
+      <!-- 4 -->
+      <section>
+        <article>
+          <div>
+            <h3>Root division</h3>
+            <p>Root division is the process of propagating a plant by dividing it at the roots and separating it into
+              several self-supporting plants.</p>
+            <p>This method of propagation can be done for almost any well-established plant at the time of repotting.
+            </p>
+          </div>
+          <img src="images/resources-onlineCourses-propagation101-propagationMethods4.png" alt="propagationMethods4">
+        </article>
+
+        <h4>Root Division</h4>
+        <p>Root division is primarily done at the time of repotting an established plant. When separating, it’ll be best
+          to keep the plants into a similar size or smaller container depending on how large the clumps are, rather than
+          upgrading them into a container that was larger than the diameter of the initial container when they were all
+          grouped together.</p>
+        <ul>
+          <li>There are, however a few plants that can only be propagated using this method. Examples include Peace
+            Lilies, Calatheas, Ctenanthe, Stromanthe, and some ferns. However, mostly any plant that is large enough can
+            be separated into several self-supporting plants if they can be easily separated by clumps they've created
+            in the soil.
+          </li>
+          <li>The kind of plants that don't take well to being separated include all Palms, and even Bird of Paradise as
+            they don't particularly liked their roots being disturbed.
+          </li>
+        </ul>
+      </section>
+      <!-- 5 -->
+      <section>
+        <article>
+          <div>
+            <h3>Plantlets and Offsets </h3>
+            <p>Plantlets and offsets are when plants generate ready made replicas of themselves, which makes them
+              self-propagators. </p>
+            <p>When a plant develops plantlets, these will usually form at the edges of leaves like on a Kalanchoe, or
+              on long stems like on a Spider plant. </p>
+            <p>Offsets usually develop at the base of the soil as side growths emerging directly from the stem.</p>
+          </div>
+          <img src="images/resources-onlineCourses-propagation101-propagationMethods5.png" alt="propagationMethods5">
+        </article>
+
+        <h4>Plantlets &amp; Offsets</h4>
+        <p>Offsets usually have roots that have formed already beneath the soil. Therefore, you can either let these
+          offsets grow with the mother plant, or remove them by root dividing at the time of repotting and plant them
+          separately.</p>
+        <ul>
+          <li>Examples of plants that develop offsets at the soil include Aloe vera, Haworthia, Bromeliads, Orchids.
+          </li>
+        </ul>
+        <p class="pMargin">Plantlets may have roots that have already formed if you leave them with the mother plant long enough. If
+          already rooted, you can cut the plant from the mother plant and plant it in potting mix and treat as an adult
+          plant.</p>
+        <ul>
+          <li>Examples of plants that develop plantlets include Kalanchoe “mother of thousands”, Spider plants,
+            Strawberry begonia, Opuntia cacti.
+          </li>
+        </ul>
+      </section>
+
+      <div>
+        <a href="resources-onlineCourses-propagation101-environmentalFactors.html" class="previousBtn">Previous Page</a>
+        <a href="resources-onlineCourses-propagation101-tipsTricks.html" class="nextBtn">Next Page</a>
+
+      </div>
+    </div>
+  </article>
+
+  <footer>
+    <div>
+      <h2><img src="images/globla-logo.svg"  alt="Bye. The Sill"></h2>
+      <ul>
+        <li><a href="https://www.facebook.com/TheSillNYC/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/thesill/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/thesill" target="_blank">Youtube</a></li>
+        <li><a href="https://www.tiktok.com/@thesill" target="_blank">Tiktok</a></li>
+        <li><a href="https://x.com/thesill" target="_blank">Twitter</a></li>
+        <li><a href="https://www.pinterest.com/thesillnyc/" target="_blank">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div>
+        <h3>Get The Dirt.</h3>
+        <p>Get plant care tips, exclusive offers, &amp; 10% off your first order straight to your inbox.No spam, ever.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter Your Email Here ..." title="Enter Your Email Here">
+          <input type="submit" value="Subscribe" class="itpGreenBtn">
+        </form>
+      </div>
+
+      <div>
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="customerService-faq.html">FAQ</a></li>
+          <li><a href="customerService-shippingHanding.html">Shipping &amp; Handling</a></li>
+          <li><a href="customerService-30day.html">30-Day Guarantee</a></li>
+          <li><a href="customerService-contactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://thesill.typeform.com/find-your-plant">Find Your Plant</a></li>
+          <li><a href="https://www.thesill.com/pages/care-library">Plant Care Library</a></li>
+          <li><a href="resources-blog.html">Blog</a></li>
+          <li><a href="resources-onlineCourses.html">Free Online Courses</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>My Sill</h3>
+        <ul>
+          <li><a href="https://www.thesill.com/account">My Account</a></li>
+          <li><a href="https://www.thesill.com/account">Track My Order</a></li>
+          <li><a href="https://returns.thesill.com/">Returns Portal</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="explore-ourStory.html">Our Story</a></li>
+          <li><a href="explore-careers.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <a href="https://app.impact.com/campaign-campaign-info-v2/The-Sill.brand" class="uln">Affiliate Program</a>
+      <a href="legalLinks-termsOfUse.html" class="uln">Terms of Use</a>
+      <a href="legalLinks-privacyPolicy.html" class="uln">Privacy Policy</a>
+      <a href="legalLinks-accessibilityStatement.html" class="uln">Accessibility</a>
+      <a href="legalLinks-noticeToCaliforniaResidents.html" class="uln">Do Not Sell My Info</a>
+      <p>Copyright 2025 - The Sill, Inc.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

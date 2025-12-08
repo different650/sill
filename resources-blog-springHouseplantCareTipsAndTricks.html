@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sill</title>
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/sill.js"></script>
+
+  <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+  <div class="discountPopup">
+    <div>
+      <h2>Want 10% Off?</h2>
+      <p>Get the dirt and save on your first purchase when
+        you sign up today.</p>
+      <form>
+        <input type="email" placeholder="Email Address" title="Enter Your Email Here">
+        <input type="submit" value="Subscribe" class="itpGreenBtn">
+      </form>
+    </div>
+    <input type="button" value="close" class="bCloseBtn">
+  </div>
+
+  <header id="home">
+    <p>Free Shipping + 30-Day Guarantee</p>
+    <div>
+      <h1>
+        <a href="index.html">
+          <img src="images/globla-logo.svg"  alt="The Sill">
+        </a>
+      </h1>
+      <div>
+        <input type="search" placeholder="Search for plants..." title="search keyword" class="searchToggle">
+        <input type="button" value="search" data-toggle="searchToggle">
+
+        <a href="user-accountLogin.html">myAccount</a>
+
+        <div>
+          <button type="button" value="cart" data-panel="cartPanel">
+            <span>0</span>
+          </button>
+
+          <div class="cartPanel">
+            <div>
+              <h2>Your Cart</h2>
+              <p>0</p>
+              <p>You are $79 away from getting Free Shipping</p>
+              <progress value="0" max="79"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <p>Your cart is currently empty!</p>
+              <p>Find products that match your taste</p>
+              <a href="listPage-allPlants1.html" class="aBlackBtn">Shop Now</a>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$0</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$15</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+
+          <div class="cartPanelFilled">
+            <div>
+              <h2>Your Cart</h2>
+              <p>1</p>
+              <p>You are $8 away from getting Free Shipping</p>
+              <progress value="199" max="207"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <img src="images/list-allPlant-africanMilkTree.png" alt="africanMilkTree">
+              <div>
+                <ul>
+                  <li>AfricanMilkTree</li>
+                  <li>Large / Grant / Grey</li>
+                  <li>
+                    <button type="button" value="delete"></button>
+                  </li>
+                  <li>
+                    <div class="qtyComponent">
+                      <input type="button" value="-" class="minus">
+                      <input type="number" value="1" max="99">
+                      <input type="button" value="+" class="plus">
+                    </div>
+                    <span>$199</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <input type="checkbox" id="giftMessage">
+              <label for="giftMessage">Add gift message?</label>
+              <textarea id="message" cols="40" rows="4" placeholder="Your Notes..."></textarea>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$199</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$214</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <label for="mnav" class="mui">
+        Menu
+      </label>
+      <input type="checkbox" id="mnav" class="mui">
+      <ul>
+        <li>
+          <b>Indoor Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Indoor Plants</strong>
+              <ol>
+                <li><a href="listPage-allPlants1.html">All Plants</a></li>
+                <li><a href="listPage-petFriendly1.html">Pet-Friendly</a></li>
+                <li><a href="listPage-lowLight1.html">Low-Light</a></li>
+                <li><a href="listPage-largePlants1.html">Large Plants</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-petFriendly1.html">
+                  <img src="images/mainMenu1_1.jpg" alt="Pet-Friendly">
+                </a>
+                <figcaption>Pet-Friendly</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listpage-lowLight1.html">
+                  <img src="images/mainMenu1_2.jpg" alt="Low-Light">
+                </a>
+                <figcaption>Low-Light</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-largePlants1.html">
+                  <img src="images/mainMenu1_3.jpg" alt="Large Plants">
+                </a>
+                <figcaption>Large Plants</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Flowering Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Flowering Plants</strong>
+              <ol>
+                <li><a href="listPage-orchids1.html">Orchids</a></li>
+                <li><a href="listPage-blooms1.html">Blooms</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-orchids1.html">
+                  <img src="images/mainMenu2_1.jpg" alt="Orchids">
+                </a>
+                <figcaption>Orchids</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-blooms1.html">
+                  <img src="images/mainMenu2_2.jpg" alt="Blooms">
+                </a>
+                <figcaption>Blooms</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Greenleaf Collection</b>
+          <div class="sub">
+            <div>
+              <strong>Greenleaf Collection</strong>
+              <ol>
+                <li><a href="listPage-rarePlants1.html">Rare Plants</a></li>
+                <li><a href="listPage-cactiSucculents1.html">Cacti &amp; Succulents</a></li>
+                <li><a href="listPage-hangingBaskets1.html">Hanging Baskcts</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-rarePlants1.html">
+                  <img src="images/mainMenu3_1.jpg" alt="Rare Plants">
+                </a>
+                <figcaption>Rare Plants</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-cactiSucculents1.html">
+                  <img src="images/mainMenu3_2.jpg" alt="Cacti & Succulents">
+                </a>
+                <figcaption>Cacti &amp; Succulents</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-hangingBaskets1.html">
+                  <img src="images/mainMenu3_3.jpg" alt="Hanging Baskcts">
+                </a>
+                <figcaption>Hanging Baskcts</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Artificial Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Artificial Plants</strong>
+              <ol>
+                <li><a href="listPage-faux1.html">Faux</a></li>
+                <li><a href="listPage-artisanMoss1.html">Artisan Moss</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-faux1.html">
+                  <img src="images/mainMenu4_1.jpg" alt="Faux">
+                </a>
+                <figcaption>Faux</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-artisanMoss1.html">
+                  <img src="images/mainMenu4_2.jpg" alt="Artisan Moss">
+                </a>
+                <figcaption>Artisan Moss</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Plant Care</b>
+          <div class="sub">
+            <div>
+              <strong>Plant Care</strong>
+              <ol>
+                <li><a href="listPage-planters1.html">Planters</a></li>
+                <li><a href="listPage-supplies1.html">Supplies</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-planters1.html">
+                  <img src="images/mainMenu5_1.jpg" alt="Planters">
+                </a>
+                <figcaption>Planters</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-supplies1.html">
+                  <img src="images/mainMenu5_2.jpg" alt="Supplies">
+                </a>
+                <figcaption>Supplies</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="postContentContainer">
+    <input type="button" value="Back" class="backBtn">
+    <h2>Spring Houseplant Care Tips and Tricks</h2>
+            <img src="images/blog-springHouseplantCareTipsAndTricks.webp" alt="Spring Houseplant Care Tips and Tricks">
+    <div>
+      <p>Spring is one of the best times of the year for your houseplants-the start of the growing season, plants seem to come alive again right before our eyes. Like us, they're looking forward to warmer temps and longer days. </p>
+      <p>Kick your plant care routine up a notch this season with our top spring plant care tips below and watch your houseplants thrive. </p>
+    </div>
+
+    <ol>
+      <li>
+        <h3>Tip 1: Water More Frequently </h3>
+        <p>One of our favorite perks of spring is more sunlight! Since plants take up water based on the amount of light they receive, the increase in daylight hours, from winter to spring, coupled with warmer temperatures, may impact how often your plants need water.</p>
+        <p>To avoid potentially overwatering your plants during the change of seasons, increase water frequency gradually. Check your plants regularly during this time of adjustment. If you notice wilt or leaf curl, coupled with dry potting mix, water more frequently. If the potting mix stays wet for two days or more, water less. If your plant is in full sun and you are watering semi-daily, you can help retain moisture better by adding rocks to top of the soil, or moving the plant to a spot that receives bright but indirect light.</p>
+        <p>In the spring and summer, the best time to water is early morning or early evening, when temperatures are cooler and water is less likely to evaporate.</p>
+      </li>
+      <li>
+        <h3>Tip 2: Pull Back On Sunlight</h3>
+        <p>In the winter, your houseplants were probably as close to the window as possible to maximize light. Now that the sun is stronger and days are longer, you may need to consider relocating some plants away from the window and further into your space, or drawing a sheer curtain to diffuse the sun's rays, to avoid leaf scorch.</p>
+        <p>Not sure if the sunlight is too strong? if you look out from the plant's view and see the sun in line with your plant's "vision," then this would be considered direct sunlight. Indirect light is ambient light emitting from the plant's view of the sky without directly seeing the sun. Overcast and obstructions can turn direct sunlight areas into indirect, and make indirect areas much shadier.</p>
+        <p>Similar to increasing your watering frequency, decreasing light should be a gradual process. Some plants may not need to be moved, be it they thrive in direct light (think succulents and cacti), or obstructions outside your window keep strong rays at bay. Check your houseplants regularly during this time so you can make adjustments as you go.</p>
+      </li>
+      <li>
+        <h3>Tip 3: Be Mindful of Temperature</h3>
+        <p>Most houseplants prefer temperatures between 65-85°F; Their sweet spot is around 75°F. Any extreme change in temperature or draft of cold or warm air can cause indoor plants, used to somewhat stable conditions, to stress out. Keep your plants away from open windows and doors, especially at night when temps are still cool, as well as air conditioners, when those start to turn on. If your A/C unit is in your window, consider hanging planters, that can float safely above the unit, or DIY a shelf to elevate potted plants.</p>
+      </li>
+      <li>
+        <h3>Tip 4: Prune Lackluster Foliage</h3>
+        <p>Give your houseplants a little spring cleaning. Pruning lackluster or wilted foliage gives your plants back nutrients to use towards new, healthy growth. It can also eliminate hosts for disease. Plus, some plants benefit from frequent pruning-it helps them maintain a bushy, full shape.</p>
+      </li>
+      <li>
+        <h3>Tip 5: Dust Off Leaves</h3>
+        <p>Another way to spring clean your plants is dusting their leaves. Plants have a static charge and act as a dust cling. That's why you'll notice some plants get so dusty-they're actively removing physical dust particles from the air surrounding them!</p>
+        <p>However, these dust particles can build up over time on the surfaces of your plants and clog their pores, called stomata. These tiny pores are crucial for many plant functions: they allow oxygen to pass through during respiration, carbon dioxide to pass through during photosynthesis, and water vapor to pass through during transpiration. When they're clogged with dust, these very important gas exchanges can't happen as efficiently as they should. Keep your plants' healthy and happy by simply wiping their leaves with a soft damp cloth, or passing a gentle duster over them, to remove any build up.</p>
+      </li>
+      <li>
+        <h3>Tip 6: Repot Your Plants</h3>
+        <p>Plants typically need to be repotted every 12 to 18 months, and spring is one of the best times to do so-to provide plants with new nutrients and/or more space for the growing season ahead. Remember repotting does not necessarily mean putting the plant in a new planter, unless it has outgrown its current and needs more space, but rather changing its soil or potting mix to provide fresh nutrients so it can continue to thrive.</p>
+      </li>
+      <li>
+        <h3>Tip 7: Consider Fertilizing</h3>
+        <p>Fertilizing your houseplants is one of those plant care steps that tends to get overlooked but it can be beneficial in the long-term health of your plant. Fertilizer is not food for your plants: plants make their own food using light during photosynthesis. Instead, think of fertilizer more like a multi-vitamin. It replaces essential nutrients in the potting mix that are used up as a plant actively grows.</p>
+        <p>Fertilizer should be used sparingly and never in fresh soil. If you've decided to take advantage of spring to repot your plant, the new potting mix won't need any added fertilizer!</p>
+      </li>
+      <li>
+        <h3>Tip 8: Move Plants Outside</h3>
+        <p>If you want to move your houseplants outside in the approaching warmer months, you can prep them a bit now. A good time to move them out is when it's consistently above 65°F, especially at night.</p>
+        <p>Outdoor weather can be unpredictable. With the increase in light and temperature, plants tend to dry out faster. Move them to a shady area and water them in the early morning and at night to avoid leaf scorch and dehydration. If it's rained for a couple of days, lay off on watering and, of course, make sure your planters outside have drainage to avoid overwatering.</p>
+      </li>
+    </ol>
+  </article>
+
+  <footer>
+    <div>
+      <h2><img src="images/globla-logo.svg"  alt="Bye. The Sill"></h2>
+      <ul>
+        <li><a href="https://www.facebook.com/TheSillNYC/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/thesill/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/thesill" target="_blank">Youtube</a></li>
+        <li><a href="https://www.tiktok.com/@thesill" target="_blank">Tiktok</a></li>
+        <li><a href="https://x.com/thesill" target="_blank">Twitter</a></li>
+        <li><a href="https://www.pinterest.com/thesillnyc/" target="_blank">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div>
+        <h3>Get The Dirt.</h3>
+        <p>Get plant care tips, exclusive offers, &amp; 10% off your first order straight to your inbox.No spam, ever.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter Your Email Here ..." title="Enter Your Email Here">
+          <input type="submit" value="Subscribe" class="itpGreenBtn">
+        </form>
+      </div>
+
+      <div>
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="customerService-faq.html">FAQ</a></li>
+          <li><a href="customerService-shippingHanding.html">Shipping &amp; Handling</a></li>
+          <li><a href="customerService-30day.html">30-Day Guarantee</a></li>
+          <li><a href="customerService-contactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://thesill.typeform.com/find-your-plant">Find Your Plant</a></li>
+          <li><a href="https://www.thesill.com/pages/care-library">Plant Care Library</a></li>
+          <li><a href="resources-blog.html">Blog</a></li>
+          <li><a href="resources-onlineCourses.html">Free Online Courses</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>My Sill</h3>
+        <ul>
+          <li><a href="https://www.thesill.com/account">My Account</a></li>
+          <li><a href="https://www.thesill.com/account">Track My Order</a></li>
+          <li><a href="https://returns.thesill.com/">Returns Portal</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="explore-ourStory.html">Our Story</a></li>
+          <li><a href="explore-careers.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <a href="https://app.impact.com/campaign-campaign-info-v2/The-Sill.brand" class="uln">Affiliate Program</a>
+      <a href="legalLinks-termsOfUse.html" class="uln">Terms of Use</a>
+      <a href="legalLinks-privacyPolicy.html" class="uln">Privacy Policy</a>
+      <a href="legalLinks-accessibilityStatement.html" class="uln">Accessibility</a>
+      <a href="legalLinks-noticeToCaliforniaResidents.html" class="uln">Do Not Sell My Info</a>
+      <p>Copyright 2025 - The Sill, Inc.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sill</title>
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/sill.js"></script>
+
+  <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+  <div class="discountPopup">
+    <div>
+      <h2>Want 10% Off?</h2>
+      <p>Get the dirt and save on your first purchase when
+        you sign up today.</p>
+      <form>
+        <input type="email" placeholder="Email Address" title="Enter Your Email Here">
+        <input type="submit" value="Subscribe" class="itpGreenBtn">
+      </form>
+    </div>
+    <input type="button" value="close" class="bCloseBtn">
+  </div>
+
+  <header id="home">
+    <p>Free Shipping + 30-Day Guarantee</p>
+    <div>
+      <h1>
+        <a href="index.html">
+          <img src="images/globla-logo.svg"  alt="The Sill">
+        </a>
+      </h1>
+      <div>
+        <input type="search" placeholder="Search for plants..." title="search keyword" class="searchToggle">
+        <input type="button" value="search" data-toggle="searchToggle">
+
+        <a href="user-accountLogin.html">myAccount</a>
+
+        <div>
+          <button type="button" value="cart" data-panel="cartPanel">
+            <span>0</span>
+          </button>
+
+          <div class="cartPanel">
+            <div>
+              <h2>Your Cart</h2>
+              <p>0</p>
+              <p>You are $79 away from getting Free Shipping</p>
+              <progress value="0" max="79"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <p>Your cart is currently empty!</p>
+              <p>Find products that match your taste</p>
+              <a href="listPage-allPlants1.html" class="aBlackBtn">Shop Now</a>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$0</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$15</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+
+          <div class="cartPanelFilled">
+            <div>
+              <h2>Your Cart</h2>
+              <p>1</p>
+              <p>You are $8 away from getting Free Shipping</p>
+              <progress value="199" max="207"></progress>
+              <input type="button" value="close" class="bCloseBtn">
+            </div>
+
+            <div>
+              <img src="images/list-allPlant-africanMilkTree.png" alt="africanMilkTree">
+              <div>
+                <ul>
+                  <li>AfricanMilkTree</li>
+                  <li>Large / Grant / Grey</li>
+                  <li>
+                    <button type="button" value="delete"></button>
+                  </li>
+                  <li>
+                    <div class="qtyComponent">
+                      <input type="button" value="-" class="minus">
+                      <input type="number" value="1" max="99">
+                      <input type="button" value="+" class="plus">
+                    </div>
+                    <span>$199</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <input type="checkbox" id="giftMessage">
+              <label for="giftMessage">Add gift message?</label>
+              <textarea id="message" cols="40" rows="4" placeholder="Your Notes..."></textarea>
+            </div>
+
+            <div>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$199</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>$15</td>
+                </tr>
+                <tr>
+                  <td>Estimated Total</td>
+                  <td>$214</td>
+                </tr>
+              </table>
+              <p>Taxes and discounts calculated at checkout.</p>
+              <a href="user-payment.html" class="aBlackBtn">Check Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <label for="mnav" class="mui">
+        Menu
+      </label>
+      <input type="checkbox" id="mnav" class="mui">
+      <ul>
+        <li>
+          <b>Indoor Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Indoor Plants</strong>
+              <ol>
+                <li><a href="listPage-allPlants1.html">All Plants</a></li>
+                <li><a href="listPage-petFriendly1.html">Pet-Friendly</a></li>
+                <li><a href="listPage-lowLight1.html">Low-Light</a></li>
+                <li><a href="listPage-largePlants1.html">Large Plants</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-petFriendly1.html">
+                  <img src="images/mainMenu1_1.jpg" alt="Pet-Friendly">
+                </a>
+                <figcaption>Pet-Friendly</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listpage-lowLight1.html">
+                  <img src="images/mainMenu1_2.jpg" alt="Low-Light">
+                </a>
+                <figcaption>Low-Light</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-largePlants1.html">
+                  <img src="images/mainMenu1_3.jpg" alt="Large Plants">
+                </a>
+                <figcaption>Large Plants</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Flowering Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Flowering Plants</strong>
+              <ol>
+                <li><a href="listPage-orchids1.html">Orchids</a></li>
+                <li><a href="listPage-blooms1.html">Blooms</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-orchids1.html">
+                  <img src="images/mainMenu2_1.jpg" alt="Orchids">
+                </a>
+                <figcaption>Orchids</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-blooms1.html">
+                  <img src="images/mainMenu2_2.jpg" alt="Blooms">
+                </a>
+                <figcaption>Blooms</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Greenleaf Collection</b>
+          <div class="sub">
+            <div>
+              <strong>Greenleaf Collection</strong>
+              <ol>
+                <li><a href="listPage-rarePlants1.html">Rare Plants</a></li>
+                <li><a href="listPage-cactiSucculents1.html">Cacti &amp; Succulents</a></li>
+                <li><a href="listPage-hangingBaskets1.html">Hanging Baskcts</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-rarePlants1.html">
+                  <img src="images/mainMenu3_1.jpg" alt="Rare Plants">
+                </a>
+                <figcaption>Rare Plants</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-cactiSucculents1.html">
+                  <img src="images/mainMenu3_2.jpg" alt="Cacti & Succulents">
+                </a>
+                <figcaption>Cacti &amp; Succulents</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-hangingBaskets1.html">
+                  <img src="images/mainMenu3_3.jpg" alt="Hanging Baskcts">
+                </a>
+                <figcaption>Hanging Baskcts</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Artificial Plants</b>
+          <div class="sub">
+            <div>
+              <strong>Artificial Plants</strong>
+              <ol>
+                <li><a href="listPage-faux1.html">Faux</a></li>
+                <li><a href="listPage-artisanMoss1.html">Artisan Moss</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-faux1.html">
+                  <img src="images/mainMenu4_1.jpg" alt="Faux">
+                </a>
+                <figcaption>Faux</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-artisanMoss1.html">
+                  <img src="images/mainMenu4_2.jpg" alt="Artisan Moss">
+                </a>
+                <figcaption>Artisan Moss</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <b>Plant Care</b>
+          <div class="sub">
+            <div>
+              <strong>Plant Care</strong>
+              <ol>
+                <li><a href="listPage-planters1.html">Planters</a></li>
+                <li><a href="listPage-supplies1.html">Supplies</a></li>
+              </ol>
+            </div>
+            <div>
+              <figure>
+                <a href="listPage-planters1.html">
+                  <img src="images/mainMenu5_1.jpg" alt="Planters">
+                </a>
+                <figcaption>Planters</figcaption>
+              </figure>
+
+              <figure>
+                <a href="listPage-supplies1.html">
+                  <img src="images/mainMenu5_2.jpg" alt="Supplies">
+                </a>
+                <figcaption>Supplies</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="resourcesContainer">
+    <section class="plantCare101Visual">
+      <div>
+        <h2>Plant Care 101</h2>
+        <p>Get a better grasp of the fundamentals with this introductory course to plant care. We'll cover the basics:
+          light, water, and soil, so your plants stay happy and healthy.</p>
+      </div>
+    </section>
+
+    <div class="onlineCoursesWrapper">
+      <input type="button" value="Back" class="backBtn">
+      <!-- 1 -->
+      <section>
+        <article>
+          <h3>Watering</h3>
+          <p>In addition to being essential to photosynthesis, <strong class="sInline">water provides structural support for
+              plants.</strong></p>
+          <p>This is called <strong>turgor pressure</strong> and you can think of it like a water balloon. </p>
+          <ul>
+            <li>When the plant has sufficient water it stands stiff and upright. The leaves are perky and stems are
+              supple.
+            </li>
+            <li class="anomalyUl">When the plant has too little water the plant's structure is compromised. Leaves and stems will wilt,
+              droop, curl or wrinkle. </li>
+          </ul>
+          <p class="anomalyP">Water is also crucial for nutrient uptake as minerals are only readily available for plants to absorb when
+            dissolved in water as soluble salts.</p>
+        </article>
+
+        <h4>Overview</h4>
+        <p>Video can be accessed through this link.</p>
+        <ul>
+          <li>Due to the typically high chlorine content of tap water, it may be advisable to use filtered water for
+            more
+            sensitive plants. Alternatively, let water sit for 24 hours or even in direct sunlight which helps to get
+            rid
+            of chlorine. Filtering water also removes vital minerals, so regular fertilizing will be necessary.</li>
+          <li>Best to not use solely distilled water which is chemically inert so it wouldn't add some essential
+            minerals
+            like calcium and magnesium that plants can get from tap water, and can also leach out the essential
+            nutrients
+            present in soil if a planter has a drainage hole! Better to use distilled water in intervals (1 month of
+            just
+            watering with distilled water).</li>
+          <li>When watering, always use warm/tepid water rather than cold or hot water which can harm and shock the
+            roots.
+          </li>
+        </ul>
+      </section>
+      <!-- 2 -->
+      <section>
+        <article>
+          <h3>Watering Basics </h3>
+          <p>The average watering cadence for house plants is every 1-2 weeks depending on the plant's needs and
+            environmental conditions. </p>
+          <strong class="anomalyStrong">Seasonal Watering Patterns </strong>
+          <p>As seasons change so do the environmental factors that affect your plant, such as exposure to sunlight,
+            temperature and humidity. </p>
+          <ul>
+            <li>Less sunlight is available, plants use less water. </li>
+            <li>Colder temperatures mean potting mix will take longer to dry out. </li>
+            <li>More sunlight causes plants to photosynthesis using more water. </li>
+            <li>Water evaporates out of the soil. </li>
+            <li>Plants lose water through sweat or transpiration.</li>
+          </ul>
+        </article>
+
+        <h4>Basics</h4>
+        <p>All plants want to dry out to some extent between watering. Understanding the plants' native habitat can help
+          you to recreate the potting mix and environmental conditions it needs to thrive. For instance, a desert
+          succulent will need water every 2-3 weeks compared to a rainforest Calathea that will need water every week.
+        </p>
+        <ul>
+          <li>The more light and/or heat the plant is exposed to, the more water it will need (and vice versa); which is
+            why we increase watering during the summer and decrease in winter.</li>
+          <li>The size of the plant also affects it's watering needs. Plants with a larger volume of potting mix will
+            hold water for longer and thus don't need to be watered as frequently as smaller plants that don't retain as
+            much water.
+          </li>
+        </ul>
+      </section>
+      <!-- 3 -->
+      <section>
+        <article>
+          <h3>When To Water</h3>
+          <ul>
+            <li>Visually inspect your plant for signs of underwatering. </li>
+            <li>Check the potting mix using your finger, a chopstick or moisture meter to see if the potting mix is
+              dry at the root level. </li>
+            <li class="anomalyUl">Check the weight of the plant. Saturated potting mix will be much heavier than dry mix. </li>
+          </ul>
+          <strong class="anomalyStrong">Sad plant signs: </strong>
+          <ul>
+            <li>Curling leaves </li>
+            <li>Drooping stems </li>
+            <li>Fading </li>
+            <li>Wrinkling or wilting leaves </li>
+            <li>Potting mix looks dry and is pulling away from the edges of the pot</li>
+          </ul>
+        </article>
+
+        <h4>When To Water</h4>
+        <p>Signs of underwatering can include:</p>
+        <ul>
+          <li>Curling leaves</li>
+          <li>Drooping stems</li>
+          <li>Wrinkling or wilting leaves</li>
+          <li>Fading</li>
+          <li>Potting mix looks dry and is pulling away from the edges of the pot.</li>
+        </ul>
+        <p class="pMargin">Potting mix is a sponge that holds water, but when it is too dry it's not absorptive. Water slowly, a
+          little at a time or use the bottom watering method to give it time to fully saturate.</p>
+      </section>
+      <!-- 4 -->
+      <section>
+        <article>
+          <div>
+            <h3>How To Water </h3>
+            <p>Afer determining that the plant is sufficiently dry, use room temperature water to fully saturate the
+              potting mix. </p>
+            <ul>
+              <li>Water the potting mix evenly around the plant. Avoid splashing onto leaves which could cause fungal
+                or bacterial spots. </li>
+              <li>Water up to &frac14; to &frac13; of the volume of your
+                planter. For planters with no drainage hole, be especially mindful of how much water you're using.
+              </li>
+              <li>For planters with drainage, water freely until you see it drain out of the bottom. Let the water sit
+                for 15-30 minutes or until the potting mix is fully saturated, then discard any excess water.</li>
+            </ul>
+          </div>
+          <img src="images/resources-onlineCourses-plantCare101-watering1.png" alt="watering1">
+        </article>
+
+        <h4>How To Water</h4>
+        <p>Aerating soil (making perforations in the soil using a pencil or chopstick) helps to break up compacted
+          soil, especially for those that like to dry out between waterings, which will help to evenly saturate the
+          soil completely.</p>
+      </section>
+      <!-- 5 -->
+      <section>
+        <article>
+          <div>
+            <h3>Watering Overview </h3>
+            <ul>
+              <li>Check plants before watering to ensure they are appropriately dry. Visually inspect the leaves and
+                soil or physically check the soil. </li>
+              <li>Water the potting mix not the leaves with tepid water until the potting mix is evenly saturated.
+              </li>
+              <li>In pots without drainage holes, give the plant &frac14; -
+                &frac13; the pot's volume-worth of water.
+              </li>
+              <li>In pots with drainage holes, water until you see the excess drain out the bottom. Let it sit for
+                about 15-30 minutes to soak up, then discard excess. </li>
+            </ul>
+          </div>
+          <img src="images/resources-onlineCourses-plantCare101-watering2.png" alt="watering2">
+        </article>
+
+        <h4>Review</h4>
+        <p>Reflect on these watering questions:</p>
+        <ul>
+          <li>How do you water your plants?</li>
+          <li>Do you prefer planters with or without drainage?</li>
+        </ul>
+      </section>
+
+      <div>
+        <a href="resources-onlineCourses-plantCare101-environment.html" class="previousBtn">Previous Page</a>
+        <a href="resources-onlineCourses-plantCare101-pottingDrainage.html" class="nextBtn">Next Page</a>
+      </div>
+  </article>
+
+  <footer>
+    <div>
+      <h2><img src="images/globla-logo.svg"  alt="Bye. The Sill"></h2>
+      <ul>
+        <li><a href="https://www.facebook.com/TheSillNYC/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/thesill/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/thesill" target="_blank">Youtube</a></li>
+        <li><a href="https://www.tiktok.com/@thesill" target="_blank">Tiktok</a></li>
+        <li><a href="https://x.com/thesill" target="_blank">Twitter</a></li>
+        <li><a href="https://www.pinterest.com/thesillnyc/" target="_blank">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div>
+        <h3>Get The Dirt.</h3>
+        <p>Get plant care tips, exclusive offers, &amp; 10% off your first order straight to your inbox.No spam, ever.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter Your Email Here ..." title="Enter Your Email Here">
+          <input type="submit" value="Subscribe" class="itpGreenBtn">
+        </form>
+      </div>
+
+      <div>
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="customerService-faq.html">FAQ</a></li>
+          <li><a href="customerService-shippingHanding.html">Shipping &amp; Handling</a></li>
+          <li><a href="customerService-30day.html">30-Day Guarantee</a></li>
+          <li><a href="customerService-contactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://thesill.typeform.com/find-your-plant">Find Your Plant</a></li>
+          <li><a href="https://www.thesill.com/pages/care-library">Plant Care Library</a></li>
+          <li><a href="resources-blog.html">Blog</a></li>
+          <li><a href="resources-onlineCourses.html">Free Online Courses</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>My Sill</h3>
+        <ul>
+          <li><a href="https://www.thesill.com/account">My Account</a></li>
+          <li><a href="https://www.thesill.com/account">Track My Order</a></li>
+          <li><a href="https://returns.thesill.com/">Returns Portal</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="explore-ourStory.html">Our Story</a></li>
+          <li><a href="explore-careers.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <a href="https://app.impact.com/campaign-campaign-info-v2/The-Sill.brand" class="uln">Affiliate Program</a>
+      <a href="legalLinks-termsOfUse.html" class="uln">Terms of Use</a>
+      <a href="legalLinks-privacyPolicy.html" class="uln">Privacy Policy</a>
+      <a href="legalLinks-accessibilityStatement.html" class="uln">Accessibility</a>
+      <a href="legalLinks-noticeToCaliforniaResidents.html" class="uln">Do Not Sell My Info</a>
+      <p>Copyright 2025 - The Sill, Inc.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
