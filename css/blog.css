@@ -1,0 +1,230 @@
+@media screen and (min-width: 1280px) {
+	.tabMenuAccordionContainer .blogWrapper {
+		margin-bottom: 150px;
+	}
+
+	.tabMenuAccordionContainer .blogWrapper>span,
+	.tabMenuAccordionContainer .onlineCoursesWrapper>span {
+		display: block;
+		margin-bottom: 25px;
+	}
+
+	/* .blogContainer .postList li figure figcaption dl dd{
+    font-size: 14px;
+	font-family: "Hanken Grotesk";
+  text-transform: none;
+  font-weight: 500;
+  text-align: left;
+  height: 0;
+  margin: 0;
+  } */
+
+	/* .postGrid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		column-gap: 2%; 
+		row-gap: 40px;
+		list-style: none;
+		margin-bottom: 40px;
+	}
+.postGrid  li {
+
+		min-width: 280px;
+	}
+.postGrid  li figure {
+		position: relative;
+	}
+.postGrid  li figure a img {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+.postGrid li figure figcaption dl dt {
+		font-size: 22px;
+		font-weight: 500;
+		margin-bottom: 20px;
+	} */
+	.tabMenuAccordionContainer .postList {
+		margin-bottom: 0px;
+	}
+
+	.tabMenuAccordionContainer .postList dd:first-of-type {
+		font-size: 14px;
+		font-family: "Hanken Grotesk";
+		text-transform: none;
+		font-weight: 500;
+		text-align: left;
+		margin-bottom: 0;
+		line-height: 17px;
+	}
+
+	.tabMenuAccordionContainer .postList li figure a .imgWrap {
+		aspect-ratio: 3 / 2;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+
+	.tabMenuAccordionContainer .postList li figure a .imgWrap img {
+		margin-bottom: 0;
+		transition: transform 0.5s;
+	}
+
+	.tabMenuAccordionContainer .postList li:hover figure a .imgWrap img {
+		transform: scale(1.18);
+
+	}
+
+	/* blogdetailPage */
+	.postContentContainer {
+		max-width: 1480px;
+		padding: 0 2%;
+		margin: 0 auto;
+	}
+
+	.postContentContainer {
+		padding-top: 45px;
+		margin-bottom: 150px;
+	}
+
+	.postContentContainer h2,
+	.postContentContainer h3,
+	.postContentContainer h4 {
+		font-family: "Dosis";
+		text-transform: uppercase;
+	}
+
+	.postContentContainer p {
+		font-family: "Hanken Grotesk";
+	}
+
+	.postContentContainer ol li {
+		list-style: none;
+	}
+
+	.postContentContainer h2 {
+		font-size: 50px;
+		font-weight: 400;
+		line-height: 37px;
+		text-align: center;
+		margin-bottom: 80px;
+	}
+
+	.postContentContainer img {
+		width: 1110px;
+		height: 740px;
+		object-fit: cover;
+		display: block;
+		margin: 0 auto 80px;
+	}
+
+	.postContentContainer div {
+		margin-bottom: 75px;
+	}
+
+	.postContentContainer p {
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 26px;
+	}
+
+	.postContentContainer p:not(:last-of-type) {
+		margin-bottom: 20px;
+	}
+
+	.postContentContainer li:not(:first-of-type) h3 {
+		padding-top: 75px;
+	}
+
+	.postContentContainer h3 {
+		font-size: 26px;
+		font-weight: 500;
+		line-height: 20px;
+		margin-bottom: 40px;
+	}
+
+	.postContentContainer h4 {
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 15px;
+		margin-bottom: 30px;
+	}
+
+	.postContentContainer ol li ol li:not(:first-of-type) {
+		padding-top: 40px;
+	}
+
+	/* 제외 되는것만 잡음 */
+	.postContentContainer .exclude {
+		margin-bottom: 20px;
+	}
+
+	.postContentContainer .exclude1 {
+		padding-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.postContentContainer>ol>li>ul {
+		padding: 0 15px;
+
+	}
+
+	.postContentContainer>ol>li>ul>li {
+		list-style: none;
+		font-family: "Hanken Grotesk";
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 26px;
+		position: relative;
+		padding-left: 15px;
+	}
+
+	.postContentContainer>ol>li>ul>li:not(:last-of-type) {
+		margin-bottom: 11px;
+	}
+
+	.postContentContainer>ol>li>ul>li:before {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 10.5px;
+		width: 5px;
+		height: 5px;
+		border: 1px solid #222;
+		background-color: #222;
+		border-radius: 50%;
+		box-sizing: border-box;
+		/* content: "●";
+		position: absolute;
+		left: 0;
+		font-size: 5px;
+		line-height: 26px; */
+	}
+
+
+
+	.postContentContainer>ol>li>ul>li>ul {
+		padding-top: 11px;
+	}
+
+	.postContentContainer>ol>li>ul>li>ul>li {
+		list-style: none;
+		line-height: 26px;
+		position: relative;
+		padding: 0 15px;
+	}
+
+	.postContentContainer>ol>li>ul>li>ul>li:before {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 10.5px;
+		width: 5px;
+		height: 5px;
+		border: 1px solid #222;
+		border-radius: 50%;
+		box-sizing: border-box;
+	}
+
+
+
+}

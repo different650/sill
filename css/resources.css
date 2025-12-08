@@ -1,0 +1,1591 @@
+/* Desktops 1280px~ */
+@media screen and (min-width:1280px) {
+  .resourcesContainer {
+    margin: 162px 0 150px;
+  }
+
+  .resourcesContainer .blogWrapper,
+  .onlineCoursesWrapper {
+    max-width: 1480px;
+    padding: 0 2%;
+    margin: 0 auto;
+  }
+
+  .resourcesContainer .blogWrapper .postCount,
+  .onlineCoursesWrapper .postCount {
+    display: block;
+    margin-bottom: 25px;
+  }
+
+  .resourcesContainer .postList {
+    margin-bottom: 0;
+  }
+
+  .resourcesContainer .postList li figure a .imgWrap {
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .resourcesContainer .postList li figure a .imgWrap img {
+    margin-bottom: 0;
+    transition: transform 0.5s;
+  }
+
+  .resourcesContainer .postList li:hover figure a .imgWrap img {
+    transform: scale(1.18);
+  }
+
+  .resourcesContainer .postList dd:first-of-type {
+    font-size: 14px;
+    font-family: "Hanken Grotesk";
+    text-transform: none;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 0;
+    line-height: 17px;
+  }
+
+  /* blogdetailPage */
+  .postContentContainer {
+    max-width: 1480px;
+    padding: 0 2%;
+    margin: 162px auto 150px;
+  }
+
+  .postContentContainer h2 {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  .postContentContainer img {
+    width: 1110px;
+    height: 740px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 80px;
+  }
+
+  .postContentContainer p {
+    font-family: "Hanken Grotesk";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  .postContentContainer ol li {
+    list-style: none;
+  }
+
+  .postContentContainer div {
+    margin-bottom: 75px;
+  }
+
+  .postContentContainer p:not(:last-of-type) {
+    margin-bottom: 20px;
+  }
+
+  .postContentContainer li:not(:first-of-type) h3 {
+    padding-top: 75px;
+  }
+
+  .postContentContainer h3 {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
+
+  .postContentContainer h4 {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 15px;
+    margin-bottom: 30px;
+  }
+
+  .postContentContainer ol li ol li:not(:first-of-type) {
+    padding-top: 40px;
+  }
+
+  /* 제외 되는것만 잡음 */
+  .postContentContainer .exclude {
+    margin-bottom: 20px;
+  }
+
+  .postContentContainer .exclude1 {
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .postContentContainer>ol>li>ul {
+    padding: 0 15px;
+
+  }
+
+  .postContentContainer>ol>li>ul>li {
+    list-style: none;
+    font-family: "Hanken Grotesk";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    padding-left: 15px;
+  }
+
+  .postContentContainer>ol>li>ul>li:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+
+  .postContentContainer>ol>li>ul>li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10.5px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #222;
+    background-color: #222;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+  .postContentContainer>ol>li>ul>li>ul {
+    padding-top: 10px;
+  }
+
+  .postContentContainer>ol>li>ul>li>ul>li {
+    list-style: none;
+    line-height: 26px;
+    position: relative;
+    padding: 0 15px;
+    margin-bottom: 5px;
+  }
+
+  .postContentContainer>ol>li>ul>li>ul>li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10.5px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+
+
+
+
+
+
+
+  /* onlineCourses */
+  /* 메뉴 */
+  .onlineCoursesWrapper li {
+    list-style: none;
+  }
+
+  .onlineCoursesWrapper>ol>li {
+    background: #e0d4ca;
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 30px 2.138%;
+  }
+
+  .onlineCoursesWrapper>ol>li:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:first-of-type {
+    position: relative;
+    width: 38.7%;
+    margin-right: 5.7%;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:first-of-type>a {
+    display: block;
+    width: 100%;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:first-of-type>a>h2 {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+    color: #27957b;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:first-of-type>a>img {
+    width: 100%;
+    min-width: 490px;
+    height: 330px;
+    object-fit: cover;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type {
+    width: 55.6%;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>h2 {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    line-height: 19px;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>p {
+    font-family: "Hanken Grotesk";
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    line-height: 22px;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul {
+    width: calc((100% - 2.6%) / 2);
+    float: left;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul:first-of-type {
+    margin-right: 2.6%;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul>li {
+    margin-bottom: 15px;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul>li:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul>li>span {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 9px;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul>li>a>h3 {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    display: table;
+    margin-bottom: 5px;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul>li>a>h3:hover {
+    color: #4d7a42;
+    border-color: #4d7a42;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul>li>p {
+    font-family: "Hanken Grotesk";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 13px;
+  }
+
+
+
+
+  /* detail_onlineCourses */
+  /* 기본 */
+  .onlineCoursesWrapper section {
+    font-family: "Hanken Grotesk";
+  }
+
+  .onlineCoursesWrapper section>article {
+    background: #f4f8f1;
+    width: 100%;
+    padding: 80px 5.7%;
+    margin-bottom: 40px;
+    display: block;
+    color: #4d7a42;
+  }
+
+  .onlineCoursesWrapper section>article h3 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 37px;
+    color: #a05f42;
+    margin-bottom: 50px;
+  }
+
+  .onlineCoursesWrapper section>article p {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 40px;
+  }
+
+  .onlineCoursesWrapper section article .pDown {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 32px;
+  }
+
+  .onlineCoursesWrapper section article .sInline {
+    display: inline;
+  }
+
+  .onlineCoursesWrapper section>article ul {
+    padding: 0 15px;
+  }
+
+  .onlineCoursesWrapper section>article ul li {
+    position: relative;
+    list-style: none;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    line-height: 32px;
+  }
+
+  .onlineCoursesWrapper section>article ul li::before {
+    content: "→";
+    position: absolute;
+    font-size: 26px;
+    left: 0;
+    box-sizing: border-box;
+  }
+
+  .onlineCoursesWrapper section>article ol {
+    padding: 0 0 0 31.8px;
+  }
+
+  .onlineCoursesWrapper section>article ol li {
+    list-style: decimal;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #4d7a42;
+    margin-bottom: 30px;
+  }
+
+  .onlineCoursesWrapper section>article strong {
+    font-weight: 700;
+    display: inline-block;
+  }
+
+  .onlineCoursesWrapper section>article strong.anomalyStrong {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    margin-bottom: 40px;
+  }
+
+  /* 아래첨자*/
+  .onlineCoursesWrapper section>article ol li strong sub {
+    font-size: smaller;
+  }
+
+  /* 기울기*/
+  .onlineCoursesWrapper section>article i {
+    display: block;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 5px;
+  }
+
+  /* 2다단 이미지 */
+  .onlineCoursesWrapper section>article::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .onlineCoursesWrapper section>article>div {
+    float: left;
+    width: 50%;
+    margin-right: 6%;
+  }
+
+  .onlineCoursesWrapper section>article img {
+    float: left;
+    width: calc(100% - 56%);
+    height: auto;
+  }
+
+  /* 2다단 텍스트 */
+  .onlineCoursesWrapper .twoColumn::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .onlineCoursesWrapper .twoColumn div {
+    width: calc((100% - 8%) / 2);
+    float: left;
+  }
+
+  .onlineCoursesWrapper .twoColumn div:first-of-type {
+    margin-right: 8%;
+  }
+
+  .onlineCoursesWrapper .twoColumn div:last-of-type {
+    margin-right: 0;
+  }
+
+  /* 3다단 21 */
+  .onlineCoursesWrapper section>.three21Column::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .onlineCoursesWrapper section>.three21Column>div:first-of-type,
+  .onlineCoursesWrapper section>.three21Column>div:nth-of-type(2) {
+    float: left;
+    width: calc((100% - 8%) / 2);
+  }
+
+  .onlineCoursesWrapper section>.three21Column>div:first-of-type {
+    margin-right: 8%;
+  }
+
+  .onlineCoursesWrapper section>.three21Column>div:nth-of-type(2) {
+    margin-right: 0;
+  }
+
+  .onlineCoursesWrapper section>.three21Column>div:last-of-type {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  /* ------------------------------------- */
+  .onlineCoursesWrapper section:not(:last-of-type) {
+    margin-bottom: 60px;
+  }
+
+  .onlineCoursesWrapper section>h4 {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    line-height: 20px;
+  }
+
+  .onlineCoursesWrapper section>ul {
+    padding: 0 15px;
+  }
+
+  .onlineCoursesWrapper section>ul>li {
+    position: relative;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .onlineCoursesWrapper section>ul>li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #222;
+    background-color: #222;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+  .onlineCoursesWrapper section>p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+
+  .onlineCoursesWrapper section>ul>li>ul {
+    margin-top: 15px;
+    padding: 0 15px;
+  }
+
+  .onlineCoursesWrapper section>ul>li>ul>li {
+    position: relative;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+
+  .onlineCoursesWrapper section>ul>li>ul>li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+  .onlineCoursesWrapper section>p.pMargin {
+    margin-top: 30px;
+  }
+
+  .onlineCoursesWrapper>div {
+    font-size: 0;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .onlineCoursesWrapper>div .previousBtn {
+    margin-right: 20px;
+  }
+}
+
+/* Tablet 1279px~768px */
+@media screen and (min-width:768px) and (max-width:1279px) {
+  .resourcesContainer {
+    margin: 140px 0 120px;
+  }
+
+  .resourcesContainer .blogWrapper,
+  .onlineCoursesWrapper {
+    padding: 0 3.125%;
+    margin: 0 auto;
+  }
+
+  .resourcesContainer .blogWrapper .postCount,
+  .onlineCoursesWrapper .postCount {
+    display: block;
+    margin-bottom: 25px;
+  }
+
+  .resourcesContainer .postList {
+    margin-bottom: 0;
+  }
+
+  .resourcesContainer .postList li figure a .imgWrap {
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .resourcesContainer .postList li figure a .imgWrap img {
+    margin-bottom: 0;
+    transition: transform 0.5s;
+  }
+
+  .resourcesContainer .postList li:hover figure a .imgWrap img {
+    transform: scale(1.18);
+  }
+
+  .resourcesContainer .postList dd:first-of-type {
+    font-size: 14px;
+    font-family: "Hanken Grotesk";
+    text-transform: none;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 0;
+    line-height: 17px;
+  }
+
+  /* blogdetailPage */
+  .postContentContainer {
+    padding: 0 3.125%;
+    margin: 140px auto 120px;
+  }
+
+  .postContentContainer h2 {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 53px;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  .postContentContainer img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 80px;
+  }
+
+  .postContentContainer p {
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .postContentContainer ol li {
+    list-style: none;
+  }
+
+  .postContentContainer div {
+    margin-bottom: 75px;
+  }
+
+  .postContentContainer p:not(:last-of-type) {
+    margin-bottom: 20px;
+  }
+
+  .postContentContainer li:not(:first-of-type) h3 {
+    padding-top: 75px;
+  }
+
+  .postContentContainer h3 {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 15px;
+    margin-bottom: 40px;
+  }
+
+  .postContentContainer h4 {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 14px;
+    margin-bottom: 30px;
+  }
+
+  .postContentContainer ol li ol li:not(:first-of-type) {
+    padding-top: 40px;
+  }
+
+  /* 제외 되는것만 잡음 */
+  .postContentContainer .exclude {
+    margin-bottom: 20px;
+  }
+
+  .postContentContainer .exclude1 {
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .postContentContainer>ol>li>ul {
+    padding: 0 15px;
+  }
+
+  .postContentContainer>ol>li>ul>li {
+    list-style: none;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    position: relative;
+    padding-left: 15px;
+  }
+
+  .postContentContainer>ol>li>ul>li:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+
+  .postContentContainer>ol>li>ul>li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 9.5px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #222;
+    background-color: #222;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+  .postContentContainer>ol>li>ul>li>ul {
+    padding-top: 10px;
+  }
+
+  .postContentContainer>ol>li>ul>li>ul>li {
+    list-style: none;
+    line-height: 22px;
+    position: relative;
+    padding: 0 15px;
+    margin-bottom: 5px;
+  }
+
+  .postContentContainer>ol>li>ul>li>ul>li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8.5px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+  /* onlineCourses */
+  /* 메뉴 */
+  .onlineCoursesWrapper li ::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .onlineCoursesWrapper li {
+    list-style: none;
+  }
+
+  .onlineCoursesWrapper>ol>li {
+    background: #e0d4ca;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 30px 4.168%;
+  }
+
+  .onlineCoursesWrapper>ol>li:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:first-of-type {
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:first-of-type>a {
+    display: block;
+    width: 100%;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:first-of-type>a>h2 {
+    position: absolute;
+    top: 30px;
+    left: 12.88%;
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    color: #27957b;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:first-of-type>a>img {
+    width: 83.334%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>h2 {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    line-height: 17px;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>p {
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    line-height: 19px;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul {
+    width: calc((100% - 2.6%) / 2);
+    float: left;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul:first-of-type {
+    margin-right: 2.6%;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul>li {
+    margin-bottom: 15px;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul>li:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul>li>span {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 9px;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul>li>a>h3 {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    display: table;
+    margin-bottom: 5px;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul>li>a>h3:hover {
+    color: #4d7a42;
+    border-color: #4d7a42;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul>li>p {
+    font-family: "Hanken Grotesk";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 13px;
+  }
+
+  /* detail_onlineCourses */
+  /* 기본 */
+  .onlineCoursesWrapper section {
+    font-family: "Hanken Grotesk";
+  }
+
+  .onlineCoursesWrapper section>article {
+    background: #f4f8f1;
+    width: 100%;
+    padding: 40px 5.56%;
+    margin-bottom: 40px;
+    display: block;
+    color: #4d7a42;
+  }
+
+  .onlineCoursesWrapper section>article h3 {
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #a05f42;
+    margin-bottom: 50px;
+  }
+
+  .onlineCoursesWrapper section>article p {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-bottom: 40px;
+  }
+
+  .onlineCoursesWrapper section article .pDown {
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 29px;
+
+  }
+
+  .onlineCoursesWrapper section article .sInline {
+    display: inline;
+  }
+
+  .onlineCoursesWrapper section>article ul {
+    padding: 0 15px;
+  }
+
+  .onlineCoursesWrapper section>article ul li {
+    position: relative;
+    list-style: none;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    line-height: 29px;
+  }
+
+  .onlineCoursesWrapper section>article ul li::before {
+    content: "→";
+    position: absolute;
+    font-size: 24px;
+    left: 0;
+    box-sizing: border-box;
+  }
+
+  .onlineCoursesWrapper section>article ol {
+    padding: 0 0 0 31.8px;
+  }
+
+  .onlineCoursesWrapper section>article ol li {
+    list-style: decimal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #4d7a42;
+    margin-bottom: 30px;
+  }
+
+  .onlineCoursesWrapper section>article strong {
+    font-weight: 700;
+    display: inline-block;
+  }
+
+  .onlineCoursesWrapper section>article strong.anomalyStrong {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 40px;
+  }
+
+  /* 아래첨자*/
+  .onlineCoursesWrapper section>article ol li strong sub {
+    font-size: smaller;
+  }
+
+  /* 기울기*/
+  .onlineCoursesWrapper section>article i {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 5px;
+  }
+
+  /* 2다단 이미지 */
+  .onlineCoursesWrapper section>article::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .onlineCoursesWrapper section>article>div {
+    margin-bottom: 40px;
+  }
+
+  .onlineCoursesWrapper section>article img {
+    width: 84.383%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* 3다단 21 */
+
+  .onlineCoursesWrapper section>.three21Column>div:last-of-type {
+    margin-bottom: 0;
+  } 
+
+
+  /* ------------------------------------- */
+  .onlineCoursesWrapper section:not(:last-of-type) {
+    margin-bottom: 60px;
+  }
+
+  .onlineCoursesWrapper section>h4 {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    line-height: 19px;
+  }
+
+  .onlineCoursesWrapper section>ul {
+    padding: 0 15px;
+  }
+
+  .onlineCoursesWrapper section>ul>li {
+    position: relative;
+    padding-left: 15px;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+
+  .onlineCoursesWrapper section>ul>li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #222;
+    background-color: #222;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+  .onlineCoursesWrapper section>p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 30px;
+  }
+
+  .onlineCoursesWrapper section>ul>li>ul {
+    margin-top: 15px;
+    padding: 0 15px;
+  }
+
+  .onlineCoursesWrapper section>ul>li>ul>li {
+    position: relative;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 10px;
+  }
+
+  .onlineCoursesWrapper section>ul>li>ul>li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+  .onlineCoursesWrapper section>p.pMargin {
+    margin-top: 30px;
+  }
+
+  .onlineCoursesWrapper>div {
+    font-size: 0;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .onlineCoursesWrapper>div .previousBtn {
+    margin-right: 20px;
+  }
+}
+
+/* Mobile 767px~280px */
+@media screen and (min-width:280px) and (max-width:767px) {
+  .resourcesContainer {
+    margin: 158px 0 90px;
+  }
+
+  .resourcesContainer .blogWrapper,
+  .onlineCoursesWrapper {
+    padding: 0 3.571%;
+    margin: 0 auto;
+  }
+
+  .resourcesContainer .blogWrapper .postCount,
+  .onlineCoursesWrapper .postCount {
+    display: block;
+    margin-bottom: 25px;
+  }
+
+  .resourcesContainer .postList {
+    margin-bottom: 0;
+  }
+
+  .resourcesContainer .postList li figure a .imgWrap {
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .resourcesContainer .postList li figure a .imgWrap img {
+    margin-bottom: 0;
+    transition: transform 0.5s;
+  }
+
+  .resourcesContainer .postList li:hover figure a .imgWrap img {
+    transform: scale(1.18);
+  }
+
+  .resourcesContainer .postList dd:first-of-type {
+    font-size: 12px;
+    font-family: "Hanken Grotesk";
+    text-transform: none;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 0;
+    line-height: 14px;
+  }
+
+  /* blogdetailPage */
+  .postContentContainer {
+    padding: 0 3.571%;
+    margin: 158px auto 90px;
+  }
+
+  .postContentContainer h2 {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  .postContentContainer img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 45px;
+  }
+
+  .postContentContainer p {
+    font-family: "Hanken Grotesk";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  .postContentContainer ol li {
+    list-style: none;
+  }
+
+  .postContentContainer div {
+    margin-bottom: 40px;
+  }
+
+  .postContentContainer p:not(:last-of-type) {
+    margin-bottom: 15px;
+  }
+
+  .postContentContainer li:not(:first-of-type) h3 {
+
+    padding-top: 40px;
+  }
+
+  .postContentContainer h3 {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 25px;
+  }
+
+  .postContentContainer h4 {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 12px;
+    margin-bottom: 20px;
+  }
+
+  .postContentContainer ol li ol li:not(:first-of-type) {
+    padding-top: 25px;
+  }
+
+  /* 제외 되는것만 잡음 */
+  .postContentContainer .exclude {
+    margin-bottom: 15px;
+  }
+
+  .postContentContainer .exclude1 {
+    padding-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .postContentContainer>ol>li>ul {
+    padding: 0 10px;
+  }
+
+  .postContentContainer>ol>li>ul>li {
+    list-style: none;
+    font-family: "Hanken Grotesk";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    position: relative;
+    padding-left: 10px;
+  }
+
+  .postContentContainer>ol>li>ul>li:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+
+  .postContentContainer>ol>li>ul>li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8.5px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #222;
+    background-color: #222;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+  .postContentContainer>ol>li>ul>li>ul {
+    padding-top: 10px;
+  }
+
+  .postContentContainer>ol>li>ul>li>ul>li {
+    list-style: none;
+    line-height: 17px;
+    position: relative;
+    padding: 0 10px;
+    margin-bottom: 5px;
+  }
+
+  .postContentContainer>ol>li>ul>li>ul>li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6.5px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+  /* onlineCourses */
+  /* 메뉴 */
+  .onlineCoursesWrapper li ::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .onlineCoursesWrapper li {
+    list-style: none;
+  }
+
+  .onlineCoursesWrapper>ol>li {
+    background: #e0d4ca;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 20px 3.846%;
+  }
+
+  .onlineCoursesWrapper>ol>li:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:first-of-type {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:first-of-type>a {
+    display: block;
+    width: 100%;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:first-of-type>a>h2 {
+    position: absolute;
+    top: 10px;
+    left: 4.17%;
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    color: #27957b;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:first-of-type>a>img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>h2 {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 14px;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>p {
+    font-family: "Hanken Grotesk";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 17px;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul:first-of-type {
+    margin-bottom: 10px;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul>li {
+    margin-bottom: 15px;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul>li:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul>li>span {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 9px;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul>li>a>h3 {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    display: table;
+    margin-bottom: 5px;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul>li>a>h3:hover {
+    color: #4d7a42;
+    border-color: #4d7a42;
+  }
+
+  .onlineCoursesWrapper>ol>li>div:last-of-type>ul>li>p {
+    font-family: "Hanken Grotesk";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+
+  /* detail_onlineCourses */
+  /* 기본 */
+  .onlineCoursesWrapper section {
+    font-family: "Hanken Grotesk";
+  }
+
+  .onlineCoursesWrapper section>article {
+    background: #f4f8f1;
+    width: 100%;
+    padding: 25px 3.846%;
+    margin-bottom: 25px;
+    display: block;
+    color: #4d7a42;
+  }
+
+  .onlineCoursesWrapper section>article h3 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    color: #a05f42;
+    margin-bottom: 30px;
+  }
+
+  .onlineCoursesWrapper section>article p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 25px;
+  }
+
+  .onlineCoursesWrapper section article .pDown {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 25px;
+  }
+
+  .onlineCoursesWrapper section article .sInline {
+    display: inline;
+  }
+
+  .onlineCoursesWrapper section>article ul {
+    padding: 0 10px;
+  }
+
+  .onlineCoursesWrapper section>article ul li {
+    position: relative;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    line-height: 25px;
+  }
+
+  .onlineCoursesWrapper section>article ul li::before {
+    content: "→";
+    position: absolute;
+    font-size: 18px;
+    left: 0;
+    box-sizing: border-box;
+  }
+
+  .onlineCoursesWrapper section>article ol {
+    padding: 0 0 0 31.8px;
+  }
+
+  .onlineCoursesWrapper section>article ol li {
+    list-style: decimal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #4d7a42;
+    margin-bottom: 30px;
+  }
+
+  .onlineCoursesWrapper section>article strong {
+    font-weight: 700;
+    display: inline-block;
+  }
+
+  .onlineCoursesWrapper section>article strong.anomalyStrong {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 25px;
+  }
+
+  /* 아래첨자*/
+  .onlineCoursesWrapper section>article ol li strong sub {
+    font-size: smaller;
+  }
+
+  /* 기울기*/
+  .onlineCoursesWrapper section>article i {
+    display: block;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 5px;
+  }
+
+  /* 2다단 이미지 */
+  .onlineCoursesWrapper section>article::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .onlineCoursesWrapper section>article>div {
+    margin-bottom: 25px;
+  }
+
+  .onlineCoursesWrapper section>article img {
+    width: 83.325%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  /* 3다단 21 */
+  .onlineCoursesWrapper section>.three21Column>div:last-of-type {
+    margin-bottom: 0;
+  }
+
+  /* ------------------------------------- */
+  .onlineCoursesWrapper section:not(:last-of-type) {
+    margin-bottom: 35px;
+  }
+
+  .onlineCoursesWrapper section>h4 {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 15px;
+  }
+
+  .onlineCoursesWrapper section>ul {
+    padding: 0 15px;
+  }
+
+  .onlineCoursesWrapper section>ul>li {
+    position: relative;
+    padding-left: 10px;
+    font-family: "Hanken Grotesk";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    margin-bottom: 15px;
+  }
+
+  .onlineCoursesWrapper section>ul>li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #222;
+    background-color: #222;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+  .onlineCoursesWrapper section>p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    margin-bottom: 20px;
+  }
+
+  .onlineCoursesWrapper section>ul>li>ul {
+    margin-top: 10px;
+    padding: 0 10px;
+  }
+
+  .onlineCoursesWrapper section>ul>li>ul>li {
+    position: relative;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    margin-bottom: 10px;
+  }
+
+  .onlineCoursesWrapper section>ul>li>ul>li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+  .onlineCoursesWrapper section>p.pMargin {
+    margin-top: 20px;
+  }
+
+  .onlineCoursesWrapper>div {
+    font-size: 0;
+    text-align: center;
+    margin-top: 45px;
+  }
+
+  .onlineCoursesWrapper>div .previousBtn {
+    margin-right: 15px;
+  }
+}

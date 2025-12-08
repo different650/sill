@@ -1,0 +1,346 @@
+.userMyAccount > h2,
+.userMyAccount > div > h3,
+
+
+.userMyAccount > div:first-of-type .orderItem span,
+.userMyAccount > div:first-of-type .orderItem button,
+.orderDetailsPopup > h4,
+.orderDetailsPopup > div > h5 {
+	font-family: "Dosis";
+	text-transform: uppercase;
+}
+.userMyAccount > h2 a,
+.userMyAccount > div:first-of-type > p,
+
+
+.userMyAccount > div:first-of-type .orderItem time,
+.orderDetailsPopup > div > p,
+.orderDetailsPopup > div > .itemDetails > table,
+.orderDetailsPopup > div > ul li,
+.orderDetailsPopup > div > table,
+.orderDetailsPopup .derliveryPopup ul time,
+.orderDetailsPopup .derliveryPopup ul li span,
+.orderDetailsPopup .derliveryPopup ul li a,
+.userMyAccount > div:last-of-type ul li,
+.userMyAccount > div:last-of-type a {
+	font-family: "Hanken Grotesk";
+}
+
+@media screen and (min-width: 1280px) {
+	.userMyAccount {
+		max-width: 1480px;
+		padding: 0 2%;
+		margin: 0 auto;
+	}
+	.userMyAccount {
+		padding-top: 75px;
+		margin-bottom: 150px;
+	}
+	.userMyAccount:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+	/* 상단-중앙 */
+	.userMyAccount > h2 {
+		text-align: center;
+		font-size: 32px;
+		font-weight: 500;
+		margin-bottom: 40px;
+	}
+	.userMyAccount > h2 a {
+		display: block;
+		font-size: 16px;
+		font-weight: 400;
+		padding-top: 40px;
+		text-transform: none;
+	}
+	.userMyAccount > h2 a::before {
+		content: "";
+		display: inline-block;
+		width: 18px;
+		height: 18px;
+		background: url(../images/icon_myaccount.svg) no-repeat;
+		background-size: contain;
+		vertical-align: middle;
+		margin-right: 10px;
+	}
+
+
+	/* 하단 */
+	.userMyAccount > div {
+		width: 400px;
+		max-width: 29%;
+		float: left;
+	}
+	.userMyAccount > div:first-of-type {
+		margin-right: 42%;
+		font-size: 0;
+	}
+	.userMyAccount > div > h3 {
+		font-size: 32px;
+		font-weight: 500;
+		margin-bottom: 40px;
+		line-height: 25px;
+	}
+	/* 하단-왼쪽 */
+	.userMyAccount > div:first-of-type > p {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 20px;
+		/* 글꼴 넣어보고 간격이상하면 라인하이트넣기 */
+	}
+	.userMyAccount > div:first-of-type > p:first-of-type {
+		margin-bottom: 35px;
+	}
+
+
+	.userMyAccount > div:first-of-type > a:first-of-type {
+		width: auto;
+		margin-right: 10px;
+		margin-bottom: 20px;
+	}
+	.userMyAccount > div:first-of-type > a:last-of-type {
+		width: auto;
+		margin-bottom: 20px;
+	}
+	.userMyAccount > div:first-of-type .orderItem {
+		font-size: 0;
+	}
+	.userMyAccount > div:first-of-type .orderItem time {
+		width: 100%;
+		display: inline-block;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 28px;
+	}
+	.userMyAccount > div:first-of-type .orderItem span {
+		display: inline-block;
+		font-size: 12px;
+		font-weight: 500;
+		margin-right: 10px;
+		line-height: 24px;
+	}
+	.userMyAccount > div:first-of-type .orderItem button {
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 18px;
+	}
+
+	.orderDetailsPopup {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		height: 540px;
+		box-sizing: border-box;
+		width: 460px;
+		padding: 30px;
+		background: #e0d4ca;
+		z-index: 110;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	}
+	.orderDetailsPopup > h4 {
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 15px;
+		margin-bottom: 20px;
+	}
+	.orderDetailsPopup > input[type="button"] {
+		position: absolute;
+		width: 15px;
+		height: 15px;
+		top: 30px;
+		right: 30px;
+	}
+	.orderDetailsPopup > div {
+		padding: 0 15px;
+	}
+
+	.orderDetailsPopup > div > p {
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 10px;
+		margin-bottom: 10px;
+		color: #6d6d6d;
+	}
+	.orderDetailsPopup > div > .itemDetails {
+		display: flex;
+		align-items: center;
+		margin-bottom: 30px;
+	}
+	.orderDetailsPopup > div > .itemDetails > img {
+		width: 90px;
+		max-width: 24.4%;
+		height: 90px;
+		padding: 0 10px;
+		border: 1px solid #91b773;
+		border-radius: 10px;
+		float: left;
+		margin-right: 4%;
+	}
+	.orderDetailsPopup > div > .itemDetails > table {
+		font-size: 14px;
+		font-weight: 400;
+		width: 265px;
+		max-width: 71.6%;
+		padding-top: 22px;
+	}
+	.orderDetailsPopup > div > .itemDetails > table tr > td:first-of-type {
+		color: #6d6d6d;
+		width: 45.3%;
+		height: 18px;
+	}
+	.orderDetailsPopup > div > button {
+		display: block;
+		margin: 0 auto;
+		width: auto;
+		position: relative;
+	}
+	/* <!-- 클릭하면 배송조회로 바뀜 --> */
+	.derliveryPopup {
+		position: absolute;
+		background: #e0d4ca;
+		width: 460px;
+		left: 460px;
+		height: 295px;
+		padding: 30px 45px;
+	}
+	.orderDetailsPopup .shippingIcons {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 25px;
+	}
+	.orderDetailsPopup .shippingIcons img {
+		width: 50px;
+		height: 50px;
+		border: 1px solid #91b773;
+		border-radius: 50%;
+		padding: 5px;
+	}
+	.orderDetailsPopup .shippingIcons img:nth-of-type(4) {
+		border: 1px solid #e9a150;
+		background: #e9a150;
+	}
+	.orderDetailsPopup .derliveryPopup ul {
+		margin-left: 5px;
+		border-left: 1px solid #6d6d6d;
+	}
+	.orderDetailsPopup .derliveryPopup ul li {
+		height: 10px;
+		line-height: 10px;
+	}
+	.orderDetailsPopup .derliveryPopup ul li:first-of-type {
+		list-style: none;
+		font-size: 0;
+		padding-left: 15px;
+		background: url("../images/icon_circle_green.png") no-repeat left center;
+		background-size: 10px 10px;
+		left: -5px;
+		position: relative;
+	}
+	.orderDetailsPopup .derliveryPopup ul li:first-of-type span {
+		color: #4d7a42;
+	}
+
+	.orderDetailsPopup .derliveryPopup ul li:not(:first-of-type) {
+		list-style: none;
+		font-size: 0;
+		padding-left: 15px;
+		background: url("../images/icon_circle_white.png") no-repeat left center;
+		background-size: 10px 10px;
+		left: -5px;
+		position: relative;
+		color: #6d6d6d;
+	}
+	.orderDetailsPopup .derliveryPopup ul li:not(:first-of-type) a {
+		color: #6d6d6d;
+	}
+
+	.orderDetailsPopup .derliveryPopup ul li:not(:last-of-type) {
+		margin-bottom: 25px;
+	}
+	.orderDetailsPopup .derliveryPopup ul li time {
+		margin-right: 5px;
+		font-size: 12px;
+		font-weight: 400;
+	}
+	.orderDetailsPopup .derliveryPopup ul li span {
+		font-size: 12px;
+		font-weight: 400;
+	}
+	.orderDetailsPopup .derliveryPopup ul li a {
+		font-size: 12px;
+		font-weight: 400;
+		float: right;
+	}
+
+	.orderDetailsPopup > div > h5 {
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 12px;
+		margin-bottom: 20px;
+	}
+	.orderDetailsPopup > div > h5:first-of-type {
+		padding-top: 30px;
+	}
+	.orderDetailsPopup > div > ul {
+		margin-bottom: 25px;
+	}
+	.orderDetailsPopup > div > ul li {
+		list-style: none;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 14px;
+		margin-bottom: 10px;
+	}
+	.orderDetailsPopup > div > ul li:last-of-type {
+		margin-bottom: 0;
+	}
+
+	.orderDetailsPopup > div > table {
+		width: 100%;
+	}
+	.orderDetailsPopup > div > table tr:first-of-type {
+		font-size: 14px;
+		font-weight: 400;
+	}
+	.orderDetailsPopup > div > table tr:first-of-type td:last-of-type small {
+		font-size: 12px;
+		font-weight: 400;
+		color: #6d6d6d;
+	}
+	.orderDetailsPopup > div > table tr:not(:first-of-type) {
+		font-size: 12px;
+		font-weight: 400;
+	}
+	.orderDetailsPopup > div > table tr:not(:first-of-type) td:first-of-type {
+		padding-left: 15px;
+	}
+	.orderDetailsPopup > div > table tr td:last-of-type {
+		text-align: right;
+	}
+	.orderDetailsPopup > div > table tr:not(:last-of-type) td {
+		line-height: 10px;
+		padding-bottom: 10px;
+	}
+
+	.userMyAccount > div:last-of-type ul li {
+		list-style: none;
+		font-size: 16px;
+		font-weight: 400;
+		margin-bottom: 10px;
+	}
+	.userMyAccount > div:last-of-type ul li:last-of-type {
+		margin-bottom: 20px;
+	}
+	.userMyAccount > div:last-of-type a {
+		display: table;
+		margin-bottom: 20px;
+	}
+	.userMyAccount > div:last-of-type a:last-of-type {
+		margin-bottom: 0;
+	}
+}

@@ -1,0 +1,761 @@
+	/* Desktops 1280px~ */
+	@media screen and (min-width: 1280px) {
+
+		.exploreContainer>*:not(img):not(div),
+		.exploreContainer div>* {
+			max-width: 1480px;
+			padding: 0 2%;
+			margin: 0 auto;
+		}
+
+		.exploreContainer,
+		.careersContainer {
+			margin-top: 162px;
+			margin-bottom: 150px;
+		}
+
+		.exploreContainer>img {
+			display: block;
+			width: 100%;
+			/* height: 815px; */
+			object-fit: cover;
+			object-position: center top;
+			overflow: hidden;
+
+		}
+
+		.exploreContainer div {
+			background: #91b773;
+			padding: 60px 0;
+			text-align: center;
+		}
+
+		.exploreContainer div>* {
+			width: 790px;
+		}
+
+		.exploreContainer div:first-of-type {
+			position: relative;
+			top: -60px;
+			z-index: -1;
+			padding-top: 120px;
+		}
+
+		.exploreContainer div:first-of-type span {
+			display: block;
+			width: 100%;
+			font-size: 52px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 400;
+			margin-bottom: 40px;
+			line-height: 38px;
+		}
+
+		.exploreContainer div p,
+		.exploreContainer>ul>li>figure>figcaption dl dd {
+			font-size: 18px;
+			font-family: "Hanken Grotesk";
+			font-weight: 400;
+			line-height: 22px;
+		}
+
+		.exploreContainer>ul>li {
+			list-style: none;
+		}
+
+		.exploreContainer>ul>li:first-of-type {
+			margin-bottom: 100px;
+		}
+
+		.exploreContainer>ul>li>figure {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.exploreContainer>ul>li>figure>img {
+			width: 66.9%;
+			/* height: 100%; */
+			display: block;
+			height: 400px;
+			object-fit: cover;
+		}
+
+		.exploreContainer>ul>li>figure>figcaption {
+			width: 25%;
+		}
+
+		.exploreContainer>ul>li>figure>figcaption dl dt,
+		.exploreContainer div:last-of-type span {
+			display: block;
+			width: 100%;
+			font-size: 32px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 400;
+			margin-bottom: 30px;
+			line-height: 39px;
+		}
+
+		.exploreContainer div:last-of-type span {
+			margin-bottom: 0;
+		}
+
+		.exploreContainer>ul>li:nth-of-type(2)>figure {
+			flex-direction: row-reverse;
+		}
+
+		.exploreContainer>ul>li:last-of-type {
+			margin-bottom: 50px;
+		}
+
+		.exploreContainer div:last-of-type p {
+			margin-bottom: 50px;
+		}
+
+
+
+		/* careers */
+		/* .careersContainer {
+  margin-bottom: 150px;
+} */
+
+		/*.careersContainer::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 915px;  원하는 이미지 높이 
+  background: url('../images/background_careers.webp') no-repeat center top;
+  background-size: cover;*/
+		/*   margin-bottom: 40px; 실제 콘텐츠와 간격 
+}*/
+		/* .careersContainer .backBtn{
+  margin-top: 50px;
+} */
+
+		/* .careersContainer :not(.careersImage), */
+		/* :not(section:last-of-type) */
+		/* .careersContainer {
+			margin-bottom: 150px;
+		} */
+
+		.careersContainer section:first-of-type,
+		.careersContainer>div:last-of-type {
+			max-width: 1480px;
+			padding: 0 2%;
+			margin: 0 auto;
+		}
+
+		.careersContainer .careersImage {
+			width: 100%;
+			height: 915px;
+			background: url('../images/background_careers.webp') no-repeat center;
+			background-size: cover;
+			/* margin-bottom: 50px; */
+		}
+
+		.careersContainer h2 {
+			font-size: 50px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 500;
+			margin-bottom: 35px;
+			line-height: 38px;
+		}
+
+		.careersContainer h3 {
+			font-size: 32px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 400;
+			margin-bottom: 35px;
+			/* line-height: 38px; */
+		}
+
+		.careersContainer section p {
+			font-size: 18px;
+			font-family: "Hanken Grotesk";
+			font-weight: 400;
+			/* margin-bottom: 50px; */
+			line-height: 21px;
+		}
+
+		.careersContainer>section:first-of-type {
+			margin-bottom: 50px;
+		}
+
+		.careersContainer>section:last-of-type div:last-of-type p {
+			margin-bottom: 30px;
+		}
+
+		.careersContainer>section:last-of-type div:last-of-type p:last-of-type {
+			margin-bottom: 0;
+		}
+
+		.careersContainer>section:last-of-type div:last-of-type ul {
+			padding: 0 15px;
+		}
+
+		.careersContainer>section:last-of-type div:last-of-type ul li {
+			font-size: 18px;
+			font-family: "Hanken Grotesk";
+			line-height: 21px;
+			margin-bottom: 20px;
+			position: relative;
+			padding-left: 15px;
+			list-style: none;
+		}
+
+		.careersContainer>section:last-of-type div:last-of-type ul li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: #222;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+
+		.careersContainer>section:last-of-type div:last-of-type ul li:last-of-type {
+			margin-bottom: 30px;
+		}
+
+		/* .careersContainer section:last-of-type, */
+		.careersContainer>section:last-of-type {
+			position: relative;
+			width: 100%;
+			background: #e0d4ca;
+			padding: 40px 11.46%;
+			margin-bottom: 80px;
+		}
+
+		.careersContainer section:last-of-type div:first-of-type {
+			/* float: left; */
+			width: 25%;
+			margin-right: 8.1%;
+			margin-left: 2%;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		.careersContainer section:last-of-type div:last-of-type {
+			/* float: left; */
+			width: 62.5%;
+			margin-right: 2%;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		.careersContainer>div:last-of-type>p {
+			font-size: 32px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 400;
+			padding-bottom: 40px;
+			margin-bottom: 30px;
+			border-bottom: 1px solid #222;
+		}
+
+	}
+
+	/* Tablet 1279px~768px */
+	@media screen and (min-width:768px) and (max-width:1279px) {
+
+		.exploreContainer>*:not(img):not(div),
+		.exploreContainer div>* {
+			padding: 0 3.125%;
+			margin: 0 auto;
+		}
+
+		.exploreContainer,
+		.careersContainer {
+			margin-top: 140px;
+			margin-bottom: 120px;
+		}
+
+		.exploreContainer>img {
+			display: block;
+			width: 100%;
+			/* height: 200px; */
+			/* aspect-ratio: 270/ 200; */
+			object-fit: cover;
+			object-position: center;
+			/* overflow: hidden; */
+		}
+
+		.exploreContainer div {
+			background: #91b773;
+			padding: 50px 0;
+			text-align: center;
+		}
+
+		.exploreContainer div:first-of-type {
+			position: relative;
+			top: -50px;
+			z-index: -1;
+			padding-top: 100px;
+		}
+
+		.exploreContainer div:first-of-type span {
+			display: block;
+			width: 100%;
+			font-size: 46px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 400;
+			margin-bottom: 40px;
+			line-height: 34px;
+		}
+
+		.exploreContainer div p {
+			width: 70.313%;
+		}
+
+		.exploreContainer div p,
+		.exploreContainer>ul>li>figure>figcaption dl dd {
+			font-size: 16px;
+			font-family: "Hanken Grotesk";
+			font-weight: 400;
+			line-height: 19px;
+		}
+
+		.exploreContainer>ul>li {
+			list-style: none;
+		}
+
+		.exploreContainer>ul>li:first-of-type {
+			margin-bottom: 100px;
+		}
+
+		.exploreContainer>ul>li>figure>img {
+			display: block;
+			width: 100%;
+			/* height: 105px; */
+			aspect-ratio: 700 / 285;
+			object-fit: cover;
+			object-position: center;
+			margin-bottom: 30px;
+		}
+
+		.exploreContainer>ul>li>figure>figcaption dl dt,
+		.exploreContainer div:last-of-type span {
+			display: block;
+			width: 100%;
+			font-size: 28px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 400;
+			margin-bottom: 30px;
+			line-height: 33px;
+		}
+
+		.exploreContainer div:last-of-type span {
+			margin-bottom: 0;
+		}
+
+		.exploreContainer>ul>li:nth-of-type(2)>figure {
+			flex-direction: row-reverse;
+		}
+
+		.exploreContainer>ul>li:last-of-type {
+			margin-bottom: 50px;
+		}
+
+		.exploreContainer div:last-of-type p {
+			margin-bottom: 50px;
+		}
+
+
+
+		/* careers */
+		/* .careersContainer {
+  margin-bottom: 150px;
+} */
+
+		/*.careersContainer::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 915px;  원하는 이미지 높이 
+  background: url('../images/background_careers.webp') no-repeat center top;
+  background-size: cover;*/
+		/*   margin-bottom: 40px; 실제 콘텐츠와 간격 
+}*/
+		/* .careersContainer .backBtn{
+  margin-top: 50px;
+} */
+
+		/* .careersContainer :not(.careersImage), */
+		/* :not(section:last-of-type) */
+		/* .careersContainer {
+			margin-bottom: 150px;
+		} */
+
+		.careersContainer section:first-of-type,
+		.careersContainer>div:last-of-type {
+			/* max-width: 1480px; */
+			padding: 0 3.125%;
+			margin: 0 auto;
+		}
+
+		.careersContainer .careersImage {
+			width: 100%;
+			height: 400px;
+			background: url('../images/background_careers.webp') no-repeat center;
+			background-size: cover;
+			/* margin-bottom: 50px; */
+		}
+
+		.careersContainer h2 {
+			font-size: 44px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 500;
+			margin-bottom: 35px;
+			line-height: 33px;
+		}
+
+		.careersContainer h3 {
+			font-size: 28px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 400;
+			margin-bottom: 35px;
+			line-height: 21px;
+		}
+
+		.careersContainer section p {
+			font-size: 16px;
+			font-family: "Hanken Grotesk";
+			font-weight: 400;
+			/* margin-bottom: 50px; */
+			line-height: 20px;
+		}
+
+		.careersContainer>section:first-of-type {
+			margin-bottom: 50px;
+		}
+
+		.careersContainer>section:last-of-type div:last-of-type p {
+			margin-bottom: 30px;
+		}
+
+		.careersContainer>section:last-of-type div:last-of-type p:last-of-type {
+			margin-bottom: 0;
+		}
+
+		.careersContainer>section:last-of-type div:last-of-type ul {
+			padding: 0 15px;
+		}
+
+		.careersContainer>section:last-of-type div:last-of-type ul li {
+			font-size: 16px;
+			font-family: "Hanken Grotesk";
+			line-height: 20px;
+			margin-bottom: 20px;
+			position: relative;
+			padding-left: 15px;
+			list-style: none;
+		}
+
+		.careersContainer>section:last-of-type div:last-of-type ul li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: #222;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+
+		.careersContainer>section:last-of-type div:last-of-type ul li:last-of-type {
+			margin-bottom: 30px;
+		}
+
+		/* .careersContainer section:last-of-type, */
+		.careersContainer>section:last-of-type {
+			position: relative;
+			width: 100%;
+			background: #e0d4ca;
+			padding: 40px 3.125%;
+			margin-bottom: 80px;
+		}
+
+		.careersContainer section:last-of-type div:first-of-type {
+			margin-bottom: 30px;
+			/* float: left; */
+			/* width: 25%;
+			margin-right: 8.1%;
+			margin-left: 2%;
+			display: inline-block;
+			vertical-align: middle; */
+		}
+
+		.careersContainer>div:last-of-type>p {
+			font-size: 28px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 400;
+			padding-bottom: 40px;
+			margin-bottom: 30px;
+			border-bottom: 1px solid #222;
+		}
+
+	}
+
+	/* Mobile 767px~280px */
+	@media screen and (min-width:280px) and (max-width:767px) {
+
+		.exploreContainer>*:not(img):not(div) {
+			padding: 0 3.571%;
+			margin: 0 auto;
+		}
+
+		.exploreContainer,
+		.careersContainer {
+			margin-top: 158px;
+			margin-bottom: 90px;
+		}
+
+		.exploreContainer>img {
+			display: block;
+			width: 100%;
+			/* height: 200px; */
+			aspect-ratio: 270/ 200;
+			object-fit: cover;
+			object-position: center;
+			/* overflow: hidden; */
+		}
+
+		.exploreContainer div {
+			background: #91b773;
+			padding: 40px 7.14%;
+			text-align: center;
+		}
+
+		.exploreContainer div:first-of-type {
+			position: relative;
+			top: -40px;
+			z-index: -1;
+			padding-top: 80px;
+		}
+
+		.exploreContainer div:first-of-type span {
+			display: block;
+			width: 100%;
+			font-size: 38px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 400;
+			margin-bottom: 30px;
+			line-height: 28px;
+		}
+
+		.exploreContainer div p,
+		.exploreContainer>ul>li>figure>figcaption dl dd {
+			font-size: 14px;
+			font-family: "Hanken Grotesk";
+			font-weight: 400;
+			line-height: 16px;
+		}
+
+		.exploreContainer>ul>li {
+			list-style: none;
+		}
+
+		.exploreContainer>ul>li:first-of-type {
+			margin-bottom: 55px;
+		}
+
+		.exploreContainer>ul>li>figure>img {
+			display: block;
+			width: 100%;
+			/* height: 105px; */
+			aspect-ratio: 260 / 105;
+			object-fit: cover;
+			object-position: center;
+			margin-bottom: 30px;
+		}
+
+		.exploreContainer>ul>li>figure>figcaption dl dt,
+		.exploreContainer div:last-of-type span {
+			display: block;
+			width: 100%;
+			font-size: 26px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 400;
+			margin-bottom: 20px;
+			line-height: 30px;
+		}
+
+		.exploreContainer div:last-of-type span {
+			margin-bottom: 0;
+		}
+
+		.exploreContainer>ul>li:nth-of-type(2)>figure {
+			flex-direction: row-reverse;
+		}
+
+		.exploreContainer>ul>li:last-of-type {
+			margin-bottom: 30px;
+		}
+
+		/* .exploreContainer div:last-of-type {
+	    background: #91b773;
+	    padding: 35px 7.14%;
+	    text-align: center;
+	  } */
+
+		.exploreContainer div:last-of-type p {
+			margin-bottom: 30px;
+		}
+
+
+
+		/* careers */
+		/* .careersContainer {
+  margin-bottom: 150px;
+} */
+
+		/*.careersContainer::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 915px;  원하는 이미지 높이 
+  background: url('../images/background_careers.webp') no-repeat center top;
+  background-size: cover;*/
+		/*   margin-bottom: 40px; 실제 콘텐츠와 간격 
+}*/
+		/* .careersContainer .backBtn{
+  margin-top: 50px;
+} */
+
+		/* .careersContainer :not(.careersImage), */
+		/* :not(section:last-of-type) */
+		/* .careersContainer {
+			margin-bottom: 150px;
+		} */
+
+		.careersContainer section:first-of-type,
+		.careersContainer>div:last-of-type {
+			padding: 0 3.571%;
+			margin: 0 auto;
+		}
+
+		.careersContainer .careersImage {
+			width: 100%;
+			height: 145px;
+			background: url('../images/background_careers.webp') no-repeat center;
+			background-size: cover;
+			/* margin-bottom: 50px; */
+		}
+
+		.careersContainer h2 {
+			font-size: 36px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 500;
+			margin-bottom: 20px;
+			line-height: 27px;
+		}
+
+		.careersContainer h3 {
+			font-size: 26px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 400;
+			margin-bottom: 20px;
+			/* line-height: 31px; */
+		}
+
+		.careersContainer section p {
+			font-size: 14px;
+			font-family: "Hanken Grotesk";
+			font-weight: 400;
+			/* margin-bottom: 50px; */
+			line-height: 16px;
+		}
+
+		.careersContainer>section:first-of-type {
+			margin-bottom: 30px;
+		}
+
+		.careersContainer>section:last-of-type div:last-of-type p {
+			margin-bottom: 20px;
+		}
+
+		.careersContainer>section:last-of-type div:last-of-type p:last-of-type {
+			margin-bottom: 0;
+		}
+
+		.careersContainer>section:last-of-type div:last-of-type ul {
+			padding: 0 10px;
+		}
+
+		.careersContainer>section:last-of-type div:last-of-type ul li {
+			font-size: 14px;
+			font-family: "Hanken Grotesk";
+			line-height: 16px;
+			margin-bottom: 15px;
+			position: relative;
+			padding-left: 10px;
+			list-style: none;
+		}
+
+		.careersContainer>section:last-of-type div:last-of-type ul li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 7px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: #222;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+
+		.careersContainer>section:last-of-type div:last-of-type ul li:last-of-type {
+			margin-bottom: 20px;
+		}
+
+		/* .careersContainer section:last-of-type, */
+		.careersContainer>section:last-of-type {
+			position: relative;
+			width: 100%;
+			background: #e0d4ca;
+			padding: 40px 3.571%;
+			margin-bottom: 45px;
+		}
+
+		.careersContainer section:last-of-type div:first-of-type {
+			margin-bottom: 20px;
+			/* float: left; */
+			/* width: 25%;
+			margin-right: 8.1%;
+			margin-left: 2%;
+			display: inline-block;
+			vertical-align: middle; */
+		}
+
+		.careersContainer>div:last-of-type>p {
+			font-size: 26px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 400;
+			padding-bottom: 25px;
+			margin-bottom: 20px;
+			border-bottom: 1px solid #222;
+		}
+
+	}
