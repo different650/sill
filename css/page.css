@@ -1497,17 +1497,17 @@ color: #4d7a42; */
 		background: #ceba8d;
 	}
 
-	input[type="radio"]+label[for$="_bronze"] {
+	input[type="radio"]+label[for$="bronze"] {
 		background: url(../images/background_bronze.png) no-repeat;
 		background-size: cover;
 	}
 
-	input[type="radio"]+label[for$="_silver"] {
+	input[type="radio"]+label[for$="silver"] {
 		background: url(../images/background_silver.png) no-repeat;
 		background-size: cover;
 	}
 
-	input[type="radio"]+label[for$="_nodecorativePot"] {
+	input[type="radio"]+label[for$="nodecorativePot"] {
 		background: none;
 		border: none;
 	}
