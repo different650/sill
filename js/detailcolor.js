@@ -276,8 +276,8 @@ function imgSwap() {
 }
 
 // function colorTabUI() {
-//     $('input[name="planter"]').on("click", function () {
-//         var colorTab = $(this).attr("data-color");
+//     $('input[name="option1"]').on("click", function () {
+//         var colorTab = $(this).attr("data-option");
 
 //         $(".colorPage").removeClass("activated");
 //         $("#" + colorTab).addClass("activated");

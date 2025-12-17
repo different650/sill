@@ -33,7 +33,7 @@
     <div>
       <h1>
         <a href="index.html">
-          <img src="images/globla-logo.svg"  alt="The Sill">
+          <img src="images/globla-logo.svg" alt="The Sill">
         </a>
       </h1>
       <div>
@@ -316,7 +316,7 @@
         </h2>
 
         <ul class="detailedImage">
-          <li><img src="images/product-roundTwoPlanter_4in_black.png" alt="Round Two Planter"></li>
+          <li><img src="images/product-roundTwoPlanter.png" alt="Round Two Planter"></li>
           <li><img src="images/product-roundTwoPlanter_detail1.png" alt="Detail1"></li>
           <li><img src="images/product-roundTwoPlanter_detail2.png" alt="Detail2"></li>
           <li><img src="images/product-roundTwoPlanter_detail3.png" alt="Detail3"></li>
@@ -327,7 +327,7 @@
         </ul>
 
         <figure>
-          <img src="images/product-roundTwoPlanter_4in_black.png" alt="Round Two Planter">
+          <img src="images/product-roundTwoPlanter.png" alt="Round Two Planter">
           <figcaption>
             <ol>
               <li>Home</li>
@@ -361,7 +361,7 @@
 
           <input type="button" value="close" class="wCloseBtn">
         </div>
-        
+
         <fieldset class="price">
           <legend>Price</legend>
           <strong>$94</strong>
@@ -371,24 +371,96 @@
         <fieldset class="size">
           <legend>Size</legend>
           <input type="button" value="Size Guide" data-popup="sizePopup" class="uln">
-          <input type="radio" name="size" id="size_4" checked>
-          <label for="size_4">4 in</label>
-          <input type="radio" name="size" id="size_8">
-          <label for="size_8">8 in</label>
-          <input type="radio" name="size" id="size_10">
-          <label for="size_10">10 in</label>
+
+          <input type="radio" name="option1" id="size4" data-option="sizeList4" checked>
+          <label for="size4">4<span class="space">in</span></label>
+          <input type="radio" name="option1" id="size8" data-option="sizeList8">
+          <label for="size8">8<span class="space">in</span></label>
+          <input type="radio" name="option1" id="size10" data-option="sizeList10">
+          <label for="size10">10<span class="space">in</span></label>
         </fieldset>
 
         <!-- Color 선택 -->
         <fieldset class="color">
           <legend>Color</legend>
-          <ol class="colorListBgmoow">
-            <li><input type="radio" name="color" id="bgmoow_black" checked><label for="bgmoow_black">black</label></li>
-            <li><input type="radio" name="color" id="bgmoow_grey"><label for="bgmoow_grey">grey</label></li>
-            <li><input type="radio" name="color" id="bgmoow_mint"><label for="bgmoow_mint">mint</label></li>
-            <li><input type="radio" name="color" id="bgmoow_oatmeal"><label for="bgmoow_oatmeal">Oatmeal</label></li>
-            <li><input type="radio" name="color" id="bgmoow_olive"><label for="bgmoow_olive">olive</label></li>
-            <li><input type="radio" name="color" id="bgmoow_white"><label for="bgmoow_white">white</label>
+          <ol class="colorPage activated" id="sizeList4">
+            <li>
+              <input type="radio" name="color_size4" id="size4_black" checked>
+              <label for="size4_black" class="black active">black</label>
+            </li>
+            <li>
+              <input type="radio" name="color_size4" id="size4_grey">
+              <label for="size4_grey" class="grey">grey</label>
+            </li>
+            <li>
+              <input type="radio" name="color_size4" id="size4_mint">
+              <label for="size4_mint" class="mint">mint</label>
+            </li>
+            <li>
+              <input type="radio" name="color_size4" id="size4_oatmeal">
+              <label for="size4_oatmeal" class="oatmeal">oatmeal</label>
+            </li>
+            <li>
+              <input type="radio" name="color_size4" id="size4_olive">
+              <label for="size4_olive" class="olive">olive</label>
+            </li>
+            <li>
+              <input type="radio" name="color_size4" id="size4_white">
+              <label for="size4_white" class="white">white</label>
+            </li>
+          </ol>
+
+          <ol class="colorPage" id="sizeList8">
+            <li>
+              <input type="radio" name="color_size8" id="size8_black" checked>
+              <label for="size8_black" class="black active">black</label>
+            </li>
+            <li>
+              <input type="radio" name="color_size8" id="size8_grey">
+              <label for="size8_grey" class="grey">grey</label>
+            </li>
+            <li>
+              <input type="radio" name="color_size8" id="size8_mint">
+              <label for="size8_mint" class="mint">mint</label>
+            </li>
+            <li>
+              <input type="radio" name="color_size8" id="size8_oatmeal">
+              <label for="size8_oatmeal" class="oatmeal">Oatmeal</label>
+            </li>
+            <li>
+              <input type="radio" name="color_size8" id="size8_olive">
+              <label for="size8_olive" class="olive">olive</label>
+            </li>
+            <li>
+              <input type="radio" name="color_size8" id="size8_white">
+              <label for="size8_white" class="white">white</label>
+            </li>
+          </ol>
+
+          <ol class="colorPage" id="sizeList10">
+            <li>
+              <input type="radio" name="color_size10" id="size10_black" checked>
+              <label for="size10_black" class="black active">black</label>
+            </li>
+            <li>
+              <input type="radio" name="color_size10" id="size10_grey">
+              <label for="size10_grey" class="grey">grey</label>
+            </li>
+            <li>
+              <input type="radio" name="color_size10" id="size10_mint">
+              <label for="size10_mint" class="mint">mint</label>
+            </li>
+            <li>
+              <input type="radio" name="color_size10" id="size10_oatmeal">
+              <label for="size10_oatmeal" class="oatmeal">Oatmeal</label>
+            </li>
+            <li>
+              <input type="radio" name="color_size10" id="size10_olive">
+              <label for="size10_olive" class="olive">olive</label>
+            </li>
+            <li>
+              <input type="radio" name="color_size10" id="size10_white">
+              <label for="size10_white" class="white">white</label>
             </li>
           </ol>
         </fieldset>
@@ -447,7 +519,7 @@
 
   <footer>
     <div>
-      <h2><img src="images/globla-logo.svg"  alt="Bye. The Sill"></h2>
+      <h2><img src="images/globla-logo.svg" alt="Bye. The Sill"></h2>
       <ul>
         <li><a href="https://www.facebook.com/TheSillNYC/" target="_blank">Facebook</a></li>
         <li><a href="https://www.instagram.com/thesill/" target="_blank">Instagram</a></li>

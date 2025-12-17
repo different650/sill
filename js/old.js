@@ -114,7 +114,7 @@ $(".colorPage li input[type=radio]").click(function(){
 
 
 // 4) Planter 변경 시 해당 colorPage만 표시
-$('input[name="planter"]').change(function(){
+$('input[name="option1"]').change(function(){
     var target = $(this).data("color");
 
     // 모두 비활성화
@@ -193,7 +193,7 @@ function productControl() {
 
 function productControl() {
     var $img = $(".detailContainer div:first-of-type aside figure img").attr("src");
-    var $planter = $('input[name="planter"]').attr("id");
+    var $planter = $('input[name="option1"]').attr("id");
     // 1. planter 이름 당기기.
     var $color = $(".color .colorPage.activated li:first-of-type label").attr("class");
 
@@ -202,10 +202,10 @@ function productControl() {
 
     $(".detailContainer div:first-of-type aside figure img").attr("src", $tuneName);
 
-    $('input[name="planter"]').click(function () {
+    $('input[name="option1"]').click(function () {
         $planter = $(this).attr("id");
 
-        var colorTab = $(this).attr("data-color");
+        var colorTab = $(this).attr("data-option");
 
         $(".colorPage").removeClass("activated");
         $("#" + colorTab).addClass("activated");
@@ -229,12 +229,12 @@ function productControl() {
 function productControl() {
 
     var $img = $(".detailContainer div:first-of-type aside figure img").attr("src");
-    if ($('input[name="planter"]').length === 0) {
+    if ($('input[name="option1"]').length === 0) {
         return; // 그냥 종료 → 기본 이미지 그대로 유지
     }
-    var $planter = $('input[name="planter"]:checked').attr("id");
+    var $planter = $('input[name="option1"]:checked').attr("id");
 
-    var colorTab = $('input[name="planter"]:checked').attr("data-color");
+    var colorTab = $('input[name="option1"]:checked').attr("data-option");
     $(".colorPage").removeClass("activated");
     $("#" + colorTab).addClass("activated");
 
@@ -243,10 +243,10 @@ function productControl() {
     var $tuneName = $img.replace(".png", "_" + $planter + "_" + $color + ".png");
     $(".detailContainer div:first-of-type aside figure img").attr("src", $tuneName);
 
-    $('input[name="planter"]').click(function () {
+    $('input[name="option1"]').click(function () {
         $planter = $(this).attr("id");
 
-        var colorTab = $(this).attr("data-color");
+        var colorTab = $(this).attr("data-option");
         $(".colorPage").removeClass("activated");
         $("#" + colorTab).addClass("activated");
 
@@ -298,7 +298,7 @@ function countControl() {
 // 과제
 // function productControl() {
 //     var $img = $(".detailContainer div:first-of-type aside figure img").attr("src");
-//     var $planter = $('input[name="planter"]:checked').attr("id");
+//     var $planter = $('input[name="option1"]:checked').attr("id");
 //     // 1. planter 이름 당기기.
 //     var $color = $(".colorPage.activated label:not(.out)").first().text();
 
@@ -306,10 +306,10 @@ function countControl() {
 //     // 2. planter 이름까지 조립되게 변수+변수
 //     $(".detailContainer div:first-of-type aside figure img").attr("src", $tuneName);
 
-//     $('input[name="planter"]').click(function () {
+//     $('input[name="option1"]').click(function () {
 //         $planter = $(this).attr("id");
 
-//         var colorTab = $(this).attr("data-color");
+//         var colorTab = $(this).attr("data-option");
 
 //         $(".colorPage").removeClass("activated");
 //         $("#" + colorTab).addClass("activated");
@@ -332,3 +332,44 @@ function countControl() {
 //         $(this).addClass("active");
 //     });
 // }
+
+
+
+function productControl() {
+
+    var $img = $(".detailContainer div:first-of-type aside figure img").attr("src");
+
+    var $planter = $('input[name="option1"]:checked').attr("id");
+
+    var colorTab = $('input[name="option1"]:checked').attr("data-color");
+    $(".colorPage").removeClass("activated");
+    $("#" + colorTab).addClass("activated");
+
+    var $color = $(".colorPage.activated label:not(.out)").first().text();
+
+    var $tuneName = $img.replace(".png", "_" + $planter + "_" + $color + ".png");
+    $(".detailContainer div:first-of-type aside figure img").attr("src", $tuneName);
+
+    $('input[name="option1"]').click(function () {
+        $planter = $(this).attr("id");
+
+        var colorTab = $(this).attr("data-color");
+        $(".colorPage").removeClass("activated");
+        $("#" + colorTab).addClass("activated");
+
+        $color = $(".colorPage.activated label:not(.out)").first().text();
+
+        $tuneName = $img.replace(".png", "_" + $planter + "_" + $color + ".png");
+        $(".detailContainer div:first-of-type aside figure img").attr("src", $tuneName);
+    });
+
+    $(".color .colorPage li label").click(function () {
+        $color = $(this).text();
+
+        $tuneName = $img.replace(".png", "_" + $planter + "_" + $color + ".png");
+        $(".detailContainer div:first-of-type aside figure img").attr("src", $tuneName);
+
+        $(this).closest(".colorPage").find("label").removeClass("active");
+        $(this).addClass("active");
+    });
+}

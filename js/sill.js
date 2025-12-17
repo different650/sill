@@ -277,7 +277,7 @@ function imgSwap() {
 }
 
 // function colorTabUI() {
-//     $('input[name="planter"]').on("click", function () {
+//     $('input[name="option1"]').on("click", function () {
 //         var colorTab = $(this).attr("data-color");
 
 //         $(".colorPage").removeClass("activated");
@@ -289,40 +289,43 @@ function productControl() {
 
     var $img = $(".detailContainer div:first-of-type aside figure img").attr("src");
 
-    var $planter = $('input[name="planter"]:checked').attr("id");
+    var $option1 = $('input[name="option1"]:checked').attr("id");
 
-    var colorTab = $('input[name="planter"]:checked').attr("data-color");
+    var optionTab = $('input[name="option1"]:checked').attr("data-option");
     $(".colorPage").removeClass("activated");
-    $("#" + colorTab).addClass("activated");
+    $("#" + optionTab).addClass("activated");
 
-    var $color = $(".colorPage.activated label:not(.out)").first().text();
+    // 두번째 옵션이 없는 경우 고려
+    var $option2 = $(".colorPage.activated label:not(.out)").first().text() || "";
 
-    var $tuneName = $img.replace(".png", "_" + $planter + "_" + $color + ".png");
+    // 옵션2가 있으면 _옵션2 붙이고, 없으면 옵션1만
+    var $tuneName = $img.replace(".png", "_" + $option1 + ($option2 ? "_" + $option2 : "") + ".png");
     $(".detailContainer div:first-of-type aside figure img").attr("src", $tuneName);
 
-    $('input[name="planter"]').click(function () {
-        $planter = $(this).attr("id");
+    $('input[name="option1"]').click(function () {
+        $option1 = $(this).attr("id");
 
-        var colorTab = $(this).attr("data-color");
+        var optionTab = $(this).attr("data-option");
         $(".colorPage").removeClass("activated");
-        $("#" + colorTab).addClass("activated");
+        $("#" + optionTab).addClass("activated");
 
-        $color = $(".colorPage.activated label:not(.out)").first().text();
+        $option2 = $(".colorPage.activated label:not(.out)").first().text() || "";
 
-        $tuneName = $img.replace(".png", "_" + $planter + "_" + $color + ".png");
+        $tuneName = $img.replace(".png", "_" + $option1 + ($option2 ? "_" + $option2 : "") + ".png");
         $(".detailContainer div:first-of-type aside figure img").attr("src", $tuneName);
     });
 
     $(".color .colorPage li label").click(function () {
-        $color = $(this).text();
+        $option2 = $(this).text();
 
-        $tuneName = $img.replace(".png", "_" + $planter + "_" + $color + ".png");
+        $tuneName = $img.replace(".png", "_" + $option1 + ($option2 ? "_" + $option2 : "") + ".png");
         $(".detailContainer div:first-of-type aside figure img").attr("src", $tuneName);
 
         $(this).closest(".colorPage").find("label").removeClass("active");
         $(this).addClass("active");
     });
 }
+
 
 //참고
 //   var $img =$(".showProd img").attr("src");
