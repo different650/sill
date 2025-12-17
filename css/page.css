@@ -1404,96 +1404,96 @@ color: #4d7a42; */
 		margin-left: 4px;
 	}
 
-	input[type="radio"]+label[for$="_black"] {
+	input[type="radio"]+label[for$="black"] {
 		background: #222;
 		color: #fff;
 	}
 
-	input[type="radio"]+label[for$="_cream"] {
+	input[type="radio"]+label[for$="cream"] {
 		background: #ede5da;
 	}
 
-	input[type="radio"]+label[for$="_cementGrey"] {
+	input[type="radio"]+label[for$="cementGrey"] {
 		background: #e7e8e9;
 	}
 
-	input[type="radio"]+label[for$="hyde_blush"] {
+	input[type="radio"]+label[for$="blush"] {
 		background: #ffd2b7;
 	}
 
-	input[type="radio"]+label[for$="_mint"] {
+	input[type="radio"]+label[for$="mint"] {
 		background: #cee0de;
 	}
 
-	input[type="radio"]+label[for$="_olive"] {
+	input[type="radio"]+label[for$="olive"] {
 		background: #566357;
 		color: #fff;
 	}
 
-	input[type="radio"]+label[for$="_terracotta"] {
+	input[type="radio"]+label[for$="terracotta"] {
 		background: #d46539;
 	}
 
-	input[type="radio"]+label[for$="_grey"] {
+	input[type="radio"]+label[for$="grey"] {
 		background: #626a70;
 		color: #fff;
 	}
 
-	input[type="radio"]+label[for$="_white"] {
+	input[type="radio"]+label[for$="white"] {
 		background: #fff;
 	}
 
-	input[type="radio"]+label[for$="_chocolate"] {
+	input[type="radio"]+label[for$="chocolate"] {
 		background: #945236;
 		color: #fff;
 	}
 
-	input[type="radio"]+label[for$="_dustyRose"] {
+	input[type="radio"]+label[for$="dustyRose"] {
 		background: #ad6765;
 	}
 
-	input[type="radio"]+label[for$="_roseGold"] {
+	input[type="radio"]+label[for$="roseGold"] {
 		background: #efd7d3;
 	}
 
-	input[type="radio"]+label[for$="_avocado"] {
+	input[type="radio"]+label[for$="avocado"] {
 		background: #b29b4f;
 	}
 
-	input[type="radio"]+label[for$="bgmoow_oatmeal"] {
+	input[type="radio"]+label[for$="oatmeal"] {
 		background: #e2d7c7;
 	}
 
-	input[type="radio"]+label[for$="tfbmw_mustard"] {
+	input[type="radio"]+label[for$="mustard"] {
 		background: #d99a00;
 	}
 
-	input[type="radio"]+label[for$="tfbmw_forestgreenl"] {
+	input[type="radio"]+label[for$="forestgreenl"] {
 		background: #344020;
 		color: #fff;
 	}
 
-	input[type="radio"]+label[for$="_terra"] {
+	input[type="radio"]+label[for$="terra"] {
 		background: #c38364;
 	}
 
-	input[type="radio"]+label[for$="_sand"] {
+	input[type="radio"]+label[for$="sand"] {
 		background: #d5d8cb;
 	}
 
-	input[type="radio"]+label[for$="_latte"] {
+	input[type="radio"]+label[for$="latte"] {
 		background: #ad988b;
 	}
 
-	input[type="radio"]+label[for$="_charcoal"] {
+	input[type="radio"]+label[for$="charcoal"] {
 		background: #b0aea7;
 	}
 
-	input[type="radio"]+label[for$="_rice"] {
+	input[type="radio"]+label[for$="rice"] {
 		background: #d8ccba;
 	}
 
-	input[type="radio"]+label[for$="_nut"] {
+	input[type="radio"]+label[for$="nut"] {
 		background: #ceba8d;
 	}
 
