@@ -33,7 +33,7 @@
     <div>
       <h1>
         <a href="index.html">
-          <img src="images/globla-logo.svg"  alt="The Sill">
+          <img src="images/globla-logo.svg" alt="The Sill">
         </a>
       </h1>
       <div>
@@ -316,7 +316,7 @@
         </h2>
 
         <ul class="detailedImage">
-          <li><img src="images/product-theRanchoPlanter_5in_sand.png" alt="The Rancho Planter"></li>
+          <li><img src="images/product-theRanchoPlanter.png" alt="The Rancho Planter"></li>
           <li><img src="images/product-theRanchoPlanter_detail1.png" alt="Detail1"></li>
           <li><img src="images/product-theRanchoPlanter_detail2.png" alt="Detail2"></li>
           <li><img src="images/product-theRanchoPlanter_detail3.png" alt="Detail3"></li>
@@ -327,7 +327,7 @@
         </ul>
 
         <figure>
-          <img src="images/product-theRanchoPlanter_5in_sand.png" alt="The Rancho Planter">
+          <img src="images/product-theRanchoPlanter.png" alt="The Rancho Planter">
           <figcaption>
             <ol>
               <li>Home</li>
@@ -371,20 +371,51 @@
         <fieldset class="size">
           <legend>Size</legend>
           <input type="button" value="Size Guide" data-popup="sizePopup" class="uln">
-          <input type="radio" name="size" id="size_5" checked>
-          <label for="size_5">5 in</label>
-          <input type="radio" name="size" id="size_7">
-          <label for="size_7">7 in</label>
-          <input type="radio" name="size" id="size_8">
-          <label for="size_8">8 in</label>
+
+          <input type="radio" name="option1" id="size5" data-option="sizeList5" checked>
+          <label for="size5">5<span class="space">in</span></label>
+          <input type="radio" name="option1" id="size7" data-option="sizeList7">
+          <label for="size7">7<span class="space">in</span></label>
+          <input type="radio" name="option1" id="size8" data-option="sizeList8">
+          <label for="size8">8<span class="space">in</span></label>
         </fieldset>
 
         <!-- Color 선택 -->
         <fieldset class="color">
           <legend>Color</legend>
-          <ol class="colorListSt">
-            <li><input type="radio" name="color" id="st_sand" checked><label for="st_sand">sand</label></li>
-            <li><input type="radio" name="color" id="st_terra"><label for="st_terra">terra</label></li>
+          <ol class="colorPage activated" id="sizeList5">
+            <li>
+              <input type="radio" name="color_size5" id="size5_sand" checked>
+              <label for="size5_sand" class="sand active">sand</label>
+            </li>
+            <li>
+              <input type="radio" name="color_size5" id="size5_terra">
+              <label for="size5_terra" class="terra">terra</label>
+            </li>
+            </li>
+          </ol>
+
+          <ol class="colorPage" id="sizeList7">
+            <li>
+              <input type="radio" name="color_size7" id="size7_sand" checked>
+              <label for="size7_sand" class="sand active">sand</label>
+            </li>
+            <li>
+              <input type="radio" name="color_size7" id="size7_terra">
+              <label for="size7_terra" class="terra">terra</label>
+            </li>
+            </li>
+          </ol>
+
+          <ol class="colorPage" id="sizeList8">
+            <li>
+              <input type="radio" name="color_size8" id="size8_sand" checked>
+              <label for="size8_sand" class="sand active">sand</label>
+            </li>
+            <li>
+              <input type="radio" name="color_size8" id="size8_terra">
+              <label for="size8_terra" class="terra">terra</label>
+            </li>
             </li>
           </ol>
         </fieldset>
@@ -443,7 +474,7 @@
 
   <footer>
     <div>
-      <h2><img src="images/globla-logo.svg"  alt="Bye. The Sill"></h2>
+      <h2><img src="images/globla-logo.svg" alt="Bye. The Sill"></h2>
       <ul>
         <li><a href="https://www.facebook.com/TheSillNYC/" target="_blank">Facebook</a></li>
         <li><a href="https://www.instagram.com/thesill/" target="_blank">Instagram</a></li>
