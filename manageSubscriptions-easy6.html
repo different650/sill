@@ -9,7 +9,7 @@
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
   <script src="js/jquery.bxslider.js"></script>
   <script src="js/jquery.fitvids.js"></script>
-  <script src="js/detailcolor.js"></script>
+  <script src="js/sill.js"></script>
 
   <link rel="stylesheet" href="css/import.css">
 </head>
@@ -351,12 +351,16 @@
         <!-- Color 선택 -->
         <fieldset class="color">
           <legend>Color</legend>
-
-          <!-- Subscription -->
           <ol class="colorListSubscription">
-            <li><input type="radio" name="color" id="subscription_grey" checked><label
-                for="subscription_grey">grey</label></li>
-            <li><input type="radio" name="color" id="white"><label for="white">white</label></li>
+            <li>
+              <input type="radio" name="option1" id="grey" checked>
+              <label
+                for="grey" class="grey active">grey</label>
+              </li>
+            <li>
+              <input type="radio" name="option1" id="white">
+              <label for="white" class="white">white</label>
+            </li>
           </ol>
         </fieldset>
 
