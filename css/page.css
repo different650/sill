@@ -3191,6 +3191,7 @@ color: #4d7a42; */
 		font-weight: 500;
 		line-height: 19px;
 		margin-bottom: 30px;
+		margin-top: 40px;
 	}
 
 	/*내부기본 스타일 */
@@ -3289,7 +3290,13 @@ color: #4d7a42; */
 		margin-bottom: 30px;
 		height: 12px;
 	}
-
+	.manageSubscriptionsContainer>ul.activated li figure figcaption dl dd:last-of-type {
+		font-family: "Advent Pro";
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 16px;
+		text-align: right;
+	}
 	.manageSubscriptionsContainer #easyCare,
 	.manageSubscriptionsContainer #orchid,
 	.manageSubscriptionsContainer #petFriendly {
@@ -6382,32 +6389,27 @@ color: #4d7a42; */
 	.order a:last-of-type {
 		float: right;
 	}
+	
 .manageSubscriptionsContainer {
 		margin: 140px 0 150px;
 	}
 
-	.manageSubscriptionsVisual>div p:last-of-type {
+	/* .manageSubscriptionsVisual>div p:last-of-type {
 		margin-bottom: 0;
 	}
 
-
-
-
-
-
-
 	.manageSubscriptionsContainer .tabMenu {
 		margin-bottom: 30px;
+	} */
+	.manageSubscriptionsContainer>*:not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(7)) {
+  width: fit-content;
+  margin: 0 auto;
 	}
-
-	.manageSubscriptionsContainer>div:last-of-type>* {
+	.manageSubscriptionsContainer> :nth-child(7) >*{
+		width: 100%;
 		padding: 0 3.125%;
-		margin: 0 auto;
 	}
 
-	/* .manageSubscriptionsContainer>*:not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(7))
-	,
- */
 
 	.manageSubscriptionsContainer>ul:first-of-type {
 		width: 100%;
@@ -6547,44 +6549,44 @@ color: #4d7a42; */
 		border: 1px solid #4d7a42;
 	}
 
-	.msList {
+	.manageSubscriptionsContainer>ul {
 		display: none;
 	}
 
-	.manageSubscriptionsContainer .msList.activated {
+	.manageSubscriptionsContainer>ul.activated{
 		display: block;
-		width: 60.55%;
-		margin: 0 auto 50px;
+		/* width: 60.55%;
+		margin: 0 auto 50px; */
 	}
 
-	.msList.activated li {
+	.manageSubscriptionsContainer>ul.activated li {
 		list-style: none;
 		width: 100%;
 		margin-bottom: 40px;
 		/* min-width: 280px; */
 	}
 
-	.msList.activated li:last-of-type {
+.manageSubscriptionsContainer>ul.activated li:last-of-type {
 		margin-bottom: 0;
 	}
 
-	.msList.activated li figure {
+	.manageSubscriptionsContainer>ul.activated li figure  {
 		position: relative;
 	}
 
-	.msList.activated li figure a img {
+	.manageSubscriptionsContainer>ul.activated li figure a img {
 		width: 100%;
 		margin-bottom: 20px;
 	}
 
-	.msList.activated li figure figcaption mark {
+	.manageSubscriptionsContainer>ul.activated li figure figcaption mark{
 		position: absolute;
 		top: 0;
 		right: 0;
 		display: inline-block;
 	}
 
-	.msList.activated li figure figcaption dl dt {
+	.manageSubscriptionsContainer>ul.activated li figure figcaption dl dt {
 		font-family: "Dosis";
 		text-transform: uppercase;
 		font-size: 20px;
@@ -6593,7 +6595,7 @@ color: #4d7a42; */
 		margin-bottom: 20px;
 	}
 
-	.msList.activated li figure figcaption dl dd:first-of-type {
+	.manageSubscriptionsContainer>ul.activated li figure figcaption dl dd:first-of-type {
 		font-family: "Overpass";
 		text-transform: uppercase;
 		font-size: 12px;
@@ -6602,7 +6604,7 @@ color: #4d7a42; */
 		height: 12px;
 	}
 
-	.msList.activated li figure figcaption dl dd:last-of-type {
+	.manageSubscriptionsContainer>ul.activated li figure figcaption dl dd:last-of-type {
 		font-family: "Advent Pro";
 		font-size: 16px;
 		font-weight: 600;
@@ -6610,12 +6612,12 @@ color: #4d7a42; */
 		text-align: right;
 	}
 
-	/* .manageSubscriptionsContainer #easyCare,
+	.manageSubscriptionsContainer #easyCare,
 	.manageSubscriptionsContainer #orchid,
 	.manageSubscriptionsContainer #petFriendly {
 		padding-top: 30px;
 		margin-bottom: 85px;
-	} */
+	}
 
 	.manageSubscriptionsContainer>div:last-of-type {
 		position: relative;
@@ -9738,30 +9740,32 @@ color: #4d7a42; */
 		margin: 158px 0 150px;
 	}
 
-	.manageSubscriptionsVisual>div p:last-of-type {
+	/* .manageSubscriptionsVisual>div p:last-of-type {
 		margin-bottom: 0;
-	}
+	} */
 
-
-
-
-
-
-	.manageSubscriptionsContainer .tabMenu {
+	/* .manageSubscriptionsContainer .tabMenu {
 		margin-bottom: 25px;
+	} */
+
+	.manageSubscriptionsContainer>*:not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(7)) {
+  width: fit-content;
+  margin: 0 auto;
 	}
 
-	.manageSubscriptionsContainer>div:last-of-type>*
-	 {
+	.manageSubscriptionsContainer> :nth-child(7) >* {
 		padding: 0 3.571%;
 		margin: 0 auto;
 	}
-		.manageSubscriptionsContainer>div:first-of-type,
+
+
+
+	/*	.manageSubscriptionsContainer>div:first-of-type,
 			.manageSubscriptionsContainer> ul.msList
 	 {
 		padding: 0 7.14%;
-		/* margin: 0 auto 25px; */
-	}
+		 margin: 0 auto 25px; 
+	}*/
 
 	/* .manageSubscriptionsContainer>*:not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(7))
 	,
@@ -9784,8 +9788,8 @@ color: #4d7a42; */
 
 	.manageSubscriptionsContainer>ul:first-of-type li {
 		display: inline-block;
-		/* width: 30.6%; */
-		/* min-width: 240px; */
+		width: 30.6%;
+		min-width: 240px;
 		margin: 0 3.84%;
 	}
 
@@ -9797,8 +9801,7 @@ color: #4d7a42; */
 	} */
 
 	.manageSubscriptionsContainer>ul:first-of-type li:first-of-type,
-	.manageSubscriptionsContainer>ul:first-of-type li:nth-of-type(2),
-		.manageSubscriptionsContainer>ul:first-of-type li:nth-of-type(3) {
+	.manageSubscriptionsContainer>ul:first-of-type li:nth-of-type(2) {
 		margin-bottom: 25px;
 	}
 
@@ -9906,44 +9909,45 @@ color: #4d7a42; */
 		border: 1px solid #4d7a42;
 	}
 
-	.msList {
+	.manageSubscriptionsContainer>ul {
 		display: none;
 	}
 
-	.manageSubscriptionsContainer .msList.activated {
+	.manageSubscriptionsContainer>ul.activated{
 		display: block;
-		/* width: 60.55%; */
-		margin: 0 auto 45px;
+		/* width: 60.55%;
+		margin: 0 auto 45px; */
 	}
 
-	.msList.activated li {
+	.manageSubscriptionsContainer>ul.activated li{
 		list-style: none;
-		width: 100%;
-		margin-bottom: 25px;
+		/* width: 100%;
+		margin-bottom: 25px; */
 		/* min-width: 280px; */
+		margin: 0 3.571% 25px;
 	}
 
-	.msList.activated li:last-of-type {
+.manageSubscriptionsContainer>ul.activated li:last-of-type  {
 		margin-bottom: 0;
 	}
 
-	.msList.activated li figure {
+	.manageSubscriptionsContainer>ul.activated li figure {
 		position: relative;
 	}
 
-	.msList.activated li figure a img {
+	.manageSubscriptionsContainer>ul.activated li figure a img {
 		width: 100%;
 		margin-bottom: 15px;
 	}
 
-	.msList.activated li figure figcaption mark {
+	.manageSubscriptionsContainer>ul.activated li figure figcaption mark {
 		position: absolute;
 		top: 0;
 		right: 0;
 		display: inline-block;
 	}
 
-	.msList.activated li figure figcaption dl dt {
+	.manageSubscriptionsContainer>ul.activated li figure figcaption dl dt {
 		font-family: "Dosis";
 		text-transform: uppercase;
 		font-size: 18px;
@@ -9952,7 +9956,7 @@ color: #4d7a42; */
 		margin-bottom: 15px;
 	}
 
-	.msList.activated li figure figcaption dl dd:first-of-type {
+	.manageSubscriptionsContainer>ul.activated li figure figcaption dl dd:first-of-type {
 		font-family: "Overpass";
 		text-transform: uppercase;
 		font-size: 12px;
@@ -9961,7 +9965,7 @@ color: #4d7a42; */
 		line-height: 15px;
 	}
 
-	.msList.activated li figure figcaption dl dd:last-of-type {
+.manageSubscriptionsContainer>ul.activated li figure figcaption dl dd:last-of-type{
 		font-family: "Advent Pro";
 		font-size: 14px;
 		font-weight: 600;
@@ -9969,12 +9973,12 @@ color: #4d7a42; */
 		text-align: right;
 	}
 
-	/* .manageSubscriptionsContainer #easyCare,
+	.manageSubscriptionsContainer #easyCare,
 	.manageSubscriptionsContainer #orchid,
 	.manageSubscriptionsContainer #petFriendly {
-		padding-top: 30px;
-		margin-bottom: 85px;
-	} */
+		padding-top: 20px;
+		margin-bottom: 45px;
+	}
 
 	.manageSubscriptionsContainer>div:last-of-type {
 		position: relative;
