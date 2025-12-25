@@ -2447,7 +2447,7 @@ color: #4d7a42; */
 		display: inline-block;
 		width: 18px;
 		height: 18px;
-		background: url(../images/icon_myaccount.svg) no-repeat;
+		background: url(../images/globla-icon_myaccount.svg) no-repeat;
 		background-size: contain;
 		vertical-align: middle;
 		margin-right: 10px;
@@ -5709,7 +5709,7 @@ color: #4d7a42; */
 		display: inline-block;
 		width: 18px;
 		height: 18px;
-		background: url(../images/icon_myaccount.svg) no-repeat;
+		background: url(../images/globla-icon_myaccount.svg) no-repeat;
 		background-size: contain;
 		vertical-align: middle;
 		margin-right: 10px;
@@ -6256,6 +6256,7 @@ color: #4d7a42; */
 		margin-left: calc(50% - 230px);
 		box-sizing: border-box;
 		z-index: 110;
+			font-size: 0;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	}
 
@@ -6280,12 +6281,14 @@ color: #4d7a42; */
 		margin-bottom: 30px;
 	}
 
+	.deletePopup a,
 	.deletePopup button {
 		/* width: 48.5%; */
 		width: calc((100% - 2.5%)/2);
 	}
 
-	.deletePopup button:first-of-type {
+
+	.deletePopup a {
 		margin-right: 2.5%;
 	}
 
@@ -9019,7 +9022,7 @@ color: #4d7a42; */
 		display: inline-block;
 		width: 16px;
 		height: 16px;
-		background: url(../images/icon_myaccount.svg) no-repeat;
+		background: url(../images/globla-icon_myaccount.svg) no-repeat;
 		background-size: contain;
 		vertical-align: middle;
 		margin-right: 10px;
@@ -9564,15 +9567,17 @@ color: #4d7a42; */
 		left: 0;
 		right: 0;
 		margin: auto;
-		width: 460px;
+		max-width: 460px;
+		min-width: 260px;
 		height: 145px;
 		background: #e0d4ca;
 		/* font-family: D; */
 		text-align: center;
 		padding: 30px;
-		margin-left: calc(50% - 230px);
+		/* margin-left: calc(50% - 230px); */
 		box-sizing: border-box;
 		z-index: 110;
+				font-size: 0;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	}
 
@@ -9597,12 +9602,13 @@ color: #4d7a42; */
 		margin-bottom: 30px;
 	}
 
+	.deletePopup a,
 	.deletePopup button {
 		/* width: 48.5%; */
 		width: calc((100% - 2.5%)/2);
 	}
 
-	.deletePopup button:first-of-type {
+	.deletePopup a {
 		margin-right: 2.5%;
 	}
 
