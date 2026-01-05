@@ -312,22 +312,23 @@
       <aside>
         <h2 class="rarePlantsTitle">
           <small>Rare Plants</small>
-          <small>Cacti &amp; Succulents</small>
-          Aloe 'Delta Lights'
+          <small>Pet-Friendly</small>
+          String of Hearts
         </h2>
 
         <ul class="detailedImage">
-          <li><img src="images/product-aloeDeltaLights_small.png" alt="Aloe Delta Lights"></li>
-          <li><img src="images/product-aloeDeltaLights_detail1.png" alt="Detail1"></li>
+          <li><img src="images/product-stringOfHearts_Medium.png" alt="String of Hearts"></li>
+          <li><img src="images/product-stringOfHearts_Medium_detail1.png" alt="Detail1"></li>
+          <li><img src="images/product-stringOfHearts_Medium_detail2.png" alt="Detail2"></li>
         </ul>
 
         <figure>
-          <img src="images/product-aloeDeltaLights_small.png" alt="Aloe Delta Lights">
+          <img src="images/product-stringOfHearts_Medium.png" alt="String of Hearts">
           <figcaption>
             <ol>
               <li>Home</li>
               <li>Rare Plants</li>
-              <li>Aloe 'Delta Lights'</li>
+              <li>String of Hearts</li>
             </ol>
           </figcaption>
         </figure>
@@ -421,20 +422,21 @@
 
         <fieldset class="price">
           <legend>Price</legend>
-          <strong>$95</strong>
+          <strong>$145</strong>
         </fieldset>
 
         <!-- Size 선택 -->
         <fieldset class="size">
           <legend>Size</legend>
           <input type="button" value="Size Guide" data-popup="sizePopup" class="uln">
-          <input type="radio" name="size" id="size_s" checked>
-          <label for="size_s">Small</label>
 
-          <!-- <input type="radio" name="size" id="size_m">
+          <!-- <input type="radio" name="size" id="size_s">
+          <label for="size_s">Small</label> -->
+
+          <input type="radio" name="size" id="size_m" checked>
           <label for="size_m">Medium</label>
 
-          <input type="radio" name="size" id="size_l">
+          <!-- <input type="radio" name="size" id="size_l">
           <label for="size_l">Large</label> -->
         </fieldset>
 
@@ -453,16 +455,16 @@
           <label for="hyde">hyde</label>
 
           <input type="radio" name="option1" id="mexia" data-option="colorListMexia">
-          <label for="mexia"  class="out">mexia</label>
+          <label for="mexia" class="out">mexia</label>
 
           <input type="radio" name="option1" id="marianne" data-option="colorListMarianne">
-          <label for="marianne"  class="out">marianne</label>
+          <label for="marianne" class="out">marianne</label>
 
           <input type="radio" name="option1" id="growpot" data-option="colorListGrowPot">
           <label for="growpot">grow<span class="space">pot</span></label>
 
           <input type="radio" name="option1" id="isabella" data-option="colorListIsabella">
-          <label for="isabella"  class="out">isabella</label>
+          <label for="isabella" class="out">isabella</label>
         </fieldset>
 
         <!-- Color 선택 -->
@@ -484,10 +486,10 @@
           <!-- Pallas -->
           <ol class="colorPage" id="colorListPallas">
             <li>
-              <input type="radio" name="color_pallas" id="pallas_black">
-              <label for="pallas_black" class="black">black</label>
+              <input type="radio" name="color_pallas" id="pallas_black" checked>
+              <label for="pallas_black" class="black active">black</label>
             </li>
-             <li>
+            <li>
               <input type="radio" name="color_pallas" id="pallas_cementGrey">
               <label for="pallas_cementGrey" class="cementgrey">cement<span class="space">grey</span></label>
             </li>
@@ -509,27 +511,27 @@
             </li>
             <li>
               <input type="radio" name="color_hyde" id="hyde_cream">
-              <label for="hyde_cream"  class="cream">cream</label>
+              <label for="hyde_cream" class="cream out">cream</label>
             </li>
             <li>
               <input type="radio" name="color_hyde" id="hyde_mint">
-              <label for="hyde_mint"  class="mint out">mint</label>
+              <label for="hyde_mint" class="mint out">mint</label>
             </li>
             <li>
               <input type="radio" name="color_hyde" id="hyde_olive">
-              <label for="hyde_olive"  class="olive out">olive</label>
+              <label for="hyde_olive" class="olive out">olive</label>
             </li>
             <li>
               <input type="radio" name="color_hyde" id="hyde_terracotta">
-              <label for="hyde_terracotta"  class="terracotta">terracotta</label>
+              <label for="hyde_terracotta" class="terracotta out">terracotta</label>
             </li>
           </ol>
 
           <!-- Mexia -->
           <ol class="colorPage" id="colorListMexia">
             <li>
-              <input type="radio" name="color_mexia" id="mexia_black">
-              <label for="mexia_black"  class="black">black</label>
+              <input type="radio" name="color_mexia" id="mexia_black" checked>
+              <label for="mexia_black" class="black active">black</label>
             </li>
             <li>
               <input type="radio" name="color_mexia" id="mexia_cementGrey">
@@ -537,19 +539,19 @@
             </li>
             <li>
               <input type="radio" name="color_mexia" id="mexia_cream">
-              <label for="mexia_cream"  class="cream">cream</label>
+              <label for="mexia_cream" class="cream">cream</label>
             </li>
           </ol>
 
           <!-- Marianne -->
           <ol class="colorPage" id="colorListMarianne">
             <li>
-              <input type="radio" name="color_marianne" id="marianne_grey">
-              <label for="marianne_grey"  class="grey">grey</label>
+              <input type="radio" name="color_marianne" id="marianne_grey" checked>
+              <label for="marianne_grey" class="grey active">grey</label>
             </li>
             <li>
               <input type="radio" name="color_marianne" id="marianne_white">
-              <label for="marianne_white"  class="white">white</label>
+              <label for="marianne_white" class="white">white</label>
             </li>
           </ol>
 
@@ -564,14 +566,13 @@
           <!-- Isabella -->
           <ol class="colorPage" id="colorListIsabella">
             <li>
-              <input type="radio" name="color_isabella" id="isabella_blush">
-              <label for="isabella_blush"  class="blush">blush</label>
+              <input type="radio" name="color_isabella" id="isabella_blush" checked>
+              <label for="isabella_blush" class="blush active">blush</label>
             </li>
             <li>
               <input type="radio" name="color_isabella" id="isabella_chocolate">
-              <label
-                for="isabella_chocolate"  class="chocolate">chocolate</label>
-              </li>
+              <label for="isabella_chocolate" class="chocolate">chocolate</label>
+            </li>
             <li>
               <input type="radio" name="color_isabella" id="isabella_dustyRose">
               <label for="isabella_dustyRose" class="dustyrose">dusty<span class="space">rose</span></label>
@@ -582,7 +583,7 @@
             </li>
             <li>
               <input type="radio" name="color_isabella" id="isabella_white">
-              <label for="isabella_white"  class="white">white</label>
+              <label for="isabella_white" class="white">white</label>
             </li>
           </ol>
         </fieldset>
@@ -602,13 +603,15 @@
     <div>
       <h2>Plant Description</h2>
       <div>
-        <p>Meet the Aloe 'Delta Lights'- a compact Aloe hybrid with striking green leaves adorned with creamy, zigzag
-          patterns. Low-maintenance but high in looks, this plant thrives on being the easiest part of your life-just
-          provide direct sunlight and the occasional watering!</p>
+        <p>Our String of Hearts is a lovely trailing succulent known for its heart-shaped leaves and tolerant nature. It
+          can propagate quickly due to its shallow roots and ability to easily grow new roots and vines. We recommend
+          putting it on an elevated surface like a bookshelf to give it space to cascade. Worried about care? We now
+          also offering this plant in a faux option. </p>
         <hr>
         <p>Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range</p>
-        <p>Small plant measures between 3-4" tall from the soil line to the top of the foliage</p>
-        <p>Arrives in nursery grow pot nestled in your planter choice</p>
+        <p>Medium plant measures between 2-6" tall from the soil line to the top of the foliage, measurement does not
+          include vines</p>
+        <p>Arrives in a nursery grow pot nestled in your planter choice</p>
       </div>
     </div>
 
@@ -617,31 +620,34 @@
       <dl class="nativeArea_pc">
         <dt>Native Area</dt>
         <dd>
-          <p>Aloe 'Delta Lights'</p>
-          <p>Madagascar</p>
+          <p>String of Hearts</p>
+          <p>South Africa</p>
       </dl>
       <dl class="light_pc">
         <dt>Light</dt>
-        <dd>Thrives in bright direct light, but can tolerate bright indirect light.</dd>
+        <dd>Thrives in bright indirect light. Can benefit from a few hours of direct sun. Not suited for low light
+          conditions.</dd>
       </dl>
       <dl class="watering_pc">
         <dt>Watering</dt>
-        <dd>Water every 2-3 weeks, allowing soil to dry out between waterings. Expect to water more often in brighter
+        <dd>Water every 1-2 weeks, allowing soil to dry out between waterings. Expect to water more often in brighter
           light and less often in lower light.</dd>
+      </dl>
+      <dl class="pets_pc">
+        <dt>Pets</dt>
+        <dd>This is a pet-friendly plant.</dd>
       </dl>
       <dl class="story_pc">
         <dt>Story</dt>
-        <dd>Like most aloe plants, the Aloe Delta Lights is highly drought-resistant, storing water in its thick leaves,
-          meaning it can go weeks without watering.</dd>
+        <dd>Propagate this plant in water by cutting off its long, trailing vines.</dd>
       </dl>
-
       <dl class="sadPlantSigns_pc">
         <dt>Sad Plant Signs</dt>
         <dd>
           <ul>
-            <li>Wrinkled plant, dry potting mix : Underwatered</li>
-            <li>Blackened, mushy base : Overwatered, root rot</li>
-            <li>Etiolation, stunted growth : Not enough direct light</li>
+            <li>Wrinkling leaves, dry potting mix : Thirsty plant, underwatered</li>
+            <li>Mushy stems, wet potting mix : Root rot, overwatered</li>
+            <li>Leaf drop : Low light, or moisture-stress</li>
           </ul>
         </dd>
       </dl>

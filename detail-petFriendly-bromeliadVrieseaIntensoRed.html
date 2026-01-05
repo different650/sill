@@ -307,388 +307,271 @@
     </nav>
   </header>
 
-  <div class="listContainer">
-    <!-- section 가능 -->
-    <h2>Faux</h2>
-    <div class="filterWrap">
-      <div>
-        <button type="button" class="filterBtn" data-filter="filterPanel">
-          <span class="filterClick">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-          Filter
-        </button>
-      </div>
+  <div class="detailContainer">
+    <div>
+      <aside>
+        <h2 class="petFriendlyTitle">
+          <small>Pet-Friendly</small>
+          <small>Blooms</small>
+          Bromeliad Vriesea Intenso Red
+        </h2>
 
-      <div class="filterPanel">
-        <div>
-          <button type="button" class="uln">Remove All</button>
-          <input type="button" value="close" class="bCloseBtn">
-        </div>
-
-        <div>
-          <fieldset>
-            <legend>Size</legend>
-            <input type="checkbox" id="size_op1">
-            <label for="size_op1">Small</label>
-            <input type="checkbox" id="size_op2">
-            <label for="size_op2">Medium</label>
-            <input type="checkbox" id="size_op3">
-            <label for="size_op3">Large</label>
-          </fieldset>
-
-          <fieldset>
-            <legend>Plant Benefits</legend>
-            <input type="checkbox" id="pb_op1">
-            <label for="pb_op1">Pet-Friendly</label>
-          </fieldset>
-        </div>
-      </div>
-      <!-- <input type="checkbox" id="check"> css 로구동 되는 거 아님. js = 누르는 버튼과 출력되는 창으로 분리되어있으면 됨 -->
-    </div>
-
-    <div class="productInfoBar">
-      <span class="postCount"><b>12 </b>products</span>
-      <div>
-        <label for="sortBy">Sort By:</label>
-        <!-- for <->id 연결 -->
-        <select id="sortBy">
-          <option value="featured">Featured</option>
-          <option value="best">Best selling</option>
-          <option value="a-z">Alphabetically, a-z</option>
-          <option value="z-a">Alphabetically, z-a</option>
-          <option value="low">Price, low to high</option>
-          <option value="high">Price, high to low</option>
-          <option value="old">Date, old to new</option>
-          <option value="new">Date, new to old</option>
-        </select>
-      </div>
-    </div>
-
-    <ul class="productList">
-      <li>
-        <figure>
-          <a href="detail-faux-fauxCactus.html">
-            <img src="images/list-allPlant-fauxCactus.png" alt="Faux Cactus"></a>
-          <figcaption>
-            <mark class="utoTag">Up To 9% Off</mark>
-            <dl>
-              <dt>
-                <a href="detail-faux-fauxCactus.html">Faux Cactus</a>
-              </dt>
-              <dd>Get The Look Without The Direct Light</dd>
-              <dd>$ <del>$</del></dd>
-            </dl>
-          </figcaption>
-        </figure>
-      </li>
-
-      <li>
-        <figure>
-          <a href="detail-faux-fauxFiddleLeafFigTree.html">
-            <img src="images/list-allPlant-fauxFiddleLeafFigTree.png" alt="Faux Fiddle Leaf Fig Tree"></a>
-          <figcaption>
-            <mark class="utoTag">Up To 20% Off</mark>
-            <dl>
-              <dt>
-                <a href="detail-faux-fauxFiddleLeafFigTree.html">Faux Fiddle Leaf Fig Tree</a>
-              </dt>
-              <dd>Get The Look Without The Worry</dd>
-              <dd>$ <del>$</del></dd>
-            </dl>
-          </figcaption>
-        </figure>
-      </li>
-
-      <li>
-        <figure>
-          <a href="detail-faux-fauxFloorCactus.html">
-            <img src="images/list-allPlant-fauxFloorCactus.png" alt="Faux Floor Cactus"></a>
-          <figcaption>
-            <dl>
-              <dt>
-                <a href="detail-faux-fauxFloorCactus.html">Faux Floor Cactus</a>
-              </dt>
-              <dd></dd>
-              <dd>$</dd>
-            </dl>
-          </figcaption>
-        </figure>
-      </li>
-
-      <li>
-        <figure>
-          <a href="detail-faux-fauxHangingRicRacCactus.html">
-            <img src="images/list-allPlant-fauxHangingRicRacCactus.png" alt="Faux Hanging Ric Rac Cactus"></a>
-          <figcaption>
-            <dl>
-              <dt>
-                <a href="detail-faux-fauxHangingRicRacCactus.html">Faux Hanging Ric Rac Cactus</a>
-              </dt>
-              <dd>Hang In Hard-To-Reach Corners</dd>
-              <dd>$55</dd>
-            </dl>
-          </figcaption>
-        </figure>
-      </li>
-
-      <li>
-        <figure>
-          <a href="detail-faux-fauxOliveTree.html">
-            <img src="images/list-allPlant-fauxOliveTree.png" alt="Faux Olive Tree"></a>
-          <figcaption>
-            <mark class="utoTag">Up To 19% Off</mark>
-            <dl>
-              <dt>
-                <a href="detail-faux-fauxOliveTree.html">Faux Olive Tree</a>
-              </dt>
-              <dd>All Of The Beauty, None Of The Fuss</dd>
-              <dd>$ <del>$</del></dd>
-            </dl>
-          </figcaption>
-        </figure>
-      </li>
-
-      <li>
-        <figure>
-          <a href="detail-faux-fauxOrchid.html">
-            <img src="images/list-allPlant-fauxOrchid.png" alt="Faux Orchid"></a>
-          <figcaption>
-            <mark class="utoTag">Up To 37% Off</mark>
-            <dl>
-              <dt>
-                <a href="detail-faux-fauxOrchid.html">Faux Orchid</a>
-              </dt>
-              <dd>Get The Look Without The Direct Light</dd>
-              <dd>$35 <del>$56</del></dd>
-            </dl>
-          </figcaption>
-        </figure>
-      </li>
-
-      <li>
-        <figure>
-          <a href="detail-faux-fauxPothosPlant.html">
-            <img src="images/list-allPlant-fauxPothosPlant.png" alt="Faux Pothos Plant"></a>
-          <figcaption>
-            <mark class="bisTag">Back In Stock</mark>
-            <dl>
-              <dt>
-                <a href="detail-faux-fauxPothosPlant.html">Faux Pothos Plant</a>
-              </dt>
-              <dd>Get The Look Without The Maintenance</dd>
-              <dd>$</dd>
-            </dl>
-          </figcaption>
-        </figure>
-      </li>
-
-      <li>
-        <figure>
-          <a href="detail-faux-fauxRexBegonia.html">
-            <img src="images/list-allPlant-fauxRexBegonia.png" alt="Faux Rex Begonia"></a>
-          <figcaption>
-            <dl>
-              <dt>
-                <a href="detail-faux-fauxRexBegonia.html">Faux Rex Begonia</a>
-              </dt>
-              <dd></dd>
-              <dd>$</dd>
-            </dl>
-          </figcaption>
-        </figure>
-      </li>
-
-      <li>
-        <figure>
-          <a href="detail-faux-fauxRubberTree.html">
-            <img src="images/list-allPlant-fauxRubberTree.png" alt="Faux Rubber Tree"></a>
-          <figcaption>
-            <dl>
-              <dt>
-                <a href="detail-faux-fauxRubberTree.html">Faux Rubber Tree</a>
-              </dt>
-              <dd>Pet Parents, Get The Look Without The Worry</dd>
-              <dd>$</dd>
-            </dl>
-          </figcaption>
-        </figure>
-      </li>
-
-      <li>
-        <figure>
-          <a href="detail-faux-fauxStringOfHearts.html">
-            <img src="images/list-allPlant-fauxStringOfHearts.png" alt="Faux String Of Hearts"></a>
-          <figcaption>
-            <mark class="bisTag">Back In Stock</mark>
-            <dl>
-              <dt>
-                <a href="detail-faux-fauxStringOfHearts.html">Faux String Of Hearts</a>
-              </dt>
-              <dd>Stays Lush Without Light Or Water</dd>
-              <dd>$</dd>
-            </dl>
-          </figcaption>
-        </figure>
-      </li>
-
-      <li>
-        <figure>
-          <a href="detail-faux-fauxTradescantiaZebrina.html">
-            <img src="images/list-allPlant-fauxTradescantiaZebrina.png" alt="Faux Tradescantia Zebrina"></a>
-          <figcaption>
-            <dl>
-              <dt>
-                <a href="detail-faux-fauxTradescantiaZebrina.html">Faux Tradescantia Zebrina</a>
-              </dt>
-              <dd>Get The Look Without The Maintenance</dd>
-              <dd>$</dd>
-            </dl>
-          </figcaption>
-        </figure>
-      </li>
-
-      <li>
-        <figure>
-          <a href="detail-faux-fauxSpiderPlant.html">
-            <img src="images/list-allPlant-fauxSpiderPlant.png" alt="Faux Spider Plant"></a>
-          <figcaption>
-            <dl>
-              <dt>
-                <a href="detail-faux-fauxSpiderPlant.html">Faux Spider Plant</a>
-              </dt>
-              <dd>Bring A Dark Corner To Life</dd>
-              <dd>$</dd>
-            </dl>
-          </figcaption>
-        </figure>
-      </li>
-    </ul>
-
-    <div class="paging">
-      <a href="listPage-faux1.html">&gt;</a>
-      <ol>
-        <li><a href="listPage-faux1.html" class="active">1</a></li>
-      </ol>
-      <a href="listPage-faux1.html">&lt;</a>
-    </div>
-
-    <section>
-      <div>
-        <ul class="recommendSlider">
-          <li>
-            <img src="images/planters-theRanchoPlanter-5in-sand.png" alt="The Rancho Planter 5in Sand">
-          </li>
-          <li>
-            <img src="images/planters-theRanchoPlanter-7in-sand.png" alt="The Rancho Planter 7in Sand">
-          </li>
-          <li>
-            <img src="images/planters-theRanchoPlanter-8in-sand.png" alt="The Rancho Planter 8in Sand">
-          </li>
-          <li>
-            <img src="images/planters-theRanchoPlanter-5in-terra.png" alt="The Rancho Planter 5in Terra">
-          </li>
-          <li>
-            <img src="images/planters-theRanchoPlanter-7in-terra.png" alt="The Rancho Planter 7in Terra">
-          </li>
-          <li>
-            <img src="images/planters-theRanchoPlanter-8in-terra.png" alt="The Rancho Planter 8in Terra">
-          </li>
+        <ul class="detailedImage">
+          <li><img src="images/product-bromeliadVrieseaIntensoRed_small.png" alt="Bromeliad Vriesea IntensoRed"></li>
+          <li><img src="images/product-bromeliadVrieseaIntensoRed_detail1.png" alt="Detail1"></li>
         </ul>
-        <mark class="naTag">New Arrival</mark>
-      </div>
 
-      <div>
-        <h2>The Rancho Planter</h2>
-        <p>$58</p>
-        <select>
-          <option value="s5">Sand 5inch</option>
-          <option value="s7">Sand 7inch</option>
-          <option value="s8">Sand 8inch</option>
-          <option value="t5">Terra 5inch</option>
-          <option value="t7">Terra 7inch</option>
-          <option value="t8">erra 8inch</option>
-        </select>
-        <input type="button" value="Add To Cart" class="itpBlackBtn">
-        <hr class="dottedLine">
-        <p>The Rancho planter, designed by ceramicist Angela Nicole Drew combines both functionality and aesthetics.
-          With built-in drainage holes and a complementary saucer, it simplifies watering your plants. These planters
-          are ideally suited for indoor use and have a rustic, raw clay exterior with a glazed interior to contain
-          water.</p>
-        <a href="detail-planters-theRanchoPlanter.html" class="uln">Learn More</a>
-      </div>
-    </section>
+        <figure>
+          <img src="images/product-bromeliadVrieseaIntensoRed_small.png">
+          <figcaption>
+            <ol>
+              <li>Home</li>
+              <li>Pet-Friendly</li>
+              <li>Bromeliad Vriesea Intenso Red</li>
+            </ol>
+          </figcaption>
+        </figure>
+      </aside>
+
+      <aside class="productOptions">
+        <div class="sizePopup">
+          <div>
+            <h3>Planter Size Guide</h3>
+            <p>Because the height of plants varies, we use the width of the planters they come in for size.</p>
+          </div>
+          <ol>
+            <li>
+              <h4>Small</h4>
+              <p>Approximately 5" in diameter, fits plants in a 4" grow pot or smaller</p>
+            </li>
+            <li>
+              <h4>Medium</h4>
+              <p>Approximately 7" in diameter, fits plants in a 6" grow pot or smaller</p>
+            </li>
+            <li>
+              <h4>Large</h4>
+              <p>Approximately 10-12" in diameter, fits plants in a 10" grow pot or smaller</p>
+            </li>
+          </ol>
+
+          <input type="button" value="close" class="wCloseBtn">
+        </div>
+
+        <div class="stylePopup">
+          <div>
+            <h3>Planter Style Guide</h3>
+            <p>Our planters are made from the highest quality materials, and designed to complement a range of styles.
+            </p>
+          </div>
+          <div>
+            <section>
+              <h4>Ceramic Planters</h4>
+              <ol>
+                <li>
+                  <h5>Grant</h5>
+                  <p>No drainage hole; use as cache pot or add lava rocks</p>
+                </li>
+                <li>
+                  <h5>Hyde</h5>
+                  <p>Includes drainage hole &amp; matching saucer</p>
+                </li>
+              </ol>
+            </section>
+
+            <section>
+              <h4>No Exterior Planter</h4>
+              <ol>
+                <li>
+                  <h5>Grow Pot</h5>
+                  <p>Plastic container with drainage holes used by our greenhouse</p>
+                </li>
+              </ol>
+            </section>
+
+            <section>
+              <h4>Porcelain Planters</h4>
+              <ol>
+                <li>
+                  <h5>Isabella</h5>
+                  <p>Includes drainage hole and matching saucer</p>
+                </li>
+                <li>
+                  <h5>Marianne</h5>
+                  <p>No drainage hole; use as cache pot or add lava rocks</p>
+                </li>
+              </ol>
+            </section>
+
+            <section>
+              <h4>Fiberglass Planters</h4>
+              <ol>
+                <li>
+                  <h5>Pallas</h5>
+                  <p>No drainage hole; use as cache pot or add lava rocks</p>
+                </li>
+                <li>
+                  <h5>Mexia</h5>
+                  <p>Lightweight fiberglass with a drainage hole and removable stopper </p>
+                </li>
+              </ol>
+            </section>
+          </div>
+          <input type="button" value="close" class="wCloseBtn">
+        </div>
+
+        <fieldset class="price">
+          <legend>Price</legend>
+          <strong>$45</strong>
+        </fieldset>
+
+        <!-- Size 선택 -->
+        <fieldset class="size">
+          <legend>Size</legend>
+          <input type="button" value="Size Guide" data-popup="sizePopup" class="uln">
+
+          <input type="radio" name="size" id="size_s" checked>
+          <label for="size_s">Small</label>
+
+          <!-- <input type="radio" name="size" id="size_m">
+          <label for="size_m">Medium</label>
+
+          <input type="radio" name="size" id="size_l">
+          <label for="size_l">Large</label> -->
+        </fieldset>
+
+        <!-- Planter 선택 -->
+        <fieldset class="planter">
+          <legend>Planter</legend>
+          <input type="button" value="Style Guide" data-popup="stylePopup" class="uln">
+
+          <input type="radio" name="option1" id="bryant" data-option="colorListBryant" checked>
+          <label for="bryant">Bryant</label>
+
+          <input type="radio" name="option1" id="marianne" data-option="colorListMarianne">
+          <label for="marianne">marianne</label>
+
+          <input type="radio" name="option1" id="upcycled" data-option="colorListUpcycled">
+          <label for="upcycled">Upcycled</label>
+        </fieldset>
+
+        <!-- Color 선택 -->
+        <fieldset class="color">
+          <legend>Color</legend>
+
+          <!-- bryant -->
+          <ol class="colorPage activated" id="colorListBryant">
+            <li>
+              <input type="radio" name="color_bryant" id="bryant_cream" checked>
+              <label for="bryant_cream" class="cream active">cream</label>
+            </li>
+          </ol>
+
+          <!-- marianne -->
+          <ol class="colorPage" id="colorListMarianne">
+            <li>
+              <input type="radio" name="color_marianne" id="marianne_white" checked>
+              <label for="marianne_white" class="white active">white</label>
+            </li>
+          </ol>
+
+          <!-- upcycled -->
+          <ol class="colorPage" id="colorListUpcycled">
+            <li>
+              <input type="radio" name="color_upcycled" id="upcycled_avocado" checked>
+              <label for="upcycled_avocado" class="avocado active">avocado</label>
+            </li>
+            <li>
+              <input type="radio" name="color_upcycled" id="upcycled_cream">
+              <label for="upcycled_cream" class="cream">cream</label>
+            </li>
+          </ol>
+        </fieldset>
+
+        <div>
+          <label for="qtyValue">Quantity</label>
+          <div class="qtyComponent">
+            <input type="button" value="-" class="minus">
+            <input type="number" value="1" max="99">
+            <input type="button" value="+" class="plus">
+          </div>
+        </div>
+        <button type="button" class="itpBlackBtn" data-panel="cartPanelFilled">Add To Cart</button>
+      </aside>
+    </div>
 
     <div>
-      <h2>We Think You'll Personally Enjoy</h2>
-      <ul class="enjoySlider">
-        <li>
-          <figure>
-            <a href="detail-lowLight-aglaonemaSiam.html">
-              <img src="images/list-allPlant-aglaonemaSiam.png" alt="Aglaonema Siam"></a>
-            <figcaption>
-              <mark class="naTag">New Arrival</mark>
-              <dl>
-                <dt>
-                  <a href="detail-lowLight-aglaonemaSiam.html">Aglaonema Siam</a>
-                </dt>
-                <dd>Low-Fuss!</dd>
-                <dd>$</dd>
-              </dl>
-            </figcaption>
-          </figure>
-        </li>
+      <h2>Plant Description</h2>
+      <div>
+        <p>The Vriesea Intenso Red, or flaming sword houseplant, is one of the showiest bromeliads known for its bright
+          red spike, lasting as long as 3-6 months. It is a colorful, easy indoor plant that will brighten up any space.
+          Added bonus, it's non-toxic, making it safe to keep around curious pets.</p>
+        <hr>
+        <p>Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range</p>
+        <p>Small plant measures between 10-16" tall from the soil line to the top of the foliage</p>
+        <p>Arrives in a nursery grow pot nestled in your planter choice</p>
+      </div>
+    </div>
 
-        <li>
-          <figure>
-            <a href="detail-lowLight-hurricaneFern.html">
-              <img src="images/list-allPlant-hurricaneFern.png" alt="Hurricane Fern"></a>
-            <figcaption>
-              <mark class="bisTag">Back In Stock</mark>
-              <dl>
-                <dt>
-                  <a href="detail-lowLight-hurricaneFern.html">Hurricane Fern</a>
-                </dt>
-                <dd>Swirling Fronds</dd>
-                <dd>$</dd>
-              </dl>
-            </figcaption>
-          </figure>
-        </li>
+    <div>
+      <h2>Plant Care</h2>
+      <dl class="nativeArea_pc">
+        <dt>Native Area</dt>
+        <dd>
+          <p>Bromeliad Vriesea Intenso Red</p>
+          <p>Tropical Americas</p>
+      </dl>
+      <dl class="light_pc">
+        <dt>Light</dt>
+        <dd>Thrives in bright indirect light, but can tolerate a few hours of direct sun.</dd>
+      </dl>
+      <dl class="watering_pc">
+        <dt>Watering</dt>
+        <dd>Each week, add water to the leaf cups (water tank), the center area created by overlapping leaves. As water
+          cups tend to collect debris and insects, empty out each week and add new water. Bromeliads can be sensitive to
+          hard tap water. Try using filtered water or leaving water out overnight before using. For best results, mist
+          weekly and provide an additional source of humidity like a pebble tray or humidifier.</dd>
+      </dl>
+      <dl class="pets_pc">
+        <dt>Pets</dt>
+        <dd>This is a pet-friendly plant.</dd>
+      </dl>
+      <dl class="story_pc">
+        <dt>Story</dt>
+        <dd>Bromeliad blooms can last anywhere from 3-6 months. Cut back blooms after they are done so the plant can
+          focus its energy on new growth and future pups.</dd>
+      </dl>
+      <dl class="sadPlantSigns_pc">
+        <dt>Sad Plant Signs</dt>
+        <dd>
+          <ul>
+            <li>Crispy or curling edges : Underwatered</li>
+            <li>Yellowing leaves, wet potting mix : Overwatered</li>
+            <li>Browning, stunted growth : Too much hard water, change to filtered water</li>
+          </ul>
+        </dd>
+      </dl>
+    </div>
 
+    <div>
+      <ul class="accComponent">
         <li>
-          <figure>
-            <a href="detail-largePlants-largeYuccaPlant.html">
-              <img src="images/list-allPlant-largeYuccaPlant.png" alt="Large Yucca Plant"></a>
-            <figcaption>
-              <dl>
-                <dt>
-                  <a href="detail-largePlants-largeYuccaPlant.html">Large Yucca Plant</a>
-                </dt>
-                <dd>Choose Your Planter Style &amp; Color</dd>
-                <dd>$</dd>
-              </dl>
-            </figcaption>
-          </figure>
+          <h3>Our Guarantee</h3>
+          <p>Your plants will arrive in happy, healthy condition-guaranteed. If not, we replace them for free.</p>
+          <p>Simply reach out to us with a photo within 30 days of receiving your order. Learn More About Guarantee.</p>
         </li>
-
         <li>
-          <figure>
-            <a href="detail-lowLight-dracaenaMarginataBraided.html">
-              <img src="images/list-allPlant-dracaenaMarginataBraided.png" alt="Dracaena Marginata Braided"></a>
-            <figcaption>
-              <mark class="naTag">New arrival</mark>
-              <dl>
-                <dt>
-                  <a href="detail-lowLight-dracaenaMarginataBraided.html">Dracaena Marginata Braided</a>
-                </dt>
-                <dd>Statement Plant for Any Space!</dd>
-                <dd>$</dd>
-              </dl>
-            </figcaption>
-          </figure>
+          <h3>Shipping &amp; Returns</h3>
+          <p>All orders placed on TheSill.com receive free standard shipping! There are no minimums that you have to
+            meet to enjoy this perk. View our full shipping policy.</p>
+        </li>
+        <li>
+          <h3>Sending a Gift?</h3>
+          <p>First, lucky them! Second, in the cart, before checkout, you'll find an option to add a gift note. You can
+            rest assured that all orders are shipped without pricing information and include directions on how to access
+            our digital Care Library for plant care instructions.</p>
+          <p>You can also let your gift recipient know something is on the way from yours truly by filling out this form
+            - also linked in your order confirmation email. (Don't worry, we won't spoil what the surprise is or send
+            them any marketing emails.)</p>
         </li>
       </ul>
     </div>
