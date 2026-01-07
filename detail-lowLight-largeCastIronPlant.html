@@ -310,24 +310,26 @@
   <div class="detailContainer">
     <div>
       <aside>
-        <h2 class="cactiSucculentsTitle">
-          <small>Cacti &amp; Succulents</small>
-          Succulent Mix
+        <h2 class="lowLightTitle">
+          <small>Low-Light</small>
+          <small>Large Plants</small>
+          Large Cast Iron Plant
         </h2>
 
         <ul class="detailedImage">
-          <li><img src="images/product-succulentMix_small.png" alt="Succulent Mix"></li>
-          <li><img src="images/product-succulentMix_detail1.png" alt="Detail1"></li>
-          <li><img src="images/product-succulentMix_detail2.png" alt="Detail2"></li>
+          <li><img src="images/product-largeCastIronPlant_large.png" alt="Large Cast Iron Plant"></li>
+          <li><img src="images/product-largeCastIronPlant_detail1.png" alt="Detail1"></li>
+          <li><img src="images/product-largeCastIronPlant_detail2.png" alt="Detail2"></li>
+          <li><img src="images/product-largeCastIronPlant_detail3.png" alt="Detail3"></li>
         </ul>
 
         <figure>
-          <img src="images/product-succulentMix_small.png" alt="Succulent Mix">
+          <img src="images/product-largeCastIronPlant_large.png" alt="Large Cast Iron Plant">
           <figcaption>
             <ol>
               <li>Home</li>
-              <li>Cacti &amp; Succulents</li>
-              <li>Succulent Mix</li>
+              <li>Low-Light</li>
+              <li>Large Cast Iron Plant</li>
             </ol>
           </figcaption>
         </figure>
@@ -421,22 +423,22 @@
 
         <fieldset class="price">
           <legend>Price</legend>
-          <strong>$15</strong>
+          <strong>$100</strong>
         </fieldset>
 
-        <!-- Size 선택 -->
+       <!-- Size 선택 -->
         <fieldset class="size">
           <legend>Size</legend>
           <input type="button" value="Size Guide" data-popup="sizePopup" class="uln">
 
-          <input type="radio" name="size" id="size_s" checked>
+          <!-- <input type="radio" name="size" id="size_s">
           <label for="size_s">Small</label>
 
-          <!-- <input type="radio" name="size" id="size_m">
-          <label for="size_m">Medium</label>
+          <input type="radio" name="size" id="size_m">
+          <label for="size_m">Medium</label> -->
 
-          <input type="radio" name="size" id="size_l">
-          <label for="size_l">Large</label> -->
+          <input type="radio" name="size" id="size_l" checked>
+          <label for="size_l">Large</label>
         </fieldset>
 
         <!-- Planter 선택 -->
@@ -444,20 +446,20 @@
           <legend>Planter</legend>
           <input type="button" value="Style Guide" data-popup="stylePopup" class="uln">
 
-          <input type="radio" name="option1" id="grant" data-option="colorListGrant" checked>
-          <label for="grant">grant</label>
+          <input type="radio" name="option1" id="grant" data-option="colorListGrant">
+          <label for="grant" class="out">grant</label>
 
-          <input type="radio" name="option1" id="pallas" data-option="colorListPallas">
-          <label for="pallas" class="out">pallas</label>
+          <input type="radio" name="option1" id="pallas" data-option="colorListPallas" checked>
+          <label for="pallas">pallas</label>
 
           <input type="radio" name="option1" id="hyde" data-option="colorListHyde">
-          <label for="hyde">hyde</label>
+          <label for="hyde" class="out">hyde</label>
 
           <input type="radio" name="option1" id="mexia" data-option="colorListMexia">
-          <label for="mexia"class="out">mexia</label>
+          <label for="mexia">mexia</label>
 
           <input type="radio" name="option1" id="marianne" data-option="colorListMarianne">
-          <label for="marianne"class="out">marianne</label>
+          <label for="marianne" class="out">marianne</label>
 
           <input type="radio" name="option1" id="growpot" data-option="colorListGrowPot">
           <label for="growpot">grow<span class="space">pot</span></label>
@@ -466,15 +468,15 @@
           <label for="isabella">isabella</label>
         </fieldset>
 
-        <!-- Color 선택 -->
+         <!-- Color 선택 -->
         <fieldset class="color">
           <legend>Color</legend>
 
           <!-- Grant -->
           <ol class="colorPage activated" id="colorListGrant">
             <li>
-              <input type="radio" name="color_grant" id="grant_black" checked>
-              <label for="grant_black" class="black active">black</label>
+              <input type="radio" name="color_grant" id="grant_black">
+              <label for="grant_black" class="black">black</label>
             </li>
             <li>
               <input type="radio" name="color_grant" id="grant_cream">
@@ -506,7 +508,7 @@
             </li>
             <li>
               <input type="radio" name="color_hyde" id="hyde_blush">
-              <label for="hyde_blush" class="blush out">blush</label>
+              <label for="hyde_blush" class="blush">blush</label>
             </li>
             <li>
               <input type="radio" name="color_hyde" id="hyde_cream">
@@ -514,7 +516,7 @@
             </li>
             <li>
               <input type="radio" name="color_hyde" id="hyde_mint">
-              <label for="hyde_mint" class="mint out">mint</label>
+              <label for="hyde_mint" class="mint">mint</label>
             </li>
             <li>
               <input type="radio" name="color_hyde" id="hyde_olive">
@@ -522,7 +524,7 @@
             </li>
             <li>
               <input type="radio" name="color_hyde" id="hyde_terracotta">
-              <label for="hyde_terracotta" class="terracotta out">terracotta</label>
+              <label for="hyde_terracotta" class="terracotta">terracotta</label>
             </li>
           </ol>
 
@@ -570,7 +572,7 @@
             </li>
             <li>
               <input type="radio" name="color_isabella" id="isabella_chocolate">
-              <label for="isabella_chocolate" class="chocolate">chocolate</label>
+              <label for="isabella_chocolate" class="chocolate out">chocolate</label>
             </li>
             <li>
               <input type="radio" name="color_isabella" id="isabella_dustyRose">
@@ -578,11 +580,11 @@
             </li>
             <li>
               <input type="radio" name="color_isabella" id="isabella_roseGold">
-              <label for="isabella_roseGold" class="rosegold">rose<span class="space">gold</span></label>
+              <label for="isabella_roseGold" class="rosegold out">rose<span class="space">gold</span></label>
             </li>
             <li>
               <input type="radio" name="color_isabella" id="isabella_white">
-              <label for="isabella_white" class="white">white</label>
+              <label for="isabella_white" class="white out">white</label>
             </li>
           </ol>
         </fieldset>
@@ -602,13 +604,16 @@
     <div>
       <h2>Plant Description</h2>
       <div>
-        <p>The Succulent Mix contains three varieties of Sempervivum species in one pot. This cute mix is a fun way to
-          bring a pop of color and texture into any room. This colorful succulent is pet friendly and is perfect for a
-          small windowsill or sunny space.</p>
+        <p>The Cast Iron Plant, also known as Aspidistra elatior, is a stunning, low-maintenance houseplant perfect for
+          any home or office. They are prized for their resilience and beautiful, arching foliage. Sized to ship best,
+          our large Cast Iron Plant arrives with room to grow as it adapts to your home's conditions.</p>
         <hr>
         <p>Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range</p>
-        <p>Small plant measures between 1-2" tall from the soil line to the top of the foliage</p>
-        <p>Arrives in nursery grow pot nestled in your planter choice</p>
+        <p>Large plant measures between 16" and 24" tall from the soil line to the top of the foliage</p>
+        <p>Arrives in 10" diameter grow pot</p>
+        <p>Large plants benefit from brighter light to help retain their mature foliage</p>
+        <p>Large plants require less frequent waterings due to their higher volume of soil</p>
+        <p>If you purchase a large plant with a planter, the planter will ship separately</p>
       </div>
     </div>
 

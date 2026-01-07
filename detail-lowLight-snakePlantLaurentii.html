@@ -33,7 +33,7 @@
     <div>
       <h1>
         <a href="index.html">
-          <img src="images/globla-logo.svg"  alt="The Sill">
+          <img src="images/globla-logo.svg" alt="The Sill">
         </a>
       </h1>
       <div>
@@ -310,24 +310,25 @@
   <div class="detailContainer">
     <div>
       <aside>
-        <h2 class="cactiSucculentsTitle">
-          <small>Cacti &amp; Succulents</small>
-          Succulent Mix
+        <h2 class="lowLightTitle">
+          <small>Low-Light</small>
+          <small>Large Plants</small>
+          Snake Plant Laurentii
         </h2>
 
         <ul class="detailedImage">
-          <li><img src="images/product-succulentMix_small.png" alt="Succulent Mix"></li>
-          <li><img src="images/product-succulentMix_detail1.png" alt="Detail1"></li>
-          <li><img src="images/product-succulentMix_detail2.png" alt="Detail2"></li>
+          <li><img src="images/product-snakePlantLaurentii_large.png" alt="Snake Plant Laurentii"></li>
+          <li><img src="images/product-snakePlantLaurentii_detail1.png" alt="Detail1"></li>
+          <li><img src="images/product-snakePlantLaurentii_detail7.png" alt="Detail7"></li>
         </ul>
 
         <figure>
-          <img src="images/product-succulentMix_small.png" alt="Succulent Mix">
+          <img src="images/product-snakePlantLaurentii_large.png" alt="Snake Plant Laurentii">
           <figcaption>
             <ol>
               <li>Home</li>
-              <li>Cacti &amp; Succulents</li>
-              <li>Succulent Mix</li>
+              <li>Low-Light</li>
+              <li>Snake Plant Laurentii</li>
             </ol>
           </figcaption>
         </figure>
@@ -421,7 +422,11 @@
 
         <fieldset class="price">
           <legend>Price</legend>
-          <strong>$15</strong>
+          <strong>$36</strong>
+          <div>
+            <mark class="utoTagPrice">20% off</mark>
+            <del>$45</del>
+          </div>
         </fieldset>
 
         <!-- Size 선택 -->
@@ -429,14 +434,14 @@
           <legend>Size</legend>
           <input type="button" value="Size Guide" data-popup="sizePopup" class="uln">
 
-          <input type="radio" name="size" id="size_s" checked>
+          <!-- <input type="radio" name="size" id="size_s">
           <label for="size_s">Small</label>
 
-          <!-- <input type="radio" name="size" id="size_m">
-          <label for="size_m">Medium</label>
+          <input type="radio" name="size" id="size_m">
+          <label for="size_m">Medium</label> -->
 
-          <input type="radio" name="size" id="size_l">
-          <label for="size_l">Large</label> -->
+          <input type="radio" name="size" id="size_l" checked>
+          <label for="size_l">Large</label>
         </fieldset>
 
         <!-- Planter 선택 -->
@@ -444,20 +449,20 @@
           <legend>Planter</legend>
           <input type="button" value="Style Guide" data-popup="stylePopup" class="uln">
 
-          <input type="radio" name="option1" id="grant" data-option="colorListGrant" checked>
-          <label for="grant">grant</label>
+          <input type="radio" name="option1" id="grant" data-option="colorListGrant">
+          <label for="grant" class="out">grant</label>
 
-          <input type="radio" name="option1" id="pallas" data-option="colorListPallas">
-          <label for="pallas" class="out">pallas</label>
+          <input type="radio" name="option1" id="pallas" data-option="colorListPallas" checked>
+          <label for="pallas">pallas</label>
 
           <input type="radio" name="option1" id="hyde" data-option="colorListHyde">
-          <label for="hyde">hyde</label>
+          <label for="hyde" class="out">hyde</label>
 
           <input type="radio" name="option1" id="mexia" data-option="colorListMexia">
-          <label for="mexia"class="out">mexia</label>
+          <label for="mexia">mexia</label>
 
           <input type="radio" name="option1" id="marianne" data-option="colorListMarianne">
-          <label for="marianne"class="out">marianne</label>
+          <label for="marianne" class="out">marianne</label>
 
           <input type="radio" name="option1" id="growpot" data-option="colorListGrowPot">
           <label for="growpot">grow<span class="space">pot</span></label>
@@ -473,8 +478,8 @@
           <!-- Grant -->
           <ol class="colorPage activated" id="colorListGrant">
             <li>
-              <input type="radio" name="color_grant" id="grant_black" checked>
-              <label for="grant_black" class="black active">black</label>
+              <input type="radio" name="color_grant" id="grant_black">
+              <label for="grant_black" class="black">black</label>
             </li>
             <li>
               <input type="radio" name="color_grant" id="grant_cream">
@@ -506,7 +511,7 @@
             </li>
             <li>
               <input type="radio" name="color_hyde" id="hyde_blush">
-              <label for="hyde_blush" class="blush out">blush</label>
+              <label for="hyde_blush" class="blush">blush</label>
             </li>
             <li>
               <input type="radio" name="color_hyde" id="hyde_cream">
@@ -514,7 +519,7 @@
             </li>
             <li>
               <input type="radio" name="color_hyde" id="hyde_mint">
-              <label for="hyde_mint" class="mint out">mint</label>
+              <label for="hyde_mint" class="mint">mint</label>
             </li>
             <li>
               <input type="radio" name="color_hyde" id="hyde_olive">
@@ -522,7 +527,7 @@
             </li>
             <li>
               <input type="radio" name="color_hyde" id="hyde_terracotta">
-              <label for="hyde_terracotta" class="terracotta out">terracotta</label>
+              <label for="hyde_terracotta" class="terracotta">terracotta</label>
             </li>
           </ol>
 
@@ -558,7 +563,8 @@
           <ol class="colorPage" id="colorListGrowPot">
             <li>
               <input type="radio" name="color_gp" id="growPot_nodecorativePot" disabled>
-              <label for="growPot_nodecorativePot" class="nodecorativepot">nodecorative<span class="space">pot</span></label>
+              <label for="growPot_nodecorativePot" class="nodecorativepot">Nodecorative<span
+                  class="space">Pot</span></label>
             </li>
           </ol>
 
@@ -570,7 +576,7 @@
             </li>
             <li>
               <input type="radio" name="color_isabella" id="isabella_chocolate">
-              <label for="isabella_chocolate" class="chocolate">chocolate</label>
+              <label for="isabella_chocolate" class="chocolate out">chocolate</label>
             </li>
             <li>
               <input type="radio" name="color_isabella" id="isabella_dustyRose">
@@ -578,11 +584,11 @@
             </li>
             <li>
               <input type="radio" name="color_isabella" id="isabella_roseGold">
-              <label for="isabella_roseGold" class="rosegold">rose<span class="space">gold</span></label>
+              <label for="isabella_roseGold" class="rosegold out">rose<span class="space">gold</span></label>
             </li>
             <li>
               <input type="radio" name="color_isabella" id="isabella_white">
-              <label for="isabella_white" class="white">white</label>
+              <label for="isabella_white" class="white out">white</label>
             </li>
           </ol>
         </fieldset>
@@ -602,14 +608,50 @@
     <div>
       <h2>Plant Description</h2>
       <div>
-        <p>The Succulent Mix contains three varieties of Sempervivum species in one pot. This cute mix is a fun way to
-          bring a pop of color and texture into any room. This colorful succulent is pet friendly and is perfect for a
-          small windowsill or sunny space.</p>
+        <p>The Snake Plant Laurentii, or Sansevieria trifasciata 'Laurentii', is a succulent plant characterized by its
+          upright sword-like leaves with vibrant yellow edges. It is popular for its incredibly easy-going nature (it
+          can tolerate low light and drought) and its air-purifying capabilities. The easiest way to kill this plant is
+          to overcare for it.</p>
         <hr>
         <p>Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range</p>
-        <p>Small plant measures between 1-2" tall from the soil line to the top of the foliage</p>
-        <p>Arrives in nursery grow pot nestled in your planter choice</p>
+        <P>Large plant measures between 22-36" tall from the soil line to the top of the foliage</P>
+        <P>Small and medium plants purchased with a planter will arrive potted in your planter of choice. If you
+          purchase the grow pot option, plants will arrive in a plastic nursery pot.</P>
+        <P>Large plants arrive in a nursery grow pot; planters will ship separately.</P>
       </div>
+    </div>
+
+    <div>
+      <h2>Plant Care</h2>
+      <dl class="nativeArea_pc">
+        <dt>Native Area</dt>
+        <dd>
+          <p>Snake Plant Laurentii</p>
+          <p>Africa, Madagascar, Asia</p>
+      </dl>
+      <dl class="light_pc">
+        <dt>Light</dt>
+        <dd>Thrives in medium to bright indirect light, but can tolerate low indirect light.</dd>
+      </dl>
+      <dl class="watering_pc">
+        <dt>Watering</dt>
+        <dd>Water every 2-3 weeks, allowing soil to dry out between waterings. Expect to water more often in brighter
+          light and less often in lower light.</dd>
+      </dl>
+      <dl class="story_pc">
+        <dt>Story</dt>
+        <dd>You might be surprised to know the Snake Plant is a drought tolerant succulent.</dd>
+      </dl>
+
+      <dl class="sadPlantSigns_pc">
+        <dt>Sad Plant Signs</dt>
+        <dd>
+          <ul>
+            <li>Wrinkled leaves, dry potting mix : Thirsty plant, underwatered</li>
+            <li>Mushy leaves, wet potting mix : Overwatered</li>
+          </ul>
+        </dd>
+      </dl>
     </div>
 
     <div>
@@ -640,7 +682,7 @@
 
   <footer>
     <div>
-      <h2><img src="images/globla-logo.svg"  alt="Bye. The Sill"></h2>
+      <h2><img src="images/globla-logo.svg" alt="Bye. The Sill"></h2>
       <ul>
         <li><a href="https://www.facebook.com/TheSillNYC/" target="_blank">Facebook</a></li>
         <li><a href="https://www.instagram.com/thesill/" target="_blank">Instagram</a></li>
