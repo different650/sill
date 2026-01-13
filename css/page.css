@@ -8909,25 +8909,7 @@ color: #4d7a42; */
 
 	/* Account Login */
 
-	.userContainer .accountLogin>p {
-		font-family: "Hanken Grotesk";
-		font-size: 12px;
-		font-weight: 400;
-	}
-
-	.userContainer .accountLogin>p:first-of-type {
-		margin-bottom: 20px;
-	}
-
-	.userContainer .accountLogin>p:first-of-type a {
-		margin-left: 10px;
-	}
-
-	.userContainer .accountLogin>button[type="submit"],
-	.userContainer .accountLogin>hr {
-		margin-bottom: 20px;
-	}
-
+	/* 
 	.userContainer .accountLogin>a {
 		font-family: "Hanken Grotesk";
 		font-size: 12px;
@@ -8943,7 +8925,48 @@ color: #4d7a42; */
 
 	.userContainer .accountLogin>p:last-of-type a {
 		margin-left: 10px;
-	}
+	} */
+	 .userContainer .accountLogin {
+  display: flex;
+  flex-direction: column;
+}
+
+.userContainer .accountLogin > p {
+  font-family: "Hanken Grotesk";
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.userContainer .accountLogin > p:first-of-type {
+  margin-bottom: 20px;
+}
+
+.userContainer .accountLogin > p:first-of-type a {
+  margin-left: 10px;
+}
+
+.userContainer .accountLogin > button[type="submit"],
+.userContainer .accountLogin > hr {
+  margin-bottom: 20px;
+}
+
+.userContainer .accountLogin > a {
+  font-family: "Hanken Grotesk";
+  font-size: 12px;
+  font-weight: 400;
+  align-self: flex-end;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+
+.userContainer .accountLogin > p:last-of-type {
+  align-self: flex-end;
+}
+
+.userContainer .accountLogin > p:last-of-type a {
+  margin-left: 10px;
+}
+
 
 	/* Reset Your Password */
 	.userContainer .resetYourPassword {
