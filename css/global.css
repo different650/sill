@@ -404,9 +404,6 @@ footer>div:nth-of-type(2)>div:first-of-type>form>input[type="email"]::placeholde
 		padding: 0 15px;
 	}
 
-	/* #home>div>div>input[type="search"].show {
-  display: inline-block;
-} */
 	#home>div>div>input[type="search"]::placeholder {
 		font-size: 12px;
 		font-weight: 400;
@@ -1193,7 +1190,6 @@ footer>div:nth-of-type(2)>div:first-of-type>form>input[type="email"]::placeholde
 		cursor: pointer;
 		display: inline-block;
 		width: 100%;
-		/* height: 36px; */
 		text-align: center;
 		position: relative;
 	}
@@ -1239,8 +1235,6 @@ footer>div:nth-of-type(2)>div:first-of-type>form>input[type="email"]::placeholde
 		font-weight: 700;
 		display: inline-block;
 		cursor: pointer;
-		/* height: 40px; */
-		/* line-height: 40px; */
 		box-sizing: border-box;
 	}
 
@@ -1806,21 +1800,6 @@ footer>div:nth-of-type(2)>div:first-of-type>form>input[type="email"]::placeholde
 
 	.cartPanelFilled>div:nth-of-type(3) #giftMessage:checked+label+#message {
 		display: block;
-	}
-	/* .cartPanelFilled>div:nth-of-type(2) {
-		padding: 0 20px;
-	}
-
-	.cartPanelFilled>div:nth-of-type(2)>p:first-of-type {
-		font-size: 18px;
-		font-weight: 500;
-		padding-bottom: 35px;
-	}
-
-	.cartPanelFilled>div:nth-of-type(2)>p:last-of-type {
-		font-size: 16px;
-		font-weight: 400;
-		padding-bottom: 25px;
 	}
 
 	.cartPanelFilled>div:nth-of-type(2)>a, */
@@ -2877,21 +2856,6 @@ footer>div:nth-of-type(2)>div:first-of-type>form>input[type="email"]::placeholde
 	.cartPanelFilled>div:nth-of-type(3) #giftMessage:checked+label+#message {
 		display: block;
 	}
-	/* .cartPanelFilled>div:nth-of-type(2) {
-		padding: 0 15px;
-	}
-
-	.cartPanelFilled>div:nth-of-type(2)>p:first-of-type {
-		font-size: 16px;
-		font-weight: 500;
-		padding-bottom: 25px;
-	}
-
-	.cartPanelFilled>div:nth-of-type(2)>p:last-of-type {
-		font-size: 12px;
-		font-weight: 400;
-		padding-bottom: 20px;
-	}
 
 	.cartPanelFilled>div:nth-of-type(2)>a, */
 	.cartPanelFilled>div:last-of-type>a {
@@ -3041,129 +3005,6 @@ footer>div:nth-of-type(2)>div:first-of-type>form>input[type="email"]::placeholde
 	nav ul>li>div>div:last-of-type {
 		display: none;
 	}
-
-	/* 
-	#home nav>ul {
-		text-align: center;
-	}
-
-	#home nav>ul>li {
-		display: inline-block;
-		padding: 0 2.3%;
-	}
-
-	#home nav>ul>li>b {
-		display: block;
-		font-size: 12px;
-		font-weight: 700;
-		line-height: 32px;
-		color: #fff;
-		cursor: pointer;
-	}
-
-	#home nav>ul>li:hover>b {
-		color: #b9c55d;
-	}
-
-	#home nav>ul>li>div {
-		display: none;
-		position: absolute;
-		padding: 50px 11.46%;
-		width: 100%;
-		background: #f3ebe4;
-		border-bottom: 1px solid #222;
-		left: 0;
-	}
-
-	#home nav>ul>li:hover>div {
-		display: block;
-	}
-
-	#home nav>ul>li>div:after {
-		content: "";
-		display: block;
-		clear: both;
-	}
-
-	#home nav>ul>li>div>div:first-of-type {
-		float: left;
-		width: 30.4%;
-		padding-right: 3.38%;
-	}
-
-	#home nav>ul>li>div>div:first-of-type>strong {
-		display: block;
-		text-align: left;
-		font-size: 32px;
-		font-weight: 500;
-		margin-bottom: 40px;
-	}
-
-	#home nav>ul>li>div>div:first-of-type>ol>li {
-		list-style: none;
-		font-size: 12px;
-		font-weight: 500;
-		text-align: left;
-	}
-
-	#home nav>ul>li>div>div:first-of-type>ol>li:not(:last-of-type) {
-		margin-bottom: 20px;
-	}
-
-	#home nav>ul>li>div>div:last-of-type {
-		display: flex;
-		width: 69.6%;
-		align-items: center;
-	}
-
-	#home nav>ul>li>div>div:last-of-type::before {
-		content: "";
-		width: 1px;
-		height: 180px;
-		background-color: #222;
-		margin-right: 4.85%;
-	}
-
-	#home nav>ul>li>div>div:last-of-type>figure {
-		width: 31.07%;
-		max-width: 320px;
-		position: relative;
-		display: none;
-	}
-
-	#home nav>ul>li>div>div:last-of-type>figure:not(:last-of-type) {
-		margin-right: 0.97%;
-	}
-
-	#home nav>ul>li>div>div:last-of-type>figure>a {
-		display: block;
-		width: 100%;
-	}
-
-	#home nav>ul>li>div>div:last-of-type>figure>a>img {
-		display: block;
-		width: 100%;
-		min-height: 210px;
-		max-height: 280px;
-		object-fit: cover;
-	}
-
-	#home nav>ul>li>div>div:last-of-type>figure>figcaption {
-		position: absolute;
-		background: #222;
-		color: #fff;
-		padding: 15px;
-		font-size: 12px;
-		font-weight: 700;
-		height: 38px;
-		width: 100%;
-		bottom: 0;
-		pointer-events: none;
-	}
-
-	#home nav>ul>li>div>div:last-of-type>figure:hover figcaption {
-		color: #b9c55d;
-	} */
 
 	/* --footer-- */
 	footer {
@@ -3353,5 +3194,4 @@ footer>div:nth-of-type(2)>div:first-of-type>form>input[type="email"]::placeholde
 		margin: 0 3.41%;
 		margin-bottom: 20px;
 	}
-
 }

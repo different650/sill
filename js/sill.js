@@ -15,9 +15,7 @@ $(function () {
     backControl();
     tabMenu();
     accControl(".accComponent li h3");
-
     imgSwap();
-    // colorTabUI();
     productControl();
     countControl();
 });
@@ -85,9 +83,6 @@ function mobileFooter(target) {
     });
 }
 
-
-
-
 // password
 function eyeIcon() {
     // ? target.attr() = 대상의 모든 attr을 불러와 / target.attr("attr이름") = 대상의 해당 attr을 불러와/
@@ -143,10 +138,6 @@ function nestedPopup() {
     //  2단 한단 닫힘
     // Jquery - siblings, find, parents, child...
 }
-
-
-
-
 
 // list fiter
 function filterControl() {
@@ -226,10 +217,6 @@ function joySlider() {
     });
 }
 
-
-
-
-
 // back button
 function backControl() {
     $(".backBtn").click(function () {
@@ -257,9 +244,7 @@ function accControl(target) {
 }
 
 // 이미 최상단에 $(function(){}) = $(document).ready(function(){}) 이기 때문에 실행문은 위에 다 정리해서 놓으면 되고 외 function들만 밖에 위치 해야함
-
 // 그 이후에 남아있는 잔여 script기능 구현해오되 잘 안되는 구간은 따로 정리해서 가져오기
-
 
 // detailed Image
 function imgSwap() {
@@ -275,15 +260,6 @@ function imgSwap() {
 
     });
 }
-
-// function colorTabUI() {
-//     $('input[name="option1"]').on("click", function () {
-//         var colorTab = $(this).attr("data-color");
-
-//         $(".colorPage").removeClass("activated");
-//         $("#" + colorTab).addClass("activated");
-//     });
-// }
 
 function productControl() {
 
@@ -326,26 +302,6 @@ function productControl() {
     });
 }
 
-
-//참고
-//   var $img =$(".showProd img").attr("src");
-//     var $firstLoad = $(".prodColor div button:first-child img").attr("alt");
-//     var $tuneName = $(".showProd img").attr("src").replace(".jpg", $firstLoad + ".jpg");
-//     $(".showProd img").attr("src", $tuneName);
-
-//     $(".prodColor div button img").click(function(){
-//         $firstLoad = $(this).attr("alt");
-//         $tuneName = $img.replace(".jpg", $firstLoad + ".jpg");
-//         $(".showProd img").attr("src", $tuneName);
-
-//         $(".prodColor div button").click(function(){
-//             $(this).siblings().removeClass("active");
-//             $(this).addClass("active");
-//         });
-
-
-
-
 function countControl() {
     // 1. 변수 - 현재 #qtyValue의 value를 가져와 담는다.
     // 2. 클릭이벤트 2개 -> +, -
@@ -372,34 +328,3 @@ function countControl() {
     });
   });
 }
-
-
-// function qtyComponent(){
-//     var $countSet = $(".qtyComponent span");
-
-//     $(".qtyComponent input").click(function(){
-//         var $countText = parseInt($($countSet).text());
-        
-//         if($(this).val() == "+"){
-//             if($countText < 99){
-//                 $countText++;
-//             }
-//         }else if($(this).val() == "-"){
-//             if(1 < $countText){
-//                 $countText--;
-//             }
-//         }
-//         $countSet.text($countText);
-//     });
-// }
-// function tooltipToggle(target) {
-//   $(target).hover(
-//     function() { $(this).next(".tooltip").show(); },
-//     function() { $(this).next(".tooltip").hide(); }
-//   );
-// }
-
-
-
-
-
