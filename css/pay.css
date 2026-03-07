@@ -1,4 +1,4 @@
-	.userAddresses>div:first-of-type>h2,
+  .userAddresses>div:first-of-type>h2, 
 	.userAddresses>div:last-of-type>section>form legend,
 	.userAddresses>div:last-of-type>section>form h3,
 	.userAddresses>div:last-of-type>section>form ul li label:not([for="creditCard"]) {
@@ -6,7 +6,7 @@
 		text-transform: uppercase;
 	}
 
-	.userAddresses>div:first-of-type>p,
+  .userAddresses>div:first-of-type>p,
 	.userAddresses>div:last-of-type>section>form>div>span,
 	.userAddresses>div:last-of-type>section>form>fieldset>input[type="email"],
 	.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(11) label,
@@ -28,11 +28,7 @@
 			margin: 162px 0 150px;
 		}
 
-		.userAddresses>div:not(:first-of-type)
-
-		/* ,
-		.legalContainer  */
-			{
+		.userAddresses>div:not(:first-of-type) {
 			max-width: 1480px;
 			padding: 0 2%;
 			margin: 0 auto;
@@ -43,16 +39,6 @@
 			padding: 0 2%;
 			margin: 0 auto;
 		}
-
-
-
-
-
-
-
-
-
-
 
 		/* Guarantee Section */
 		.userAddresses>div:first-of-type {

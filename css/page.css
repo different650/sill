@@ -551,6 +551,7 @@
 		.listContainer .filterBtn.active>.filterClick>span:nth-of-type(3)::before {
 			left: 0;
 		}
+
 		/* filterBtn fin */
 
 		.listContainer .filterWrap .uln {
@@ -976,6 +977,7 @@
 			background: url(../images/icon_right_green.png) no-repeat;
 			background-size: 10px 15px;
 		}
+
 		/* slider fin*/
 
 		.listContainer>div:last-of-type h2 {
@@ -2047,6 +2049,7 @@
 			line-height: 11px;
 			margin-bottom: 25px;
 		}
+
 		/* authHeader fin*/
 
 		.userContainer form ul li {
@@ -3071,375 +3074,1602 @@
 		}
 
 		/* --customerServic-- */
-	.backBtn {
-		border: none;
-		background-image: url(../images/icon_left_black.png);
-		background-repeat: no-repeat;
-		background-position: left 50px;
-		background-size: 6px 11px;
-		text-indent: 15px;
-		cursor: pointer;
-		padding: 0;
-		padding-top: 50px;
-		font-size: 14px;
-		font-weight: 500;
-		font-family: "Dosis";
-		text-transform: uppercase;
-		line-height: 11px;
-		background-color: transparent;
-		margin-bottom: 25px;
-		display: block;
-	}
+		.backBtn {
+			border: none;
+			background-image: url(../images/icon_left_black.png);
+			background-repeat: no-repeat;
+			background-position: left 50px;
+			background-size: 6px 11px;
+			text-indent: 15px;
+			cursor: pointer;
+			padding: 0;
+			padding-top: 50px;
+			font-size: 14px;
+			font-weight: 500;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			line-height: 11px;
+			background-color: transparent;
+			margin-bottom: 25px;
+			display: block;
+		}
 
-	.tabMenuAccordionContainer {
-		margin: 162px auto 150px;
-	}
+		.tabMenuAccordionContainer {
+			margin: 162px auto 150px;
+		}
 
-	.tabMenuAccordionContainer>*:not(.faqVisual):not(.shippingHandingVisual) {
-		max-width: 1480px;
-		padding: 0 2%;
-		margin: 0 auto;
-	}
+		.tabMenuAccordionContainer>*:not(.faqVisual):not(.shippingHandingVisual) {
+			max-width: 1480px;
+			padding: 0 2%;
+			margin: 0 auto;
+		}
 
-	.dayContainer,
-	.contactUsContainer {
-		max-width: 1480px;
-		padding: 0 2%;
-		margin: 162px auto 150px;
-	}
+		.dayContainer,
+		.contactUsContainer {
+			max-width: 1480px;
+			padding: 0 2%;
+			margin: 162px auto 150px;
+		}
 
 		/* faq */
-	div[id] {
-		display: none;
-	}
+		div[id] {
+			display: none;
+		}
 
-	div[id].activated {
-		display: block;
-	}
+		div[id].activated {
+			display: block;
+		}
 
-	.tabMenuAccordionContainer .faqWrapper .tabMenu,
-	.tabMenuAccordionContainer .shippingHandingWrapper .tabMenu {
-		display: flex;
-		justify-content: space-around;
-		font-family: "Overpass";
-		text-transform: uppercase;
-		font-size: 12px;
-		font-weight: 600;
-		margin-bottom: 70px;
-	}
+		.tabMenuAccordionContainer .faqWrapper .tabMenu,
+		.tabMenuAccordionContainer .shippingHandingWrapper .tabMenu {
+			display: flex;
+			justify-content: space-around;
+			font-family: "Overpass";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 600;
+			margin-bottom: 70px;
+		}
 
-	.tabMenuAccordionContainer .faqWrapper .tabMenu li,
-	.tabMenuAccordionContainer .shippingHandingWrapper .tabMenu li {
-		list-style: none;
-		cursor: pointer;
-	}
+		.tabMenuAccordionContainer .faqWrapper .tabMenu li,
+		.tabMenuAccordionContainer .shippingHandingWrapper .tabMenu li {
+			list-style: none;
+			cursor: pointer;
+		}
 
-	.tabMenuAccordionContainer .faqWrapper .tabMenu li.activated,
-	.tabMenuAccordionContainer .shippingHandingWrapper .tabMenu li.activated {
-		background: transparent;
-		padding: 0 0 5px 0;
-		border: none;
-		border-bottom: solid #222 1px;
-		display: inline-block;
-	}
+		.tabMenuAccordionContainer .faqWrapper .tabMenu li.activated,
+		.tabMenuAccordionContainer .shippingHandingWrapper .tabMenu li.activated {
+			background: transparent;
+			padding: 0 0 5px 0;
+			border: none;
+			border-bottom: solid #222 1px;
+			display: inline-block;
+		}
 
-	.tabMenuAccordionContainer>div:not(:first-of-type)>h2 {
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 32px;
-		line-height: 24px;
-		font-weight: 400;
-		padding-bottom: 35px;
-		border-bottom: 1px solid #222;
-		margin-bottom: 30px;
-	}
+		.tabMenuAccordionContainer>div:not(:first-of-type)>h2 {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 32px;
+			line-height: 24px;
+			font-weight: 400;
+			padding-bottom: 35px;
+			border-bottom: 1px solid #222;
+			margin-bottom: 30px;
+		}
 
-	/* shippingHandingWrapper */
-	.accComponent li ol {
-		list-style-position: inside;
-		padding: 0 30px;
-		font-family: "Hanken Grotesk";
-		font-size: 18px;
-		font-weight: 400;
-	}
+		/* shippingHandingWrapper */
+		.accComponent li ol {
+			list-style-position: inside;
+			padding: 0 30px;
+			font-family: "Hanken Grotesk";
+			font-size: 18px;
+			font-weight: 400;
+		}
 
-	.accComponent li ol p {
-		margin-bottom: 20px;
-	}
+		.accComponent li ol p {
+			margin-bottom: 20px;
+		}
 
-	.accComponent li ol li:first-of-type {
-		margin-bottom: 10px;
-	}
+		.accComponent li ol li:first-of-type {
+			margin-bottom: 10px;
+		}
 
-	.accComponent li ol li:last-of-type {
-		margin-bottom: 30px;
-	}
+		.accComponent li ol li:last-of-type {
+			margin-bottom: 30px;
+		}
 
-	.accComponent li ol {
-		display: none;
-	}
+		.accComponent li ol {
+			display: none;
+		}
 
-	/* dayContainer */
-	.dayContainer section {
-		display: grid;
-		grid-template-columns: 50% 42%;
-		grid-template-rows: 26px auto;
-		column-gap: 8%;
-		row-gap: 45px;
-	}
+		/* dayContainer */
+		.dayContainer section {
+			display: grid;
+			grid-template-columns: 50% 42%;
+			grid-template-rows: 26px auto;
+			column-gap: 8%;
+			row-gap: 45px;
+		}
 
-	.dayContainer section img {
-		grid-column: 1 / 2;
-		grid-row: 1 / 3;
-		width: 100%;
-		min-height: 530px;
-		aspect-ratio: 740 / 560;
-		object-fit: cover;
-		object-position: center -20px;
-	}
+		.dayContainer section img {
+			grid-column: 1 / 2;
+			grid-row: 1 / 3;
+			width: 100%;
+			min-height: 530px;
+			aspect-ratio: 740 / 560;
+			object-fit: cover;
+			object-position: center -20px;
+		}
 
-	.dayContainer section h2 {
-		grid-column: 2 / 3;
-		grid-row: 1 / 2;
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 34px;
-		font-weight: 500;
-		line-height: 26px;
-	}
+		.dayContainer section h2 {
+			grid-column: 2 / 3;
+			grid-row: 1 / 2;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 34px;
+			font-weight: 500;
+			line-height: 26px;
+		}
 
-	.dayContainer section div {
-		grid-column: 2 / 3;
-		grid-row: 2 / 3;
-	}
+		.dayContainer section div {
+			grid-column: 2 / 3;
+			grid-row: 2 / 3;
+		}
 
-	.dayContainer section div p {
-		font-family: "Hanken Grotesk";
-		font-size: 18px;
-		font-weight: 400;
-		line-height: 22px;
-		margin-bottom: 20px;
-	}
+		.dayContainer section div p {
+			font-family: "Hanken Grotesk";
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 22px;
+			margin-bottom: 20px;
+		}
 
-	.dayContainer section div p strong {
-		font-weight: 700;
-	}
+		.dayContainer section div p strong {
+			font-weight: 700;
+		}
 
-	.dayContainer section div p:last-of-type {
-		margin-bottom: 0;
-	}
+		.dayContainer section div p:last-of-type {
+			margin-bottom: 0;
+		}
 
-	/* contactUsContainer */
-	.contactUsContainer section {
-		display: inline-block;
-		width: 47.3%;
-		vertical-align: top;
-	}
+		/* contactUsContainer */
+		.contactUsContainer section {
+			display: inline-block;
+			width: 47.3%;
+			vertical-align: top;
+		}
 
-	.contactUsContainer>h2 {
-		display: none;
-	}
+		.contactUsContainer>h2 {
+			display: none;
+		}
 
-	.contactUsContainer section:first-of-type {
-		margin-right: 5.1%;
-		top: 0;
-	}
+		.contactUsContainer section:first-of-type {
+			margin-right: 5.1%;
+			top: 0;
+		}
 
-	.contactUsContainer section:first-of-type h2,
-	.contactUsContainer section:last-of-type h2 {
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 34px;
-		font-weight: 500;
-		line-height: 26px;
-		margin-bottom: 35px;
-	}
+		.contactUsContainer section:first-of-type h2,
+		.contactUsContainer section:last-of-type h2 {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 34px;
+			font-weight: 500;
+			line-height: 26px;
+			margin-bottom: 35px;
+		}
 
-	.contactUsContainer section:first-of-type p,
-	.contactUsContainer section:last-of-type p {
-		font-family: "Hanken Grotesk";
-		font-size: 18px;
-		font-weight: 400;
-		line-height: 22px;
-		margin-bottom: 26px;
-	}
+		.contactUsContainer section:first-of-type p,
+		.contactUsContainer section:last-of-type p {
+			font-family: "Hanken Grotesk";
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 22px;
+			margin-bottom: 26px;
+		}
 
-	.contactUsContainer section:first-of-type ul li {
-		list-style: none;
-	}
+		.contactUsContainer section:first-of-type ul li {
+			list-style: none;
+		}
 
-	.contactUsContainer section:first-of-type ul li h3 {
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 20px;
-		font-weight: 600;
-		line-height: 15px;
-		margin-bottom: 25px;
-	}
+		.contactUsContainer section:first-of-type ul li h3 {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 20px;
+			font-weight: 600;
+			line-height: 15px;
+			margin-bottom: 25px;
+		}
 
-	.contactUsContainer section:last-of-type>form>button {
-		width: 48.5%;
-		border-radius: 3px;
-		border: 1px solid #4d7a42;
-		color: #4d7a42;
-		font-family: "Overpass";
-		text-transform: uppercase;
-		font-size: 12px;
-		font-weight: 700;
-		cursor: pointer;
-		background: none;
-		padding: 15px;
-		text-align: center;
-		margin-bottom: 30px;
-	}
+		.contactUsContainer section:last-of-type>form>button {
+			width: 48.5%;
+			border-radius: 3px;
+			border: 1px solid #4d7a42;
+			color: #4d7a42;
+			font-family: "Overpass";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 700;
+			cursor: pointer;
+			background: none;
+			padding: 15px;
+			text-align: center;
+			margin-bottom: 30px;
+		}
 
-	.contactUsContainer section:last-of-type>form>button::before {
-		content: "";
-		display: block;
-		width: 50px;
-		height: 50px;
-		background-size: contain;
-		background-repeat: no-repeat;
-		margin: 0 auto 10px;
-	}
+		.contactUsContainer section:last-of-type>form>button::before {
+			content: "";
+			display: block;
+			width: 50px;
+			height: 50px;
+			background-size: contain;
+			background-repeat: no-repeat;
+			margin: 0 auto 10px;
+		}
 
-	.contactUsContainer section:last-of-type>form>button:first-of-type:before {
-		background-image: url(../images/icon_trackOrder.svg);
-	}
+		.contactUsContainer section:last-of-type>form>button:first-of-type:before {
+			background-image: url(../images/icon_trackOrder.svg);
+		}
 
-	.contactUsContainer section:last-of-type>form>button:last-of-type:before {
-		background-image: url(../images/icon_reportIssue.svg);
-	}
+		.contactUsContainer section:last-of-type>form>button:last-of-type:before {
+			background-image: url(../images/icon_reportIssue.svg);
+		}
 
-	.contactUsContainer section:last-of-type>form>button:first-of-type {
-		margin-right: 2.3%;
-	}
+		.contactUsContainer section:last-of-type>form>button:first-of-type {
+			margin-right: 2.3%;
+		}
 
-	.contactUsContainer section:last-of-type fieldset legend {
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 20px;
-		font-weight: 500;
-		margin-bottom: 30px;
-	}
+		.contactUsContainer section:last-of-type fieldset legend {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 20px;
+			font-weight: 500;
+			margin-bottom: 30px;
+		}
 
-	.contactUsContainer section:last-of-type ul li {
-		list-style: none;
-	}
+		.contactUsContainer section:last-of-type ul li {
+			list-style: none;
+		}
 
-	.contactUsContainer section:last-of-type label {
-		display: inline-block;
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 14px;
-		font-weight: 500;
-		line-height: 11px;
-		padding-top: 10px;
-		margin-bottom: 10px;
-	}
+		.contactUsContainer section:last-of-type label {
+			display: inline-block;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 11px;
+			padding-top: 10px;
+			margin-bottom: 10px;
+		}
 
-	.contactUsContainer section:last-of-type label small {
-		color: #dd9d9d;
-	}
+		.contactUsContainer section:last-of-type label small {
+			color: #dd9d9d;
+		}
 
-	.contactUsContainer section:last-of-type input {
-		width: 100%;
-		height: 40px;
-		line-height: 11px;
-		padding: 15px;
-		margin-bottom: 20px;
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 12px;
-		font-weight: 600;
-		border: none;
-		border-radius: 3px;
-	}
+		.contactUsContainer section:last-of-type input {
+			width: 100%;
+			height: 40px;
+			line-height: 11px;
+			padding: 15px;
+			margin-bottom: 20px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 600;
+			border: none;
+			border-radius: 3px;
+		}
 
-	.contactUsContainer section:last-of-type select {
-		width: 100%;
-		height: 40px;
-		line-height: 11px;
-		padding: 15px;
-		margin-bottom: 20px;
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 12px;
-		font-weight: 600;
-		border: none;
-		border-radius: 3px;
-		appearance: none;
-		background: #fff url(../images/icon_below.png) no-repeat right 15px center;
-		background-size: 8px 5px;
-	}
+		.contactUsContainer section:last-of-type select {
+			width: 100%;
+			height: 40px;
+			line-height: 11px;
+			padding: 15px;
+			margin-bottom: 20px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 600;
+			border: none;
+			border-radius: 3px;
+			appearance: none;
+			background: #fff url(../images/icon_below.png) no-repeat right 15px center;
+			background-size: 8px 5px;
+		}
 
-	.contactUsContainer section:last-of-type textarea {
-		width: 100%;
-		height: 120px;
-		line-height: 11px;
-		padding: 15px;
-		margin-bottom: 65px;
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 12px;
-		font-weight: 600;
-		border: none;
-		border-radius: 3px;
-	}
+		.contactUsContainer section:last-of-type textarea {
+			width: 100%;
+			height: 120px;
+			line-height: 11px;
+			padding: 15px;
+			margin-bottom: 65px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 600;
+			border: none;
+			border-radius: 3px;
+		}
 
-	.contactUsContainer section:last-of-type form fieldset>input {
-		display: none;
-	}
+		.contactUsContainer section:last-of-type form fieldset>input {
+			display: none;
+		}
 
-	.contactUsContainer section:last-of-type form fieldset>label {
-		display: block;
-		width: 100%;
-		height: 40px;
-		border-radius: 3px;
-		border: 1px solid #4d7a42;
-		color: #4d7a42;
-		font-family: "Overpass";
-		text-transform: uppercase;
-		font-size: 12px;
-		font-weight: 700;
-		position: relative;
-		cursor: pointer;
-		background: none;
-		padding: 10px 15px;
-		text-align: center;
-	}
+		.contactUsContainer section:last-of-type form fieldset>label {
+			display: block;
+			width: 100%;
+			height: 40px;
+			border-radius: 3px;
+			border: 1px solid #4d7a42;
+			color: #4d7a42;
+			font-family: "Overpass";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 700;
+			position: relative;
+			cursor: pointer;
+			background: none;
+			padding: 10px 15px;
+			text-align: center;
+		}
 
-	/* ::before로 아이콘 삽입 */
-	.contactUsContainer section:last-of-type form fieldset>label::before {
-		content: "";
-		display: inline-block;
-		width: 20px;
-		height: 20px;
-		background: url(../images/icon_attachFile.svg) no-repeat center center;
-		background-size: contain;
-		vertical-align: middle;
-	}
+		/* ::before로 아이콘 삽입 */
+		.contactUsContainer section:last-of-type form fieldset>label::before {
+			content: "";
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			background: url(../images/icon_attachFile.svg) no-repeat center center;
+			background-size: contain;
+			vertical-align: middle;
+		}
 
-	.contactUsContainer section:last-of-type form fieldset button {
-		margin-bottom: 20px;
-	}
+		.contactUsContainer section:last-of-type form fieldset button {
+			margin-bottom: 20px;
+		}
 
-	.contactUsContainer section:last-of-type form fieldset p {
-		font-size: 12px;
-		font-weight: 400;
-		color: #96938e;
-		margin-bottom: 40px;
-		line-height: 9px;
-	}
+		.contactUsContainer section:last-of-type form fieldset p {
+			font-size: 12px;
+			font-weight: 400;
+			color: #96938e;
+			margin-bottom: 40px;
+			line-height: 9px;
+		}
 
-	.contactUsContainer section:last-of-type>ul li:last-of-type p {
-		margin-bottom: 0;
-	}
+		.contactUsContainer section:last-of-type>ul li:last-of-type p {
+			margin-bottom: 0;
+		}
+
+		/* --pay-- */
+		.userAddresses {
+			margin: 162px 0 150px;
+		}
+
+		.userAddresses>div:not(:first-of-type) {
+			max-width: 1480px;
+			padding: 0 2%;
+			margin: 0 auto;
+		}
+
+		.legalContainer {
+			max-width: 1480px;
+			padding: 0 2%;
+			margin: 0 auto;
+		}
+
+		/* Guarantee Section */
+		.userAddresses>div:first-of-type {
+			border-bottom: 1px solid #91b773;
+			padding: 20px 0;
+		}
+
+		.userAddresses>div:first-of-type>* {
+			width: 1480px;
+			padding: 0 10%;
+			margin: 0 auto;
+		}
+
+		.userAddresses>div:first-of-type>h2 {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 11px;
+			margin-bottom: 5px;
+		}
+
+		.userAddresses>div:first-of-type>p {
+			font-family: "Hanken Grotesk";
+			font-size: 12px;
+			font-weight: 500;
+			line-height: 14px;
+		}
+
+		/* 하단 */
+		.userAddresses>div:last-of-type {
+			display: flex;
+			justify-content: center;
+		}
+
+		.userAddresses>div:last-of-type>section {
+			width: 660px;
+			max-width: 57.6%;
+			padding: 0 40px;
+			border-right: 1px solid #91b773;
+		}
+
+		.userAddresses>div:last-of-type>aside {
+			width: 520px;
+			max-width: 44%;
+			padding: 0 40px;
+		}
+
+		/* 하단-왼쪽 */
+		/* 하단-왼쪽-상단 */
+		.userAddresses>div:last-of-type>section>form {
+			padding-top: 40px;
+			margin-bottom: 20px;
+			border-bottom: 1px solid #91b773;
+		}
+
+		/* 하단-왼쪽-결제 */
+		.userAddresses>div:last-of-type>section>form>div {
+			font-size: 0;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>input {
+			width: calc((100% - 5%) / 3);
+			height: 50px;
+			border: none;
+			border-radius: 10px;
+			background-repeat: no-repeat;
+			background-position: center;
+			text-indent: -9999px;
+			margin-bottom: 20px;
+			cursor: pointer;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>input:not(:last-of-type) {
+			margin-right: 2.5%;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>input:first-of-type {
+			background-color: #592ff4;
+			background-image: url("../images/icon_pay_shoppay.svg");
+			background-size: 83px 20px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>input:nth-of-type(2) {
+			background-color: #ffc439;
+			background-image: url("../images/icon_pay_paypal.png");
+			background-size: 72px 20px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>input:last-of-type {
+			background-color: #000000;
+			background-image: url("../images/icon_pay_gpay.svg");
+			background-size: 60px 24px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>span {
+			display: block;
+			font-family: "Hanken Grotesk";
+			font-size: 14px;
+			font-weight: 500;
+			color: #6d6d6d;
+			text-align: center;
+			line-height: 11px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>span:first-of-type {
+			margin-bottom: 22px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>span:last-of-type {
+			margin-bottom: 40px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>span:last-of-type::before,
+		.userAddresses>div:last-of-type>section>form>div>span:last-of-type::after {
+			content: "";
+			width: 46.6%;
+			height: 0.5px;
+			background-color: #91b773;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>span:last-of-type::before {
+			margin-right: 10px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>span:last-of-type::after {
+			margin-left: 10px;
+		}
+
+		/* 하단-왼쪽-로그인 */
+		.userAddresses>div:last-of-type>section>form legend,
+		.userAddresses>div:last-of-type>section>form h3 {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 20px;
+			font-weight: 500;
+			line-height: 15px;
+			margin-bottom: 20px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset>input[type="email"] {
+			width: 100%;
+			height: 30px;
+			background: transparent;
+			border: none;
+			border-bottom: 1px solid #91b773;
+			padding: 0 15px 20px 15px;
+			font-family: "Hanken Grotesk";
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 12px;
+			margin-bottom: 40px;
+		}
+
+		/* 하단-왼쪽-주소 */
+		.userAddresses>div:last-of-type>section>form {
+			font-size: 0;
+		}
+
+		.userAddresses>div:last-of-type>section>form ul li {
+			list-style: none;
+			width: 100%;
+			position: relative;
+		}
+
+		.userAddresses>div:last-of-type>section>form ul li input:not([type="checkbox"]):not([type="radio"]) {
+			width: 100%;
+			height: 50px;
+			padding: 28px 15px 10px 15px;
+			font-family: "Overpass";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 700;
+			box-sizing: border-box;
+			border: 1px solid #91b773;
+			border-radius: 10px;
+			background: transparent;
+			margin-bottom: 15px;
+		}
+
+		.userAddresses>div:last-of-type>section>form ul li select {
+			width: 100%;
+			height: 50px;
+			padding: 27px 15px 10px 15px;
+			font-family: "Overpass";
+			text-transform: uppercase;
+			font-size: 12px;
+			line-height: 12px;
+			font-weight: 700;
+			box-sizing: border-box;
+			border: 1px solid #91b773;
+			border-radius: 10px;
+			margin-bottom: 15px;
+			appearance: none;
+			background: url(../images/icon_below.png) no-repeat right 15px center;
+			background-size: 8px 5px;
+		}
+
+		.userAddresses>div:last-of-type>section>form ul li label:not([for="creditCard"]) {
+			position: absolute;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 500;
+			left: 0;
+			padding: 0 15px;
+			color: #6d6d6d;
+			top: calc((50px - 12px) / 2);
+		}
+
+		.userAddresses>div:last-of-type>section>form ul li input:focus+label,
+		.userAddresses>div:last-of-type>section>form ul li input:not(:placeholder-shown)+label,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:first-of-type>label,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(8)>label,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:first-of-type>label,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(2)>label,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(7)>label,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>label,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li>label {
+			line-height: 10px;
+			top: 10px;
+		}
+
+		/* 2등분 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(2),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(3),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(2),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(3),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(4),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(5),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(7),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(8) {
+			display: inline-block;
+			width: calc((100% - 2.6%)/2);
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(2),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(2),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(4),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(7) {
+			margin-right: 2.6%;
+		}
+
+		/* 돋보기 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(5),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(9) {
+			background: url(../images/icon_pay_search.png) no-repeat;
+			background-size: 15px 15px;
+			background-position: right 15px top 17.5px;
+		}
+
+		/* 3등분 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(7),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(8),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(9) {
+			display: inline-block;
+			width: calc((100% - 5.2%)/3);
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(7),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(8) {
+			margin-right: 2.6%;
+		}
+
+		/* 핸드폰 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(10),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11),
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li {
+			position: relative;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(10)>button,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>button,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li>button {
+			position: absolute;
+			background: url(../images/icon_pay_help.png) no-repeat;
+			background-size: contain;
+			text-indent: -9999px;
+			padding: 0;
+			width: 15px;
+			height: 15px;
+			border: none;
+			right: 70px;
+			top: 17.5px;
+			cursor: pointer;
+		}
+
+		.tooltip {
+			position: absolute;
+			font-size: 10px;
+			line-height: 12px;
+			color: #fff;
+			background-color: #333;
+			padding: 10px;
+			text-align: center;
+			border-radius: 3px;
+			right: 2.5px;
+			top: 40px;
+			width: 150px;
+			font-family: "Hanken Grotesk";
+			z-index: 1;
+			display: none;
+		}
+
+		.helpBtn:hover+.tooltip {
+			display: block;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(3)>.tooltip {
+			right: -52.5px;
+			top: 40px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(10)>ul,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>ul,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li>ul {
+			position: absolute;
+			top: 15px;
+			right: 15px;
+			padding-right: 15px;
+			background: url(../images/icon_below.png) no-repeat right center;
+			background-size: 8px 5px;
+			background-repeat: no-repeat;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(10)>ul>li,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>ul>li,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li>ul>li {
+			display: none;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(10)>ul>li:last-of-type,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>ul>li:last-of-type,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li>ul>li:last-of-type {
+			display: list-item;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(10)>ul>li>img,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>ul>li>img,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li>ul>li>img {
+			width: 27px;
+			height: 20px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>input,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div input[type="tel"] {
+			margin-bottom: 0;
+		}
+
+
+		/* 체크박스 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(11) {
+			display: flex;
+			align-items: center;
+			margin-bottom: 40px;
+			height: 15px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(11) input[type="checkbox"] {
+			width: 15px;
+			height: 15px;
+			margin: 0;
+			margin-right: 10px;
+			accent-color: #4d7a42;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(11) label {
+			padding: 0;
+			padding-left: 25px;
+			top: 2.5px;
+			display: inline-block;
+			font-family: "Hanken Grotesk";
+			text-transform: none;
+			font-size: 14px;
+			font-weight: 700;
+			color: #222;
+			cursor: pointer;
+		}
+
+		/* 광고 */
+		.userAddresses>div:last-of-type>section>form>section>p {
+			font-family: "Hanken Grotesk";
+			font-size: 14px;
+			font-weight: 500;
+			border-radius: 10px;
+			border: 1px solid #e0d4ca;
+			background: #e0d4ca;
+			height: 50px;
+			padding: 17px 0;
+		}
+
+		.userAddresses>div:last-of-type>section>form>section>p:first-of-type {
+			text-align: center;
+			color: #6d6d6d;
+			margin-bottom: 15px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>section>p:last-of-type {
+			border: 1px solid #91b773;
+			margin-bottom: 40px;
+			padding-left: 40px;
+			background: #e0d4ca url(../images/icon_pay_error.png) no-repeat;
+			background-size: 15px 15px;
+			background-position: left 15px center;
+		}
+
+		/* 페이 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul {
+			margin-bottom: 40px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>p {
+			font-family: "Hanken Grotesk";
+			font-size: 14px;
+			font-weight: 500;
+			margin-bottom: 20px;
+			color: #6d6d6d;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:first-of-type {
+			border: 1px solid #222;
+			border-radius: 10px 10px 0 0;
+			height: 50px;
+			padding: 0 15px;
+			position: relative;
+			display: flex;
+			align-items: center;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:first-of-type input[type="radio"] {
+			width: 15px;
+			height: 15px;
+			margin: 0;
+			accent-color: #4d7a42;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:first-of-type>label {
+			font-size: 14px;
+			font-family: "Hanken Grotesk";
+			font-weight: 700;
+			line-height: 11px;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			padding-left: 15px;
+			color: #222;
+			white-space: nowrap;
+			cursor: pointer;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:first-of-type>label>img {
+			width: 38px;
+			height: 24px;
+			margin-left: 5px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:first-of-type>label>img:first-of-type {
+			margin-left: 276.8px;
+		}
+
+		/* 겹겹 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2) {
+			border-left: 1px solid #91b773;
+			border-right: 1px solid #91b773;
+			padding: 15px;
+			background-color: #e0d4ca;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:first-of-type {
+			background: url(../images/icon_pay_lock.png) no-repeat;
+			background-size: 15px 15px;
+			background-position: right 15px top 17.5px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(3)>button {
+			position: absolute;
+			background: url(../images/icon_pay_help.png) no-repeat;
+			background-size: contain;
+			text-indent: -9999px;
+			padding: 0;
+			width: 15px;
+			height: 15px;
+			border: none;
+			right: 15px;
+			top: 17.5px;
+			cursor: pointer;
+
+		}
+
+		/* 체크박스 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:first-of-type {
+			display: flex;
+			align-items: center;
+			height: 12px;
+			margin-bottom: 15px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:first-of-type>input[type="checkbox"] {
+			width: 15px;
+			height: 15px;
+			margin: 0;
+			margin-right: 10px;
+			accent-color: #4d7a42;
+
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:first-of-type>label {
+			all: unset;
+			display: inline-block;
+			font-family: "Hanken Grotesk";
+			font-size: 14px;
+			font-weight: 700;
+			cursor: pointer;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:last-of-type {
+			border: 1px solid #91b773;
+			border-radius: 0 0 10px 10px;
+			height: 50px;
+			padding: 0 15px;
+			position: relative;
+			display: flex;
+			align-items: center;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:last-of-type input[type="radio"] {
+			width: 15px;
+			height: 15px;
+			margin: 0;
+			cursor: pointer;
+			accent-color: #4d7a42;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:last-of-type>label {
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 50px;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			padding-left: 45px;
+			top: 0;
+			padding-right: 100px;
+			background: url(../images/icon_pay_paypal.svg) no-repeat;
+			background-position: right 15px center;
+			background-size: 85px 22px;
+			color: #222;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div {
+			border: 1px solid #91b773;
+			border-radius: 10px;
+			margin-bottom: 15px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>input {
+			width: 15px;
+			height: 15px;
+			margin: 0;
+			margin-left: 15px;
+			margin-right: 10px;
+			accent-color: #4d7a42;
+			margin-bottom: 9px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>label {
+			display: inline-block;
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 50px;
+			cursor: pointer;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul {
+			border-top: 1px solid #91b773;
+			padding: 15px;
+			background: #e0d4ca;
+			border-radius: 0 0 10px 10px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>button {
+			border-radius: 10px;
+			margin-bottom: 20px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>p {
+			font-size: 12px;
+			font-family: "Hanken Grotesk";
+			font-weight: 500;
+			margin-bottom: 40px;
+			color: #6d6d6d;
+			position: relative;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>p::before {
+			content: "";
+			display: inline-block;
+			width: 7px;
+			height: 10px;
+			padding-left: 5px;
+			margin-bottom: 1px;
+			background: url("../images/icon_pay_lock.png") no-repeat center;
+			background-size: contain;
+			vertical-align: middle;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>p::after {
+			content: "";
+			width: 40px;
+			height: 16px;
+			position: absolute;
+			right: 0;
+			top: calc(50% - 8px);
+			background: url("../images/icon_pay_shoppay_grey.png") no-repeat center;
+			background-size: contain;
+		}
+
+		.userAddresses>div:last-of-type>section>form>p {
+			font-size: 14px;
+			font-family: "Hanken Grotesk";
+			font-weight: 500;
+			margin-bottom: 85px;
+			color: #6d6d6d;
+		}
+
+		.userAddresses>div:last-of-type>section>ul>li {
+			list-style: none;
+			display: inline-block;
+			font-size: 14px;
+			font-family: "Hanken Grotesk";
+			font-weight: 500;
+
+		}
+
+
+		.userAddresses>div:last-of-type>section>ul>li:not(:last-of-type) {
+			margin-right: 9px;
+			margin-bottom: 20px;
+		}
+
+
+		/* 우측 */
+		.userAddresses>div:last-of-type>aside {
+			padding-top: 45px;
+		}
+
+		#toggle,
+		.toggle-label {
+			display: none;
+		}
+
+		.userAddresses>div:last-of-type>aside>div {
+			position: relative;
+			display: flex;
+			align-items: center;
+			margin-bottom: 25px;
+		}
+
+		.userAddresses>div:last-of-type>aside>div>img {
+			border: 1px solid #91b773;
+			border-radius: 10px;
+			width: 90px;
+			height: 90px;
+			padding: 0 10px;
+			margin-right: 15px;
+		}
+
+		.userAddresses>div:last-of-type>aside>div>span {
+			position: absolute;
+			border-radius: 10px;
+			width: 22px;
+			height: 22px;
+			background: #4d7a42;
+			color: #fff;
+			text-align: center;
+			font-size: 14px;
+			font-family: "Hanken Grotesk";
+			font-weight: 500;
+			padding: 4px;
+			top: -11px;
+			left: 79px;
+		}
+
+		.userAddresses>div:last-of-type>aside>div>ul {
+			font-family: "Hanken Grotesk";
+		}
+
+		.userAddresses>div:last-of-type>aside>div>ul li {
+			width: 335px;
+			list-style: none;
+		}
+
+		.userAddresses>div:last-of-type>aside>div>ul li:first-of-type {
+			display: flex;
+			font-size: 14px;
+			font-weight: 500;
+			justify-content: space-between;
+			margin-bottom: 5px;
+		}
+
+		.userAddresses>div:last-of-type>aside>div>ul li:last-of-type {
+			font-size: 12px;
+			font-weight: 500;
+			color: #6d6d6d;
+		}
+
+		.userAddresses>div:last-of-type>aside>table {
+			font-family: "Hanken Grotesk";
+			font-size: 14px;
+			font-weight: 500;
+			width: 100%;
+		}
+
+		.userAddresses>div:last-of-type>aside>table tr td:last-of-type {
+			text-align: right;
+		}
+
+		.userAddresses>div:last-of-type>aside>table tr:not(:last-of-type) td {
+			height: 30px;
+		}
+
+		.userAddresses>div:last-of-type>aside>table tr:nth-of-type(3) td {
+			height: 40px;
+		}
+
+		.userAddresses>div:last-of-type>aside>table tr:last-of-type td strong {
+			font-size: 18px;
+			font-weight: 700;
+		}
+
+		.userAddresses>div:last-of-type>aside>table tr:last-of-type td small {
+			font-size: 12px;
+			font-weight: 500;
+			color: #6d6d6d;
+		}
+
+		/* ---------------------------------------- */
+		/* legalPolicies */
+		.legalContainer {
+			margin-top: 162px;
+			margin-bottom: 150px;
+			/* position: relative; */
+			font-size: 18px;
+			font-family: "Hanken Grotesk";
+			font-weight: 400;
+			line-height: 26px;
+		}
+
+		.legalContainer h2 {
+			font-size: 50px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 400;
+			/* line-height: 38px; */
+			text-align: center;
+			margin-bottom: 80px;
+		}
+
+		.legalContainer p {
+			margin-bottom: 30px;
+			/* background-color: #ffc439; */
+		}
+
+		.legalContainer p:not(.update):last-of-type {
+			margin-bottom: 0;
+		}
+
+		.legalContainer a {
+			color: #91b773;
+		}
+
+		.legalContainer .update {
+			/* position: absolute; */
+			top: 140px;
+			font-size: 14px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 700;
+			margin-bottom: 25px;
+			/* line-height: 10px; */
+			/* padding-bottom: 25px; */
+			/* background-color: rgba(81, 81, 159, 0.5); */
+		}
+
+		.legalContainer li {
+			list-style: none;
+		}
+
+		.legalContainer h3 {
+			padding-top: 80px;
+			font-size: 26px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 500;
+			/* line-height: 20px; */
+			/* background-color: #fcc5ec; */
+			margin-bottom: 45px;
+		}
+
+		.legalContainer h4 {
+			display: table;
+			padding-top: 40px;
+			font-size: 22px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 500;
+			/* line-height: 20px; */
+			/* background-color: #e1c5fc; */
+			margin-bottom: 35px;
+		}
+
+		.legalContainer .subheading {
+			/* padding-top: 80px; */
+			font-size: 18px;
+			font-family: "Hanken Grotesk";
+			font-weight: 600;
+			line-height: 26px;
+			/* background-color: #bb3996; */
+			margin-bottom: 35px;
+			display: block;
+		}
+
+		.legalContainer b {
+			font-weight: 600;
+		}
+
+		/* ------------------------------------------------------------- */
+		/* Privacy Policy */
+
+		.legalContainer .ppOl>li>ol {
+			counter-reset: item;
+			padding: 0 15px;
+		}
+
+		.legalContainer .ppOl>li>ol>li>ol {
+			counter-reset: alphaList;
+			/* padding-left: 15px;
+			padding-top: 30px; */
+			padding: 30px 15px 0;
+		}
+
+		.legalContainer .ppOl>li>ol>li>ol>li {
+			counter-increment: alphaList;
+			position: relative;
+			padding-left: 20px;
+		}
+
+		.legalContainer .ppOl>li>ol>li>ol>li::before {
+			content: counter(alphaList, lower-alpha) ". ";
+			position: absolute;
+			left: 0;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 26px;
+			font-family: "Hanken Grotesk";
+		}
+
+		.legalContainer .ppOl>li>ol>li>ol>li:not(:last-of-type) {
+			margin-bottom: 20px;
+		}
+
+		.legalContainer .ppOl>li>ol>li>ol>li:last-of-type>p:first-of-type {
+			margin-bottom: 20px;
+		}
+
+
+		.legalContainer .ppOl>li>ol>li>ol>li>ul>li {
+			position: relative;
+			padding: 0 15px;
+		}
+
+		.legalContainer .ppOl>li>ol>li>ol>li>ul>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: transparent;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		.legalContainer .ppUl {
+			padding-left: 15px;
+		}
+
+		.legalContainer .ppUl>li {
+			position: relative;
+			padding-left: 15px;
+		}
+
+		.legalContainer .ppUl>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: #222;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		.legalContainer .ppUl>li:not(:last-of-type) {
+			margin-bottom: 20px;
+		}
+
+		.legalContainer .ppUl>li:first-of-type {
+			margin-top: 30px;
+		}
+
+		/* ------------------------------------------------------------- */
+		/* Terms of service */
+		.legalContainer .tsUl {
+			padding: 0 15px;
+		}
+
+		.legalContainer .tsUl>li {
+			position: relative;
+			padding-left: 15px;
+		}
+
+		.legalContainer .tsUl>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: #222;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		.legalContainer .tsUl>li:not(:last-of-type) {
+			margin-bottom: 20px;
+		}
+
+		.legalContainer .tsUl>li:last-of-type {
+			margin-bottom: 30px;
+		}
+
+		.legalContainer .tsUl>li>ul {
+			padding-right: 15px;
+		}
+
+		.legalContainer .tsUl>li>ul>li {
+			position: relative;
+			padding-left: 15px;
+		}
+
+		.legalContainer .tsUl>li>ul>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: transparent;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		.legalContainer .tsUl>li>ul>li:first-of-type {
+			margin-top: 20px;
+		}
+
+		.legalContainer .tsUl>li>ul>li:not(:last-of-type) {
+			margin-bottom: 10px;
+		}
+
+		.dUpper>strong {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 600;
+
+		}
+
+		.legalContainer strong {
+			font-weight: 600;
+		}
+
+		.legalContainer .tsUl2 {
+			padding: 0 15px;
+		}
+
+		.legalContainer .tsUl2>li {
+			position: relative;
+			padding-left: 15px;
+		}
+
+		.legalContainer .tsUl2>li::before {
+			content: "-";
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+		.legalContainer .tsUl2>li:not(:last-of-type) {
+			margin-bottom: 20px;
+		}
+
+		.legalContainer .tsUl2>li:last-of-type {
+			margin-bottom: 30px;
+		}
+
+		.legalContainer .rUpper {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 400;
+		}
 
 
 
 
 
+
+
+
+
+
+
+		/* ------------------------------------------------------------- */
+		/* Notice to California Residents */
+
+
+		.legalContainer .tsUl>li>ul {
+			padding-right: 15px;
+		}
+
+		.legalContainer .tsUl>li>ul>li {
+			position: relative;
+			padding-left: 15px;
+		}
+
+		.legalContainer .tsUl>li>ul>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: transparent;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+
+
+
+
+		.legalContainer .ncrUl {
+			padding: 0 15px;
+			/* background-color: #69b4ff; */
+		}
+
+		.legalContainer .ncrUl>li {
+			position: relative;
+			padding-left: 15px;
+		}
+
+		.legalContainer .ncrUl>li:not(:first-of-type)::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: #222;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		/*.legalContainer .ncrUl>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+		 
+			border-radius: 50%;
+			box-sizing: border-box;
+		} */
+
+		.legalContainer .ncrUl>li {
+			margin-top: 20px;
+		}
+
+		.legalContainer .ncrUl>li:last-of-type {
+			margin-bottom: 40px;
+		}
+
+		.legalContainer .ncrUl>li>ul {
+			padding: 0 15px;
+			/* background-color: #5896d4; */
+		}
+
+		.legalContainer .ncrUl>li>ul>li {
+			position: relative;
+			padding-left: 15px;
+			margin-bottom: 10px;
+		}
+
+		.legalContainer .ncrUl>li>ul>li:last-of-type {
+			margin-bottom: 0;
+		}
+
+		.legalContainer .ncrUl>li>ul>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: transparent;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		.legalContainer .ncrUl2 {
+			padding: 0 15px;
+			/* background-color: #69b4ff; */
+		}
+
+		.legalContainer .ncrUl2>li {
+			position: relative;
+			padding-left: 15px;
+		}
+
+		.legalContainer .ncrUl2>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: #222;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		.legalContainer .ncrUl2>li {
+			margin-bottom: 20px;
+		}
+
+		.legalContainer .ncrUl2>li:last-of-type {
+			margin-bottom: 30px;
+		}
+
+		.ncrTable strong {
+			display: block;
+			font-size: 18px;
+			font-family: "Hanken Grotesk";
+			font-weight: 600;
+			padding-top: 40px;
+			padding-bottom: 30px;
+		}
+
+		.ncrTable table {
+			margin: 0 15px;
+			font-size: 18px;
+			line-height: 26px;
+		}
+
+		.ncrTable table thead th:nth-child(1),
+		.ncrTable table tbody th:nth-child(1) {
+			width: 22.1%;
+		}
+
+		.ncrTable table thead th:nth-child(2),
+		.ncrTable table tbody td:nth-child(2) {
+			width: 33.1%;
+		}
+
+		.ncrTable table thead th:nth-child(3),
+		.ncrTable table tbody td:nth-child(3) {
+			width: 44.8%;
+		}
+
+		.ncrTable table tr,
+		.ncrTable table th,
+		.ncrTable table td {
+			border: 1px solid #e0d4ca;
+			padding: 20px;
+		}
+
+		.ncrTable table thead th {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 500;
+			background: #4d7a42;
+			color: #fff;
+		}
+
+		.ncrTable table tbody th {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 500;
+		}
+
+		.ncrTable table tbody td {
+			font-family: "Hanken Grotesk";
+			font-weight: 400;
+		}
 
 
 
@@ -5434,6 +6664,7 @@
 			line-height: 11px;
 			margin-bottom: 25px;
 		}
+
 		/* authHeader fin*/
 
 		.userContainer form {
@@ -6469,367 +7700,1692 @@
 		}
 
 		/* --customerServic-- */
-	.backBtn {
-		border: none;
-		background-image: url(../images/icon_left_black.png);
-		background-repeat: no-repeat;
-		background-position: left 45px;
-		background-size: 6px 11px;
-		text-indent: 15px;
-		cursor: pointer;
-		padding: 0;
-		padding-top: 45px;
-		font-size: 14px;
-		font-weight: 500;
-		font-family: "Dosis";
-		text-transform: uppercase;
-		line-height: 11px;
-		background-color: transparent;
-		margin-bottom: 25px;
-		display: block;
-	}
+		.backBtn {
+			border: none;
+			background-image: url(../images/icon_left_black.png);
+			background-repeat: no-repeat;
+			background-position: left 45px;
+			background-size: 6px 11px;
+			text-indent: 15px;
+			cursor: pointer;
+			padding: 0;
+			padding-top: 45px;
+			font-size: 14px;
+			font-weight: 500;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			line-height: 11px;
+			background-color: transparent;
+			margin-bottom: 25px;
+			display: block;
+		}
 
-	.tabMenuAccordionContainer {
-		margin: 140px auto 120px;
-	}
+		.tabMenuAccordionContainer {
+			margin: 140px auto 120px;
+		}
 
-	.tabMenuAccordionContainer>*:not(.faqVisual):not(.shippingHandingVisual),
-	.dayContainer {
-		padding: 0 3.125%;
-		margin: 0 auto 0;
-	}
+		.tabMenuAccordionContainer>*:not(.faqVisual):not(.shippingHandingVisual),
+		.dayContainer {
+			padding: 0 3.125%;
+			margin: 0 auto 0;
+		}
 
-	.dayContainer,
-	.contactUsContainer {
-		padding: 0 3.125%;
-		margin: 140px auto 120px;
-	}
+		.dayContainer,
+		.contactUsContainer {
+			padding: 0 3.125%;
+			margin: 140px auto 120px;
+		}
 
 		/* faq */
-	div[id] {
-		display: none;
-	}
+		div[id] {
+			display: none;
+		}
 
-	div[id].activated {
-		display: block;
-	}
+		div[id].activated {
+			display: block;
+		}
 
-	.tabMenuAccordionContainer .faqWrapper .tabMenu,
-	.tabMenuAccordionContainer .shippingHandingWrapper .tabMenu {
-		display: flex;
-		justify-content: space-around;
-		font-family: "Overpass";
-		text-transform: uppercase;
-		font-size: 12px;
-		font-weight: 600;
-		margin-bottom: 70px;
-	}
+		.tabMenuAccordionContainer .faqWrapper .tabMenu,
+		.tabMenuAccordionContainer .shippingHandingWrapper .tabMenu {
+			display: flex;
+			justify-content: space-around;
+			font-family: "Overpass";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 600;
+			margin-bottom: 70px;
+		}
 
-	.tabMenuAccordionContainer .faqWrapper .tabMenu li,
-	.tabMenuAccordionContainer .shippingHandingWrapper .tabMenu li {
-		list-style: none;
-		cursor: pointer;
-	}
-	
-	.tabMenuAccordionContainer .faqWrapper .tabMenu li.activated,
-	.tabMenuAccordionContainer .shippingHandingWrapper .tabMenu li.activated {
-		background: transparent;
-		padding: 0 0 5px 0;
-		border: none;
-		border-bottom: solid #222 1px;
-		display: inline-block;
-	}
+		.tabMenuAccordionContainer .faqWrapper .tabMenu li,
+		.tabMenuAccordionContainer .shippingHandingWrapper .tabMenu li {
+			list-style: none;
+			cursor: pointer;
+		}
 
-	.tabMenuAccordionContainer>div:not(:first-of-type)>h2 {
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 32px;
-		line-height: 24px;
-		font-weight: 400;
-		padding-bottom: 35px;
-		border-bottom: 1px solid #222;
-		margin-bottom: 30px;
-	}
+		.tabMenuAccordionContainer .faqWrapper .tabMenu li.activated,
+		.tabMenuAccordionContainer .shippingHandingWrapper .tabMenu li.activated {
+			background: transparent;
+			padding: 0 0 5px 0;
+			border: none;
+			border-bottom: solid #222 1px;
+			display: inline-block;
+		}
 
-	/* shippingHandingWrapper */
-	.accComponent li ol {
-		list-style-position: inside;
-		padding: 0 30px;
-		font-family: "Hanken Grotesk";
-		font-size: 18px;
-		font-weight: 400;
-	}
+		.tabMenuAccordionContainer>div:not(:first-of-type)>h2 {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 32px;
+			line-height: 24px;
+			font-weight: 400;
+			padding-bottom: 35px;
+			border-bottom: 1px solid #222;
+			margin-bottom: 30px;
+		}
 
-	.accComponent li ol p {
-		margin-bottom: 20px;
-	}
+		/* shippingHandingWrapper */
+		.accComponent li ol {
+			list-style-position: inside;
+			padding: 0 30px;
+			font-family: "Hanken Grotesk";
+			font-size: 18px;
+			font-weight: 400;
+		}
 
-	.accComponent li ol li:first-of-type {
-		margin-bottom: 10px;
-	}
+		.accComponent li ol p {
+			margin-bottom: 20px;
+		}
 
-	.accComponent li ol li:last-of-type {
-		margin-bottom: 30px;
-	}
+		.accComponent li ol li:first-of-type {
+			margin-bottom: 10px;
+		}
 
-	.accComponent li ol {
-		display: none;
-	}
-	
-	/* dayContainer */
-	.dayContainer section {
-		display: grid;
-		grid-template-columns: 1fr;
-		grid-template-rows: auto auto auto;
-	}
+		.accComponent li ol li:last-of-type {
+			margin-bottom: 30px;
+		}
 
-	.dayContainer section img {
-		grid-column: 1 / 2;
-		grid-row: 2 / 3;
-		width: 100%;
-		aspect-ratio: 740 / 560;
-		object-fit: cover;
-		object-position: center -20px;
-		margin-bottom: 45px;
-	}
+		.accComponent li ol {
+			display: none;
+		}
 
-	.dayContainer section h2 {
-		grid-column: 1 / 2;
-		grid-row: 1 / 2;
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 30px;
-		font-weight: 500;
-		text-align: center;
-		line-height: 23px;
-		margin-bottom: 45px;
-	}
+		/* dayContainer */
+		.dayContainer section {
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-template-rows: auto auto auto;
+		}
 
-	.dayContainer section div {
-		grid-column: 1 / 2;
-		grid-row: 3 / 4;
-	}
+		.dayContainer section img {
+			grid-column: 1 / 2;
+			grid-row: 2 / 3;
+			width: 100%;
+			aspect-ratio: 740 / 560;
+			object-fit: cover;
+			object-position: center -20px;
+			margin-bottom: 45px;
+		}
 
-	.dayContainer section div p {
-		font-family: "Hanken Grotesk";
-		font-size: 16px;
-		font-weight: 400;
-		line-height: 19px;
-		margin-bottom: 20px;
-	}
+		.dayContainer section h2 {
+			grid-column: 1 / 2;
+			grid-row: 1 / 2;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 30px;
+			font-weight: 500;
+			text-align: center;
+			line-height: 23px;
+			margin-bottom: 45px;
+		}
 
-	.dayContainer section div p strong {
-		font-weight: 700;
-	}
+		.dayContainer section div {
+			grid-column: 1 / 2;
+			grid-row: 3 / 4;
+		}
 
-	.dayContainer section div p:last-of-type {
-		margin-bottom: 0;
-	}
+		.dayContainer section div p {
+			font-family: "Hanken Grotesk";
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 19px;
+			margin-bottom: 20px;
+		}
 
-	/* contactUsContainer */
-	.contactUsContainer>h2 {
-		display: none;
-	}
+		.dayContainer section div p strong {
+			font-weight: 700;
+		}
 
-.contactUsContainer section:first-of-type h2{
-	text-align: center;
-}
-	.contactUsContainer section:first-of-type h2,
-	.contactUsContainer section:last-of-type h2 {
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 34px;
-		font-weight: 500;
-		line-height: 26px;
-		margin-bottom: 35px;
-	}
+		.dayContainer section div p:last-of-type {
+			margin-bottom: 0;
+		}
 
-	.contactUsContainer section:first-of-type p,
-	.contactUsContainer section:last-of-type p {
-		font-family: "Hanken Grotesk";
-		font-size: 18px;
-		font-weight: 400;
-		line-height: 22px;
-		margin-bottom: 26px;
-	}
+		/* contactUsContainer */
+		.contactUsContainer>h2 {
+			display: none;
+		}
 
-	.contactUsContainer section:first-of-type ul li {
-		list-style: none;
-	}
+		.contactUsContainer section:first-of-type h2 {
+			text-align: center;
+		}
 
-	.contactUsContainer section:first-of-type ul li h3 {
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 20px;
-		font-weight: 600;
-		line-height: 15px;
-		margin-bottom: 25px;
-	}
+		.contactUsContainer section:first-of-type h2,
+		.contactUsContainer section:last-of-type h2 {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 34px;
+			font-weight: 500;
+			line-height: 26px;
+			margin-bottom: 35px;
+		}
 
-	.contactUsContainer section:last-of-type>form>button {
-		width: 48.5%;
-		border-radius: 3px;
-		border: 1px solid #4d7a42;
-		color: #4d7a42;
-		font-family: "Overpass";
-		text-transform: uppercase;
-		font-size: 12px;
-		font-weight: 700;
-		cursor: pointer;
-		background: none;
-		padding: 15px;
-		text-align: center;
-		margin-bottom: 30px;
-	}
+		.contactUsContainer section:first-of-type p,
+		.contactUsContainer section:last-of-type p {
+			font-family: "Hanken Grotesk";
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 22px;
+			margin-bottom: 26px;
+		}
 
-	.contactUsContainer section:last-of-type>form>button::before {
-		content: "";
-		display: block;
-		width: 50px;
-		height: 50px;
-		background-size: contain;
-		background-repeat: no-repeat;
-		margin: 0 auto 10px;
-	}
+		.contactUsContainer section:first-of-type ul li {
+			list-style: none;
+		}
 
-	.contactUsContainer section:last-of-type>form>button:first-of-type:before {
-		background-image: url(../images/icon_trackOrder.svg);
-	}
+		.contactUsContainer section:first-of-type ul li h3 {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 20px;
+			font-weight: 600;
+			line-height: 15px;
+			margin-bottom: 25px;
+		}
 
-	.contactUsContainer section:last-of-type>form>button:last-of-type:before {
-		background-image: url(../images/icon_reportIssue.svg);
-	}
+		.contactUsContainer section:last-of-type>form>button {
+			width: 48.5%;
+			border-radius: 3px;
+			border: 1px solid #4d7a42;
+			color: #4d7a42;
+			font-family: "Overpass";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 700;
+			cursor: pointer;
+			background: none;
+			padding: 15px;
+			text-align: center;
+			margin-bottom: 30px;
+		}
 
-	.contactUsContainer section:last-of-type>form>button:first-of-type {
-		margin-right: 2.3%;
-	}
+		.contactUsContainer section:last-of-type>form>button::before {
+			content: "";
+			display: block;
+			width: 50px;
+			height: 50px;
+			background-size: contain;
+			background-repeat: no-repeat;
+			margin: 0 auto 10px;
+		}
 
-	.contactUsContainer section:last-of-type fieldset legend {
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 20px;
-		font-weight: 500;
-		margin-bottom: 30px;
-	}
+		.contactUsContainer section:last-of-type>form>button:first-of-type:before {
+			background-image: url(../images/icon_trackOrder.svg);
+		}
 
-	.contactUsContainer section:last-of-type ul li {
-		list-style: none;
-	}
+		.contactUsContainer section:last-of-type>form>button:last-of-type:before {
+			background-image: url(../images/icon_reportIssue.svg);
+		}
 
-	.contactUsContainer section:last-of-type label {
-		display: inline-block;
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 14px;
-		font-weight: 500;
-		line-height: 11px;
-		padding-top: 10px;
-		margin-bottom: 10px;
-	}
+		.contactUsContainer section:last-of-type>form>button:first-of-type {
+			margin-right: 2.3%;
+		}
 
-	.contactUsContainer section:last-of-type label small {
-		color: #dd9d9d;
-	}
+		.contactUsContainer section:last-of-type fieldset legend {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 20px;
+			font-weight: 500;
+			margin-bottom: 30px;
+		}
 
-	.contactUsContainer section:last-of-type input {
-		width: 100%;
-		height: 40px;
-		line-height: 11px;
-		padding: 15px;
-		margin-bottom: 20px;
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 12px;
-		font-weight: 600;
-		border: none;
-		border-radius: 3px;
-	}
+		.contactUsContainer section:last-of-type ul li {
+			list-style: none;
+		}
 
-	.contactUsContainer section:last-of-type select {
-		width: 100%;
-		height: 40px;
-		line-height: 11px;
-		padding: 15px;
-		margin-bottom: 20px;
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 12px;
-		font-weight: 600;
-		border: none;
-		border-radius: 3px;
-		appearance: none;
-		background: #fff url(../images/icon_below.png) no-repeat right 15px center;
-		background-size: 8px 5px;
-	}
+		.contactUsContainer section:last-of-type label {
+			display: inline-block;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 11px;
+			padding-top: 10px;
+			margin-bottom: 10px;
+		}
 
-	.contactUsContainer section:last-of-type textarea {
-		width: 100%;
-		height: 120px;
-		line-height: 11px;
-		padding: 15px;
-		margin-bottom: 65px;
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 12px;
-		font-weight: 600;
-		border: none;
-		border-radius: 3px;
-	}
+		.contactUsContainer section:last-of-type label small {
+			color: #dd9d9d;
+		}
 
-	.contactUsContainer section:last-of-type form fieldset>input {
-		display: none;
-	}
+		.contactUsContainer section:last-of-type input {
+			width: 100%;
+			height: 40px;
+			line-height: 11px;
+			padding: 15px;
+			margin-bottom: 20px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 600;
+			border: none;
+			border-radius: 3px;
+		}
 
-	.contactUsContainer section:last-of-type form fieldset>label {
-		display: block;
-		width: 100%;
-		height: 40px;
-		border-radius: 3px;
-		border: 1px solid #4d7a42;
-		color: #4d7a42;
-		font-family: "Overpass";
-		text-transform: uppercase;
-		font-size: 12px;
-		font-weight: 700;
-		position: relative;
-		cursor: pointer;
-		background: none;
-		padding: 10px 15px;
-		text-align: center;
-	}
+		.contactUsContainer section:last-of-type select {
+			width: 100%;
+			height: 40px;
+			line-height: 11px;
+			padding: 15px;
+			margin-bottom: 20px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 600;
+			border: none;
+			border-radius: 3px;
+			appearance: none;
+			background: #fff url(../images/icon_below.png) no-repeat right 15px center;
+			background-size: 8px 5px;
+		}
 
-	/* ::before로 아이콘 삽입 */
-	.contactUsContainer section:last-of-type form fieldset>label::before {
-		content: "";
-		display: inline-block;
-		width: 20px;
-		height: 20px;
-		background: url(../images/icon_attachFile.svg) no-repeat center center;
-		background-size: contain;
-		vertical-align: middle;
-	}
+		.contactUsContainer section:last-of-type textarea {
+			width: 100%;
+			height: 120px;
+			line-height: 11px;
+			padding: 15px;
+			margin-bottom: 65px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 600;
+			border: none;
+			border-radius: 3px;
+		}
 
-	.contactUsContainer section:last-of-type form fieldset button {
-		margin-bottom: 20px;
-	}
+		.contactUsContainer section:last-of-type form fieldset>input {
+			display: none;
+		}
 
-	.contactUsContainer section:last-of-type form fieldset p {
-		font-size: 12px;
-		font-weight: 400;
-		color: #96938e;
-		margin-bottom: 40px;
-		line-height: 9px;
-	}
+		.contactUsContainer section:last-of-type form fieldset>label {
+			display: block;
+			width: 100%;
+			height: 40px;
+			border-radius: 3px;
+			border: 1px solid #4d7a42;
+			color: #4d7a42;
+			font-family: "Overpass";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 700;
+			position: relative;
+			cursor: pointer;
+			background: none;
+			padding: 10px 15px;
+			text-align: center;
+		}
 
-	.contactUsContainer section:last-of-type>ul li:last-of-type p {
-		margin-bottom: 0;
-	}
+		/* ::before로 아이콘 삽입 */
+		.contactUsContainer section:last-of-type form fieldset>label::before {
+			content: "";
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			background: url(../images/icon_attachFile.svg) no-repeat center center;
+			background-size: contain;
+			vertical-align: middle;
+		}
+
+		.contactUsContainer section:last-of-type form fieldset button {
+			margin-bottom: 20px;
+		}
+
+		.contactUsContainer section:last-of-type form fieldset p {
+			font-size: 12px;
+			font-weight: 400;
+			color: #96938e;
+			margin-bottom: 40px;
+			line-height: 9px;
+		}
+
+		.contactUsContainer section:last-of-type>ul li:last-of-type p {
+			margin-bottom: 0;
+		}
+
+		/* --pay-- */
+		.userAddresses {
+			margin: 140px 0 120px;
+		}
+
+		.userAddresses>div:first-of-type>*,
+		.userAddresses>div:last-of-type>aside>*,
+		.userAddresses>div:last-of-type>section {
+			padding: 0 12.37%;
+			margin: 0 auto;
+		}
+
+		.legalContainer {
+			padding: 0 3.125%;
+			margin: 0 auto;
+		}
+
+		/* Guarantee Section */
+		.userAddresses>div:first-of-type {
+			border-bottom: 1px solid #91b773;
+			padding: 20px 0;
+		}
+
+		.userAddresses>div:first-of-type>* {
+			margin: 0 auto;
+		}
+
+		.userAddresses>div:first-of-type>h2 {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 11px;
+			margin-bottom: 5px;
+		}
+
+		.userAddresses>div:first-of-type>p {
+			font-family: "Hanken Grotesk";
+			font-size: 12px;
+			font-weight: 500;
+			line-height: 14px;
+		}
+
+		/* 하단 */
+		.userAddresses>div:last-of-type {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			margin-bottom: 150px;
+		}
+
+		.userAddresses>div:last-of-type>section {
+			order: 2;
+		}
+
+		/* 하단-왼쪽 */
+		/* 하단-왼쪽-상단 */
+		.userAddresses>div:last-of-type>section>form {
+			padding-top: 20px;
+			margin-bottom: 20px;
+			border-bottom: 1px solid #91b773;
+		}
+
+		/* 하단-왼쪽-결제 */
+		.userAddresses>div:last-of-type>section>form>div {
+			font-size: 0;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>input {
+			width: calc((100% - 5%) / 3);
+			height: 50px;
+			border: none;
+			border-radius: 10px;
+			background-repeat: no-repeat;
+			background-position: center;
+			text-indent: -9999px;
+			margin-bottom: 20px;
+			cursor: pointer;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>input:not(:last-of-type) {
+			margin-right: 2.5%;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>input:first-of-type {
+			background-color: #592ff4;
+			background-image: url("../images/icon_pay_shoppay.svg");
+			background-size: 83px 20px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>input:nth-of-type(2) {
+			background-color: #ffc439;
+			background-image: url("../images/icon_pay_paypal.png");
+			background-size: 72px 20px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>input:last-of-type {
+			background-color: #000000;
+			background-image: url("../images/icon_pay_gpay.svg");
+			background-size: 60px 24px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>span {
+			display: block;
+			font-family: "Hanken Grotesk";
+			font-size: 14px;
+			font-weight: 500;
+			color: #6d6d6d;
+			text-align: center;
+			line-height: 11px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>span:first-of-type {
+			margin-bottom: 22px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>span:last-of-type {
+			margin-bottom: 40px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>span:last-of-type::before,
+		.userAddresses>div:last-of-type>section>form>div>span:last-of-type::after {
+			content: "";
+			width: 46.6%;
+			height: 0.5px;
+			background-color: #91b773;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>span:last-of-type::before {
+			margin-right: 10px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>span:last-of-type::after {
+			margin-left: 10px;
+		}
+
+		/* 하단-왼쪽-로그인 */
+		.userAddresses>div:last-of-type>section>form legend,
+		.userAddresses>div:last-of-type>section>form h3 {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 20px;
+			font-weight: 500;
+			line-height: 15px;
+			margin-bottom: 20px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset>input[type="email"] {
+			width: 100%;
+			height: 30px;
+			background: transparent;
+			border: none;
+			border-bottom: 1px solid #91b773;
+			padding: 0 15px 20px 15px;
+			font-family: "Hanken Grotesk";
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 12px;
+			margin-bottom: 40px;
+		}
+
+		/* 하단-왼쪽-주소 */
+		.userAddresses>div:last-of-type>section>form {
+			font-size: 0;
+		}
+
+		.userAddresses>div:last-of-type>section>form ul li {
+			list-style: none;
+			width: 100%;
+			position: relative;
+		}
+
+		.userAddresses>div:last-of-type>section>form ul li input:not([type="checkbox"]):not([type="radio"]) {
+			width: 100%;
+			height: 50px;
+			padding: 28px 15px 10px 15px;
+			font-family: "Overpass";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 700;
+			box-sizing: border-box;
+			border: 1px solid #91b773;
+			border-radius: 10px;
+			background: transparent;
+			margin-bottom: 15px;
+		}
+
+		.userAddresses>div:last-of-type>section>form ul li select {
+			width: 100%;
+			height: 50px;
+			padding: 27px 15px 10px 15px;
+			font-family: "Overpass";
+			text-transform: uppercase;
+			font-size: 12px;
+			line-height: 12px;
+			font-weight: 700;
+			box-sizing: border-box;
+			border: 1px solid #91b773;
+			border-radius: 10px;
+			margin-bottom: 15px;
+			appearance: none;
+			background: url(../images/icon_below.png) no-repeat right 15px center;
+			background-size: 8px 5px;
+		}
+
+		.userAddresses>div:last-of-type>section>form ul li label:not([for="creditCard"]) {
+			position: absolute;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 500;
+			left: 0;
+			padding: 0 15px;
+			color: #6d6d6d;
+			top: calc((50px - 12px) / 2);
+		}
+
+		.userAddresses>div:last-of-type>section>form ul li input:focus+label,
+		.userAddresses>div:last-of-type>section>form ul li input:not(:placeholder-shown)+label,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:first-of-type>label,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(8)>label,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:first-of-type>label,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(2)>label,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(7)>label,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>label,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li>label {
+			line-height: 10px;
+			top: 10px;
+		}
+
+
+		/* 2등분 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(2),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(3),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(2),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(3),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(4),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(5),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(7),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(8) {
+			display: inline-block;
+			width: calc((100% - 2.6%)/2);
+			/* width: 48.7%; */
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(2),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(2),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(4),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(7) {
+			margin-right: 2.6%;
+		}
+
+		/* 돋보기 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(5),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(9) {
+			background: url(../images/icon_pay_search.png) no-repeat;
+			background-size: 15px 15px;
+			background-position: right 15px top 17.5px;
+		}
+
+		/* 3등분 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(7),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(8),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(9) {
+			display: inline-block;
+			width: calc((100% - 5.2%)/3);
+			/* width: 31.6%; */
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(7),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(8) {
+			margin-right: 2.6%;
+		}
+
+		/* 핸드폰 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(10),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11),
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li {
+			position: relative;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(10)>button,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>button,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li>button {
+			position: absolute;
+			background: url(../images/icon_pay_help.png) no-repeat;
+			background-size: contain;
+			text-indent: -9999px;
+			padding: 0;
+			width: 15px;
+			height: 15px;
+			border: none;
+			right: 70px;
+			top: 17.5px;
+			cursor: pointer;
+		}
+
+		.userAddresses .tooltip {
+			position: absolute;
+			font-size: 10px;
+			line-height: 12px;
+			color: #fff;
+			background-color: #333;
+			padding: 10px;
+			text-align: center;
+			border-radius: 3px;
+			right: 2.5px;
+			top: 40px;
+			width: 150px;
+			font-family: "Hanken Grotesk";
+			z-index: 1;
+			display: none;
+		}
+
+		.helpBtn:hover+.tooltip {
+			display: block;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(3)>.tooltip {
+			right: -52.5px;
+			top: 40px;
+		}
 
 
 
 
 
 
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(10)>ul,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>ul,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li>ul {
+			position: absolute;
+			top: 15px;
+			right: 15px;
+			padding-right: 15px;
+			background: url(../images/icon_below.png) no-repeat right center;
+			background-size: 8px 5px;
+			background-repeat: no-repeat;
+		}
+
+
+
+
+
+
+
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(10)>ul>li,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>ul>li,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li>ul>li {
+			display: none;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(10)>ul>li:last-of-type,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>ul>li:last-of-type,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li>ul>li:last-of-type {
+			display: list-item;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(10)>ul>li>img,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>ul>li>img,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li>ul>li>img {
+			width: 27px;
+			height: 20px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>input,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div input[type="tel"] {
+			margin-bottom: 0;
+		}
+
+
+		/* 체크박스 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(11) {
+			display: flex;
+			align-items: center;
+			margin-bottom: 40px;
+			height: 15px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(11) input[type="checkbox"] {
+			width: 15px;
+			height: 15px;
+			margin: 0;
+			margin-right: 10px;
+			accent-color: #4d7a42;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(11) label {
+			padding: 0;
+			padding-left: 25px;
+			top: 2.5px;
+			display: inline-block;
+			font-family: "Hanken Grotesk";
+			text-transform: none;
+			font-size: 14px;
+			font-weight: 700;
+			color: #222;
+			cursor: pointer;
+		}
+
+		/* 광고 */
+		.userAddresses>div:last-of-type>section>form>section>p {
+			font-family: "Hanken Grotesk";
+			font-size: 14px;
+			font-weight: 500;
+			border-radius: 10px;
+			border: 1px solid #e0d4ca;
+			background: #e0d4ca;
+			height: 50px;
+			/* line-height: 50px; */
+			padding: 17px 0;
+		}
+
+		.userAddresses>div:last-of-type>section>form>section>p:first-of-type {
+			text-align: center;
+			color: #6d6d6d;
+			margin-bottom: 15px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>section>p:last-of-type {
+			border: 1px solid #91b773;
+			margin-bottom: 40px;
+			padding-left: 40px;
+			background: #e0d4ca url(../images/icon_pay_error.png) no-repeat;
+			background-size: 15px 15px;
+			background-position: left 15px center;
+		}
+
+		/* 페이 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul {
+			margin-bottom: 40px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>p {
+			font-family: "Hanken Grotesk";
+			font-size: 14px;
+			font-weight: 500;
+			margin-bottom: 20px;
+			color: #6d6d6d;
+		}
+
+		/* .userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li{
+					font-size: 0;
+				} */
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:first-of-type {
+			border: 1px solid #222;
+			border-radius: 10px 10px 0 0;
+			height: 50px;
+			padding: 0 15px;
+			position: relative;
+			display: flex;
+			align-items: center;
+		}
+
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:first-of-type input[type="radio"] {
+			width: 15px;
+			height: 15px;
+			margin: 0;
+			accent-color: #4d7a42;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:first-of-type>label {
+			font-size: 14px;
+			font-family: "Hanken Grotesk";
+			font-weight: 700;
+			line-height: 11px;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			padding-left: 15px;
+			color: #222;
+			white-space: nowrap;
+			cursor: pointer;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:first-of-type>label>img {
+			width: 38px;
+			height: 24px;
+			margin-left: 5px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:first-of-type>label>img:first-of-type {
+			margin-left: auto;
+		}
+
+		/* 겹겹 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2) {
+			border-left: 1px solid #91b773;
+			border-right: 1px solid #91b773;
+			padding: 15px;
+			background-color: #e0d4ca;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:first-of-type {
+			background: url(../images/icon_pay_lock.png) no-repeat;
+			background-size: 15px 15px;
+			background-position: right 15px top 17.5px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(3)>button {
+			position: absolute;
+			background: url(../images/icon_pay_help.png) no-repeat;
+			background-size: contain;
+			text-indent: -9999px;
+			padding: 0;
+			width: 15px;
+			height: 15px;
+			border: none;
+			right: 15px;
+			top: 17.5px;
+		}
+
+		/* 체크박스 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:first-of-type {
+			display: flex;
+			align-items: center;
+			height: 12px;
+			margin-bottom: 15px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:first-of-type>input[type="checkbox"] {
+			width: 15px;
+			height: 15px;
+			margin: 0;
+			margin-right: 10px;
+			accent-color: #4d7a42;
+
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:first-of-type>label {
+			all: unset;
+			display: inline-block;
+			font-family: "Hanken Grotesk";
+			font-size: 14px;
+			font-weight: 700;
+			cursor: pointer;
+		}
+
+
+
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:last-of-type {
+			border: 1px solid #91b773;
+			border-radius: 0 0 10px 10px;
+			height: 50px;
+			padding: 0 15px;
+			position: relative;
+			display: flex;
+			align-items: center;
+		}
+
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:last-of-type input[type="radio"] {
+			width: 15px;
+			height: 15px;
+			margin: 0;
+			cursor: pointer;
+			accent-color: #4d7a42;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:last-of-type>label {
+			font-size: 14px;
+
+			font-weight: 700;
+			line-height: 50px;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			padding-left: 45px;
+			top: 0;
+			padding-right: 100px;
+			background: url(../images/icon_pay_paypal.svg) no-repeat;
+			background-position: right 15px center;
+			background-size: 85px 22px;
+			color: #222;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div {
+			border: 1px solid #91b773;
+			border-radius: 10px;
+			margin-bottom: 15px;
+
+		}
+
+		/* .userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div{
+					padding-top: 15px;
+				} */
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>input {
+			width: 15px;
+			height: 15px;
+			margin: 0;
+			margin-left: 15px;
+			margin-right: 10px;
+			accent-color: #4d7a42;
+			margin-bottom: 9px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>label {
+			/* all: unset; */
+			display: inline-block;
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 50px;
+			cursor: pointer;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul {
+			border-top: 1px solid #91b773;
+			padding: 15px;
+			background: #e0d4ca;
+			border-radius: 0 0 10px 10px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>button {
+			border-radius: 10px;
+			margin-bottom: 20px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>p {
+			font-size: 12px;
+			font-family: "Hanken Grotesk";
+			font-weight: 500;
+			margin-bottom: 40px;
+			color: #6d6d6d;
+			position: relative;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>p::before {
+			content: "";
+			display: inline-block;
+			width: 7px;
+			height: 10px;
+			/* margin-left: 8px; */
+			padding-left: 5px;
+			margin-bottom: 1px;
+			background: url("../images/icon_pay_lock.png") no-repeat center;
+			background-size: contain;
+			vertical-align: middle;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>p::after {
+			content: "";
+			width: 40px;
+			height: 16px;
+			position: absolute;
+			right: 0;
+			top: calc(50% - 8px);
+			background: url("../images/icon_pay_shoppay_grey.png") no-repeat center;
+			background-size: contain;
+		}
+
+		.userAddresses>div:last-of-type>section>form>p {
+			font-size: 14px;
+			font-family: "Hanken Grotesk";
+			font-weight: 500;
+			margin-bottom: 85px;
+			color: #6d6d6d;
+		}
+
+		.userAddresses>div:last-of-type>section>ul {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.userAddresses>div:last-of-type>section>ul>li {
+			list-style: none;
+			display: inline-block;
+			font-size: 14px;
+			font-family: "Hanken Grotesk";
+			font-weight: 500;
+
+		}
+
+		/* 우측 */
+		.userAddresses>div:last-of-type>aside {
+			order: 1;
+		}
+
+		#toggle {
+			display: none;
+		}
+
+		.userAddresses>div:last-of-type>aside>label {
+			display: flex;
+			width: 100%;
+			background-color: #e0d4ca;
+			justify-content: space-between;
+			padding: 25px 12.37%;
+			font-family: "Hanken Grotesk";
+		}
+
+		.userAddresses>div:last-of-type>aside>label span:first-of-type {
+			font-size: 14px;
+			font-weight: 600;
+		}
+
+		.toggle-label span:first-of-type::after {
+			content: "";
+			display: inline-block;
+			width: 5px;
+			height: 8px;
+			margin-left: 8px;
+			background: url("../images/icon_below.png") no-repeat center;
+			background-size: contain;
+			vertical-align: middle;
+		}
+
+		/* 체크되었을 때 회전 */
+		input[type="checkbox"]:checked+.toggle-label span:first-of-type::after {
+			transform: rotate(180deg);
+		}
+
+		.userAddresses>div:last-of-type>aside>label span:last-of-type {
+			font-size: 18px;
+			font-weight: 700;
+		}
+
+		.userAddresses>div:last-of-type>aside .summary {
+			display: inline-block;
+			padding-top: 30px;
+			font-size: 0;
+		}
+
+		.userAddresses>div:last-of-type>aside .summary,
+		.userAddresses>div:last-of-type>aside table {
+			display: none;
+		}
+
+		#toggle:checked~.summary,
+		#toggle:checked~table {
+			display: block;
+		}
+
+		.userAddresses>div:last-of-type>aside>div {
+			position: relative;
+			display: flex;
+			align-items: center;
+			margin-bottom: 25px;
+		}
+
+		.userAddresses>div:last-of-type>aside>div>img {
+			border: 1px solid #91b773;
+			border-radius: 10px;
+			width: 90px;
+			height: 90px;
+			padding: 0 10px;
+			margin-right: 15px;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		.userAddresses>div:last-of-type>aside>div>span {
+			position: absolute;
+			border-radius: 10px;
+			width: 22px;
+			height: 22px;
+			background: #4d7a42;
+			color: #fff;
+			text-align: center;
+			font-size: 14px;
+			font-family: "Hanken Grotesk";
+			font-weight: 500;
+			padding: 4px;
+			top: 19px;
+			left: calc(12.37% + 79px);
+		}
+
+		.userAddresses>div:last-of-type>aside>div>ul {
+			font-family: "Hanken Grotesk";
+			display: inline-block;
+			width: calc(100% - 105px);
+			vertical-align: middle;
+		}
+
+		.userAddresses>div:last-of-type>aside>div>ul li {
+			/* width: 473px; */
+			list-style: none;
+		}
+
+		.userAddresses>div:last-of-type>aside>div>ul li:first-of-type {
+			display: flex;
+			font-size: 14px;
+			font-weight: 500;
+			justify-content: space-between;
+			margin-bottom: 5px;
+		}
+
+		.userAddresses>div:last-of-type>aside>div>ul li:last-of-type {
+			font-size: 12px;
+			font-weight: 500;
+			color: #6d6d6d;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+		.userAddresses>div:last-of-type>aside>table {
+			font-family: "Hanken Grotesk";
+			font-size: 14px;
+			font-weight: 500;
+			width: 100%;
+			padding-bottom: 20px;
+			border-bottom: 1px solid #91b773;
+		}
+
+		.userAddresses>div:last-of-type>aside>table tr td {
+			width: 500px;
+		}
+
+		.userAddresses>div:last-of-type>aside>table tr td:first-of-child {
+			text-align: right;
+			/* 왼쪽 열 내용 오른쪽 끝 */
+		}
+
+		.userAddresses>div:last-of-type>aside>table tr td:last-of-type {
+			text-align: right;
+
+		}
+
+		.userAddresses>div:last-of-type>aside>table tr:not(:last-of-type) td {
+			height: 30px;
+		}
+
+		.userAddresses>div:last-of-type>aside>table tr:nth-of-type(3) td {
+			height: 40px;
+		}
+
+		.userAddresses>div:last-of-type>aside>table tr:last-of-type td strong {
+			font-size: 18px;
+			font-weight: 700;
+		}
+
+		.userAddresses>div:last-of-type>aside>table tr:last-of-type td small {
+			font-size: 12px;
+			font-weight: 500;
+			color: #6d6d6d;
+		}
+
+		/* ---------------------------------------- */
+		/* legalPolicies */
+		.legalContainer {
+			margin-top: 140px;
+			margin-bottom: 120px;
+			/* position: relative; */
+			font-size: 16px;
+			font-family: "Hanken Grotesk";
+			font-weight: 400;
+			line-height: 24px;
+		}
+
+		.legalContainer h2 {
+			font-size: 44px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 400;
+			/* line-height: 33px; */
+			text-align: center;
+			margin-bottom: 80px;
+		}
+
+		.legalContainer p {
+			margin-bottom: 30px;
+			/* background-color: #ffc439; */
+		}
+
+		.legalContainer p:not(.update):last-of-type {
+			margin-bottom: 0;
+		}
+
+		.legalContainer a {
+			color: #91b773;
+		}
+
+		.legalContainer .update {
+			/* position: absolute; */
+			top: 140px;
+			font-size: 14px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 700;
+			margin-bottom: 25px;
+			/* line-height: 10px; */
+			/* padding-bottom: 25px; */
+			/* background-color: rgba(81, 81, 159, 0.5); */
+		}
+
+		.legalContainer li {
+			list-style: none;
+		}
+
+		.legalContainer h3 {
+			padding-top: 80px;
+			font-size: 24px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 500;
+			/* line-height: 20px; */
+			/* background-color: #fcc5ec; */
+			margin-bottom: 45px;
+		}
+
+		.legalContainer h4 {
+			display: table;
+			padding-top: 40px;
+			font-size: 20px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 500;
+			/* line-height: 20px; */
+			/* background-color: #e1c5fc; */
+			margin-bottom: 35px;
+		}
+
+		.legalContainer .subheading {
+			/* padding-top: 80px; */
+			font-size: 16px;
+			font-family: "Hanken Grotesk";
+			font-weight: 600;
+			line-height: 24px;
+			/* background-color: #bb3996; */
+			margin-bottom: 35px;
+			display: block;
+		}
+
+		.legalContainer b {
+			font-weight: 600;
+		}
+
+		/* ------------------------------------------------------------- */
+		/* Privacy Policy */
+
+		.legalContainer .ppOl>li>ol {
+			counter-reset: item;
+			padding: 0 15px;
+		}
+
+		.legalContainer .ppOl>li>ol>li>ol {
+			counter-reset: alphaList;
+			/* padding-left: 15px;
+			padding-top: 30px; */
+			padding: 30px 15px 0;
+		}
+
+		.legalContainer .ppOl>li>ol>li>ol>li {
+			counter-increment: alphaList;
+			position: relative;
+			padding-left: 20px;
+		}
+
+		.legalContainer .ppOl>li>ol>li>ol>li::before {
+			content: counter(alphaList, lower-alpha) ". ";
+			position: absolute;
+			left: 0;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 24px;
+			font-family: "Hanken Grotesk";
+		}
+
+		.legalContainer .ppOl>li>ol>li>ol>li:not(:last-of-type) {
+			margin-bottom: 20px;
+		}
+
+		.legalContainer .ppOl>li>ol>li>ol>li:last-of-type>p:first-of-type {
+			margin-bottom: 20px;
+		}
+
+
+		.legalContainer .ppOl>li>ol>li>ol>li>ul>li {
+			position: relative;
+			padding: 0 15px;
+		}
+
+		.legalContainer .ppOl>li>ol>li>ol>li>ul>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: transparent;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		.legalContainer .ppUl {
+			padding-left: 15px;
+		}
+
+		.legalContainer .ppUl>li {
+			position: relative;
+			padding-left: 15px;
+		}
+
+		.legalContainer .ppUl>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: #222;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		.legalContainer .ppUl>li:not(:last-of-type) {
+			margin-bottom: 20px;
+		}
+
+		.legalContainer .ppUl>li:first-of-type {
+			margin-top: 30px;
+		}
+
+		/* ------------------------------------------------------------- */
+		/* Terms of service */
+		.legalContainer .tsUl {
+			padding: 0 15px;
+		}
+
+		.legalContainer .tsUl>li {
+			position: relative;
+			padding-left: 15px;
+		}
+
+		.legalContainer .tsUl>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: #222;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		.legalContainer .tsUl>li:not(:last-of-type) {
+			margin-bottom: 20px;
+		}
+
+		.legalContainer .tsUl>li:last-of-type {
+			margin-bottom: 30px;
+		}
+
+		.legalContainer .tsUl>li>ul {
+			padding-right: 15px;
+		}
+
+		.legalContainer .tsUl>li>ul>li {
+			position: relative;
+			padding-left: 15px;
+		}
+
+		.legalContainer .tsUl>li>ul>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: transparent;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		.legalContainer .tsUl>li>ul>li:first-of-type {
+			margin-top: 20px;
+		}
+
+		.legalContainer .tsUl>li>ul>li:not(:last-of-type) {
+			margin-bottom: 10px;
+		}
+
+		.dUpper>strong {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 600;
+
+		}
+
+		.legalContainer strong {
+			font-weight: 600;
+		}
+
+		.legalContainer .tsUl2 {
+			padding: 0 15px;
+		}
+
+		.legalContainer .tsUl2>li {
+			position: relative;
+			padding-left: 15px;
+		}
+
+		.legalContainer .tsUl2>li::before {
+			content: "-";
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+		.legalContainer .tsUl2>li:not(:last-of-type) {
+			margin-bottom: 20px;
+		}
+
+		.legalContainer .tsUl2>li:last-of-type {
+			margin-bottom: 30px;
+		}
+
+		.legalContainer .rUpper {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 400;
+		}
+
+
+
+
+
+
+
+
+
+
+
+		/* ------------------------------------------------------------- */
+		/* Notice to California Residents */
+
+
+		.legalContainer .tsUl>li>ul {
+			padding-right: 15px;
+		}
+
+		.legalContainer .tsUl>li>ul>li {
+			position: relative;
+			padding-left: 15px;
+		}
+
+		.legalContainer .tsUl>li>ul>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: transparent;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+
+
+
+
+		.legalContainer .ncrUl {
+			padding: 0 15px;
+			/* background-color: #69b4ff; */
+		}
+
+		.legalContainer .ncrUl>li {
+			position: relative;
+			padding-left: 15px;
+		}
+
+		.legalContainer .ncrUl>li:not(:first-of-type)::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: #222;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		/*.legalContainer .ncrUl>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+		 
+			border-radius: 50%;
+			box-sizing: border-box;
+		} */
+
+		.legalContainer .ncrUl>li {
+			margin-top: 20px;
+		}
+
+		.legalContainer .ncrUl>li:last-of-type {
+			margin-bottom: 40px;
+		}
+
+		.legalContainer .ncrUl>li>ul {
+			padding: 0 15px;
+			/* background-color: #5896d4; */
+		}
+
+		.legalContainer .ncrUl>li>ul>li {
+			position: relative;
+			padding-left: 15px;
+			margin-bottom: 10px;
+		}
+
+		.legalContainer .ncrUl>li>ul>li:last-of-type {
+			margin-bottom: 0;
+		}
+
+		.legalContainer .ncrUl>li>ul>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: transparent;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		.legalContainer .ncrUl2 {
+			padding: 0 15px;
+			/* background-color: #69b4ff; */
+		}
+
+		.legalContainer .ncrUl2>li {
+			position: relative;
+			padding-left: 15px;
+		}
+
+		.legalContainer .ncrUl2>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: #222;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		.legalContainer .ncrUl2>li {
+			margin-bottom: 20px;
+		}
+
+		.legalContainer .ncrUl2>li:last-of-type {
+			margin-bottom: 30px;
+		}
+
+		.ncrTable strong {
+			display: block;
+			font-family: "Hanken Grotesk";
+			font-size: 18px;
+			font-weight: 600;
+			padding-top: 40px;
+			padding-bottom: 30px;
+		}
+
+		.ncrTable table {
+			margin: 0 15px;
+			font-size: 16px;
+			line-height: 24px;
+		}
+
+		.ncrTable table thead th:nth-child(1),
+		.ncrTable table tbody th:nth-child(1) {
+			width: 22.1%;
+		}
+
+		.ncrTable table thead th:nth-child(2),
+		.ncrTable table tbody td:nth-child(2) {
+			width: 33.1%;
+		}
+
+		.ncrTable table thead th:nth-child(3),
+		.ncrTable table tbody td:nth-child(3) {
+			width: 44.8%;
+		}
+
+		.ncrTable table tr,
+		.ncrTable table th,
+		.ncrTable table td {
+			border: 1px solid #e0d4ca;
+			padding: 20px;
+		}
+
+		.ncrTable table thead th {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 500;
+			background: #4d7a42;
+			color: #fff;
+		}
+
+		.ncrTable table tbody th {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 500;
+		}
+
+		.ncrTable table tbody td {
+			font-family: "Hanken Grotesk";
+			font-weight: 400;
+		}
 
 
 	}
@@ -8834,6 +11390,7 @@
 			font-weight: 500;
 			margin-bottom: 10px;
 		}
+
 		/* authHeader fin*/
 
 		.userContainer form {
@@ -9235,7 +11792,7 @@
 			text-transform: uppercase;
 			font-size: 14px;
 			font-weight: 500;
-				margin-bottom: 15px;
+			margin-bottom: 15px;
 			text-align: left;
 		}
 
@@ -9569,7 +12126,7 @@
 			min-width: 260px;
 			height: 145px;
 			background: #e0d4ca;
-				text-align: center;
+			text-align: center;
 			padding: 30px;
 			box-sizing: border-box;
 			z-index: 110;
@@ -9904,377 +12461,1638 @@
 		}
 
 		/* --customerServic-- */
-	.backBtn {
-		border: none;
-		background-image: url(../images/icon_left_black.png);
-		background-repeat: no-repeat;
-		background-position: left 40px;
-		background-size: 5px 9px;
-		text-indent: 15px;
-		cursor: pointer;
-		padding: 0;
-		padding-top: 40px;
-		font-size: 12px;
-		font-weight: 500;
-		font-family: "Dosis";
-		text-transform: uppercase;
-		line-height: 9px;
-		background-color: transparent;
-		margin-bottom: 25px;
-		display: block;
-	}
+		.backBtn {
+			border: none;
+			background-image: url(../images/icon_left_black.png);
+			background-repeat: no-repeat;
+			background-position: left 40px;
+			background-size: 5px 9px;
+			text-indent: 15px;
+			cursor: pointer;
+			padding: 0;
+			padding-top: 40px;
+			font-size: 12px;
+			font-weight: 500;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			line-height: 9px;
+			background-color: transparent;
+			margin-bottom: 25px;
+			display: block;
+		}
 
-	.tabMenuAccordionContainer {
-		margin: 158px auto 90px;
-	}
+		.tabMenuAccordionContainer {
+			margin: 158px auto 90px;
+		}
 
-	.tabMenuAccordionContainer>*:not(.faqVisual):not(.shippingHandingVisual),
-	.dayContainer {
-		padding: 0 3.571%;
-		margin: 0 auto 0;
-	}
+		.tabMenuAccordionContainer>*:not(.faqVisual):not(.shippingHandingVisual),
+		.dayContainer {
+			padding: 0 3.571%;
+			margin: 0 auto 0;
+		}
 
-	.dayContainer,
-	.contactUsContainer {
-		padding: 0 3.571%;
-		margin: 158px auto 90px;
-	}
+		.dayContainer,
+		.contactUsContainer {
+			padding: 0 3.571%;
+			margin: 158px auto 90px;
+		}
 
-	/* faq */
-	div[id] {
-		display: none;
-	}
+		/* faq */
+		div[id] {
+			display: none;
+		}
 
-	div[id].activated {
-		display: block;
-	}
+		div[id].activated {
+			display: block;
+		}
 
-	.tabMenuAccordionContainer .faqWrapper,
-	.tabMenuAccordionContainer .shippingHandingWrapper {
-		width: 100%;
-		overflow: auto;
+		.tabMenuAccordionContainer .faqWrapper,
+		.tabMenuAccordionContainer .shippingHandingWrapper {
+			width: 100%;
+			overflow: auto;
 
-	}
+		}
 
-	.tabMenuAccordionContainer .faqWrapper .tabMenu,
-	.tabMenuAccordionContainer .shippingHandingWrapper .tabMenu {
-		display: flex;
-		gap: 6%;
-		font-family: "Overpass";
-		text-transform: uppercase;
-		font-size: 12px;
-		font-weight: 600;
-		margin-bottom: 40px;
-		padding-bottom: 15px;
-		overflow-x: scroll;
-				justify-content: space-between;
-	}
+		.tabMenuAccordionContainer .faqWrapper .tabMenu,
+		.tabMenuAccordionContainer .shippingHandingWrapper .tabMenu {
+			display: flex;
+			gap: 6%;
+			font-family: "Overpass";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 600;
+			margin-bottom: 40px;
+			padding-bottom: 15px;
+			overflow-x: scroll;
+			justify-content: space-between;
+		}
 
 		.tabMenuAccordionContainer .faqWrapper .tabMenu li,
-	.tabMenuAccordionContainer .shippingHandingWrapper .tabMenu li {
-		list-style: none;
-		cursor: pointer;
-		white-space: nowrap;
-	}
+		.tabMenuAccordionContainer .shippingHandingWrapper .tabMenu li {
+			list-style: none;
+			cursor: pointer;
+			white-space: nowrap;
+		}
 
-	.tabMenuAccordionContainer .faqWrapper .tabMenu li.activated,
-	.tabMenuAccordionContainer .shippingHandingWrapper .tabMenu li.activated {
-		background: transparent;
-		padding: 0 0 5px 0;
-		border: none;
-		border-bottom: solid #222 1px;
-		display: inline-block;
-	}
+		.tabMenuAccordionContainer .faqWrapper .tabMenu li.activated,
+		.tabMenuAccordionContainer .shippingHandingWrapper .tabMenu li.activated {
+			background: transparent;
+			padding: 0 0 5px 0;
+			border: none;
+			border-bottom: solid #222 1px;
+			display: inline-block;
+		}
 
-	.tabMenuAccordionContainer>div:not(:first-of-type)>h2 {
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 26px;
-		font-weight: 400;
-		padding-bottom: 20px;
-		border-bottom: 1px solid #222;
-		margin-bottom: 20px;
-	}
+		.tabMenuAccordionContainer>div:not(:first-of-type)>h2 {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 26px;
+			font-weight: 400;
+			padding-bottom: 20px;
+			border-bottom: 1px solid #222;
+			margin-bottom: 20px;
+		}
 
-	/* shippingHandingWrapper */
-	.accComponent li ol {
-		list-style-position: inside;
-		padding: 0 20px;
-		font-family: "Hanken Grotesk";
-		font-size: 14px;
-		font-weight: 400;
-	}
+		/* shippingHandingWrapper */
+		.accComponent li ol {
+			list-style-position: inside;
+			padding: 0 20px;
+			font-family: "Hanken Grotesk";
+			font-size: 14px;
+			font-weight: 400;
+		}
 
-	.accComponent li ol p {
-		margin-bottom: 15px;
-	}
+		.accComponent li ol p {
+			margin-bottom: 15px;
+		}
 
-	.accComponent li ol li:first-of-type {
-		margin-bottom: 10px;
-	}
+		.accComponent li ol li:first-of-type {
+			margin-bottom: 10px;
+		}
 
-	.accComponent li ol li:last-of-type {
-		margin-bottom: 20px;
-	}
+		.accComponent li ol li:last-of-type {
+			margin-bottom: 20px;
+		}
 
-	.accComponent li ol {
-		display: none;
-	}
+		.accComponent li ol {
+			display: none;
+		}
 
-	/* dayContainer */
-	.dayContainer section {
-		display: grid;
-		grid-template-columns: 1fr;
-		grid-template-rows: auto auto auto;
-	}
+		/* dayContainer */
+		.dayContainer section {
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-template-rows: auto auto auto;
+		}
 
-	.dayContainer section img {
-		grid-column: 1 / 2;
-		grid-row: 2 / 3;
-		width: 100%;
-		aspect-ratio: 740 / 560;
-		object-fit: cover;
-		object-position: center -20px;
-		margin-bottom: 25px;
-	}
+		.dayContainer section img {
+			grid-column: 1 / 2;
+			grid-row: 2 / 3;
+			width: 100%;
+			aspect-ratio: 740 / 560;
+			object-fit: cover;
+			object-position: center -20px;
+			margin-bottom: 25px;
+		}
 
-	.dayContainer section h2 {
-		grid-column: 1 / 2;
-		grid-row: 1 / 2;
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 26px;
-		font-weight: 500;
-		text-align: center;
-		line-height: 20px;
-		margin-bottom: 25px;
-	}
+		.dayContainer section h2 {
+			grid-column: 1 / 2;
+			grid-row: 1 / 2;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 26px;
+			font-weight: 500;
+			text-align: center;
+			line-height: 20px;
+			margin-bottom: 25px;
+		}
 
-	.dayContainer section div {
-		grid-column: 1 / 2;
-		grid-row: 3 / 4;
-	}
+		.dayContainer section div {
+			grid-column: 1 / 2;
+			grid-row: 3 / 4;
+		}
 
-	.dayContainer section div p {
-		font-family: "Hanken Grotesk";
-		font-size: 14px;
-		font-weight: 400;
-		line-height: 16px;
-		margin-bottom: 15px;
-	}
+		.dayContainer section div p {
+			font-family: "Hanken Grotesk";
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 16px;
+			margin-bottom: 15px;
+		}
 
-	.dayContainer section div p strong {
-		font-weight: 700;
-	}
+		.dayContainer section div p strong {
+			font-weight: 700;
+		}
 
-	.dayContainer section div p:last-of-type {
-		margin-bottom: 0;
-	}
+		.dayContainer section div p:last-of-type {
+			margin-bottom: 0;
+		}
 
-/* contactUsContainer */
-	.contactUsContainer>h2 {
-		display: none;
-	}
+		/* contactUsContainer */
+		.contactUsContainer>h2 {
+			display: none;
+		}
 
-	.contactUsContainer section:first-of-type h2 {
-		text-align: center;
-	}
+		.contactUsContainer section:first-of-type h2 {
+			text-align: center;
+		}
 
-	.contactUsContainer section:first-of-type h2,
-	.contactUsContainer section:last-of-type h2 {
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 26px;
-		font-weight: 500;
-		margin-bottom: 20px;
-	}
+		.contactUsContainer section:first-of-type h2,
+		.contactUsContainer section:last-of-type h2 {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 26px;
+			font-weight: 500;
+			margin-bottom: 20px;
+		}
 
-	.contactUsContainer section:first-of-type p,
-	.contactUsContainer section:last-of-type p {
-		font-family: "Hanken Grotesk";
-		font-size: 14px;
-		font-weight: 400;
-		line-height: 18px;
-		margin-bottom: 15px;
-	}
+		.contactUsContainer section:first-of-type p,
+		.contactUsContainer section:last-of-type p {
+			font-family: "Hanken Grotesk";
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 18px;
+			margin-bottom: 15px;
+		}
 
-	.contactUsContainer section:first-of-type ul li {
-		list-style: none;
-	}
+		.contactUsContainer section:first-of-type ul li {
+			list-style: none;
+		}
 
-	.contactUsContainer section:first-of-type ul li h3 {
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 16px;
-		font-weight: 600;
-		margin-bottom: 15px;
-	}
-	.contactUsContainer section:last-of-type>form{
-		font-size: 0;
-	}
+		.contactUsContainer section:first-of-type ul li h3 {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 16px;
+			font-weight: 600;
+			margin-bottom: 15px;
+		}
 
-	.contactUsContainer section:last-of-type>form>button {
-		width: calc((100% - 2.5%)/2);
-		border-radius: 3px;
-		border: 1px solid #4d7a42;
-		color: #4d7a42;
-		font-family: "Overpass";
-		text-transform: uppercase;
-		font-size: 12px;
-		font-weight: 700;
-		cursor: pointer;
-		background: none;
-		padding: 10px;
-		text-align: center;
-		margin-bottom: 20px;
-	}
+		.contactUsContainer section:last-of-type>form {
+			font-size: 0;
+		}
 
-	.contactUsContainer section:last-of-type>form>button::before {
-		content: "";
-		display: block;
-		width: 30px;
-		height: 30px;
-		background-size: contain;
-		background-repeat: no-repeat;
-		margin: 0 auto 10px;
-	}
+		.contactUsContainer section:last-of-type>form>button {
+			width: calc((100% - 2.5%)/2);
+			border-radius: 3px;
+			border: 1px solid #4d7a42;
+			color: #4d7a42;
+			font-family: "Overpass";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 700;
+			cursor: pointer;
+			background: none;
+			padding: 10px;
+			text-align: center;
+			margin-bottom: 20px;
+		}
 
-	.contactUsContainer section:last-of-type>form>button:first-of-type:before {
-		background-image: url(../images/icon_trackOrder.svg);
-	}
+		.contactUsContainer section:last-of-type>form>button::before {
+			content: "";
+			display: block;
+			width: 30px;
+			height: 30px;
+			background-size: contain;
+			background-repeat: no-repeat;
+			margin: 0 auto 10px;
+		}
 
-	.contactUsContainer section:last-of-type>form>button:last-of-type:before {
-		background-image: url(../images/icon_reportIssue.svg);
-	}
+		.contactUsContainer section:last-of-type>form>button:first-of-type:before {
+			background-image: url(../images/icon_trackOrder.svg);
+		}
 
-	.contactUsContainer section:last-of-type>form>button:first-of-type {
-		margin-right: 2.5%;
-	}
+		.contactUsContainer section:last-of-type>form>button:last-of-type:before {
+			background-image: url(../images/icon_reportIssue.svg);
+		}
 
-	.contactUsContainer section:last-of-type fieldset legend {
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 16px;
-		font-weight: 500;
-		margin-bottom: 20px;
-	}
+		.contactUsContainer section:last-of-type>form>button:first-of-type {
+			margin-right: 2.5%;
+		}
 
-	.contactUsContainer section:last-of-type ul li {
-		list-style: none;
-	}
+		.contactUsContainer section:last-of-type fieldset legend {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 16px;
+			font-weight: 500;
+			margin-bottom: 20px;
+		}
 
-	.contactUsContainer section:last-of-type label {
-		display: inline-block;
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 12px;
-		font-weight: 500;
-		padding-top: 10px;
-		margin-bottom: 10px;
-	}
+		.contactUsContainer section:last-of-type ul li {
+			list-style: none;
+		}
 
-	.contactUsContainer section:last-of-type label small {
-		color: #dd9d9d;
-	}
+		.contactUsContainer section:last-of-type label {
+			display: inline-block;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 500;
+			padding-top: 10px;
+			margin-bottom: 10px;
+		}
 
-	.contactUsContainer section:last-of-type input {
-		width: 100%;
-		height: 34px;
-		line-height: 11px;
-		padding: 0 15px;
-		margin-bottom: 15px;
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 12px;
-		font-weight: 600;
-		border: none;
-		border-radius: 3px;
-	}
+		.contactUsContainer section:last-of-type label small {
+			color: #dd9d9d;
+		}
 
-	.contactUsContainer section:last-of-type select {
-		width: 100%;
-		height: 34px;
-		padding: 0 15px;
-		margin-bottom: 15px;
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 12px;
-		font-weight: 600;
-		border: none;
-		border-radius: 3px;
-		appearance: none;
-		background: #fff url(../images/icon_below.png) no-repeat right 15px center;
-		background-size: 8px 5px;
-	}
+		.contactUsContainer section:last-of-type input {
+			width: 100%;
+			height: 34px;
+			line-height: 11px;
+			padding: 0 15px;
+			margin-bottom: 15px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 600;
+			border: none;
+			border-radius: 3px;
+		}
 
-	.contactUsContainer section:last-of-type textarea {
-		width: 100%;
-		height: 120px;
-		line-height: 11px;
-		padding: 15px;
-		margin-bottom: 35px;
-		font-family: "Dosis";
-		text-transform: uppercase;
-		font-size: 12px;
-		font-weight: 600;
-		border: none;
-		border-radius: 3px;
-	}
+		.contactUsContainer section:last-of-type select {
+			width: 100%;
+			height: 34px;
+			padding: 0 15px;
+			margin-bottom: 15px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 600;
+			border: none;
+			border-radius: 3px;
+			appearance: none;
+			background: #fff url(../images/icon_below.png) no-repeat right 15px center;
+			background-size: 8px 5px;
+		}
 
-	.contactUsContainer section:last-of-type form fieldset>input {
-		display: none;
-	}
+		.contactUsContainer section:last-of-type textarea {
+			width: 100%;
+			height: 120px;
+			line-height: 11px;
+			padding: 15px;
+			margin-bottom: 35px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 600;
+			border: none;
+			border-radius: 3px;
+		}
 
-	.contactUsContainer section:last-of-type form fieldset>label {
-		display: block;
-		width: 100%;
-		border-radius: 3px;
-		border: 1px solid #4d7a42;
-		color: #4d7a42;
-		font-family: "Overpass";
-		text-transform: uppercase;
-		font-size: 12px;
-		font-weight: 700;
-		position: relative;
-		cursor: pointer;
-		background: none;
-		padding: 10px 15px;
-		text-align: center;
-	}
+		.contactUsContainer section:last-of-type form fieldset>input {
+			display: none;
+		}
 
-	/* ::before로 아이콘 삽입 */
-	.contactUsContainer section:last-of-type form fieldset>label::before {
-		content: "";
-		display: inline-block;
-		width: 20px;
-		height: 20px;
-		background: url(../images/icon_attachFile.svg) no-repeat center center;
-		background-size: contain;
-		vertical-align: middle;
-	}
+		.contactUsContainer section:last-of-type form fieldset>label {
+			display: block;
+			width: 100%;
+			border-radius: 3px;
+			border: 1px solid #4d7a42;
+			color: #4d7a42;
+			font-family: "Overpass";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 700;
+			position: relative;
+			cursor: pointer;
+			background: none;
+			padding: 10px 15px;
+			text-align: center;
+		}
 
-	.contactUsContainer section:last-of-type form fieldset button {
-		margin-bottom: 20px;
-	}
+		/* ::before로 아이콘 삽입 */
+		.contactUsContainer section:last-of-type form fieldset>label::before {
+			content: "";
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			background: url(../images/icon_attachFile.svg) no-repeat center center;
+			background-size: contain;
+			vertical-align: middle;
+		}
 
-	.contactUsContainer section:last-of-type form fieldset p {
-		font-size: 12px;
-		font-weight: 400;
-		color: #96938e;
-		margin-bottom: 25px;
-		line-height: 16px;
-	}
+		.contactUsContainer section:last-of-type form fieldset button {
+			margin-bottom: 20px;
+		}
 
-	.contactUsContainer section:last-of-type>ul li:last-of-type p {
-		margin-bottom: 0;
-	}
+		.contactUsContainer section:last-of-type form fieldset p {
+			font-size: 12px;
+			font-weight: 400;
+			color: #96938e;
+			margin-bottom: 25px;
+			line-height: 16px;
+		}
+
+		.contactUsContainer section:last-of-type>ul li:last-of-type p {
+			margin-bottom: 0;
+		}
+
+		/* --pay-- */
+		.userAddresses {
+			margin: 158px 0 190px;
+		}
+
+		.userAddresses>div:first-of-type>*,
+		.userAddresses>div:last-of-type>aside>*,
+		.userAddresses>div:last-of-type>section {
+			padding: 0 3.571%;
+			margin: 0 auto;
+		}
+
+		.legalContainer {
+			padding: 0 3.125%;
+			margin: 0 auto;
+		}
+
+		/* Guarantee Section */
+		.userAddresses>div:first-of-type {
+			border-bottom: 1px solid #91b773;
+			padding: 15px 0;
+		}
+
+		.userAddresses>div:first-of-type>* {
+			margin: 0 auto;
+		}
+
+		.userAddresses>div:first-of-type>h2 {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 700;
+			margin-bottom: 5px;
+		}
+
+		.userAddresses>div:first-of-type>p {
+			font-family: "Hanken Grotesk";
+			font-size: 12px;
+			font-weight: 500;
+		}
+
+		/* 하단 */
+		.userAddresses>div:last-of-type {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			margin-bottom: 150px;
+		}
+
+		.userAddresses>div:last-of-type>section {
+			order: 2;
+		}
+
+		/* 하단-왼쪽 */
+		/* 하단-왼쪽-상단 */
+		.userAddresses>div:last-of-type>section>form {
+			padding-top: 20px;
+			margin-bottom: 20px;
+			border-bottom: 1px solid #91b773;
+		}
+
+		/* 하단-왼쪽-결제 */
+		.userAddresses>div:last-of-type>section>form>div {
+			font-size: 0;
+			text-align: center;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>input {
+			width: 57.86%;
+			height: 30px;
+			border: none;
+			border-radius: 10px;
+			background-repeat: no-repeat;
+			background-position: center;
+			text-indent: -9999px;
+			margin-bottom: 10px;
+			cursor: pointer;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>input:first-of-type {
+			background-color: #592ff4;
+			background-image: url("../images/icon_pay_shoppay.svg");
+			background-size: auto 18px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>input:nth-of-type(2) {
+			background-color: #ffc439;
+			background-image: url("../images/icon_pay_paypal.png");
+			background-size: auto 18px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>input:last-of-type {
+			background-color: #000000;
+			background-image: url("../images/icon_pay_gpay.svg");
+			background-size: auto 20px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>span {
+			display: block;
+			font-family: "Hanken Grotesk";
+			font-size: 12px;
+			font-weight: 500;
+			color: #6d6d6d;
+			text-align: center;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>span:first-of-type {
+			margin-bottom: 22px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>span:last-of-type {
+			margin-bottom: 40px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>span:last-of-type::before,
+		.userAddresses>div:last-of-type>section>form>div>span:last-of-type::after {
+			content: "";
+			width: 46.6%;
+			height: 0.5px;
+			background-color: #91b773;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>span:last-of-type::before {
+			margin-right: 10px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>div>span:last-of-type::after {
+			margin-left: 10px;
+		}
+
+		/* 하단-왼쪽-로그인 */
+		.userAddresses>div:last-of-type>section>form legend,
+		.userAddresses>div:last-of-type>section>form h3 {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 20px;
+			font-weight: 500;
+			line-height: 15px;
+			margin-bottom: 20px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset>input[type="email"] {
+			width: 100%;
+			height: 30px;
+			background: transparent;
+			border: none;
+			border-bottom: 1px solid #91b773;
+			padding: 0 15px 20px 15px;
+			font-family: "Hanken Grotesk";
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 12px;
+			margin-bottom: 40px;
+		}
+
+		/* 하단-왼쪽-주소 */
+		.userAddresses>div:last-of-type>section>form {
+			font-size: 0;
+		}
+
+		.userAddresses>div:last-of-type>section>form ul li {
+			list-style: none;
+			width: 100%;
+			position: relative;
+		}
+
+		.userAddresses>div:last-of-type>section>form ul li input:not([type="checkbox"]):not([type="radio"]) {
+			width: 100%;
+			height: 50px;
+			padding: 28px 15px 10px 15px;
+			font-family: "Overpass";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 700;
+			box-sizing: border-box;
+			border: 1px solid #91b773;
+			border-radius: 10px;
+			background: transparent;
+			margin-bottom: 15px;
+		}
+
+		.userAddresses>div:last-of-type>section>form ul li select {
+			width: 100%;
+			height: 50px;
+			padding: 27px 15px 10px 15px;
+			font-family: "Overpass";
+			text-transform: uppercase;
+			font-size: 12px;
+			line-height: 12px;
+			font-weight: 700;
+			box-sizing: border-box;
+			border: 1px solid #91b773;
+			border-radius: 10px;
+			margin-bottom: 15px;
+			appearance: none;
+			background: url(../images/icon_below.png) no-repeat right 15px center;
+			background-size: 8px 5px;
+		}
+
+		.userAddresses>div:last-of-type>section>form ul li label:not([for="creditCard"]) {
+			position: absolute;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 500;
+			left: 0;
+			padding: 0 15px;
+			color: #6d6d6d;
+			top: calc((50px - 12px) / 2);
+		}
+
+		.userAddresses>div:last-of-type>section>form ul li input:focus+label,
+		.userAddresses>div:last-of-type>section>form ul li input:not(:placeholder-shown)+label,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:first-of-type>label,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(8)>label,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:first-of-type>label,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(2)>label,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(7)>label,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>label,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li>label {
+			line-height: 10px;
+			top: 10px;
+		}
+
+		/* 2등분 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(2),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(3),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(2),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(3),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(4),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(5),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(7),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(8) {
+			display: inline-block;
+			width: calc((100% - 2.6%)/2);
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(2),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(2),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(4),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(7) {
+			margin-right: 2.6%;
+		}
+
+		/* 돋보기 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(5),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(9) {
+			background: url(../images/icon_pay_search.png) no-repeat;
+			background-size: 15px 15px;
+			background-position: right 15px top 17.5px;
+		}
+
+		/* 3등분 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(7),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(8),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(9) {
+			display: inline-block;
+			width: calc((100% - 5.2%)/3);
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(7),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(8) {
+			margin-right: 2.6%;
+		}
+
+		/* 핸드폰 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(10),
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11),
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li {
+			position: relative;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(10)>button,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>button,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li>button {
+			position: absolute;
+			background: url(../images/icon_pay_help.png) no-repeat;
+			background-size: contain;
+			text-indent: -9999px;
+			padding: 0;
+			width: 15px;
+			height: 15px;
+			border: none;
+			right: 70px;
+			top: 17.5px;
+			cursor: pointer;
+		}
+
+		.tooltip {
+			position: absolute;
+			font-size: 10px;
+			line-height: 12px;
+			color: #fff;
+			background-color: #333;
+			padding: 10px;
+			text-align: center;
+			border-radius: 3px;
+			right: 2.5px;
+			top: 40px;
+			width: 150px;
+			font-family: "Hanken Grotesk";
+			z-index: 1;
+			display: none;
+		}
+
+		.helpBtn:hover+.tooltip {
+			display: block;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(3)>.tooltip {
+			right: -52.5px;
+			top: 40px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(10)>ul,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>ul,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li>ul {
+			position: absolute;
+			top: 15px;
+			right: 15px;
+			padding-right: 15px;
+			background: url(../images/icon_below.png) no-repeat right center;
+			background-size: 8px 5px;
+			background-repeat: no-repeat;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(10)>ul>li,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>ul>li,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li>ul>li {
+			display: none;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(10)>ul>li:last-of-type,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>ul>li:last-of-type,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li>ul>li:last-of-type {
+			display: list-item;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(10)>ul>li>img,
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>ul>li>img,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul li>ul>li>img {
+			width: 27px;
+			height: 20px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:last-of-type>ul>li:nth-of-type(11)>input,
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div input[type="tel"] {
+			margin-bottom: 0;
+		}
 
 
+		/* 체크박스 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(11) {
+			display: flex;
+			align-items: center;
+			margin-bottom: 40px;
+			height: 15px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(11) input[type="checkbox"] {
+			width: 15px;
+			height: 15px;
+			margin: 0;
+			margin-right: 10px;
+			accent-color: #4d7a42;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(2)>ul>li:nth-of-type(11) label {
+			padding: 0;
+			padding-left: 25px;
+			top: 2.5px;
+			display: inline-block;
+			font-family: "Hanken Grotesk";
+			text-transform: none;
+			font-size: 14px;
+			font-weight: 700;
+			color: #222;
+			cursor: pointer;
+		}
+
+		/* 광고 */
+		.userAddresses>div:last-of-type>section>form>section>p {
+			font-family: "Hanken Grotesk";
+			font-size: 14px;
+			font-weight: 500;
+			border-radius: 10px;
+			border: 1px solid #e0d4ca;
+			background: #e0d4ca;
+			padding: 10px 0;
+		}
+
+		.userAddresses>div:last-of-type>section>form>section>p:first-of-type {
+			text-align: center;
+			color: #6d6d6d;
+			margin-bottom: 15px;
+			padding: 10px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>section>p:last-of-type {
+			border: 1px solid #91b773;
+			margin-bottom: 40px;
+			padding-left: 40px;
+			background: #e0d4ca url(../images/icon_pay_error.png) no-repeat;
+			background-size: 15px 15px;
+			background-position: left 15px center;
+		}
+
+		/* 페이 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul {
+			margin-bottom: 40px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>p {
+			font-family: "Hanken Grotesk";
+			font-size: 14px;
+			font-weight: 500;
+			margin-bottom: 20px;
+			color: #6d6d6d;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:first-of-type {
+			border: 1px solid #222;
+			border-radius: 10px 10px 0 0;
+			height: 50px;
+			padding: 0 15px;
+			position: relative;
+			display: flex;
+			align-items: center;
+		}
 
 
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:first-of-type input[type="radio"] {
+			width: 15px;
+			height: 15px;
+			margin: 0;
+			accent-color: #4d7a42;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:first-of-type>label {
+			font-size: 12px;
+			font-weight: 700;
+			line-height: 11px;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			padding-left: 1px;
+			color: #222;
+			white-space: nowrap;
+			cursor: pointer;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:first-of-type>label>img {
+			width: 33px;
+			height: 20px;
+			margin-left: 5px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:first-of-type>label>img:first-of-type {
+			margin-left: auto;
+		}
+
+		/* 겹겹 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2) {
+			border-left: 1px solid #91b773;
+			border-right: 1px solid #91b773;
+			padding: 10px;
+			background-color: #e0d4ca;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:first-of-type {
+			background: url(../images/icon_pay_lock.png) no-repeat;
+			background-size: 15px 15px;
+			background-position: right 15px top 17.5px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(3)>button {
+			position: absolute;
+			background: url(../images/icon_pay_help.png) no-repeat;
+			background-size: contain;
+			text-indent: -9999px;
+			padding: 0;
+			width: 15px;
+			height: 15px;
+			border: none;
+			right: 15px;
+			top: 17.5px;
+			cursor: pointer;
+		}
+
+		/* 체크박스 */
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:first-of-type {
+			display: flex;
+			margin-bottom: 15px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:first-of-type>input[type="checkbox"] {
+			width: 15px;
+			height: 15px;
+			margin: 0;
+			margin-right: 10px;
+			accent-color: #4d7a42;
+
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:nth-of-type(2)>ol>li:nth-of-type(5)>div:first-of-type>label {
+			all: unset;
+			display: inline-block;
+			font-family: "Hanken Grotesk";
+			font-size: 14px;
+			font-weight: 700;
+			cursor: pointer;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:last-of-type {
+			border: 1px solid #91b773;
+			border-radius: 0 0 10px 10px;
+			height: 50px;
+			padding: 0 15px;
+			position: relative;
+			display: flex;
+			align-items: center;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:last-of-type input[type="radio"] {
+			width: 15px;
+			height: 15px;
+			margin: 0;
+			cursor: pointer;
+			accent-color: #4d7a42;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:nth-of-type(3)>ul>li:last-of-type>label {
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 50px;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			padding-left: 45px;
+			top: 0;
+			padding-right: 100px;
+			background: url(../images/icon_pay_paypal.svg) no-repeat;
+			background-position: right 15px center;
+			background-size: 85px 22px;
+			color: #222;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div {
+			border: 1px solid #91b773;
+			border-radius: 10px;
+			margin-bottom: 15px;
+			padding-top: 10px;
+		}
+
+		#checkbox1 {
+			float: left;
+			margin-top: 1px;
+		}
+
+		label[for="checkbox1"] {
+			display: block;
+			/* 블록으로 만들어 줄바꿈을 스스로 처리하게 함 */
+			overflow: hidden;
+			/* float된 체크박스 밑으로 텍스트 침범 방지 */
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>input {
+			width: 15px;
+			height: 15px;
+			margin: 0;
+			margin-left: 10px;
+			margin-right: 10px;
+			accent-color: #4d7a42;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>label {
+			font-size: 12px;
+			font-weight: 700;
+			line-height: 15px;
+			cursor: pointer;
+			margin-bottom: 10px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>div>ul {
+			border-top: 1px solid #91b773;
+			padding: 15px;
+			background: #e0d4ca;
+			border-radius: 0 0 10px 10px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>button {
+			border-radius: 10px;
+			margin-bottom: 20px;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>p {
+			font-size: 12px;
+			font-family: "Hanken Grotesk";
+			font-weight: 500;
+			margin-bottom: 40px;
+			color: #6d6d6d;
+			position: relative;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>p::before {
+			content: "";
+			display: inline-block;
+			width: 7px;
+			height: 10px;
+			padding-left: 5px;
+			margin-bottom: 1px;
+			background: url("../images/icon_pay_lock.png") no-repeat center;
+			background-size: contain;
+			vertical-align: middle;
+		}
+
+		.userAddresses>div:last-of-type>section>form>fieldset:last-of-type>p::after {
+			content: "";
+			width: 40px;
+			height: 16px;
+			position: absolute;
+			right: 0;
+			top: calc(50% - 8px);
+			background: url("../images/icon_pay_shoppay_grey.png") no-repeat center;
+			background-size: contain;
+		}
+
+		.userAddresses>div:last-of-type>section>form>p {
+			font-size: 14px;
+			font-family: "Hanken Grotesk";
+			font-weight: 500;
+			margin-bottom: 85px;
+			color: #6d6d6d;
+		}
+
+		.userAddresses>div:last-of-type>section>ul {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 8px;
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			text-align: center;
+		}
+
+		.userAddresses>div:last-of-type>section>ul>li {
+			list-style: none;
+			display: inline-block;
+			font-size: 14px;
+			font-family: "Hanken Grotesk";
+			font-weight: 500;
+			white-space: nowrap;
+		}
 
 
-	
+		.userAddresses>div:last-of-type>section>ul>li:not(:last-of-type) {
+			margin-right: 9px;
+			margin-bottom: 20px;
+		}
 
+		.userAddresses>div:last-of-type>section>ul>li u {
+			font-size: 12px;
+		}
 
+		/* 우측 */
+		.userAddresses>div:last-of-type>aside {
+			order: 1;
+		}
+
+		#toggle,
+		.toggle-label {
+			display: none;
+		}
+
+		.userAddresses>div:last-of-type>aside>label {
+			display: flex;
+			width: 100%;
+			background-color: #e0d4ca;
+			justify-content: space-between;
+			padding: 15px 3.571%;
+			font-family: "Hanken Grotesk";
+		}
+
+		.userAddresses>div:last-of-type>aside>label span:first-of-type {
+			font-size: 12px;
+			font-weight: 600;
+		}
+
+		.toggle-label span:first-of-type::after {
+			content: "";
+			display: inline-block;
+			width: 5px;
+			height: 8px;
+			margin-left: 8px;
+			background: url("../images/icon_below.png") no-repeat center;
+			background-size: contain;
+			vertical-align: middle;
+		}
+
+		/* 체크되었을 때 회전 */
+		input[type="checkbox"]:checked+.toggle-label span:first-of-type::after {
+			transform: rotate(180deg);
+		}
+
+		.userAddresses>div:last-of-type>aside>label span:last-of-type {
+			font-size: 16px;
+			font-weight: 700;
+		}
+
+		.userAddresses>div:last-of-type>aside .summary {
+			display: inline-block;
+			padding-top: 30px;
+			font-size: 0;
+		}
+
+		.userAddresses>div:last-of-type>aside .summary,
+		.userAddresses>div:last-of-type>aside table {
+			display: none;
+		}
+
+		#toggle:checked~.summary,
+		#toggle:checked~table {
+			display: block;
+		}
+
+		.userAddresses>div:last-of-type>aside>div {
+			position: relative;
+			display: flex;
+			align-items: center;
+			margin-bottom: 25px;
+		}
+
+		.userAddresses>div:last-of-type>aside>div>img {
+			border: 1px solid #91b773;
+			border-radius: 10px;
+			width: 90px;
+			height: 90px;
+			padding: 0 10px;
+			margin-right: 15px;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		.userAddresses>div:last-of-type>aside>div>span {
+			position: absolute;
+			border-radius: 10px;
+			width: 22px;
+			height: 22px;
+			background: #4d7a42;
+			color: #fff;
+			text-align: center;
+			font-size: 14px;
+			font-family: "Hanken Grotesk";
+			font-weight: 500;
+			padding: 4px;
+			top: 19px;
+			left: calc(4% + 79px);
+		}
+
+		.userAddresses>div:last-of-type>aside>div>ul {
+			font-family: "Hanken Grotesk";
+			display: inline-block;
+			width: calc(100% - 105px);
+			vertical-align: middle;
+		}
+
+		.userAddresses>div:last-of-type>aside>div>ul li {
+			width: 335px;
+			list-style: none;
+		}
+
+		.userAddresses>div:last-of-type>aside>div>ul li:first-of-type {
+			display: flex;
+			font-size: 14px;
+			font-weight: 500;
+			justify-content: space-between;
+			margin-bottom: 5px;
+		}
+
+		.userAddresses>div:last-of-type>aside>div>ul li:last-of-type {
+			font-size: 12px;
+			font-weight: 500;
+			color: #6d6d6d;
+		}
+
+		.userAddresses>div:last-of-type>aside>table {
+			font-family: "Hanken Grotesk";
+			font-size: 14px;
+			font-weight: 500;
+			width: 100%;
+			padding-bottom: 20px;
+			border-bottom: 1px solid #91b773;
+		}
+
+		.userAddresses>div:last-of-type>aside>table tr td {
+			width: 500px;
+		}
+
+		.userAddresses>div:last-of-type>aside>table tr td:first-of-child {
+			text-align: right;
+		}
+
+		.userAddresses>div:last-of-type>aside>table tr td:last-of-type {
+			text-align: right;
+		}
+
+		.userAddresses>div:last-of-type>aside>table tr:not(:last-of-type) td {
+			height: 30px;
+		}
+
+		.userAddresses>div:last-of-type>aside>table tr:nth-of-type(3) td {
+			height: 40px;
+		}
+
+		.userAddresses>div:last-of-type>aside>table tr:last-of-type td strong {
+			font-size: 18px;
+			font-weight: 700;
+		}
+
+		.userAddresses>div:last-of-type>aside>table tr:last-of-type td small {
+			font-size: 12px;
+			font-weight: 500;
+			color: #6d6d6d;
+		}
+
+		/* ---------------------------------------- */
+		/* legalPolicies */
+		.legalContainer {
+			margin-top: 140px;
+			margin-bottom: 120px;
+			font-size: 16px;
+			font-family: "Hanken Grotesk";
+			font-weight: 400;
+			line-height: 24px;
+		}
+
+		.legalContainer h2 {
+			font-size: 44px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 400;
+			line-height: 48px;
+			text-align: center;
+			margin-bottom: 45px;
+		}
+
+		.legalContainer p {
+			margin-bottom: 20px;
+		}
+
+		.legalContainer p:not(.update):last-of-type {
+			margin-bottom: 0;
+		}
+
+		.legalContainer a {
+			color: #91b773;
+		}
+
+		.legalContainer .update {
+			top: 140px;
+			font-size: 14px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 700;
+			margin-bottom: 15px;
+		}
+
+		.legalContainer li {
+			list-style: none;
+		}
+
+		.legalContainer h3 {
+			padding-top: 45px;
+			font-size: 24px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 500;
+			margin-bottom: 25px;
+		}
+
+		.legalContainer h4 {
+			display: table;
+			padding-top: 25px;
+			font-size: 20px;
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 500;
+			margin-bottom: 20px;
+		}
+
+		.legalContainer .subheading {
+			font-size: 14px;
+			font-family: "Hanken Grotesk";
+			font-weight: 600;
+			line-height: 22px;
+			margin-bottom: 20px;
+			display: block;
+		}
+
+		.legalContainer b {
+			font-weight: 600;
+		}
+
+		/* ------------------------------------------------------------- */
+		/* Privacy Policy */
+
+		.legalContainer .ppOl>li>ol {
+			counter-reset: item;
+			padding: 0 10px;
+		}
+
+		.legalContainer .ppOl>li>ol>li>ol {
+			counter-reset: alphaList;
+			padding: 30px 10px 0;
+		}
+
+		.legalContainer .ppOl>li>ol>li>ol>li {
+			counter-increment: alphaList;
+			position: relative;
+			padding-left: 15px;
+		}
+
+		.legalContainer .ppOl>li>ol>li>ol>li::before {
+			content: counter(alphaList, lower-alpha) ". ";
+			position: absolute;
+			left: 0;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 22px;
+			font-family: "Hanken Grotesk";
+		}
+
+		.legalContainer .ppOl>li>ol>li>ol>li:not(:last-of-type) {
+			margin-bottom: 15px;
+		}
+
+		.legalContainer .ppOl>li>ol>li>ol>li:last-of-type>p:first-of-type {
+			margin-bottom: 15px;
+		}
+
+		.legalContainer .ppOl>li>ol>li>ol>li>ul>li {
+			position: relative;
+			padding: 0 10px;
+		}
+
+		.legalContainer .ppOl>li>ol>li>ol>li>ul>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: transparent;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		.legalContainer .ppUl {
+			padding-left: 10px;
+		}
+
+		.legalContainer .ppUl>li {
+			position: relative;
+			padding-left: 10px;
+		}
+
+		.legalContainer .ppUl>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: #222;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		.legalContainer .ppUl>li:not(:last-of-type) {
+			margin-bottom: 15px;
+		}
+
+		.legalContainer .ppUl>li:first-of-type {
+			margin-top: 20px;
+		}
+
+		/* ------------------------------------------------------------- */
+		/* Terms of service */
+		.legalContainer .tsUl {
+			padding: 0 10px;
+		}
+
+		.legalContainer .tsUl>li {
+			position: relative;
+			padding-left: 10px;
+		}
+
+		.legalContainer .tsUl>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: #222;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		.legalContainer .tsUl>li:not(:last-of-type) {
+			margin-bottom: 15px;
+		}
+
+		.legalContainer .tsUl>li:last-of-type {
+			margin-bottom: 20px;
+		}
+
+		.legalContainer .tsUl>li>ul {
+			padding-right: 10px;
+		}
+
+		.legalContainer .tsUl>li>ul>li {
+			position: relative;
+			padding-left: 10px;
+		}
+
+		.legalContainer .tsUl>li>ul>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: transparent;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		.legalContainer .tsUl>li>ul>li:first-of-type {
+			margin-top: 15px;
+		}
+
+		.legalContainer .tsUl>li>ul>li:not(:last-of-type) {
+			margin-bottom: 10px;
+		}
+
+		.dUpper>strong {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 600;
+
+		}
+
+		.legalContainer strong {
+			font-weight: 600;
+		}
+
+		.legalContainer .tsUl2 {
+			padding: 0 10px;
+		}
+
+		.legalContainer .tsUl2>li {
+			position: relative;
+			padding-left: 10px;
+		}
+
+		.legalContainer .tsUl2>li::before {
+			content: "-";
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+		.legalContainer .tsUl2>li:not(:last-of-type) {
+			margin-bottom: 10px;
+		}
+
+		.legalContainer .tsUl2>li:last-of-type {
+			margin-bottom: 20px;
+		}
+
+		.legalContainer .rUpper {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 400;
+		}
+
+		/* ------------------------------------------------------------- */
+		/* Notice to California Residents */
+		.legalContainer .tsUl>li>ul {
+			padding-right: 10px;
+		}
+
+		.legalContainer .tsUl>li>ul>li {
+			position: relative;
+			padding-left: 10px;
+		}
+
+		.legalContainer .tsUl>li>ul>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: transparent;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		.legalContainer .ncrUl {
+			padding: 0 10px;
+			/* background-color: #69b4ff; */
+		}
+
+		.legalContainer .ncrUl>li {
+			position: relative;
+			padding-left: 10px;
+		}
+
+		.legalContainer .ncrUl>li:not(:first-of-type)::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: #222;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		.legalContainer .ncrUl>li {
+			margin-top: 10px;
+		}
+
+		.legalContainer .ncrUl>li:last-of-type {
+			margin-bottom: 25px;
+		}
+
+		.legalContainer .ncrUl>li>ul {
+			padding: 0 10px 0 0;
+		}
+
+		.legalContainer .ncrUl>li>ul>li {
+			position: relative;
+			padding-left: 10px;
+			margin-bottom: 10px;
+		}
+
+		.legalContainer .ncrUl>li>ul>li:last-of-type {
+			margin-bottom: 0;
+		}
+
+		.legalContainer .ncrUl>li>ul>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: transparent;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		.legalContainer .ncrUl2 {
+			padding: 0 10px;
+			/* background-color: #69b4ff; */
+		}
+
+		.legalContainer .ncrUl2>li {
+			position: relative;
+			padding-left: 10px;
+		}
+
+		.legalContainer .ncrUl2>li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10.5px;
+			width: 5px;
+			height: 5px;
+			border: 1px solid #222;
+			background-color: #222;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+
+		.legalContainer .ncrUl2>li {
+			margin-bottom: 15px;
+		}
+
+		.legalContainer .ncrUl2>li:last-of-type {
+			margin-bottom: 20px;
+		}
+
+		.ncrTable strong {
+			display: block;
+			font-size: 18px;
+			font-family: "Hanken Grotesk";
+			font-weight: 600;
+			padding-top: 40px;
+			padding-bottom: 20px;
+		}
+
+		.ncrTable {
+			overflow: auto;
+		}
+
+		.ncrTable table {
+			margin: 0 10px;
+			font-size: 14px;
+			line-height: 22px;
+			overflow-x: scroll;
+		}
+
+		.ncrTable table thead th:nth-child(1),
+		.ncrTable table tbody th:nth-child(1) {
+			width: 22.1%;
+		}
+
+		.ncrTable table thead th:nth-child(2),
+		.ncrTable table tbody td:nth-child(2) {
+			width: 33.1%;
+		}
+
+		.ncrTable table thead th:nth-child(3),
+		.ncrTable table tbody td:nth-child(3) {
+			width: 44.8%;
+		}
+
+		.ncrTable table tr,
+		.ncrTable table th,
+		.ncrTable table td {
+			border: 1px solid #e0d4ca;
+			padding: 15px;
+		}
+
+		.ncrTable table thead th {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 500;
+			background: #4d7a42;
+			color: #fff;
+		}
+
+		.ncrTable table tbody th {
+			font-family: "Dosis";
+			text-transform: uppercase;
+			font-weight: 500;
+		}
+
+		.ncrTable table tbody td {
+			font-family: "Hanken Grotesk";
+			font-weight: 400;
+		}
 	}
