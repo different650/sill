@@ -8,7 +8,7 @@ $(function () {
     nestedPopup();
     filterControl();
     mobileFilter();
-    listaccControl(".listContainer .filterPanel fieldset legend" );
+    listaccControl(".listContainer .filterPanel fieldset legend");
     listHover();
     PromotionSlider();
     joySlider();
@@ -262,6 +262,7 @@ function imgSwap() {
 }
 
 function productControl() {
+    if (!$(".detailContainer").length) return;
 
     var $img = $(".detailContainer div:first-of-type aside figure img").attr("src");
 
@@ -308,23 +309,23 @@ function countControl() {
     // 3. + 이벤트함수에서는 1번변수 당겨서 value에 ++
     // 4. - 이벤트함수에서는 1번함수 당겨서 value에 --
 
-  $(".qtyComponent").each(function(){
+    $(".qtyComponent").each(function () {
 
-    var $countNum = $(this).find("input[type='number']"); 
+        var $countNum = $(this).find("input[type='number']");
 
-    $(this).find("input[type='button']").click(function(){ 
+        $(this).find("input[type='button']").click(function () {
 
-      var count = parseInt($countNum.val()); 
+            var count = parseInt($countNum.val());
 
-      if ($(this).val() == "+") { 
-         if (count < 99) count++;    
-      }
+            if ($(this).val() == "+") {
+                if (count < 99) count++;
+            }
 
-      if ($(this).val() == "-") { 
-        if (count > 1) count--;    
-      }
+            if ($(this).val() == "-") {
+                if (count > 1) count--;
+            }
 
-      $countNum.val(count);
+            $countNum.val(count);
+        });
     });
-  });
 }

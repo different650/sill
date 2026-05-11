@@ -2485,9 +2485,9 @@ footer>div:nth-of-type(2)>div:first-of-type>form>input[type="email"]::placeholde
 		background-color: #fff;
 		font-size: 12px;
 		font-weight: 400;
-		padding: 9.34px 15px 7.34px;
+		padding: 9px 15px 7px;
 		position: absolute;
-		top: 71px;
+		top: 94px;
 		z-index: 100;
 		display: none;
 	}
