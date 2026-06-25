@@ -262,7 +262,7 @@ function imgSwap() {
 }
 
 function productControl() {
-    if (!$(".detailContainer").length) return;
+    // if (!$(".detailContainer").length) return;
 
     var $img = $(".detailContainer div:first-of-type aside figure img").attr("src");
 
